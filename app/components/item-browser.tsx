@@ -135,7 +135,6 @@ export default function ItemBrowser({
                   if (e.key === "Enter") onPick(item);
                 }}
                 onMouseEnter={() => onHover(item)}
-                onMouseLeave={() => onHover(null)}
                 className={`flex cursor-pointer items-center gap-2 rounded-lg border px-2 py-1.5 transition-colors ${
                   isCandidate
                     ? "border-[#c9a227] bg-[#c9a227]/10"

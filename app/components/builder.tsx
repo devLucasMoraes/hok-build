@@ -71,15 +71,8 @@ export default function Builder({ hero, items, manifest }: Props) {
   }, [heroBase, equipped, selectedSlot, ghostItem]);
   const currentInSlot = equipped[selectedSlot];
 
-  /** Top-5 atributos mais impactados pela build (mini-stats sempre visíveis). */
-  const topStats = useMemo(
-    () =>
-      diffStats(heroBase, total)
-        .filter((d) => d.delta !== 0)
-        .sort((a, b) => Math.abs(b.delta) - Math.abs(a.delta))
-        .slice(0, 5),
-    [heroBase, total],
-  );
+  /** Todos os atributos: valor padrão → valor com a build (ordem STAT_ORDER). */
+  const fullStats = useMemo(() => diffStats(heroBase, total), [heroBase, total]);
 
   function commit(next: SlotState) {
     setHistory((h) => [...h.slice(-19), slots]);
@@ -208,17 +201,19 @@ export default function Builder({ hero, items, manifest }: Props) {
           <span className="text-[10px] font-bold tracking-widest text-zinc-500 uppercase">Efeito da build</span>
           <span className="font-mono text-xs font-bold text-[#e8c96a]">{cost.toLocaleString("pt-BR")}g</span>
         </div>
-        {topStats.length === 0 ? (
-          <p className="text-[11px] text-zinc-500">Equipe itens para ver o impacto.</p>
+        {fullStats.length === 0 ? (
+          <p className="text-[11px] text-zinc-500">Sem atributos.</p>
         ) : (
           <ul className="flex flex-col gap-0.5">
-            {topStats.map((d) => (
+            {fullStats.map((d) => (
               <li key={d.key} className="flex items-baseline justify-between font-mono text-[11px]">
                 <span className="font-sans text-zinc-400">{STAT_META[d.key].short}</span>
-                <span>
-                  <span className="text-zinc-500">{formatStatValue(d.key, total[d.key] - d.delta)}</span>
+                <span className="whitespace-nowrap">
+                  <span className="text-zinc-500">{formatStatValue(d.key, d.before)}</span>
                   <span className="mx-1 text-zinc-700">→</span>
-                  <span className="font-bold text-zinc-100">{formatStatValue(d.key, total[d.key])}</span>
+                  <span className={`font-bold ${d.delta !== 0 ? "text-emerald-300" : "text-zinc-300"}`}>
+                    {formatStatValue(d.key, d.after)}
+                  </span>
                 </span>
               </li>
             ))}
@@ -291,7 +286,7 @@ export default function Builder({ hero, items, manifest }: Props) {
           <StatPanel
             base={heroBase}
             build={total}
-            preview={sim && ghostItem ? { title: simTitle, subtitle: simSubtitle, to: sim.after } : null}
+            overlay={sim && ghostItem ? { title: simTitle, subtitle: simSubtitle, to: sim.after } : null}
             title="Atributos"
             subtitle={`${hero.name} nv. ${level}`}
           />
@@ -374,7 +369,7 @@ export default function Builder({ hero, items, manifest }: Props) {
               <StatPanel
                 base={heroBase}
                 build={total}
-                preview={sim && ghostItem ? { title: simTitle, subtitle: simSubtitle, to: sim.after } : null}
+                overlay={sim && ghostItem ? { title: simTitle, subtitle: simSubtitle, to: sim.after } : null}
                 title="Atributos"
                 subtitle={`${hero.name} nv. ${level}`}
               />

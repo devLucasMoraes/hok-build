@@ -104,9 +104,20 @@ input[type="range"] {
   overscroll-behavior: contain;
 }
 
-.ghost {
-  color: var(--gold-soft);
-  font-style: italic;
+/* Overlay de simulação na barra: segmento sólido entre valor atual e simulado */
+.stat-bar > .ghost-fill {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-radius: 999px;
+}
+
+.stat-bar > .ghost-fill.up {
+  background: rgba(52, 211, 153, 0.9);
+}
+
+.stat-bar > .ghost-fill.down {
+  background: rgba(248, 113, 113, 0.9);
 }
 
 ::-webkit-scrollbar {
