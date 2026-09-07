@@ -1,24 +1,54 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { Item, ItemCategory } from "@/lib/types";
-import { CATEGORY_META, formatStatValue } from "@/lib/stat-meta";
+import type { Item, ItemCategory, StatKey } from "@/lib/types";
+import { CATEGORY_META, STAT_META } from "@/lib/stat-meta";
 
 interface Props {
   items: Map<string, Item>;
   list: Item[];
   equippedIds: Set<string>;
+  /** fixado pelo toque (mobile) */
   candidateId: string | null;
+  /** efêmero do hover (desktop) */
+  previewId: string | null;
   selectedSlot: number | null;
   onPick: (item: Item) => void;
+  onHover: (item: Item | null) => void;
 }
 
 const CATS: ("all" | ItemCategory)[] = ["all", "attack", "magic", "defense", "movement", "jungle", "support"];
 
-export default function ItemBrowser({ items, list, equippedIds, candidateId, selectedSlot, onPick }: Props) {
+function initials(name: string): string {
+  return name
+    .split(/[\s-]+/)
+    .map((w) => w[0])
+    .slice(0, 2)
+    .join("")
+    .toUpperCase();
+}
+
+function shortStat(key: StatKey, value: number): string {
+  const meta = STAT_META[key];
+  const n = Number.isInteger(value) ? String(value) : value.toFixed(1);
+  const signed = `${value > 0 ? "+" : ""}${n}${meta.kind === "percent" ? "%" : ""}`;
+  return `${signed} ${meta.short}`;
+}
+
+export default function ItemBrowser({
+  items,
+  list,
+  equippedIds,
+  candidateId,
+  previewId,
+  selectedSlot,
+  onPick,
+  onHover,
+}: Props) {
   const [query, setQuery] = useState("");
   const [cat, setCat] = useState<(typeof CATS)[number]>("magic");
   const [tier, setTier] = useState<"all" | 1 | 2 | 3>("all");
+  const [expandedId, setExpandedId] = useState<string | null>(null);
 
   const buildsIntoCount = useMemo(() => {
     const m = new Map<string, number>();
@@ -36,122 +66,143 @@ export default function ItemBrowser({ items, list, equippedIds, candidateId, sel
   }, [list, query, cat, tier]);
 
   return (
-    <section className="panel p-4 sm:p-5">
-      <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
-        <h2 className="text-sm font-bold tracking-widest uppercase gold-text">
-          Itens <span className="text-zinc-500">· {filtered.length}/{list.length}</span>
-        </h2>
-        {selectedSlot !== null ? (
-          <p className="text-xs text-zinc-300">
-            Slot <span className="font-bold text-[#e8c96a]">{selectedSlot + 1}</span> selecionado — clique
-            num item para simular a troca
+    <section className="panel flex h-full min-h-0 flex-col p-3">
+      <div className="shrink-0">
+        <div className="mb-2 flex items-center justify-between gap-2">
+          <h2 className="text-xs font-bold tracking-widest uppercase gold-text">
+            Itens <span className="text-zinc-500">· {filtered.length}</span>
+          </h2>
+          <p className="hidden text-[11px] text-zinc-500 xl:block">
+            {selectedSlot !== null ? (
+              <>
+                Slot <span className="font-bold text-[#e8c96a]">{selectedSlot + 1}</span> · passe o mouse p/ simular,
+                clique p/ equipar
+              </>
+            ) : (
+              "Passe o mouse p/ simular · clique p/ equipar"
+            )}
           </p>
-        ) : (
-          <p className="text-xs text-zinc-500">Selecione um slot acima ou clique num item para equipar</p>
-        )}
-      </div>
-
-      <div className="mb-3 flex flex-col gap-2 lg:flex-row">
-        <input
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          placeholder="Buscar item… (ex: void, savant)"
-          className="w-full rounded-lg border border-[#2b2640] bg-[#0f0d18] px-3 py-2 text-sm outline-none placeholder:text-zinc-600 focus:border-[#c9a227]"
-        />
-        <div className="flex gap-1.5">
+        </div>
+        <div className="mb-2 flex gap-1.5">
+          <input
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="Buscar…"
+            className="w-full min-w-0 rounded-lg border border-[#2b2640] bg-[#0f0d18] px-2.5 py-1.5 text-sm outline-none placeholder:text-zinc-600 focus:border-[#c9a227]"
+          />
           {(["all", 1, 2, 3] as const).map((t) => (
             <button
               key={String(t)}
               onClick={() => setTier(t)}
-              className={`rounded-lg border px-3 py-2 text-xs font-bold ${
+              className={`shrink-0 rounded-lg border px-2 py-1.5 text-[11px] font-bold ${
                 tier === t ? "border-[#c9a227] bg-[#c9a227]/15 text-[#e8c96a]" : "border-[#2b2640] text-zinc-400"
               }`}
             >
-              {t === "all" ? "Todos" : `T${t}`}
+              {t === "all" ? "T∗" : `T${t}`}
+            </button>
+          ))}
+        </div>
+        <div className="mb-2 flex gap-1 overflow-x-auto pb-1">
+          {CATS.map((c) => (
+            <button
+              key={c}
+              onClick={() => setCat(c)}
+              className={`flex shrink-0 items-center gap-1 rounded-full border px-2 py-0.5 text-[11px] font-semibold ${
+                cat === c ? "border-[#c9a227] bg-[#c9a227]/15 text-[#e8c96a]" : "border-[#2b2640] text-zinc-400"
+              }`}
+            >
+              {c !== "all" && <span className={`h-1.5 w-1.5 rounded-full ${CATEGORY_META[c].dot}`} />}
+              {c === "all" ? "Todas" : CATEGORY_META[c].label}
             </button>
           ))}
         </div>
       </div>
 
-      <div className="mb-4 flex flex-wrap gap-1.5">
-        {CATS.map((c) => (
-          <button
-            key={c}
-            onClick={() => setCat(c)}
-            className={`flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs font-semibold ${
-              cat === c ? "border-[#c9a227] bg-[#c9a227]/15 text-[#e8c96a]" : "border-[#2b2640] text-zinc-400"
-            }`}
-          >
-            {c !== "all" && <span className={`h-2 w-2 rounded-full ${CATEGORY_META[c].dot}`} />}
-            {c === "all" ? "Todas" : CATEGORY_META[c].label}
-          </button>
-        ))}
-      </div>
-
-      <ul className="grid grid-cols-1 gap-2.5 md:grid-cols-2 xl:grid-cols-3">
+      <ul className="col-scroll flex flex-col gap-1 pr-0.5">
         {filtered.map((item) => {
           const meta = CATEGORY_META[item.category];
           const isEquipped = equippedIds.has(item.id);
           const isCandidate = candidateId === item.id;
+          const isPreview = previewId === item.id;
+          const expanded = expandedId === item.id;
           return (
             <li key={item.id}>
-              <button
+              <div
+                role="button"
+                tabIndex={0}
                 onClick={() => onPick(item)}
-                className={`w-full rounded-xl border p-3 text-left transition hover:-translate-y-0.5 ${
+                onKeyDown={(e) => {
+                  if (e.key === "Enter") onPick(item);
+                }}
+                onMouseEnter={() => onHover(item)}
+                onMouseLeave={() => onHover(null)}
+                className={`flex cursor-pointer items-center gap-2 rounded-lg border px-2 py-1.5 transition-colors ${
                   isCandidate
-                    ? "border-[#c9a227] bg-[#c9a227]/10 shadow-[0_0_0_1px_#c9a227]"
-                    : "border-[#2b2640] bg-[#100e19] hover:border-[#c9a227]/60"
-                }`}
+                    ? "border-[#c9a227] bg-[#c9a227]/10"
+                    : isPreview
+                      ? "border-[#c9a227]/60 bg-[#c9a227]/5"
+                      : "border-transparent bg-white/[0.02] hover:border-[#c9a227]/40"
+                } ${isEquipped ? "border-l-2 border-l-emerald-400" : ""}`}
               >
-                <div className="mb-1 flex items-center justify-between gap-2">
-                  <span className={`flex items-center gap-1.5 text-[11px] font-bold uppercase ${meta.color}`}>
-                    <span className={`h-2 w-2 rounded-full ${meta.dot}`} />
-                    {meta.label} · T{item.tier}
+                <span
+                  className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-md text-[10px] font-black text-white ${meta.dot}`}
+                  title={`${meta.label} · Tier ${item.tier}`}
+                >
+                  {initials(item.name)}
+                </span>
+                <span className="min-w-0 flex-1">
+                  <span className="block truncate text-[13px] leading-tight font-bold">
+                    {item.name}
+                    {isEquipped && <span className="ml-1.5 text-[9px] font-bold text-emerald-300">●</span>}
                   </span>
-                  <span className="font-mono text-[11px] text-[#e8c96a]">{item.cost.toLocaleString("pt-BR")}g</span>
-                </div>
-                <div className="flex items-center justify-between gap-2">
-                  <p className="text-sm font-bold">{item.name}</p>
-                  {isEquipped && (
-                    <span className="rounded-full bg-emerald-500/15 px-2 py-0.5 text-[10px] font-bold text-emerald-300">
-                      EQUIPADO
-                    </span>
-                  )}
-                </div>
-                <div className="mt-1.5 flex flex-wrap gap-1">
-                  {item.stats.length === 0 && <span className="text-[11px] text-zinc-500">Sem atributos base</span>}
-                  {item.stats.map((s) => (
-                    <span key={s.key} className="rounded bg-white/5 px-1.5 py-0.5 font-mono text-[11px] text-zinc-200">
-                      {formatStatValue(s.key, s.value)}
-                    </span>
-                  ))}
-                </div>
+                  <span className="block truncate font-mono text-[10px] leading-tight text-zinc-400">
+                    {item.stats.length === 0
+                      ? "—"
+                      : item.stats
+                          .slice(0, 3)
+                          .map((s) => shortStat(s.key, s.value))
+                          .join(" · ")}
+                    {item.stats.length > 3 && ` · +${item.stats.length - 3}`}
+                  </span>
+                </span>
+                <span className="shrink-0 font-mono text-[11px] text-[#e8c96a]">
+                  {item.cost.toLocaleString("pt-BR")}g
+                </span>
                 {item.abilities.length > 0 && (
-                  <details className="item-abilities mt-1.5" onClick={(e) => e.stopPropagation()}>
-                    <summary className="text-[11px] font-semibold text-violet-300">
-                      {item.abilities.length} {item.abilities.length === 1 ? "efeito" : "efeitos"} ▸
-                    </summary>
-                    <ul className="mt-1 flex flex-col gap-1">
-                      {item.abilities.map((a) => (
-                        <li key={a.name} className="text-[11px] leading-snug text-zinc-400">
-                          <span className={`font-bold ${a.kind === "active" ? "text-amber-300" : "text-sky-300"}`}>
-                            {a.kind === "active" ? "Ativa" : "Passiva"} — {a.name}
-                            {a.cooldownSec ? ` (${a.cooldownSec}s)` : ""}:
-                          </span>{" "}
-                          {a.text}
-                        </li>
-                      ))}
-                    </ul>
-                  </details>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setExpandedId(expanded ? null : item.id);
+                    }}
+                    aria-label={expanded ? "Ocultar efeitos" : "Ver efeitos"}
+                    className="shrink-0 rounded px-1 text-xs text-violet-300 hover:bg-white/10"
+                  >
+                    {expanded ? "▾" : "▸"}
+                  </button>
                 )}
-                <p className="mt-1.5 text-[11px] text-zinc-500">
-                  {item.buildsFrom.length > 0 ? (
-                    <>Feito de: {item.buildsFrom.map((id) => items.get(id)?.name ?? id).join(" + ")}</>
-                  ) : (
-                    <>Item básico{(buildsIntoCount.get(item.id) ?? 0) > 0 && <> · compõe {buildsIntoCount.get(item.id)} itens</>}</>
-                  )}
-                </p>
-              </button>
+              </div>
+              {expanded && (
+                <div className="mt-0.5 mb-1 ml-10 rounded-lg border border-[#2b2640] bg-[#100e19] p-2">
+                  <ul className="flex flex-col gap-1">
+                    {item.abilities.map((a) => (
+                      <li key={a.name} className="text-[11px] leading-snug text-zinc-400">
+                        <span className={`font-bold ${a.kind === "active" ? "text-amber-300" : "text-sky-300"}`}>
+                          {a.kind === "active" ? "Ativa" : "Passiva"} — {a.name}
+                          {a.cooldownSec ? ` (${a.cooldownSec}s)` : ""}:
+                        </span>{" "}
+                        {a.text}
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="mt-1 text-[10px] text-zinc-500">
+                    {item.buildsFrom.length > 0 ? (
+                      <>Feito de: {item.buildsFrom.map((id) => items.get(id)?.name ?? id).join(" + ")}</>
+                    ) : (
+                      <>Básico{(buildsIntoCount.get(item.id) ?? 0) > 0 && <> · compõe {buildsIntoCount.get(item.id)}</>}</>
+                    )}
+                  </p>
+                </div>
+              )}
             </li>
           );
         })}
