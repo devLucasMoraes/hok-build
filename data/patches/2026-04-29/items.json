@@ -1,0 +1,3207 @@
+[
+  {
+    "id": "axe-of-torment",
+    "name": "Axe of Torment",
+    "category": "attack",
+    "tier": 3,
+    "cost": 2090,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 80
+      },
+      {
+        "key": "cdrPct",
+        "value": 10
+      },
+      {
+        "key": "maxHealth",
+        "value": 500
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Sever",
+        "text": "aumenta Perfuração Física em 90–180",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "meteor",
+      "sunglow-striker"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "bloodsoul",
+    "name": "Bloodsoul",
+    "category": "attack",
+    "tier": 2,
+    "cost": 800,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 35
+      },
+      {
+        "key": "physLifestealPct",
+        "value": 12
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [
+      "vampiric-scythe",
+      "iron-sword"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "bloodweeper",
+    "name": "Bloodweeper",
+    "category": "attack",
+    "tier": 3,
+    "cost": 2000,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 85
+      },
+      {
+        "key": "physLifestealPct",
+        "value": 25
+      },
+      {
+        "key": "maxHealth",
+        "value": 500
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Recuperation",
+        "text": "concede 25% de Roubo de Vida para habilidades físicas",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "bloodsoul",
+      "sunglow-striker"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "cloud-piercer",
+    "name": "Cloud Piercer",
+    "category": "attack",
+    "tier": 2,
+    "cost": 800,
+    "stats": [
+      {
+        "key": "attackSpeedPct",
+        "value": 15
+      },
+      {
+        "key": "critRatePct",
+        "value": 12
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [
+      "dagger",
+      "pugilists-gauntlet"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "dagger",
+    "name": "Dagger",
+    "category": "attack",
+    "tier": 1,
+    "cost": 300,
+    "stats": [
+      {
+        "key": "attackSpeedPct",
+        "value": 10
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "daybreakers-virtue",
+    "name": "Daybreaker's Virtue",
+    "category": "attack",
+    "tier": 3,
+    "cost": 2570,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 75
+      },
+      {
+        "key": "attackSpeedPct",
+        "value": 30
+      },
+      {
+        "key": "critRatePct",
+        "value": 15
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Sunder",
+        "text": "Perfuração Física +15% (dobrada p/ atiradores).",
+        "cooldownSec": null
+      },
+      {
+        "kind": "passive",
+        "name": "Daybreaker",
+        "text": "dano do Ataque Básico +25 (dobrado p/ atiradores)",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "cloud-piercer",
+      "swiftstrike-lance"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "deepfrost-siege",
+    "name": "Deepfrost Siege",
+    "category": "attack",
+    "tier": 2,
+    "cost": 2040,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 70
+      },
+      {
+        "key": "attackSpeedPct",
+        "value": 25
+      },
+      {
+        "key": "maxHealth",
+        "value": 750
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Deepfrost",
+        "text": "reduz Vel. Movimento em 5–10% por 1,5s (acumula 2x).",
+        "cooldownSec": null
+      },
+      {
+        "kind": "passive",
+        "name": "Frostbite",
+        "text": "dano físico extra 135–270 (+45% Atq. Físico) (Recarga: 3s)",
+        "cooldownSec": 3
+      }
+    ],
+    "buildsFrom": [
+      "sunglow-striker",
+      "swiftstrike-lance"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "demonsbane",
+    "name": "Demonsbane",
+    "category": "attack",
+    "tier": 2,
+    "cost": 2060,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 90
+      },
+      {
+        "key": "magicDefense",
+        "value": 150
+      },
+      {
+        "key": "maxHealth",
+        "value": 600
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Anti-Mage",
+        "text": "Defesa Mágica +50% do Atq. Físico, até 250",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "storm-sword",
+      "clandestine-cape"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "destiny",
+    "name": "Destiny",
+    "category": "attack",
+    "tier": 2,
+    "cost": 2060,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 75
+      },
+      {
+        "key": "attackSpeedPct",
+        "value": 15
+      },
+      {
+        "key": "maxHealth",
+        "value": 500
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Dark Curtain",
+        "text": "ao sofrer dano fatal, invencibilidade até 1s + Vel. Ataque/Movimento +15% (Recarga: 120s)",
+        "cooldownSec": 120
+      }
+    ],
+    "buildsFrom": [
+      "storm-sword"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "doomsday",
+    "name": "Doomsday",
+    "category": "attack",
+    "tier": 3,
+    "cost": 2100,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 40
+      },
+      {
+        "key": "attackSpeedPct",
+        "value": 20
+      },
+      {
+        "key": "physLifestealPct",
+        "value": 20
+      },
+      {
+        "key": "maxHealth",
+        "value": 500
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Destruction",
+        "text": "Ataques Básicos causam 80–160 (+7% Vida do alvo) de dano físico extra",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "bloodsoul"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "eternity-blade",
+    "name": "Eternity Blade",
+    "category": "attack",
+    "tier": 3,
+    "cost": 2110,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 120
+      },
+      {
+        "key": "critRatePct",
+        "value": 20
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Relentless",
+        "text": "+20% Dano Crítico; cada 2% Taxa Crítica extra soma 1% Dano Crítico (até 50%)",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "storm-sword",
+      "thunderclap-brand"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "haste-sunpool",
+    "name": "Haste - Sunpool",
+    "category": "attack",
+    "tier": 3,
+    "cost": 3320,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 40
+      },
+      {
+        "key": "attackSpeedPct",
+        "value": 20
+      },
+      {
+        "key": "critRatePct",
+        "value": 15
+      },
+      {
+        "key": "moveSpeedPct",
+        "value": 7.5
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Precision",
+        "text": "dano Ataque Básico +25 (dobrado à distância).",
+        "cooldownSec": null
+      },
+      {
+        "kind": "active",
+        "name": "Daybreak",
+        "text": "+125 alcance e +40% Vel. Movimento por 5s (Recarga: 75s)",
+        "cooldownSec": 75
+      }
+    ],
+    "buildsFrom": [
+      "sunchaser"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "immovable-sky-dome",
+    "name": "Immovable - Sky Dome",
+    "category": "attack",
+    "tier": 3,
+    "cost": 3280,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 80
+      },
+      {
+        "key": "cdrPct",
+        "value": 10
+      },
+      {
+        "key": "physicalDefense",
+        "value": 150
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Maim",
+        "text": "desacelera 10–20% e reduz 20% dano recebido do 1º alvo (Recarga: 8s).",
+        "cooldownSec": 8
+      },
+      {
+        "kind": "active",
+        "name": "Dispel",
+        "text": "remove CC, +35% redução de dano, +30% Vel. Movimento por 3s (Recarga: 75s)",
+        "cooldownSec": 75
+      }
+    ],
+    "buildsFrom": [
+      "pure-sky"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "iron-sword",
+    "name": "Iron Sword",
+    "category": "attack",
+    "tier": 1,
+    "cost": 275,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 20
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "master-sword",
+    "name": "Master Sword",
+    "category": "attack",
+    "tier": 3,
+    "cost": 2100,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 55
+      },
+      {
+        "key": "attackSpeedPct",
+        "value": 15
+      },
+      {
+        "key": "critRatePct",
+        "value": 20
+      },
+      {
+        "key": "maxHealth",
+        "value": 600
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Savagery",
+        "text": "habilidade dá +12% Vel. Movimento por 2s e +80% Atq. Físico no próximo Ataque Básico em 5s (Recarga: 3s)",
+        "cooldownSec": 3
+      }
+    ],
+    "buildsFrom": [
+      "thunderclap-brand"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "meteor",
+    "name": "Meteor",
+    "category": "attack",
+    "tier": 2,
+    "cost": 760,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 35
+      },
+      {
+        "key": "cdrPct",
+        "value": 7.5
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [
+      "iron-sword",
+      "primordial-crystal"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "mortal-punisher",
+    "name": "Mortal Punisher",
+    "category": "attack",
+    "tier": 2,
+    "cost": 2080,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 100
+      },
+      {
+        "key": "attackSpeedPct",
+        "value": 20
+      },
+      {
+        "key": "physLifestealPct",
+        "value": 20
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Revive",
+        "text": "recupera 375–750 Vida em 5s abaixo de 30% Vida (Recarga: 20s).",
+        "cooldownSec": 20
+      },
+      {
+        "kind": "passive",
+        "name": "Imperil",
+        "text": "reduz recuperação/roubo de vida do inimigo em 35% por 2,5s",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "bloodsoul",
+      "swiftstrike-lance"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "overlords-might",
+    "name": "Overlord's Might",
+    "category": "attack",
+    "tier": 3,
+    "cost": 2540,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 150
+      },
+      {
+        "key": "cdrPct",
+        "value": 5
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Siege Breaker",
+        "text": "+30% dano a inimigos com menos de 50% Vida",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "storm-sword",
+      "storm-sword"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "plume-of-enchantment",
+    "name": "Plume of Enchantment",
+    "category": "attack",
+    "tier": 1,
+    "cost": 300,
+    "stats": [
+      {
+        "key": "moveSpeedPct",
+        "value": 5
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "pugilists-gauntlet",
+    "name": "Pugilist's Gauntlet",
+    "category": "attack",
+    "tier": 1,
+    "cost": 300,
+    "stats": [
+      {
+        "key": "critRatePct",
+        "value": 8
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "pure-sky",
+    "name": "Pure Sky",
+    "category": "attack",
+    "tier": 2,
+    "cost": 2140,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 80
+      },
+      {
+        "key": "cdrPct",
+        "value": 10
+      },
+      {
+        "key": "physicalDefense",
+        "value": 150
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Maim",
+        "text": "desacelera 10–20% e reduz 20% dano recebido (Recarga: 8s).",
+        "cooldownSec": 8
+      },
+      {
+        "kind": "active",
+        "name": "Dispel",
+        "text": "+30% redução de dano por 3s (Recarga: 75s)",
+        "cooldownSec": 75
+      }
+    ],
+    "buildsFrom": [
+      "meteor",
+      "nettle-gauntlet"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "shadow-ripper",
+    "name": "Shadow Ripper",
+    "category": "attack",
+    "tier": 3,
+    "cost": 2040,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 45
+      },
+      {
+        "key": "attackSpeedPct",
+        "value": 35
+      },
+      {
+        "key": "critRatePct",
+        "value": 20
+      },
+      {
+        "key": "moveSpeedPct",
+        "value": 7.5
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Storm Strike",
+        "text": "após crítico, +20% Vel. Ataque e +5% Vel. Movimento por 3,5s",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "thunderclap-brand",
+      "twinblades-of-destruction"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "sparkforged-dagger",
+    "name": "Sparkforged Dagger",
+    "category": "attack",
+    "tier": 3,
+    "cost": 2040,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 40
+      },
+      {
+        "key": "attackSpeedPct",
+        "value": 35
+      },
+      {
+        "key": "moveSpeedPct",
+        "value": 7.5
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Spark",
+        "text": "Ataques Básicos causam 40–80 dano mágico extra; a cada 3º ataque, relâmpago em cadeia (160–400 dano mágico)",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "swiftstrike-lance",
+      "twinblades-of-destruction"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "starbreaker",
+    "name": "Starbreaker",
+    "category": "attack",
+    "tier": 2,
+    "cost": 2080,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 90
+      },
+      {
+        "key": "maxHealth",
+        "value": 700
+      },
+      {
+        "key": "moveSpeedPct",
+        "value": 7.5
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Sunder",
+        "text": "concede 30% de Perfuração Física",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "sunglow-striker"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "storm-sword",
+    "name": "Storm Sword",
+    "category": "attack",
+    "tier": 2,
+    "cost": 850,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 75
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [
+      "iron-sword",
+      "iron-sword"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "sunchaser",
+    "name": "Sunchaser",
+    "category": "attack",
+    "tier": 3,
+    "cost": 2100,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 40
+      },
+      {
+        "key": "attackSpeedPct",
+        "value": 20
+      },
+      {
+        "key": "critRatePct",
+        "value": 15
+      },
+      {
+        "key": "moveSpeedPct",
+        "value": 7.5
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Precision",
+        "text": "dano Ataque Básico +25 (dobrado à distância).",
+        "cooldownSec": null
+      },
+      {
+        "kind": "active",
+        "name": "Daybreak",
+        "text": "+125 alcance (à distância) e +20% Vel. Movimento por 5s (Recarga: 75s)",
+        "cooldownSec": 75
+      }
+    ],
+    "buildsFrom": [
+      "cloud-piercer"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "sunglow-striker",
+    "name": "Sunglow Striker",
+    "category": "attack",
+    "tier": 2,
+    "cost": 760,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 35
+      },
+      {
+        "key": "maxHealth",
+        "value": 450
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [
+      "iron-sword",
+      "resilient-agate"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "swiftstrike-lance",
+    "name": "Swiftstrike Lance",
+    "category": "attack",
+    "tier": 2,
+    "cost": 800,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 35
+      },
+      {
+        "key": "attackSpeedPct",
+        "value": 15
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [
+      "dagger",
+      "iron-sword"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "tempest",
+    "name": "Tempest",
+    "category": "attack",
+    "tier": 3,
+    "cost": 2080,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 50
+      },
+      {
+        "key": "attackSpeedPct",
+        "value": 30
+      },
+      {
+        "key": "maxHealth",
+        "value": 600
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Tempest",
+        "text": "acertos aumentam Vel. Ataque, Vel. Movimento e dano em 2% por 2,5s (acumula até 5x)",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "swiftstrike-lance"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "thunderclap-brand",
+    "name": "Thunderclap Brand",
+    "category": "attack",
+    "tier": 1,
+    "cost": 820,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 35
+      },
+      {
+        "key": "critRatePct",
+        "value": 12
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [
+      "iron-sword",
+      "pugilists-gauntlet"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "twinblades-of-destruction",
+    "name": "Twinblades of Destruction",
+    "category": "attack",
+    "tier": 2,
+    "cost": 760,
+    "stats": [
+      {
+        "key": "attackSpeedPct",
+        "value": 15
+      },
+      {
+        "key": "moveSpeedPct",
+        "value": 7.5
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [
+      "dagger",
+      "plume-of-enchantment"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "vampiric-scythe",
+    "name": "Vampiric Scythe",
+    "category": "attack",
+    "tier": 1,
+    "cost": 300,
+    "stats": [
+      {
+        "key": "physLifestealPct",
+        "value": 8
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "ardent-dominion",
+    "name": "Ardent Dominion",
+    "category": "magic",
+    "tier": 2,
+    "cost": 2040,
+    "stats": [
+      {
+        "key": "magicAttack",
+        "value": 150
+      },
+      {
+        "key": "moveSpeedPct",
+        "value": 7.5
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Mana Shield",
+        "text": "abaixo de 30% Vida, remove CC, escudo (500–1.000 + 100% Atq. Mágico + 7,5% Vida) e +30% Vel. Movimento por 4s (Recarga: 90s)",
+        "cooldownSec": 90
+      }
+    ],
+    "buildsFrom": [
+      "blood-clans-grimoire",
+      "stone-of-sorcery"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "augurs-word",
+    "name": "Augur's Word",
+    "category": "magic",
+    "tier": 3,
+    "cost": 2150,
+    "stats": [
+      {
+        "key": "magicAttack",
+        "value": 140
+      },
+      {
+        "key": "maxMana",
+        "value": 450
+      },
+      {
+        "key": "maxHealth",
+        "value": 900
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Hero's Reward",
+        "text": "subir de nível restaura 20% Vida/Mana em 3s.",
+        "cooldownSec": null
+      },
+      {
+        "kind": "passive",
+        "name": "Augury",
+        "text": "+50–100 (+10% Atq. Mágico) Defesa Física e Mágica",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "grand-staff",
+      "belt-of-might"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "blood-clans-grimoire",
+    "name": "Blood Clan's Grimoire",
+    "category": "magic",
+    "tier": 2,
+    "cost": 800,
+    "stats": [
+      {
+        "key": "magicAttack",
+        "value": 60
+      },
+      {
+        "key": "magicLifestealPct",
+        "value": 12
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [
+      "spell-tome",
+      "mystic-page"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "breakthrough-robe",
+    "name": "Breakthrough Robe",
+    "category": "magic",
+    "tier": 3,
+    "cost": 2120,
+    "stats": [
+      {
+        "key": "magicAttack",
+        "value": 120
+      },
+      {
+        "key": "maxHealth",
+        "value": 900
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Breakthrough",
+        "text": "+20–40 (+2% Vida) Atq. Mágico, até 100.",
+        "cooldownSec": null
+      },
+      {
+        "kind": "passive",
+        "name": "Purge",
+        "text": "+30–60 (+3% Vida) Perfuração Mágica, até 150",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "nebulon-wood",
+      "nebulon-wood"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "enigma-moon-goddess",
+    "name": "Enigma - Moon Goddess",
+    "category": "magic",
+    "tier": 3,
+    "cost": 3340,
+    "stats": [
+      {
+        "key": "magicAttack",
+        "value": 160
+      },
+      {
+        "key": "cdrPct",
+        "value": 7.5
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "active",
+        "name": "Moonguard",
+        "text": "imunidade total (impede mover/atacar/usar habilidades) por 1,5s; ao fim, +60% Vel. Movimento (decai 2s) e restaura (1.000 + 100% Atq. Mágico) Vida (Recarga: 75s)",
+        "cooldownSec": 75
+      }
+    ],
+    "buildsFrom": [
+      "splendor"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "frozen-breath",
+    "name": "Frozen Breath",
+    "category": "magic",
+    "tier": 3,
+    "cost": 2100,
+    "stats": [
+      {
+        "key": "magicAttack",
+        "value": 180
+      },
+      {
+        "key": "cdrPct",
+        "value": 7.5
+      },
+      {
+        "key": "maxHealth",
+        "value": 500
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Deep Freeze",
+        "text": "reduz Vel. Movimento 5–10% (acumula 2x) por 1,5s.",
+        "cooldownSec": null
+      },
+      {
+        "kind": "passive",
+        "name": "Frostbite",
+        "text": "dano mágico extra (75–150 +15% Atq. Mágico) (Recarga: 3s)",
+        "cooldownSec": 3
+      }
+    ],
+    "buildsFrom": [
+      "grand-staff",
+      "cuirass-of-swiftness"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "golden-blade",
+    "name": "Golden Blade",
+    "category": "magic",
+    "tier": 2,
+    "cost": 2070,
+    "stats": [
+      {
+        "key": "attackSpeedPct",
+        "value": 20
+      },
+      {
+        "key": "magicAttack",
+        "value": 150
+      },
+      {
+        "key": "moveSpeedPct",
+        "value": 7.5
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Precision",
+        "text": "dano Ataque Básico +60.",
+        "cooldownSec": null
+      },
+      {
+        "kind": "passive",
+        "name": "Excalibur",
+        "text": "Ataque Básico dá +10% Vel. Ataque (acumula 2x); no máx., dano mágico extra = 30% Atq. Mágico (Recarga: 0,2s)",
+        "cooldownSec": 0.2
+      }
+    ],
+    "buildsFrom": [
+      "grand-staff",
+      "twinblades-of-destruction"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "grand-staff",
+    "name": "Grand Staff",
+    "category": "magic",
+    "tier": 2,
+    "cost": 820,
+    "stats": [
+      {
+        "key": "magicAttack",
+        "value": 120
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [
+      "spell-tome",
+      "spell-tome"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "holy-grail",
+    "name": "Holy Grail",
+    "category": "magic",
+    "tier": 3,
+    "cost": 2020,
+    "stats": [
+      {
+        "key": "magicAttack",
+        "value": 150
+      },
+      {
+        "key": "cdrPct",
+        "value": 15
+      },
+      {
+        "key": "maxHealth",
+        "value": 500
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Mana Spring",
+        "text": "restaura 1,5% Mana e 0,5% Vida/s (+0,5% Vida extra se Mana cheia)",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "sages-codex",
+      "cuirass-of-swiftness"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "insatiable-tome",
+    "name": "Insatiable Tome",
+    "category": "magic",
+    "tier": 3,
+    "cost": 2060,
+    "stats": [
+      {
+        "key": "magicAttack",
+        "value": 160
+      },
+      {
+        "key": "maxHealth",
+        "value": 750
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Arcane Conversion",
+        "text": "cada 2% Roubo de Vida Mágico dá +1% Redução de Recarga",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "blood-clans-grimoire",
+      "blood-clans-grimoire"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "mask-of-agony",
+    "name": "Mask of Agony",
+    "category": "magic",
+    "tier": 3,
+    "cost": 2080,
+    "stats": [
+      {
+        "key": "magicAttack",
+        "value": 100
+      },
+      {
+        "key": "cdrPct",
+        "value": 7.5
+      },
+      {
+        "key": "maxHealth",
+        "value": 900
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Torment",
+        "text": "habilidade causa dano mágico = 3% da Vida atual do alvo, 4x em 3s (limitado a 200 vs monstros) (Recarga: 3s)",
+        "cooldownSec": 3
+      }
+    ],
+    "buildsFrom": [
+      "nebulon-wood",
+      "cuirass-of-swiftness"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "mystic-page",
+    "name": "Mystic Page",
+    "category": "magic",
+    "tier": 1,
+    "cost": 300,
+    "stats": [
+      {
+        "key": "magicLifestealPct",
+        "value": 8
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "nebulon-wood",
+    "name": "Nebulon Wood",
+    "category": "magic",
+    "tier": 2,
+    "cost": 840,
+    "stats": [
+      {
+        "key": "magicAttack",
+        "value": 60
+      },
+      {
+        "key": "maxHealth",
+        "value": 450
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [
+      "spell-tome",
+      "resilient-agate"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "primordial-crystal",
+    "name": "Primordial Crystal",
+    "category": "magic",
+    "tier": 1,
+    "cost": 300,
+    "stats": [
+      {
+        "key": "cdrPct",
+        "value": 5
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "sages-codex",
+    "name": "Sage's Codex",
+    "category": "magic",
+    "tier": 2,
+    "cost": 800,
+    "stats": [
+      {
+        "key": "magicAttack",
+        "value": 60
+      },
+      {
+        "key": "cdrPct",
+        "value": 7.5
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [
+      "spell-tome",
+      "primordial-crystal"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "sages-tome",
+    "name": "Sage's Tome",
+    "category": "magic",
+    "tier": 3,
+    "cost": 2610,
+    "stats": [
+      {
+        "key": "magicAttack",
+        "value": 350
+      },
+      {
+        "key": "cdrPct",
+        "value": 10
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Enlightenment",
+        "text": "cada 100 Atq. Mágico dá +0,5% dano causado e +0,5% redução de dano",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "grand-staff",
+      "sages-codex"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "savants-wrath",
+    "name": "Savant's Wrath",
+    "category": "magic",
+    "tier": 3,
+    "cost": 2140,
+    "stats": [
+      {
+        "key": "magicAttack",
+        "value": 210
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Doom",
+        "text": "Ataque Mágico +30%",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "grand-staff",
+      "grand-staff"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "scepter-of-reverberation",
+    "name": "Scepter of Reverberation",
+    "category": "magic",
+    "tier": 3,
+    "cost": 2100,
+    "stats": [
+      {
+        "key": "magicAttack",
+        "value": 210
+      },
+      {
+        "key": "moveSpeedPct",
+        "value": 7.5
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Echo",
+        "text": "habilidade acertada provoca explosão (140–280 +28% Atq. Mágico) de dano mágico (Recarga: 5s)",
+        "cooldownSec": 5
+      }
+    ],
+    "buildsFrom": [
+      "stone-of-sorcery",
+      "grand-staff"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "spell-tome",
+    "name": "Spell Tome",
+    "category": "magic",
+    "tier": 1,
+    "cost": 275,
+    "stats": [
+      {
+        "key": "magicAttack",
+        "value": 35
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "splendor",
+    "name": "Splendor",
+    "category": "magic",
+    "tier": 2,
+    "cost": 2080,
+    "stats": [
+      {
+        "key": "magicAttack",
+        "value": 160
+      },
+      {
+        "key": "cdrPct",
+        "value": 7.5
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "active",
+        "name": "Moonguard",
+        "text": "imunidade a efeitos, mas impede mover/atacar/usar habilidades por 1,5s (Recarga: 75s)",
+        "cooldownSec": 75
+      }
+    ],
+    "buildsFrom": [
+      "blood-clans-grimoire",
+      "sages-codex"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "staves-of-sorcery",
+    "name": "Staves of Sorcery",
+    "category": "magic",
+    "tier": 3,
+    "cost": 2080,
+    "stats": [
+      {
+        "key": "magicAttack",
+        "value": 180
+      },
+      {
+        "key": "maxMana",
+        "value": 300
+      },
+      {
+        "key": "maxHealth",
+        "value": 600
+      },
+      {
+        "key": "moveSpeedPct",
+        "value": 7.5
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Savagery",
+        "text": "próximo Ataque Básico em 5s após habilidade causa (180–360 +40% Atq. Mágico) de dano mágico extra (Recarga: 2,5s)",
+        "cooldownSec": 2.5
+      }
+    ],
+    "buildsFrom": [
+      "stone-of-sorcery",
+      "nebulon-wood"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "stone-of-sorcery",
+    "name": "Stone of Sorcery",
+    "category": "magic",
+    "tier": 2,
+    "cost": 800,
+    "stats": [
+      {
+        "key": "magicAttack",
+        "value": 60
+      },
+      {
+        "key": "moveSpeedPct",
+        "value": 7.5
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [
+      "spell-tome",
+      "plume-of-enchantment"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "twilight-stream",
+    "name": "Twilight Stream",
+    "category": "magic",
+    "tier": 2,
+    "cost": 2040,
+    "stats": [
+      {
+        "key": "magicAttack",
+        "value": 160
+      },
+      {
+        "key": "cdrPct",
+        "value": 10
+      },
+      {
+        "key": "maxHealth",
+        "value": 500
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Purge",
+        "text": "causar dano a herói aumenta Perfuração Mágica 20–40 por 4s (acumula até 6x)",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "nebulon-wood",
+      "sages-codex"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "venomous-staff",
+    "name": "Venomous Staff",
+    "category": "magic",
+    "tier": 2,
+    "cost": 2040,
+    "stats": [
+      {
+        "key": "magicAttack",
+        "value": 240
+      },
+      {
+        "key": "cdrPct",
+        "value": 7.5
+      },
+      {
+        "key": "moveSpeedPct",
+        "value": 7.5
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Imperil",
+        "text": "reduz recuperação de Vida e Roubo de Vida do inimigo em 35% por 2,5s",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "stone-of-sorcery",
+      "sages-codex"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "void-staff",
+    "name": "Void Staff",
+    "category": "magic",
+    "tier": 3,
+    "cost": 2040,
+    "stats": [
+      {
+        "key": "magicAttack",
+        "value": 210
+      },
+      {
+        "key": "cdrPct",
+        "value": 5
+      },
+      {
+        "key": "maxHealth",
+        "value": 500
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Devastation",
+        "text": "Perfuração Mágica +45%",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "nebulon-wood",
+      "grand-staff"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "amble-winter",
+    "name": "Amble - Winter",
+    "category": "defense",
+    "tier": 3,
+    "cost": 3190,
+    "stats": [
+      {
+        "key": "cdrPct",
+        "value": 7.5
+      },
+      {
+        "key": "physicalDefense",
+        "value": 150
+      },
+      {
+        "key": "maxHealth",
+        "value": 900
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Ice Armor",
+        "text": "+10% Resistência; ao sofrer CC severo (exceto supressão), escudo = 10% Vida por 5s (Recarga: 15s).",
+        "cooldownSec": 15
+      },
+      {
+        "kind": "active",
+        "name": "Impact",
+        "text": "campo de gelo (raio 600), desacelera muito, após 0,75s causa 100–200 dano mágico e congela 0,75s (Recarga: 75s)",
+        "cooldownSec": 75
+      }
+    ],
+    "buildsFrom": [
+      "frigid-charge"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "belt-of-might",
+    "name": "Belt of Might",
+    "category": "defense",
+    "tier": 2,
+    "cost": 850,
+    "stats": [
+      {
+        "key": "maxHealth",
+        "value": 900
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [
+      "resilient-agate",
+      "resilient-agate"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "blazing-cape",
+    "name": "Blazing Cape",
+    "category": "defense",
+    "tier": 3,
+    "cost": 2040,
+    "stats": [
+      {
+        "key": "physicalDefense",
+        "value": 150
+      },
+      {
+        "key": "magicDefense",
+        "value": 150
+      },
+      {
+        "key": "maxHealth",
+        "value": 1.1
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Conflagration",
+        "text": "queima inimigos (raio 375) por s, 1,5% Vida em dano mágico (dobro em tropas/monstros).",
+        "cooldownSec": null
+      },
+      {
+        "kind": "passive",
+        "name": "Imperil",
+        "text": "reduz recuperação/roubo de vida em 35% por 2,5s",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "protectors-cuirass",
+      "clandestine-cape"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "blood-rage",
+    "name": "Blood Rage",
+    "category": "defense",
+    "tier": 2,
+    "cost": 2180,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 75
+      },
+      {
+        "key": "maxHealth",
+        "value": 900
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Apoplexy",
+        "text": "Ataques Básicos +1,5% Vida de dano físico (25–50% a mais abaixo de 50% Vida).",
+        "cooldownSec": null
+      },
+      {
+        "kind": "active",
+        "name": "Blood Fury",
+        "text": "consome 30% Vida, escudo = 40% Vida em 4s (Recarga: 75s)",
+        "cooldownSec": 75
+      }
+    ],
+    "buildsFrom": [
+      "storm-sword",
+      "belt-of-might"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "clandestine-cape",
+    "name": "Clandestine Cape",
+    "category": "defense",
+    "tier": 2,
+    "cost": 800,
+    "stats": [
+      {
+        "key": "magicDefense",
+        "value": 150
+      },
+      {
+        "key": "maxHealth",
+        "value": 450
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [
+      "resilient-agate"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "cloth-jerkin",
+    "name": "Cloth Jerkin",
+    "category": "defense",
+    "tier": 1,
+    "cost": 275,
+    "stats": [
+      {
+        "key": "physicalDefense",
+        "value": 100
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "cuirass-of-savagery",
+    "name": "Cuirass of Savagery",
+    "category": "defense",
+    "tier": 3,
+    "cost": 2050,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 35
+      },
+      {
+        "key": "physicalDefense",
+        "value": 210
+      },
+      {
+        "key": "maxHealth",
+        "value": 900
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Fearless",
+        "text": "ao sofrer dano, +1% dano próprio e Vel. Movimento por 3s (acumula até 10x; 2 acúmulos se por herói)",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "nettle-gauntlet",
+      "belt-of-might"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "cuirass-of-swiftness",
+    "name": "Cuirass of Swiftness",
+    "category": "defense",
+    "tier": 2,
+    "cost": 800,
+    "stats": [
+      {
+        "key": "cdrPct",
+        "value": 7.5
+      },
+      {
+        "key": "maxHealth",
+        "value": 450
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [
+      "resilient-agate",
+      "primordial-crystal"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "dawnlight",
+    "name": "Dawnlight",
+    "category": "defense",
+    "tier": 3,
+    "cost": 2040,
+    "stats": [
+      {
+        "key": "cdrPct",
+        "value": 10
+      },
+      {
+        "key": "physicalDefense",
+        "value": 210
+      },
+      {
+        "key": "maxHealth",
+        "value": 900
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Firstlight",
+        "text": "ao causar dano, escudo por 3s = (250–500 +4% Vida) a si e ao aliado com menos Vida (dobra sem aliados perto) (Recarga: 10–12,5s)",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "frosthold-targe",
+      "belt-of-might"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "dragons-rage",
+    "name": "Dragon's Rage",
+    "category": "defense",
+    "tier": 3,
+    "cost": 2040,
+    "stats": [
+      {
+        "key": "physicalDefense",
+        "value": 180
+      },
+      {
+        "key": "magicDefense",
+        "value": 90
+      },
+      {
+        "key": "maxHealth",
+        "value": 1.35
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Devastating Blow",
+        "text": "7% Vida em dano físico a tropas/monstros, cura 50% do dano (Recarga: 2s).",
+        "cooldownSec": 2
+      },
+      {
+        "kind": "passive",
+        "name": "Divine Power",
+        "text": "3,5% Vida em dano físico a heróis/torres (Recarga: 2s)",
+        "cooldownSec": 2
+      }
+    ],
+    "buildsFrom": [
+      "belt-of-might",
+      "protectors-cuirass"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "eye-of-the-phoenix",
+    "name": "Eye of the Phoenix",
+    "category": "defense",
+    "tier": 3,
+    "cost": 2020,
+    "stats": [
+      {
+        "key": "physicalDefense",
+        "value": 90
+      },
+      {
+        "key": "magicDefense",
+        "value": 180
+      },
+      {
+        "key": "maxHealth",
+        "value": 1.35
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Bloodline",
+        "text": "+5% recuperação de Vida a cada 10% de Vida perdida",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "belt-of-might",
+      "clandestine-cape"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "frigid-charge",
+    "name": "Frigid Charge",
+    "category": "defense",
+    "tier": 2,
+    "cost": 2030,
+    "stats": [
+      {
+        "key": "cdrPct",
+        "value": 7.5
+      },
+      {
+        "key": "physicalDefense",
+        "value": 150
+      },
+      {
+        "key": "maxHealth",
+        "value": 900
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Ice Armor",
+        "text": "+10% Resistência; escudo = 10% Vida por 5s ao sofrer CC severo (Recarga: 15s).",
+        "cooldownSec": 15
+      },
+      {
+        "kind": "active",
+        "name": "Impact",
+        "text": "campo de gelo (raio 450), desacelera 30–60%, após 0,75s causa 100–200 dano mágico e congela 0,75s (Recarga: 75s)",
+        "cooldownSec": 75
+      }
+    ],
+    "buildsFrom": [
+      "protectors-cuirass",
+      "cuirass-of-swiftness"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "frosthold-targe",
+    "name": "Frosthold Targe",
+    "category": "defense",
+    "tier": 2,
+    "cost": 750,
+    "stats": [
+      {
+        "key": "cdrPct",
+        "value": 7.5
+      },
+      {
+        "key": "physicalDefense",
+        "value": 150
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [
+      "cloth-jerkin",
+      "primordial-crystal"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "frostscars-embrace",
+    "name": "Frostscar's Embrace",
+    "category": "defense",
+    "tier": 3,
+    "cost": 2060,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 60
+      },
+      {
+        "key": "cdrPct",
+        "value": 10
+      },
+      {
+        "key": "physicalDefense",
+        "value": 300
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Savagery",
+        "text": "próximo Ataque Básico em 5s após habilidade causa 210–420 dano físico extra e desacelera 15–30% por 0,5s (Recarga: 1,2s)",
+        "cooldownSec": 1.2
+      }
+    ],
+    "buildsFrom": [
+      "nettle-gauntlet",
+      "frosthold-targe"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "glacial-buckler",
+    "name": "Glacial Buckler",
+    "category": "defense",
+    "tier": 3,
+    "cost": 2040,
+    "stats": [
+      {
+        "key": "cdrPct",
+        "value": 20
+      },
+      {
+        "key": "physicalDefense",
+        "value": 240
+      },
+      {
+        "key": "maxHealth",
+        "value": 600
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Frost Shock",
+        "text": "ao perder 10% da Vida num golpe, explode gelo (130–260 dano mágico em área), -15% Vel. Ataque e -15–30% Vel. Movimento por 2s (Recarga: 2s)",
+        "cooldownSec": 2
+      }
+    ],
+    "buildsFrom": [
+      "cuirass-of-swiftness",
+      "frosthold-targe"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "longnight-guardian",
+    "name": "Longnight Guardian",
+    "category": "defense",
+    "tier": 3,
+    "cost": 2020,
+    "stats": [
+      {
+        "key": "magicDefense",
+        "value": 210
+      },
+      {
+        "key": "maxHealth",
+        "value": 1
+      },
+      {
+        "key": "moveSpeedPct",
+        "value": 7.5
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Guardian",
+        "text": "ao sofrer dano >30% Vida em 3s, restaura (320 +8% Vida) em 3s (Recarga: 7s)",
+        "cooldownSec": 7
+      }
+    ],
+    "buildsFrom": [
+      "clandestine-cape",
+      "mirror-of-radiance"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "mirror-of-radiance",
+    "name": "Mirror of Radiance",
+    "category": "defense",
+    "tier": 2,
+    "cost": 800,
+    "stats": [
+      {
+        "key": "maxHealth",
+        "value": 450
+      },
+      {
+        "key": "moveSpeedPct",
+        "value": 7.5
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [
+      "resilient-agate",
+      "plume-of-enchantment"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "nettle-gauntlet",
+    "name": "Nettle Gauntlet",
+    "category": "defense",
+    "tier": 2,
+    "cost": 750,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 35
+      },
+      {
+        "key": "physicalDefense",
+        "value": 150
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [
+      "cloth-jerkin",
+      "iron-sword"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "ominous-premonition",
+    "name": "Ominous Premonition",
+    "category": "defense",
+    "tier": 3,
+    "cost": 2020,
+    "stats": [
+      {
+        "key": "physicalDefense",
+        "value": 300
+      },
+      {
+        "key": "maxHealth",
+        "value": 1.2
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Cold Steel",
+        "text": "ao sofrer dano, reduz Vel. Ataque do agressor 20–40% e Vel. Movimento 7,5–15% por 2,5s (Recarga: 3s/alvo)",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "protectors-cuirass",
+      "protectors-cuirass"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "overlords-platemail",
+    "name": "Overlord's Platemail",
+    "category": "defense",
+    "tier": 3,
+    "cost": 2450,
+    "stats": [
+      {
+        "key": "physicalDefense",
+        "value": 160
+      },
+      {
+        "key": "magicDefense",
+        "value": 80
+      },
+      {
+        "key": "maxHealth",
+        "value": 1.8
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Fated",
+        "text": "+4% Vida.",
+        "cooldownSec": null
+      },
+      {
+        "kind": "passive",
+        "name": "Recovery",
+        "text": "recupera 0,5% Vida/s (dobrado após 3s sem ser atacado)",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "belt-of-might",
+      "belt-of-might"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "protectors-cuirass",
+    "name": "Protector's Cuirass",
+    "category": "defense",
+    "tier": 2,
+    "cost": 800,
+    "stats": [
+      {
+        "key": "physicalDefense",
+        "value": 150
+      },
+      {
+        "key": "maxHealth",
+        "value": 450
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [
+      "cloth-jerkin",
+      "resilient-agate"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "ravage-phantom",
+    "name": "Ravage - Phantom",
+    "category": "defense",
+    "tier": 3,
+    "cost": 3350,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 75
+      },
+      {
+        "key": "maxHealth",
+        "value": 900
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Apoplexy",
+        "text": "Ataques Básicos +1,5% Vida em dano físico (37,5–75% a mais abaixo de 50% Vida).",
+        "cooldownSec": null
+      },
+      {
+        "kind": "active",
+        "name": "Blood Fury",
+        "text": "consome 30% Vida, escudo = 50% Vida e 4%/s dano mágico a inimigos por 4s (Recarga: 75s)",
+        "cooldownSec": 75
+      }
+    ],
+    "buildsFrom": [
+      "blood-rage"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "resilient-agate",
+    "name": "Resilient Agate",
+    "category": "defense",
+    "tier": 1,
+    "cost": 300,
+    "stats": [
+      {
+        "key": "maxHealth",
+        "value": 300
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "sages-sanctuary",
+    "name": "Sage's Sanctuary",
+    "category": "defense",
+    "tier": 3,
+    "cost": 2280,
+    "stats": [
+      {
+        "key": "cdrPct",
+        "value": 5
+      },
+      {
+        "key": "physicalDefense",
+        "value": 150
+      },
+      {
+        "key": "magicDefense",
+        "value": 150
+      },
+      {
+        "key": "maxHealth",
+        "value": 900
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Revive",
+        "text": "ressuscita 2s após morte, restaura 2.000–3.000 Vida (até 2x/partida) (Recarga: 150s)",
+        "cooldownSec": 150
+      }
+    ],
+    "buildsFrom": [
+      "belt-of-might"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "spikemail",
+    "name": "Spikemail",
+    "category": "defense",
+    "tier": 2,
+    "cost": 2020,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 45
+      },
+      {
+        "key": "physicalDefense",
+        "value": 300
+      },
+      {
+        "key": "maxHealth",
+        "value": 700
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "active",
+        "name": "Countersiege",
+        "text": "reflete 35% do dano recebido como dano verdadeiro por 3s (diminui até 50% com a distância) (Recarga: 75s)",
+        "cooldownSec": 75
+      }
+    ],
+    "buildsFrom": [
+      "nettle-gauntlet",
+      "protectors-cuirass"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "succubus-cloak",
+    "name": "Succubus Cloak",
+    "category": "defense",
+    "tier": 3,
+    "cost": 2020,
+    "stats": [
+      {
+        "key": "magicDefense",
+        "value": 300
+      },
+      {
+        "key": "maxHealth",
+        "value": 1.1
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Mist Veil",
+        "text": "a cada 15s, escudo anula (400–800 +7% Vida) de dano mágico.",
+        "cooldownSec": null
+      },
+      {
+        "kind": "passive",
+        "name": "Succubus",
+        "text": "converte 15% Defesa Mágica extra em Defesa Física",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "clandestine-cape",
+      "clandestine-cape"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "boots-of-deftness",
+    "name": "Boots of Deftness",
+    "category": "movement",
+    "tier": 2,
+    "cost": 700,
+    "stats": [
+      {
+        "key": "maxHealth",
+        "value": 300
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Swift II",
+        "text": "+70 Vel. Movimento.",
+        "cooldownSec": null
+      },
+      {
+        "kind": "passive",
+        "name": "Divine Wind",
+        "text": "+35–70 Vel. Movimento fora de combate 5s. Troca gratuita entre botas (Recarga: 5 min)",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "lightfoot-shoes",
+      "resilient-agate"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "boots-of-dexterity",
+    "name": "Boots of Dexterity",
+    "category": "movement",
+    "tier": 2,
+    "cost": 700,
+    "stats": [
+      {
+        "key": "attackSpeedPct",
+        "value": 20
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Swift",
+        "text": "+50 Vel. Movimento.",
+        "cooldownSec": null
+      },
+      {
+        "kind": "passive",
+        "name": "Lightning Recovery",
+        "text": "Ataques Básicos restauram 20–40/30–60 Vida (corpo/distância). Troca gratuita (Recarga: 5 min)",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "lightfoot-shoes",
+      "dagger"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "boots-of-fortitude",
+    "name": "Boots of Fortitude",
+    "category": "movement",
+    "tier": 2,
+    "cost": 700,
+    "stats": [
+      {
+        "key": "physicalDefense",
+        "value": 100
+      },
+      {
+        "key": "magicDefense",
+        "value": 50
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Swift",
+        "text": "+50 Vel. Movimento.",
+        "cooldownSec": null
+      },
+      {
+        "kind": "passive",
+        "name": "Sanctuary",
+        "text": "-6–12% dano físico recebido. Troca gratuita (Recarga: 5 min)",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "lightfoot-shoes",
+      "cloth-jerkin"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "boots-of-resistance",
+    "name": "Boots of Resistance",
+    "category": "movement",
+    "tier": 2,
+    "cost": 700,
+    "stats": [
+      {
+        "key": "physicalDefense",
+        "value": 50
+      },
+      {
+        "key": "magicDefense",
+        "value": 100
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Swift",
+        "text": "+50 Vel. Movimento.",
+        "cooldownSec": null
+      },
+      {
+        "kind": "passive",
+        "name": "Tough",
+        "text": "+25% Resistência. Troca gratuita (Recarga: 5 min)",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "lightfoot-shoes"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "boots-of-the-arcane",
+    "name": "Boots of the Arcane",
+    "category": "movement",
+    "tier": 2,
+    "cost": 700,
+    "stats": [
+      {
+        "key": "maxMana",
+        "value": 400
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Swift",
+        "text": "+50 Vel. Movimento.",
+        "cooldownSec": null
+      },
+      {
+        "kind": "passive",
+        "name": "Magical Mastery",
+        "text": "+60–120 Perfuração Mágica, restaura 10 Mana/5s. Troca gratuita (Recarga: 5 min)",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "lightfoot-shoes"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "boots-of-tranquility",
+    "name": "Boots of Tranquility",
+    "category": "movement",
+    "tier": 2,
+    "cost": 700,
+    "stats": [
+      {
+        "key": "cdrPct",
+        "value": 15
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Swift",
+        "text": "+50 Vel. Movimento.",
+        "cooldownSec": null
+      },
+      {
+        "kind": "passive",
+        "name": "Tranquility",
+        "text": "reduz Recarga de Habilidades Comuns 10–20%. Troca gratuita (Recarga: 5 min)",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "lightfoot-shoes",
+      "primordial-crystal"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "lightfoot-shoes",
+    "name": "Lightfoot Shoes",
+    "category": "movement",
+    "tier": 1,
+    "cost": 250,
+    "stats": [],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Efeito",
+        "text": "Velocidade de movimento (item base de botas)",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "giants-grip",
+    "name": "Giant's Grip",
+    "category": "jungle",
+    "tier": 3,
+    "cost": 2160,
+    "stats": [
+      {
+        "key": "cdrPct",
+        "value": 5
+      },
+      {
+        "key": "maxHealth",
+        "value": 1.2
+      },
+      {
+        "key": "moveSpeedPct",
+        "value": 5
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Hunter",
+        "text": "dano físico extra a monstros (90–180 +0,6% Vida).",
+        "cooldownSec": null
+      },
+      {
+        "kind": "passive",
+        "name": "Reward",
+        "text": "+30 Vida Máx e +0,2% Redução Recarga por abate (raio 700, até 25x). Antes 10 min: -25% dano a tropas",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "patrol-axe",
+      "cuirass-of-swiftness"
+    ],
+    "requiresSmite": true,
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "guerrilla-machete",
+    "name": "Guerrilla Machete",
+    "category": "jungle",
+    "tier": 2,
+    "cost": 700,
+    "stats": [
+      {
+        "key": "magicAttack",
+        "value": 40
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [
+      "hunting-knife"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "hunting-knife",
+    "name": "Hunting Knife",
+    "category": "jungle",
+    "tier": 1,
+    "cost": 250,
+    "stats": [],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Efeito",
+        "text": "Acelera a limpeza da selva",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "patrol-axe",
+    "name": "Patrol Axe",
+    "category": "jungle",
+    "tier": 2,
+    "cost": 700,
+    "stats": [
+      {
+        "key": "maxHealth",
+        "value": 400
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [
+      "hunting-knife"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "rapacious-bite",
+    "name": "Rapacious Bite",
+    "category": "jungle",
+    "tier": 3,
+    "cost": 2160,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 90
+      },
+      {
+        "key": "cdrPct",
+        "value": 7.5
+      },
+      {
+        "key": "moveSpeedPct",
+        "value": 5
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Hunter",
+        "text": "dano físico extra a monstros.",
+        "cooldownSec": null
+      },
+      {
+        "kind": "passive",
+        "name": "Reward",
+        "text": "+3 Atq. Físico e +0,2% Redução Recarga por abate (raio 700, até 25x). Antes 10 min: -25% dano a tropas",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "relentless-blade",
+      "meteor"
+    ],
+    "requiresSmite": true,
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "relentless-blade",
+    "name": "Relentless Blade",
+    "category": "jungle",
+    "tier": 2,
+    "cost": 700,
+    "stats": [
+      {
+        "key": "physicalAttack",
+        "value": 25
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [
+      "hunting-knife"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "runeblade",
+    "name": "Runeblade",
+    "category": "jungle",
+    "tier": 3,
+    "cost": 2160,
+    "stats": [
+      {
+        "key": "magicAttack",
+        "value": 130
+      },
+      {
+        "key": "cdrPct",
+        "value": 10
+      },
+      {
+        "key": "moveSpeedPct",
+        "value": 5
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Hunter",
+        "text": "dano mágico extra a monstros.",
+        "cooldownSec": null
+      },
+      {
+        "kind": "passive",
+        "name": "Reward",
+        "text": "+6 Atq. Mágico e +0,2% Redução Recarga por abate (raio 700, até 25x). Antes 10 min: -25% dano a tropas",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "guerrilla-machete",
+      "sages-codex"
+    ],
+    "requiresSmite": true,
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "crimson-shadow",
+    "name": "Crimson Shadow",
+    "category": "support",
+    "tier": 2,
+    "cost": 850,
+    "stats": [
+      {
+        "key": "maxHealth",
+        "value": 500
+      },
+      {
+        "key": "moveSpeedPct",
+        "value": 5
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [
+      "knowledge-gem",
+      "resilient-agate"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "crimson-shadow-howl",
+    "name": "Crimson Shadow - Howl",
+    "category": "support",
+    "tier": 3,
+    "cost": 2080,
+    "stats": [
+      {
+        "key": "maxHealth",
+        "value": 1.2
+      },
+      {
+        "key": "moveSpeedPct",
+        "value": 7.5
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Efeito",
+        "text": "(variante focada em velocidade de grupo; sem habilidade ativa própria detalhada)",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [
+      "crimson-shadow",
+      "belt-of-might"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "crimson-shadow-radiance",
+    "name": "Crimson Shadow - Radiance",
+    "category": "support",
+    "tier": 3,
+    "cost": 2080,
+    "stats": [
+      {
+        "key": "maxHealth",
+        "value": 1.2
+      },
+      {
+        "key": "moveSpeedPct",
+        "value": 7.5
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "active",
+        "name": "Mirror Domain",
+        "text": "onda de luz 4x (raio 1.200), 3% Vida atual por golpe, desacelera 25–50%, visão 2s (Recarga: 75s).",
+        "cooldownSec": 75
+      },
+      {
+        "kind": "passive",
+        "name": "Agility Aura",
+        "text": "+20% Vel. Ataque, +15% Redução Recarga, +15 Mana/5s (aliados a 800: 50%).",
+        "cooldownSec": null
+      },
+      {
+        "kind": "passive",
+        "name": "Reward",
+        "text": "+400–800 Vida Máx, +25–50 Atributo Principal.",
+        "cooldownSec": null
+      },
+      {
+        "kind": "passive",
+        "name": "Guerrilla",
+        "text": "6 EXP/Ouro a cada 3s ao aliado mais pobre; ganho separado de Ouro/EXP (25–50%, cap 20 min); troca rápida entre Crimson Shadows (Recarga: 300s)",
+        "cooldownSec": 300
+      }
+    ],
+    "buildsFrom": [
+      "crimson-shadow",
+      "belt-of-might"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "crimson-shadow-redemption",
+    "name": "Crimson Shadow - Redemption",
+    "category": "support",
+    "tier": 3,
+    "cost": 2080,
+    "stats": [
+      {
+        "key": "maxHealth",
+        "value": 1.2
+      },
+      {
+        "key": "moveSpeedPct",
+        "value": 7.5
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "active",
+        "name": "Rescue",
+        "text": "escudo 4s = (240–480 +10% Vida) a aliados no alcance (Recarga: 60s). Mesmas passivas Agility Aura/Reward/Guerrilla/troca",
+        "cooldownSec": 60
+      }
+    ],
+    "buildsFrom": [
+      "crimson-shadow",
+      "belt-of-might"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "crimson-shadow-starspring",
+    "name": "Crimson Shadow - Starspring",
+    "category": "support",
+    "tier": 3,
+    "cost": 2080,
+    "stats": [
+      {
+        "key": "maxHealth",
+        "value": 1.2
+      },
+      {
+        "key": "moveSpeedPct",
+        "value": 7.5
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "active",
+        "name": "Starburst",
+        "text": "vínculo 5s com aliado, restaura (500–1.060 +20% Vida) e 25% Mana máx; reduz a 20% se atacar/atacado; 1 uso/50s (máx. 2) (Recarga: 5s). Mesmas passivas Agility Aura/Reward/Guerrilla/troca",
+        "cooldownSec": 5
+      }
+    ],
+    "buildsFrom": [
+      "crimson-shadow",
+      "belt-of-might"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "guardian",
+    "name": "Guardian",
+    "category": "support",
+    "tier": 2,
+    "cost": 850,
+    "stats": [
+      {
+        "key": "maxHealth",
+        "value": 500
+      },
+      {
+        "key": "moveSpeedPct",
+        "value": 5
+      }
+    ],
+    "abilities": [],
+    "buildsFrom": [
+      "knowledge-gem",
+      "resilient-agate"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "guardian-radiance",
+    "name": "Guardian - Radiance",
+    "category": "support",
+    "tier": 3,
+    "cost": 2080,
+    "stats": [
+      {
+        "key": "maxHealth",
+        "value": 1.2
+      },
+      {
+        "key": "moveSpeedPct",
+        "value": 7.5
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "active",
+        "name": "Mirror Domain",
+        "text": "onda de luz 4x (raio 1.200), 3% Vida atual por golpe, desacelera 25–50%, visão 2s (Recarga: 75s).",
+        "cooldownSec": 75
+      },
+      {
+        "kind": "passive",
+        "name": "Guardian Aura",
+        "text": "+65–130 Defesa Física/Mágica, restaura 0,6% Vida/5s (aliados a 800: 50%).",
+        "cooldownSec": null
+      },
+      {
+        "kind": "passive",
+        "name": "Reward",
+        "text": "+400–800 Vida Máx, +25–50 Atributo Principal.",
+        "cooldownSec": null
+      },
+      {
+        "kind": "passive",
+        "name": "Guerrilla",
+        "text": "6 EXP/Ouro a cada 3s ao aliado mais pobre; ganho separado (25–50%, cap 20 min); troca rápida (Recarga: 300s)",
+        "cooldownSec": 300
+      }
+    ],
+    "buildsFrom": [
+      "guardian",
+      "belt-of-might"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "guardian-redemption",
+    "name": "Guardian - Redemption",
+    "category": "support",
+    "tier": 3,
+    "cost": 2080,
+    "stats": [
+      {
+        "key": "maxHealth",
+        "value": 1.2
+      },
+      {
+        "key": "moveSpeedPct",
+        "value": 7.5
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "active",
+        "name": "Rescue",
+        "text": "escudo 4s = (240–480 +10% Vida) a aliados (Recarga: 60s). Mesmas passivas Guardian Aura/Reward/Guerrilla/troca",
+        "cooldownSec": 60
+      }
+    ],
+    "buildsFrom": [
+      "guardian",
+      "belt-of-might"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "guardian-starspring",
+    "name": "Guardian - Starspring",
+    "category": "support",
+    "tier": 3,
+    "cost": 2080,
+    "stats": [
+      {
+        "key": "maxHealth",
+        "value": 1.2
+      },
+      {
+        "key": "moveSpeedPct",
+        "value": 7.5
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "active",
+        "name": "Starburst",
+        "text": "vínculo 5s com aliado, restaura (500–1.060 +20% Vida) e 25% Mana máx; reduz a 20% se atacar/atacado; 1 uso/50s (máx. 2) (Recarga: 5s). Mesmas passivas Guardian Aura/Reward/Guerrilla/troca",
+        "cooldownSec": 5
+      }
+    ],
+    "buildsFrom": [
+      "guardian",
+      "belt-of-might"
+    ],
+    "patch": "2026-04-29"
+  },
+  {
+    "id": "knowledge-gem",
+    "name": "Knowledge Gem",
+    "category": "support",
+    "tier": 1,
+    "cost": 300,
+    "stats": [
+      {
+        "key": "moveSpeedPct",
+        "value": 5
+      }
+    ],
+    "abilities": [
+      {
+        "kind": "passive",
+        "name": "Efeito",
+        "text": "Ouro e EXP adicionais",
+        "cooldownSec": null
+      }
+    ],
+    "buildsFrom": [],
+    "patch": "2026-04-29"
+  }
+]

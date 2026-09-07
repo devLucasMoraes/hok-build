@@ -1,0 +1,202 @@
+{
+  "id": "angela",
+  "name": "Angela",
+  "nameCn": "安琪拉",
+  "lane": "Meio (Mid)",
+  "class": "Mago — Explosão (dano explosivo)",
+  "difficulty": "Média",
+  "baseStats": {
+    "maxHealth": 3328,
+    "maxMana": 640,
+    "physicalAttack": 172,
+    "magicAttack": 0,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "moveSpeedFlat": 360,
+    "attackSpeedPct": 5,
+    "critRatePct": 0,
+    "critDamagePct": 200,
+    "physLifestealPct": 0,
+    "magicLifestealPct": 0,
+    "cdrPct": 0,
+    "physPierceFlat": 0,
+    "magicPierceFlat": 0,
+    "tenacityPct": 0,
+    "hp5": 47,
+    "mp5": 16
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Flame Incantation",
+      "text": "Atingir inimigos com habilidades aumenta a Velocidade de Movimento e o dano."
+    },
+    {
+      "slot": "s1",
+      "name": "Scorching Barrage",
+      "text": "Libera várias bolas de fogo, causando dano em múltiplas etapas."
+    },
+    {
+      "slot": "s2",
+      "name": "Chaos Cinder",
+      "text": "Dispara uma grande bola de fogo na direção do alvo, causando dano e aplicando atordoamento e lentidão."
+    },
+    {
+      "slot": "ult",
+      "name": "Blazing Brilliance",
+      "text": "Canaliza um raio flamejante na direção do alvo, causando dano ao longo do tempo. Também ganha escudo e imunidade a controle de grupo."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Padrão (mais segura e versátil)",
+      "context": "Comece por esta opção em uma composição padrão.",
+      "itemIds": [
+        "spell-tome",
+        "boots-of-deftness",
+        "venomous-staff",
+        "savants-wrath",
+        "void-staff",
+        "insatiable-tome",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Contra linha de frente / defesa cedo",
+      "context": "",
+      "itemIds": [
+        "lightfoot-shoes",
+        "boots-of-the-arcane",
+        "holy-grail",
+        "savants-wrath",
+        "scepter-of-reverberation",
+        "insatiable-tome",
+        "void-staff",
+        "boots-of-tranquility",
+        "sages-tome",
+        "splendor",
+        "ardent-dominion",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Contra linha de frente / defesa cedo (variante)",
+      "context": "",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "stone-of-sorcery",
+        "scepter-of-reverberation",
+        "blood-clans-grimoire",
+        "insatiable-tome",
+        "savants-wrath",
+        "nebulon-wood",
+        "void-staff",
+        "sages-tome",
+        "splendor",
+        "ardent-dominion",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Contra linha de frente / defesa cedo (variante com Sage's Sanctuary)",
+      "context": "",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "stone-of-sorcery",
+        "scepter-of-reverberation",
+        "blood-clans-grimoire",
+        "savants-wrath",
+        "void-staff",
+        "insatiable-tome",
+        "sages-tome",
+        "sages-sanctuary",
+        "splendor",
+        "ardent-dominion"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Foco em Mask of Agony / Destiny (jogo estendido)",
+      "context": "",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "scepter-of-reverberation",
+        "mask-of-agony",
+        "venomous-staff",
+        "savants-wrath",
+        "sages-tome",
+        "void-staff",
+        "ardent-dominion",
+        "sages-sanctuary",
+        "splendor",
+        "enigma-moon-goddess",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Augran",
+      "Diaochan",
+      "Jing"
+    ],
+    "weakAgainst": [
+      "Yao"
+    ],
+    "synergies": [
+      "Zhuangzi",
+      "Dyadia",
+      "Guiguzi",
+      "Augran",
+      "Diaochan",
+      "Jing"
+    ]
+  },
+  "arcana": [
+    "Nightmare",
+    "Hunt",
+    "Mind's Eye"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 51.1,
+    "pickRate": 2.8,
+    "banRate": 1.4,
+    "patch": "2026-04-29"
+  },
+  "patchHistory": [
+    {
+      "season": "S14",
+      "date": "abr. de 2026",
+      "type": "buff",
+      "summary": "Aumento do dano de habilidade"
+    },
+    {
+      "season": "S12",
+      "date": "nov. de 2025",
+      "type": "buff",
+      "summary": "Recarga de habilidade reduzida"
+    },
+    {
+      "season": "S8",
+      "date": "jan. de 2025",
+      "type": "adjust",
+      "summary": "Indicador de habilidade otimizado — Scorching Barrage (Habilidade 1)"
+    },
+    {
+      "season": "S6",
+      "date": "ago. de 2024",
+      "type": "nerf",
+      "summary": "Aumento do tempo de recarga da habilidade suprema no início e meio de jogo. Nota oficial: “Angela tem dano explosivo poderoso e tempos de recarga relativamente curtos, permitindo combos frequentes. Aumentamos o tempo de recarga de sua habilidade suprema no início e meio do jogo para diminuir seu ritmo nesses estágios.”"
+    }
+  ],
+  "patch": "2026-04-29"
+}

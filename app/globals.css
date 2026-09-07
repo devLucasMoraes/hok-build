@@ -1,8 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0b0a12;
+  --foreground: #f3ede0;
+  --gold: #c9a227;
+  --gold-soft: #e8c96a;
+  --ember: #ff5a3c;
+  --panel: #14121d;
+  --panel-2: #1b1826;
+  --line: #2b2640;
 }
 
 @theme inline {
@@ -12,15 +18,88 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  background-image:
+    radial-gradient(900px 400px at 15% -5%, rgba(255, 90, 60, 0.12), transparent 60%),
+    radial-gradient(800px 420px at 85% 0%, rgba(120, 80, 255, 0.14), transparent 60%),
+    radial-gradient(600px 500px at 50% 110%, rgba(201, 162, 39, 0.08), transparent 60%);
+  background-attachment: fixed;
+}
+
+.panel {
+  background: linear-gradient(180deg, var(--panel-2), var(--panel));
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+}
+
+.gold-text {
+  color: var(--gold-soft);
+}
+
+.slot-btn {
+  border: 1px dashed #4a4368;
+  transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s;
+}
+
+.slot-btn:hover {
+  border-color: var(--gold);
+  transform: translateY(-2px);
+}
+
+.slot-active {
+  border: 1px solid var(--gold);
+  box-shadow: 0 0 0 1px var(--gold), 0 8px 24px rgba(201, 162, 39, 0.15);
+}
+
+.stat-bar {
+  position: relative;
+  height: 6px;
+  border-radius: 999px;
+  background: #262134;
+  overflow: hidden;
+}
+
+.stat-bar > .fill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  background: linear-gradient(90deg, var(--gold), var(--ember));
+  border-radius: 999px;
+}
+
+.stat-bar > .tick {
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  width: 2px;
+  background: rgba(255, 255, 255, 0.75);
+}
+
+details.item-abilities > summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+details.item-abilities > summary::-webkit-details-marker {
+  display: none;
+}
+
+input[type="range"] {
+  accent-color: var(--gold);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #353052;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
 }
