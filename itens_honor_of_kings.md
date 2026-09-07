@@ -1,22 +1,81 @@
-# Itens de Honor of Kings — Banco de Dados Completo (107 itens)
+# Honor of Kings — Guia de Equipamentos + Banco de Dados Completo (107 itens)
 
-> Fonte: [hokstats.gg/pt-br/items](https://hokstats.gg/pt-br/items/) (dados de camp.honorofkings.com, centro oficial de estratégia da Tencent, servidor internacional).
-> Classificação idêntica aos filtros de categoria do site: **Ataque · Magia · Defesa · Movimento · Selva · Type 7** (categoria "Suporte" — o site exibe o rótulo bruto "Type 7" no filtro, sem tradução).
-> Documento estruturado para consulta por agente (base de conhecimento de itens).
+> Fontes:
+> - Tutorial: vídeo oficial *Aprenda a usar equipamentos | Honor of Kings Brasil*
+> - Banco de dados: [hokstats.gg/pt-br/items](https://hokstats.gg/pt-br/items/) (dados de camp.honorofkings.com, centro oficial de estratégia da Tencent, servidor internacional)
+>
+> Classificação das tabelas idêntica aos filtros de categoria do site: **Ataque · Magia · Defesa · Movimento · Selva · Type 7** (categoria "Suporte" — o site exibe o rótulo bruto "Type 7" no filtro, sem tradução).
+> Documento estruturado para consulta por agente (base de conhecimento de itens), incrementado com o passo a passo de uso do sistema de equipamentos.
 
 ---
 
 ## Índice
-1. [Ataque](#ataque) (32 itens)
-2. [Magia](#magia) (25 itens)
-3. [Defesa](#defesa) (26 itens)
-4. [Movimento](#movimento) (7 itens)
-5. [Selva](#selva) (7 itens)
-6. [Type 7 (Suporte)](#type-7-suporte) (10 itens)
+1. [Como Funciona a Compra de Itens](#1-como-funciona-a-compra-de-itens-durante-a-partida)
+2. [Configurando o Arsenal Pré-Jogo](#2-configurando-seu-arsenal-pré-jogo)
+3. [Tipos de Equipamentos (visão geral)](#3-conhecendo-os-tipos-de-equipamentos)
+4. [Adaptando a Build aos Inimigos](#4-adaptando-sua-build-aos-inimigos)
+5. [Cuidados com Conflitos de Habilidades](#5-cuidados-com-conflitos-de-habilidades)
+6. [Banco de Dados de Itens](#6-banco-de-dados-de-itens)
+   - [Ataque](#ataque) (32 itens)
+   - [Magia](#magia) (25 itens)
+   - [Defesa](#defesa) (26 itens)
+   - [Movimento](#movimento) (7 itens)
+   - [Selva](#selva) (7 itens)
+   - [Type 7 (Suporte)](#type-7-suporte) (10 itens)
 
 ---
 
-## Ataque
+## 1. Como Funciona a Compra de Itens Durante a Partida
+
+**Início padrão:** toda partida começa com o herói no nível 1, uma quantia inicial de ouro e 6 espaços de inventário vazios [00:05].
+
+**Compra rápida:** conforme o ouro é acumulado (abatendo tropas, monstros ou inimigos), o jogo sugere itens recomendados no canto esquerdo da tela, abaixo do minimapa [00:32]. Basta clicar no ícone para adquirir.
+
+**Loja completa:** tocar no ícone de bolsa de ouro abre a loja inteira, onde é possível navegar por todas as árvores de itens, pré-selecionar compras futuras ou vender equipamentos que não são mais necessários [00:40].
+
+## 2. Configurando seu Arsenal Pré-Jogo
+
+- **Personalização no lobby:** antes de entrar em fila, acessar *Preparação da partida > Equipamento* para montar e ordenar a lista de itens de preferência para cada personagem [00:57].
+- **Recomendações prontas:** para quem está começando, é recomendável manter os arsenais sugeridos pelo próprio jogo [01:13].
+- **Adaptação dinâmica:** mesmo durante a partida ou na tela de seleção, é possível abrir o painel de equipamentos para alternar entre diferentes arsenais salvos, dependendo do rumo do jogo [01:35].
+
+## 3. Conhecendo os Tipos de Equipamentos
+
+O jogo categoriza os itens em 6 classes principais [01:44], que correspondem exatamente às seções do banco de dados abaixo:
+
+| Classe | Foco | Indicado para |
+|---|---|---|
+| **Ataque** | Dano físico, velocidade de ataque, penetração, acerto crítico, roubo de vida [01:56] | Atiradores, Assassinos, Guerreiros |
+| **Mágico** | Poder de habilidade, penetração mágica, regeneração, mana máxima [02:12] | Magos e suportes mágicos |
+| **Defesa** | Armadura física, resistência mágica, vida máxima (PV), redução de recarga [03:27] | Tanques, Suportes, Guerreiros de linha de frente |
+| **Movimento (Botas)** | Todas partem da base *Botas da Velocidade Divina* e se ramificam com resistência de controle, defesas ou regeneração [04:16] | Todos os heróis |
+| **Caçador (Selva)** | Só disponível com o feitiço de invocador *Golpear*; bônus de dano contra monstros da selva e atributos que crescem com abates [04:43] | Jungler |
+| **Suporte** | Auras, escudos, visão e mobilidade para o time; permite ajudar aliados na rota sem roubar ouro/experiência das tropas no início [05:13, 05:38] | Suportes |
+
+## 4. Adaptando sua Build aos Inimigos
+
+Cada herói costuma ter de 2 a 3 itens essenciais de dano ou defesa; os demais devem se adequar à composição adversária [02:48]:
+
+- **Inimigos com muita armadura/resistência:** priorizar itens de Perfuração Física ou Perfuração Mágica [02:57]. No banco de dados, exemplos com perfuração embutida: *Axe of Torment*, *Starbreaker*, *Daybreaker's Virtue* (física); *Void Staff*, *Breakthrough Robe*, *Twilight Stream* (mágica).
+- **Inimigos com dano explosivo (burst):** considerar um item com invulnerabilidade temporária para escapar de abates instantâneos [03:13] — corresponde a **Splendor** / **Enigma - Moon Goddess** (passiva/ativa *Moonguard*, que concede imunidade a efeitos por 1,5s).
+- **Inimigos com cura/regeneração excessiva:** usar itens de corta-cura para reduzir a recuperação de vida inimiga [03:21] — no banco de dados, os itens com passiva **Imperil** cumprem esse papel: *Mortal Punisher* e *Blazing Cape* (físicos) e *Venomous Staff* (mágico), todos reduzindo cura/roubo de vida inimigo em 35%.
+- **Dano predominante do time adversário:** priorizar Defesa Física contra times de dano físico, ou Defesa Mágica contra times de dano mágico [04:08].
+
+> Nota: os nomes de itens citados no tutorial em português (ex.: "Resplendor", "Lâmina do Juízo", "Presa do Pesadelo") são referências à localização em PT-BR do jogo; o banco de dados abaixo usa os nomes em inglês do hokstats.gg. As correspondências acima são funcionais (mesma passiva/efeito), não uma tradução oficial confirmada.
+
+## 5. Cuidados com Conflitos de Habilidades
+
+Erros comuns a evitar ao montar o inventário [05:54]:
+
+- **Habilidades ativas duplicadas:** cada item com habilidade ativa cria um botão extra na interface; comprar mais de um item ativo gera conflito, e apenas um poderá ser usado [06:01]. No banco de dados, atenção a itens com campo "Ativa" na coluna de habilidades (ex.: *Splendor*, *Amble - Winter*, *Spikemail*, *Blood Rage*) — evitar combinar dois desses ao mesmo tempo.
+- **Passivas com o mesmo nome não se acumulam:** se dois itens equipados compartilham a mesma passiva (ex.: *Imperil*, *Sunder*, *Savagery*, *Swift*), o segundo item perde esse efeito específico [06:24].
+- **Recarga compartilhada em itens de suporte:** as habilidades ativas de itens de suporte (categoria Type 7) compartilham tempo de recarga entre todo o time — se um suporte ativa, os demais suportes também entram em recarga [06:43]. Isso se aplica diretamente às variantes *Crimson Shadow* e *Guardian* (Radiance/Redemption/Starspring), que inclusive compartilham recarga de troca rápida entre si (300s).
+
+---
+
+## 6. Banco de Dados de Itens
+
+### Ataque
 
 | Item | Valor/Ouro | Atributos Básicos | Habilidades do Item | Caminho de Build |
 |---|---|---|---|---|
@@ -53,7 +112,7 @@
 | **Twinblades of Destruction** | 760 (Tier 2) | Velocidade de Ataque +15%; Velocidade de Movimento +7.5% | — | Dagger (300) + Plume of Enchantment (300) |
 | **Vampiric Scythe** | 300 (Tier 1) | Roubo de Vida Físico +8% | — | Item básico |
 
-## Magia
+### Magia
 
 | Item | Valor/Ouro | Atributos Básicos | Habilidades do Item | Caminho de Build |
 |---|---|---|---|---|
@@ -83,7 +142,7 @@
 | **Venomous Staff** | 2040 (Tier 2) | Ataque Mágico +240; Redução de Recarga +7.5%; Velocidade de Movimento +7.5% | **Passiva - Imperil:** reduz recuperação de Vida e Roubo de Vida do inimigo em 35% por 2,5s | Stone of Sorcery (800) + Sage's Codex (800) |
 | **Void Staff** | 2040 (Tier 3) | Ataque Mágico +210; Redução de Recarga +5%; Vida +500 | **Passiva - Devastation:** Perfuração Mágica +45% | Nebulon Wood (840) + Grand Staff (820) |
 
-## Defesa
+### Defesa
 
 | Item | Valor/Ouro | Atributos Básicos | Habilidades do Item | Caminho de Build |
 |---|---|---|---|---|
@@ -114,7 +173,7 @@
 | **Spikemail** | 2020 (Tier 2) | Ataque Físico +45; Defesa Física +300; Vida +700 | **Ativa - Countersiege:** reflete 35% do dano recebido como dano verdadeiro por 3s (diminui até 50% com a distância) (Recarga: 75s) | Nettle Gauntlet (750) + Protector's Cuirass (800) |
 | **Succubus Cloak** | 2020 (Tier 3) | Defesa Mágica +300; Vida +1.100 | **Passiva - Mist Veil:** a cada 15s, escudo anula (400–800 +7% Vida) de dano mágico. **Passiva - Succubus:** converte 15% Defesa Mágica extra em Defesa Física | Clandestine Cape (800) + Clandestine Cape (800) |
 
-## Movimento
+### Movimento
 
 | Item | Valor/Ouro | Atributos Básicos | Habilidades do Item | Caminho de Build |
 |---|---|---|---|---|
@@ -126,7 +185,7 @@
 | **Boots of Tranquility** | 700 (Tier 2) | Redução de Recarga +15% | **Passiva - Swift:** +50 Vel. Movimento. **Passiva - Tranquility:** reduz Recarga de Habilidades Comuns 10–20%. Troca gratuita (Recarga: 5 min) | Lightfoot Shoes (250) + Primordial Crystal (300) |
 | **Lightfoot Shoes** | 250 (Tier 1) | — | Velocidade de movimento (item base de botas) | Item básico |
 
-## Selva
+### Selva
 
 | Item | Valor/Ouro | Atributos Básicos | Habilidades do Item | Caminho de Build |
 |---|---|---|---|---|
@@ -138,7 +197,7 @@
 | **Relentless Blade** | 700 (Tier 2) | Ataque Físico +25 | — | Hunting Knife (250) |
 | **Runeblade** | 2160 (Tier 3) | Ataque Mágico +130; Redução de Recarga +10%; Velocidade de Movimento +5% | **Requer Smite.** -25% dano de monstros, +30% EXP/+20% Ouro. **Passiva - Hunter:** dano mágico extra a monstros. **Passiva - Reward:** +6 Atq. Mágico e +0,2% Redução Recarga por abate (raio 700, até 25x). Antes 10 min: -25% dano a tropas | Guerrilla Machete (700) + Sage's Codex (800) |
 
-## Type 7 (Suporte)
+### Type 7 (Suporte)
 
 | Item | Valor/Ouro | Atributos Básicos | Habilidades do Item | Caminho de Build |
 |---|---|---|---|---|
