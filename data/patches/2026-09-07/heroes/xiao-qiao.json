@@ -1,0 +1,240 @@
+{
+  "id": "xiao-qiao",
+  "name": "Xiao Qiao",
+  "nameCn": "小乔",
+  "lane": "Mid",
+  "class": "Mage — Artillery Mage / Poke/Group Damage / Late Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3200,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 44,
+    "physicalAttack": 163,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 365,
+    "maxMana": 640,
+    "mp5": 16
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Encouraging Thoughts",
+      "text": "Hitting enemies with skills enhances herself, increasing her Movement Speed."
+    },
+    {
+      "slot": "s1",
+      "name": "Blossoming Fan",
+      "text": "Throws fan in the target direction, which returns to her upon reaching max range, damaging enemies in its path both ways."
+    },
+    {
+      "slot": "s2",
+      "name": "Honeysweet Breeze",
+      "text": "Deals damage to enemies in the target area and launches them."
+    },
+    {
+      "slot": "ult",
+      "name": "Meteor Storm",
+      "text": "Summons meteors, dealing damage to nearby enemies in range."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full AP burst",
+      "context": "Safe default · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "stone-of-sorcery",
+        "scepter-of-reverberation",
+        "blood-clans-grimoire",
+        "nebulon-wood",
+        "insatiable-tome",
+        "void-staff",
+        "splendor",
+        "sages-tome",
+        "sages-sanctuary",
+        "ardent-dominion"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "lightfoot-shoes",
+        "stone-of-sorcery",
+        "boots-of-the-arcane",
+        "venomous-staff",
+        "grand-staff",
+        "void-staff",
+        "savants-wrath",
+        "sages-tome",
+        "ardent-dominion",
+        "splendor",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-tranquility",
+        "stone-of-sorcery",
+        "scepter-of-reverberation",
+        "savants-wrath",
+        "nebulon-wood",
+        "twilight-stream",
+        "mask-of-agony",
+        "splendor",
+        "sages-sanctuary",
+        "ardent-dominion"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "venomous-staff",
+        "insatiable-tome",
+        "savants-wrath",
+        "blood-clans-grimoire",
+        "splendor",
+        "nebulon-wood",
+        "sages-tome",
+        "sages-sanctuary",
+        "ardent-dominion",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-deftness",
+        "stone-of-sorcery",
+        "scepter-of-reverberation",
+        "savants-wrath",
+        "nebulon-wood",
+        "void-staff",
+        "sages-tome",
+        "sages-sanctuary",
+        "enigma-moon-goddess",
+        "ardent-dominion"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "stone-of-sorcery",
+        "boots-of-the-arcane",
+        "blood-clans-grimoire",
+        "insatiable-tome",
+        "breakthrough-robe",
+        "savants-wrath",
+        "scepter-of-reverberation",
+        "void-staff"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "stone-of-sorcery",
+        "venomous-staff",
+        "blood-clans-grimoire",
+        "nebulon-wood",
+        "insatiable-tome",
+        "void-staff",
+        "splendor",
+        "sages-tome",
+        "sages-sanctuary",
+        "ardent-dominion"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "scepter-of-reverberation",
+        "insatiable-tome",
+        "savants-wrath",
+        "void-staff",
+        "sages-tome",
+        "nebulon-wood",
+        "splendor",
+        "blood-clans-grimoire",
+        "sages-sanctuary",
+        "ardent-dominion",
+        "stone-of-sorcery"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "venomous-staff",
+        "insatiable-tome",
+        "savants-wrath",
+        "void-staff",
+        "sages-tome"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Ukyo Tachibana",
+      "Han Xin"
+    ],
+    "weakAgainst": [
+      "Liu Bei",
+      "Menki"
+    ],
+    "synergies": [
+      "Donghuang",
+      "Dyadia",
+      "Cai Yan",
+      "Ukyo Tachibana",
+      "Han Xin"
+    ]
+  },
+  "arcana": [
+    "Nightmare",
+    "Reincarnation",
+    "Mind's Eye"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 48.2,
+    "pickRate": 1.6,
+    "banRate": 0.3,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S7",
+      "date": "Dec 2024",
+      "type": "buff",
+      "summary": "Reduced Skill 1 CD"
+    }
+  ],
+  "patch": "2026-09-07"
+}

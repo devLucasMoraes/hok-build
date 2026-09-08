@@ -1,0 +1,175 @@
+{
+  "id": "devara",
+  "name": "Devara",
+  "nameCn": "谛梵罗",
+  "lane": "Clash Lane",
+  "class": "Fighter — Berserker / Burst / Balanced",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3376,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 50,
+    "physicalAttack": 172,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 370
+  },
+  "resource": {
+    "name": "Full Electricity",
+    "value": 6
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Wish of the Living",
+      "text": "Devara's Basic Attacks grant Energy. Becomes enhanced and gains another basic skill chance upon reaching the limit."
+    },
+    {
+      "slot": "ult",
+      "name": "Millennium Echo",
+      "text": "Gains crowd control immunity and a Movement Speed boost. Upon landing, enhances Basic Attack. Basic Attacks grant Energy."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Daddyvara",
+      "context": "Safe default · Position 1",
+      "itemIds": [
+        "dagger",
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "tempest",
+        "doomsday",
+        "dragons-rage",
+        "blood-rage",
+        "destiny",
+        "pure-sky",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "TkTk: Meyyychan",
+      "context": "Safe default · Position 1",
+      "itemIds": [
+        "dagger",
+        "boots-of-dexterity",
+        "swiftstrike-lance",
+        "sparkforged-dagger",
+        "tempest",
+        "boots-of-resistance",
+        "bloodsoul",
+        "doomsday",
+        "dragons-rage",
+        "succubus-cloak",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Clash Lane 3",
+      "context": "Safe default · Position 1",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "boots-of-resistance",
+        "tempest",
+        "doomsday",
+        "dragons-rage",
+        "daybreakers-virtue",
+        "sages-sanctuary",
+        "destiny",
+        "succubus-cloak",
+        "bloodweeper",
+        "sunchaser"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Clash Lane 1",
+      "context": "Safe default · Position 1",
+      "itemIds": [
+        "dagger",
+        "boots-of-dexterity",
+        "golden-blade",
+        "nebulon-wood",
+        "twilight-stream",
+        "savants-wrath",
+        "grand-staff",
+        "augurs-word",
+        "void-staff",
+        "sages-sanctuary",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Rota superior 1",
+      "context": "Safe default · Position 1",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "tempest",
+        "doomsday",
+        "dragons-rage",
+        "daybreakers-virtue",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Clash Lane 1",
+      "context": "Safe default · Position 1",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "tempest",
+        "ominous-premonition",
+        "succubus-cloak",
+        "doomsday"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Ahf06",
+      "context": "Safe default · Position 1",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "doomsday",
+        "dragons-rage",
+        "blood-rage",
+        "daybreakers-virtue",
+        "sages-sanctuary"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [],
+    "synergies": []
+  },
+  "arcana": [],
+  "spell": "",
+  "rates": {
+    "winRate": 48.8,
+    "pickRate": 1.2,
+    "banRate": 0.3,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jul 2026",
+      "type": "buff",
+      "summary": "Upgraded Skill Effects"
+    }
+  ],
+  "patch": "2026-09-07"
+}

@@ -1,0 +1,247 @@
+{
+  "id": "liu-bei",
+  "name": "Liu Bei",
+  "nameCn": "刘备",
+  "lane": "Jungle",
+  "class": "Fighter — Berserker / Dash/Cleanup / Early Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3402,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 40,
+    "physicalAttack": 175,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 380,
+    "maxMana": 580,
+    "mp5": 14
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Reinforced Shells",
+      "text": "When Basic Attacks hit a hero, it increases his Physical Pierce."
+    },
+    {
+      "slot": "s1",
+      "name": "Dual Shot",
+      "text": "Increases Movement Speed and enhances the next Basic Attack to damage twice."
+    },
+    {
+      "slot": "s2",
+      "name": "Leading the Charge",
+      "text": "Dashes forward, damaging and knocking back enemies in the way."
+    },
+    {
+      "slot": "ult",
+      "name": "Hearts and Minds",
+      "text": "Removes crowd control, increases Physical Attack, and gains crowd control immunity and a shield."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle Full AD lethality",
+      "context": "Safe default · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "vampiric-scythe",
+        "axe-of-torment",
+        "rapacious-bite",
+        "doomsday",
+        "master-sword",
+        "blood-rage",
+        "ravage-phantom",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "hunting-knife",
+        "lightfoot-shoes",
+        "relentless-blade",
+        "axe-of-torment",
+        "boots-of-dexterity",
+        "bloodsoul",
+        "frostscars-embrace",
+        "doomsday",
+        "rapacious-bite",
+        "blood-rage",
+        "ravage-phantom"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "vampiric-scythe",
+        "axe-of-torment",
+        "rapacious-bite",
+        "master-sword",
+        "doomsday",
+        "blood-rage",
+        "ravage-phantom",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "vampiric-scythe",
+        "axe-of-torment",
+        "rapacious-bite",
+        "starbreaker",
+        "doomsday",
+        "blood-rage",
+        "ravage-phantom",
+        "pure-sky",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "vampiric-scythe",
+        "axe-of-torment",
+        "rapacious-bite",
+        "master-sword",
+        "doomsday",
+        "blood-rage",
+        "ravage-phantom",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "hunting-knife",
+        "relentless-blade",
+        "boots-of-dexterity",
+        "meteor",
+        "axe-of-torment",
+        "vampiric-scythe",
+        "rapacious-bite",
+        "doomsday",
+        "cuirass-of-savagery",
+        "master-sword",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "axe-of-torment",
+        "rapacious-bite",
+        "master-sword",
+        "doomsday",
+        "ominous-premonition",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "axe-of-torment",
+        "vampiric-scythe",
+        "doomsday",
+        "rapacious-bite",
+        "master-sword",
+        "overlords-might",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Lady Zhen",
+      "Nuwa",
+      "Xiao Qiao"
+    ],
+    "weakAgainst": [
+      "Dyadia"
+    ],
+    "synergies": [
+      "Donghuang",
+      "Guiguzi",
+      "Zhuangzi",
+      "Lady Zhen",
+      "Nuwa",
+      "Xiao Qiao"
+    ]
+  },
+  "arcana": [
+    "Red Moon",
+    "Conflict",
+    "Mutation"
+  ],
+  "spell": "Smite",
+  "rates": {
+    "winRate": 51.3,
+    "pickRate": 0.3,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jul 2026",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S12",
+      "date": "Oct 2025",
+      "type": "buff",
+      "summary": "Increased Skill Damage"
+    },
+    {
+      "season": "S7",
+      "date": "Dec 2024",
+      "type": "buff",
+      "summary": "Increased BA range, reduced Skill 1 CD in early game"
+    },
+    {
+      "season": "S6",
+      "date": "Sep 2024",
+      "type": "buff",
+      "summary": "Increased Ultimate's attack and shield."
+    }
+  ],
+  "patch": "2026-09-07"
+}

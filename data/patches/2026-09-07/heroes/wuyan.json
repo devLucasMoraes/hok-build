@@ -1,0 +1,221 @@
+{
+  "id": "wuyan",
+  "name": "Wuyan",
+  "nameCn": "钟无艳",
+  "lane": "Clash Lane",
+  "class": "Fighter — Heavy Fighter / Crowd Control/Gap-Close / Early Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3582,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 48,
+    "physicalAttack": 178,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 380,
+    "maxMana": 580,
+    "mp5": 14
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Petrifying Strike",
+      "text": "Skills and Basic Attacks have a chance to petrify enemy heroes. Passive: Periodically gains a shield."
+    },
+    {
+      "slot": "s1",
+      "name": "Storm and Stress",
+      "text": "Dashes to the target location and enhances the next Basic Attack to inflict extra damage and slow."
+    },
+    {
+      "slot": "s2",
+      "name": "Shock and Awe",
+      "text": "Deals damage to enemies in range."
+    },
+    {
+      "slot": "ult",
+      "name": "Hurricane Hammer",
+      "text": "Spins her hammer for a period of time, continuously dealing damage to nearby enemies. While the skill is active, gains a Movement Speed boost and shield."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Bruiser",
+      "context": "Position 1",
+      "itemIds": [
+        "lightfoot-shoes",
+        "blazing-cape",
+        "storm-sword",
+        "boots-of-fortitude",
+        "longnight-guardian",
+        "boots-of-resistance",
+        "overlords-might",
+        "overlords-platemail",
+        "ominous-premonition"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Bruiser",
+      "context": "Position 3",
+      "itemIds": [
+        "patrol-axe",
+        "lightfoot-shoes",
+        "blazing-cape",
+        "nettle-gauntlet",
+        "boots-of-resistance",
+        "frostscars-embrace",
+        "giants-grip",
+        "ominous-premonition",
+        "longnight-guardian",
+        "demonsbane",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-resistance",
+        "rapacious-bite",
+        "axe-of-torment",
+        "dragons-rage",
+        "blazing-cape",
+        "pure-sky"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-resistance",
+        "meteor",
+        "axe-of-torment",
+        "nettle-gauntlet",
+        "overlords-might",
+        "rapacious-bite",
+        "cuirass-of-savagery",
+        "overlords-platemail",
+        "demonsbane",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "meteor",
+        "boots-of-resistance",
+        "axe-of-torment",
+        "dragons-rage",
+        "frigid-charge",
+        "overlords-might",
+        "starbreaker"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Jungle Full tank (AD option)",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-resistance",
+        "frostscars-embrace",
+        "dragons-rage",
+        "blazing-cape",
+        "succubus-cloak",
+        "demonsbane"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-resistance",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "protectors-cuirass",
+        "overlords-might",
+        "frostscars-embrace",
+        "ominous-premonition",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Kongming",
+      "Lady Zhen",
+      "Liang"
+    ],
+    "weakAgainst": [
+      "Lam",
+      "Ming",
+      "Pei",
+      "Sima Yi",
+      "Ukyo Tachibana"
+    ],
+    "synergies": [
+      "Dolia",
+      "Dyadia",
+      "Kui",
+      "Kongming",
+      "Lady Zhen",
+      "Liang"
+    ]
+  },
+  "arcana": [
+    "Mutation",
+    "Stealth",
+    "Eagle Eye"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 51.9,
+    "pickRate": 0.4,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jul 2026",
+      "type": "buff",
+      "summary": "Increased skill damage"
+    },
+    {
+      "season": "S13",
+      "date": "Jan 2026",
+      "type": "buff",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S11",
+      "date": "Aug 2025",
+      "type": "nerf",
+      "summary": "Adjusted Ultimate Damage and Shield"
+    },
+    {
+      "season": "S7",
+      "date": "Nov 2024",
+      "type": "adjust",
+      "summary": "Enhanced Skill Base Effects"
+    }
+  ],
+  "patch": "2026-09-07"
+}

@@ -1,0 +1,239 @@
+{
+  "id": "fatih",
+  "name": "Fatih",
+  "nameCn": "法提赫",
+  "lane": "Clash Lane",
+  "class": "Fighter — Berserker / Lifesteal / Balanced",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3502,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 54,
+    "physicalAttack": 180,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 380
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Only the Strong",
+      "text": "Whenever he uses a skill, gains an enhanced Basic Attack that unleashes sword energy. Enhanced Basic Attacks have higher Attack Speed and restore Health. While using Sacred Tree Blessing, enhanced Basic Attacks unleash 1 additional blast of sword energy."
+    },
+    {
+      "slot": "s1",
+      "name": "The King's Blade",
+      "text": "Dashes forward to deal damage. The 3rd skill use also launches the enemy."
+    },
+    {
+      "slot": "s2",
+      "name": "The King's Return",
+      "text": "Unleashes sword energy, dealing damage to enemies and slowing them. Recovers Health if he hits a hero. While using Sacred Tree Blessing, he unleashes 1 additional blast of sword energy."
+    },
+    {
+      "slot": "ult",
+      "name": "Sacred Tree Blessing",
+      "text": "Cleanses himself of all crowd control effects, deals physical damage to nearby enemies, and gains max Health. While this skill is active, Skill 2 and enhanced Basic Attacks unleash sword energy. He also continuously gains enhanced Basic Attacks. Tap again to end the skill."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle Full AD lethality",
+      "context": "Safe default · Position 3",
+      "itemIds": [
+        "boots-of-tranquility",
+        "rapacious-bite",
+        "axe-of-torment",
+        "pure-sky",
+        "overlords-might",
+        "cuirass-of-savagery",
+        "boots-of-resistance",
+        "master-sword",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "rapacious-bite",
+        "pure-sky",
+        "boots-of-resistance",
+        "succubus-cloak",
+        "doomsday",
+        "sages-sanctuary",
+        "destiny",
+        "frostscars-embrace",
+        "blood-rage"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "meteor",
+        "axe-of-torment",
+        "nettle-gauntlet",
+        "rapacious-bite",
+        "boots-of-resistance",
+        "master-sword",
+        "cuirass-of-savagery",
+        "pure-sky",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Bruiser",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "vampiric-scythe",
+        "blazing-cape",
+        "rapacious-bite",
+        "mortal-punisher",
+        "eye-of-the-phoenix",
+        "doomsday",
+        "dragons-rage",
+        "cuirass-of-savagery",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Full AD lethality",
+      "context": "Position 1",
+      "itemIds": [
+        "meteor",
+        "nettle-gauntlet",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "frostscars-embrace",
+        "pure-sky",
+        "doomsday",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "AD penetration",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "frostscars-embrace",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "pure-sky",
+        "blazing-cape",
+        "doomsday"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Full AD lethality",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "axe-of-torment",
+        "overlords-might",
+        "frostscars-embrace",
+        "succubus-cloak",
+        "doomsday",
+        "pure-sky"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Full AD lethality",
+      "context": "Position 1",
+      "itemIds": [
+        "primordial-crystal",
+        "storm-sword",
+        "blood-rage",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "nettle-gauntlet",
+        "frostscars-embrace",
+        "boots-of-resistance",
+        "meteor",
+        "pure-sky",
+        "doomsday",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Attack speed",
+      "context": "Position 1",
+      "itemIds": [
+        "meteor",
+        "boots-of-dexterity",
+        "axe-of-torment",
+        "deepfrost-siege",
+        "doomsday",
+        "boots-of-resistance",
+        "eye-of-the-phoenix",
+        "pure-sky",
+        "destiny",
+        "glacial-buckler"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [],
+    "synergies": [
+      "Sakeer",
+      "Arke",
+      "Hou Yi"
+    ]
+  },
+  "arcana": [
+    "Conflict",
+    "Calamity",
+    "Hunt"
+  ],
+  "spell": "Execute",
+  "rates": {
+    "winRate": 52.8,
+    "pickRate": 0.4,
+    "banRate": 0.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S14",
+      "date": "Mar 2026",
+      "type": "buff",
+      "summary": "Increased recovery capabilities and adjusted skill damage."
+    },
+    {
+      "season": "S13",
+      "date": "Jan 2026",
+      "type": "buff",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S11",
+      "date": "Aug 2025",
+      "type": "nerf",
+      "summary": "Skill Effect Adjustments"
+    }
+  ],
+  "patch": "2026-09-07"
+}

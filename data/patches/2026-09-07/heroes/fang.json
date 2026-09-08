@@ -1,0 +1,261 @@
+{
+  "id": "fang",
+  "name": "Fang",
+  "nameCn": "李元芳",
+  "lane": "Farm",
+  "class": "Marksman — Artillery Marksman / Gap-Close/Cleanup / Early Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3257,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 37,
+    "physicalAttack": 165,
+    "attackSpeedPct": 10,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 360,
+    "maxMana": 600,
+    "mp5": 15
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Going Undercover",
+      "text": "Periodically reveals enemy heroes within range. Deals extra physical damage against monsters and minions."
+    },
+    {
+      "slot": "s1",
+      "name": "Target Sighted",
+      "text": "Marks the target enemy while increasing his own Attack Speed and Attack Range. Attacking the marked target adds stacks, increasing the marks' damage. Upon reaching max stacks or when the marks expire, the marks explode, dealing area damage."
+    },
+    {
+      "slot": "s2",
+      "name": "Wheel Away",
+      "text": "Dashes in the target direction, slowing and dealing damage to enemies in his path. He is untargetable while dashing. Scorches the ground in his path, slowing and dealing damage to enemies within range."
+    },
+    {
+      "slot": "ult",
+      "name": "Bladestorm",
+      "text": "Throws his blade to the target location, dealing damage over time and slowing enemies within range."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle Critical strike",
+      "context": "Safe default · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "rapacious-bite",
+        "boots-of-fortitude",
+        "doomsday",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "sages-sanctuary",
+        "blood-rage"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Critical strike",
+      "context": "Anti-tank · Position 4",
+      "itemIds": [
+        "meteor",
+        "boots-of-dexterity",
+        "axe-of-torment",
+        "bloodweeper",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "sunchaser",
+        "haste-sunpool",
+        "destiny",
+        "sages-sanctuary",
+        "boots-of-resistance"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle Critical strike",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "bloodweeper",
+        "cuirass-of-savagery",
+        "daybreakers-virtue",
+        "boots-of-dexterity",
+        "overlords-might",
+        "sages-sanctuary",
+        "eternity-blade"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "axe-of-torment",
+        "mortal-punisher",
+        "rapacious-bite",
+        "cuirass-of-savagery",
+        "daybreakers-virtue",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Critical strike",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "bloodweeper",
+        "cuirass-of-savagery",
+        "daybreakers-virtue",
+        "boots-of-dexterity",
+        "overlords-might",
+        "sages-sanctuary",
+        "eternity-blade"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Critical strike",
+      "context": "Anti-tank · Position 4",
+      "itemIds": [
+        "meteor",
+        "boots-of-dexterity",
+        "axe-of-torment",
+        "vampiric-scythe",
+        "shadow-ripper",
+        "eternity-blade",
+        "bloodweeper",
+        "daybreakers-virtue",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "bloodweeper",
+        "daybreakers-virtue",
+        "tempest",
+        "destiny",
+        "overlords-might",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Critical strike",
+      "context": "Anti-tank · Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "axe-of-torment",
+        "shadow-ripper",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "bloodweeper",
+        "sunchaser",
+        "tempest"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "bloodweeper",
+        "nettle-gauntlet",
+        "daybreakers-virtue",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Mai Shiranui",
+      "Nakoruru",
+      "Zilong"
+    ],
+    "weakAgainst": [
+      "Dun"
+    ],
+    "synergies": [
+      "Xiang Yu",
+      "Liu Shan",
+      "Zhuangzi",
+      "Mai Shiranui",
+      "Nakoruru",
+      "Zilong"
+    ]
+  },
+  "arcana": [
+    "Mutation",
+    "Red Moon",
+    "Eagle Eye"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 49,
+    "pickRate": 1,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S13",
+      "date": "Jan 2026",
+      "type": "buff",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S13",
+      "date": "Dec 2025",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S10",
+      "date": "May 2025",
+      "type": "buff",
+      "summary": "Ultimate buffed"
+    },
+    {
+      "season": "S7",
+      "date": "Nov 2024",
+      "type": "adjust",
+      "summary": "Passive's extra damage now applies to minions"
+    }
+  ],
+  "patch": "2026-09-07"
+}

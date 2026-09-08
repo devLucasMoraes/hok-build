@@ -1,0 +1,206 @@
+{
+  "id": "mulan",
+  "name": "Mulan",
+  "nameCn": "花木兰",
+  "lane": "Clash Lane",
+  "class": "Fighter — Assassin Fighter / Gap-Close/Cleanup / Balanced",
+  "difficulty": "Very Hard",
+  "baseStats": {
+    "maxHealth": 3321,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 54,
+    "physicalAttack": 161,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 380
+  },
+  "resource": {
+    "name": "Spirit",
+    "value": 100
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Great Wall Guardian",
+      "text": "Gains Movement Speed when using dual swords. Skills and Basic Attacks apply marks to enemies. At 5 stacks, the marks detonate, dealing damage and inflicting silence and slow on the enemy."
+    },
+    {
+      "slot": "passive",
+      "name": "Great Wall Guardian",
+      "text": "Gains Movement Speed when using dual swords. Skills and Basic Attacks apply marks to enemies. At 5 stacks, the marks detonate, dealing damage and inflicting silence and slow on the enemy."
+    },
+    {
+      "slot": "s1",
+      "name": "Snaking Strike",
+      "text": "Dashes twice in the target direction, with the ability to change the direction of the 2nd dash. Deals damage to enemies in her path. If the skill hits an enemy, it can be used again before it enters cooldown."
+    },
+    {
+      "slot": "s1",
+      "name": "Sundering Slash",
+      "text": "Deals damage and slows enemies within range. The longer the charge, the greater the damage and slow effect. After a certain duration, launches enemies. Hitting an enemy allows the skill to be used again."
+    },
+    {
+      "slot": "s2",
+      "name": "Dagger Waltz",
+      "text": "Throws a sword in the target direction that slows and deals damage to enemies within range when it reaches its max range. If Mulan touches the sword, she retrieves it, reducing the cooldown of Skill 2."
+    },
+    {
+      "slot": "s2",
+      "name": "Blade Flurry",
+      "text": "Slashes up to 4 times in the target direction, with each slash damaging, slowing, and knocking back enemies."
+    },
+    {
+      "slot": "ult",
+      "name": "Blooming Blade",
+      "text": "Deals damage to enemies within range, gaining damage reduction during this time. Enhances herself, gaining Physical Attack for a period of time. Switches to heavy sword form."
+    },
+    {
+      "slot": "ult",
+      "name": "Blooming Blade",
+      "text": "Deals damage to enemies in range. Enhances herself, gaining Attack Speed for a period of time. Switches to dual swords."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle Full AD lethality",
+      "context": "Safe default · Position 1",
+      "itemIds": [
+        "meteor",
+        "boots-of-fortitude",
+        "axe-of-torment",
+        "dragons-rage",
+        "pure-sky",
+        "succubus-cloak",
+        "starbreaker",
+        "sages-sanctuary",
+        "blood-rage",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "axe-of-torment",
+        "boots-of-dexterity",
+        "overlords-might",
+        "pure-sky",
+        "boots-of-fortitude",
+        "bloodweeper",
+        "master-sword",
+        "starbreaker",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "iron-sword",
+        "boots-of-fortitude",
+        "axe-of-torment",
+        "cuirass-of-savagery",
+        "storm-sword",
+        "starbreaker",
+        "pure-sky",
+        "overlords-might",
+        "sages-sanctuary",
+        "destiny",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "meteor",
+        "boots-of-fortitude",
+        "axe-of-torment",
+        "spikemail",
+        "starbreaker",
+        "succubus-cloak",
+        "pure-sky",
+        "sages-sanctuary",
+        "cuirass-of-savagery",
+        "blood-rage",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "axe-of-torment",
+        "dragons-rage",
+        "bloodweeper",
+        "succubus-cloak",
+        "starbreaker",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Liang",
+      "Mi Yue",
+      "Nuwa"
+    ],
+    "weakAgainst": [
+      "Diaochan",
+      "Heino",
+      "Hou Yi",
+      "Liang",
+      "Luara",
+      "Nuwa",
+      "Shangguan"
+    ],
+    "synergies": [
+      "Dyadia",
+      "Dolia",
+      "Zhang Fei",
+      "Liang",
+      "Mi Yue",
+      "Nuwa"
+    ]
+  },
+  "arcana": [
+    "Mutation",
+    "Stealth",
+    "Eagle Eye"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 49.8,
+    "pickRate": 0.3,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S11",
+      "date": "Aug 2025",
+      "type": "buff",
+      "summary": "Increased Skill 2 Damage"
+    },
+    {
+      "season": "S6",
+      "date": "Aug 2024",
+      "type": "buff",
+      "summary": "Increased damage reduction while wielding the heavy sword and the damage of Skill 1 when wielding both heavy and dual swords."
+    }
+  ],
+  "patch": "2026-09-07"
+}

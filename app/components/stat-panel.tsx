@@ -34,7 +34,8 @@ function verdictOf(delta: number): Verdict {
 export default function StatPanel({ base, build, overlay, title, subtitle }: Props) {
   const [showAll, setShowAll] = useState(false);
 
-  const liveRows = orderRows(diffStats(base, build));
+  // "Tudo" mostra os 21 atributos como na API (inclusive 0→0); default só deltas.
+  const liveRows = orderRows(diffStats(base, build, showAll ? { includeZeros: true } : undefined));
   const simList = overlay ? diffStats(build, overlay.to) : [];
   const simMap = new Map(simList.map((d) => [d.key, d]));
   // União: linhas da build + linhas alteradas pela simulação (mesmo com delta 0 na build,

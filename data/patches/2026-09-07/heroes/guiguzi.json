@@ -1,0 +1,161 @@
+{
+  "id": "guiguzi",
+  "name": "Guiguzi",
+  "nameCn": "鬼谷子",
+  "lane": "Roam",
+  "class": "Support — Offensive Support / Crowd Control / Balanced",
+  "difficulty": "Very Hard",
+  "baseStats": {
+    "maxHealth": 3394,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 47,
+    "physicalAttack": 166,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 365,
+    "maxMana": 620,
+    "mp5": 15
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "The Laws of Nature",
+      "text": "After leaving the enemy's vision, the next Basic Attack deals extra damage and slows the enemy."
+    },
+    {
+      "slot": "s1",
+      "name": "Prophecy - Hidden Hand",
+      "text": "Gains a Movement Speed boost and camouflages himself, reducing the Physical and Magical Defense of enemies touched while dealing damage to them."
+    },
+    {
+      "slot": "s2",
+      "name": "The Animist",
+      "text": "Summons spriteflies, and after a brief delay, pulls in nearby enemies, dealing damage and stunning them. If he hits an enemy hero, he and nearby teammates gain a shield."
+    },
+    {
+      "slot": "ult",
+      "name": "Prophecy - Out of Sight",
+      "text": "After 1s, camouflages and grants Movement Speed to himself and nearby teammates. Gains vision of the nearest enemy hero. The disguise breaks upon using Basic Attacks, skills, or actions that affect enemies."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-deftness",
+        "crimson-shadow-radiance",
+        "plume-of-enchantment",
+        "belt-of-might",
+        "frigid-charge",
+        "frosthold-targe",
+        "glacial-buckler",
+        "longnight-guardian",
+        "sages-sanctuary",
+        "ardent-dominion"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-deftness",
+        "crimson-shadow-radiance",
+        "plume-of-enchantment",
+        "belt-of-might",
+        "frigid-charge",
+        "frosthold-targe",
+        "glacial-buckler",
+        "longnight-guardian",
+        "sages-sanctuary",
+        "ardent-dominion"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-deftness",
+        "crimson-shadow-radiance",
+        "frigid-charge",
+        "glacial-buckler",
+        "longnight-guardian",
+        "ominous-premonition",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-deftness",
+        "plume-of-enchantment",
+        "crimson-shadow-radiance",
+        "cuirass-of-swiftness",
+        "frigid-charge",
+        "stone-of-sorcery",
+        "mirror-of-radiance",
+        "longnight-guardian",
+        "venomous-staff",
+        "overlords-platemail"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Li Xin",
+      "Mozi",
+      "Zilong"
+    ],
+    "weakAgainst": [],
+    "synergies": [
+      "Lady Sun",
+      "Erin",
+      "Hou Yi",
+      "Li Xin",
+      "Mozi",
+      "Zilong"
+    ]
+  },
+  "arcana": [
+    "Fate",
+    "Harmony",
+    "Void"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 51.1,
+    "pickRate": 0.2,
+    "banRate": 0.2,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S9",
+      "date": "Mar 2025",
+      "type": "buff",
+      "summary": "Increased Skill 2 Shield Effect"
+    },
+    {
+      "season": "S8",
+      "date": "Jan 2025",
+      "type": "buff",
+      "summary": "Reduced cooldown and increased damage from his Passive."
+    }
+  ],
+  "patch": "2026-09-07"
+}

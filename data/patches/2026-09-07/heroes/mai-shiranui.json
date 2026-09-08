@@ -1,0 +1,255 @@
+{
+  "id": "mai-shiranui",
+  "name": "Mai Shiranui",
+  "nameCn": "不知火舞",
+  "lane": "Mid",
+  "class": "Assassin — Ambush Mage / Burst/Gap-Close / Balanced",
+  "difficulty": "Very Hard",
+  "baseStats": {
+    "maxHealth": 3288,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 46,
+    "physicalAttack": 172,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 385,
+    "mp5": 50
+  },
+  "resource": {
+    "name": "Energy",
+    "value": 200
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "HISSATSU SHINOBI-BACHI",
+      "text": "Periodically gains an enhanced Basic Attack that lets her dash while dealing damage and knocking back enemies in her path. After using an enhanced Basic Attack or any skill, she can roll and gain Movement Speed."
+    },
+    {
+      "slot": "s1",
+      "name": "HISHOU RYUUENJIN",
+      "text": "Dashes forward to deal damage and launch enemies in the target area. Recovers Energy upon hit."
+    },
+    {
+      "slot": "s2",
+      "name": "KACHOUSEN",
+      "text": "Throws her fan to damage and slow a target enemy while reducing their Magical Defense. Hits recover Energy. After it hits, the fan also deals magical damage to the closest unit behind the target."
+    },
+    {
+      "slot": "ult",
+      "name": "CHOU HISSATSU SHINOBI-BACHI",
+      "text": "Dashes forward to deal damage and knock back enemies while reducing their Physical Attack. Recovers Energy upon hitting a target."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full AP burst",
+      "context": "Safe default · Position 2",
+      "itemIds": [
+        "insatiable-tome",
+        "savants-wrath",
+        "boots-of-resistance",
+        "void-staff",
+        "scepter-of-reverberation",
+        "sages-tome",
+        "ardent-dominion",
+        "staves-of-sorcery",
+        "venomous-staff"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "stone-of-sorcery",
+        "scepter-of-reverberation",
+        "lightfoot-shoes",
+        "savants-wrath",
+        "boots-of-resistance",
+        "blood-clans-grimoire",
+        "void-staff",
+        "insatiable-tome",
+        "staves-of-sorcery",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "scepter-of-reverberation",
+        "boots-of-the-arcane",
+        "sages-tome",
+        "void-staff",
+        "mask-of-agony",
+        "savants-wrath",
+        "ardent-dominion",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "insatiable-tome"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "stone-of-sorcery",
+        "blood-clans-grimoire",
+        "insatiable-tome",
+        "boots-of-fortitude",
+        "savants-wrath",
+        "scepter-of-reverberation",
+        "nebulon-wood",
+        "void-staff",
+        "sages-tome",
+        "sages-sanctuary",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "stone-of-sorcery",
+        "lightfoot-shoes",
+        "scepter-of-reverberation",
+        "boots-of-resistance",
+        "savants-wrath",
+        "blood-clans-grimoire",
+        "insatiable-tome",
+        "nebulon-wood",
+        "void-staff",
+        "sages-tome"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "lightfoot-shoes",
+        "insatiable-tome",
+        "boots-of-resistance",
+        "venomous-staff",
+        "savants-wrath",
+        "void-staff",
+        "sages-tome",
+        "destiny",
+        "ardent-dominion",
+        "sages-sanctuary",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "insatiable-tome",
+        "boots-of-resistance",
+        "savants-wrath",
+        "sages-tome",
+        "void-staff",
+        "staves-of-sorcery"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "stone-of-sorcery",
+        "scepter-of-reverberation",
+        "lightfoot-shoes",
+        "savants-wrath",
+        "boots-of-resistance",
+        "blood-clans-grimoire",
+        "void-staff",
+        "insatiable-tome",
+        "staves-of-sorcery",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "stone-of-sorcery",
+        "boots-of-resistance",
+        "scepter-of-reverberation",
+        "mask-of-agony",
+        "savants-wrath",
+        "sages-tome",
+        "void-staff",
+        "breakthrough-robe",
+        "splendor",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [
+      "Alessio",
+      "Charlotte",
+      "Di Renjie",
+      "Dr Bian",
+      "Fang",
+      "Fuzi",
+      "Gao",
+      "Huang Zhong",
+      "Marco Polo",
+      "Meng Ya",
+      "Menki",
+      "Milady",
+      "Nezha",
+      "Yuhuan"
+    ],
+    "synergies": [
+      "Donghuang",
+      "Sun Bin",
+      "Zhuangzi"
+    ]
+  },
+  "arcana": [
+    "Nightmare",
+    "Reincarnation",
+    "Mind's Eye"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 49.2,
+    "pickRate": 0.6,
+    "banRate": 0.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S8",
+      "date": "Jan 2025",
+      "type": "buff",
+      "summary": "Reduced Skill 2's cooldown and slightly decreased its damage."
+    },
+    {
+      "season": "S7",
+      "date": "Sep 2024",
+      "type": "buff",
+      "summary": "Reduced Energy Cost for Skill 2 and the Ultimate."
+    }
+  ],
+  "patch": "2026-09-07"
+}

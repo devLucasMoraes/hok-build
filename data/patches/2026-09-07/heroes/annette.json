@@ -1,0 +1,41 @@
+{
+  "id": "annette",
+  "name": "Annette",
+  "nameCn": "安奈特",
+  "lane": "Roam",
+  "class": "Support/Mage",
+  "difficulty": "Medium",
+  "baseStats": {},
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Whisperwind",
+      "text": "Gains Mana and increased cooldown speed while moving. If there are teammates nearby, also gains Movement Speed."
+    },
+    {
+      "slot": "ult",
+      "name": "Hurricane Wall",
+      "text": "Conjures a barrier around herself, knocking back enemies and dealing damage. Enemies that touch the barrier take damage and are stunned. Teammates within the barrier gain crowd control immunity. Untargetable while channeling."
+    }
+  ],
+  "recommendedBuilds": [],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [],
+    "synergies": []
+  },
+  "arcana": [],
+  "spell": "",
+  "rates": {
+    "winRate": 49.2,
+    "pickRate": 0.4,
+    "banRate": 0.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [],
+  "patch": "2026-09-07"
+}

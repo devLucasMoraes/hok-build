@@ -1,0 +1,182 @@
+{
+  "id": "zilong",
+  "name": "Zilong",
+  "nameCn": "赵云",
+  "lane": "Jungle",
+  "class": "Fighter/Assassin — Assassin Fighter / Gap-Close / Balanced",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3468,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 50,
+    "physicalAttack": 175,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 385,
+    "maxMana": 580,
+    "mp5": 14
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Dragon's Roar",
+      "text": "As his Health declines, he gains more damage reduction and his basic skills are enhanced."
+    },
+    {
+      "slot": "s1",
+      "name": "Thunderbreaker",
+      "text": "Charges forward, dealing damage and enhancing his next Basic Attack. Stocks an extra use of Thunderbreaker each time there is a change in his Passive slots."
+    },
+    {
+      "slot": "s2",
+      "name": "Stormpiercer",
+      "text": "Jabs repeatedly in the target direction, dealing damage. Recovers Health on hit."
+    },
+    {
+      "slot": "ult",
+      "name": "Skysplitter",
+      "text": "Leaps to the target area to deal damage, launching enemies in the center. 50% of the cooldown is returned if no heroes are hit."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle Full AD lethality",
+      "context": "Safe default · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "meteor",
+        "axe-of-torment",
+        "dragons-rage",
+        "rapacious-bite",
+        "boots-of-resistance",
+        "overlords-might",
+        "ravage-phantom",
+        "sages-sanctuary",
+        "destiny",
+        "succubus-cloak"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-resistance",
+        "meteor",
+        "axe-of-torment",
+        "nettle-gauntlet",
+        "spikemail",
+        "master-sword",
+        "overlords-might",
+        "rapacious-bite",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-resistance",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "nettle-gauntlet",
+        "frostscars-embrace",
+        "pure-sky",
+        "cuirass-of-savagery",
+        "sages-sanctuary",
+        "destiny",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-resistance",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "nettle-gauntlet",
+        "frostscars-embrace",
+        "blood-rage",
+        "eye-of-the-phoenix",
+        "sages-sanctuary",
+        "destiny",
+        "immovable-sky-dome"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Heino",
+      "Lady Zhen"
+    ],
+    "weakAgainst": [
+      "Arli",
+      "Fang",
+      "Guiguzi",
+      "Haya",
+      "Ziya"
+    ],
+    "synergies": [
+      "Da Qiao",
+      "Kui",
+      "Yaria",
+      "Heino",
+      "Lady Zhen"
+    ]
+  },
+  "arcana": [
+    "Mutation",
+    "Stealth",
+    "Eagle Eye"
+  ],
+  "spell": "Smite",
+  "rates": {
+    "winRate": 54.4,
+    "pickRate": 0.9,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jul 2026",
+      "type": "adjust",
+      "summary": "Upgraded Skill Effects"
+    },
+    {
+      "season": "S14",
+      "date": "Mar 2026",
+      "type": "buff",
+      "summary": "Adjusted skill effect"
+    },
+    {
+      "season": "S8",
+      "date": "Jan 2025",
+      "type": "buff",
+      "summary": "Increased Skill 2 damage."
+    },
+    {
+      "season": "S6",
+      "date": "Jul 2024",
+      "type": "adjust",
+      "summary": "The cooldown is returned if no heroes are hit by his Ultimate."
+    }
+  ],
+  "patch": "2026-09-07"
+}

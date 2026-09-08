@@ -1,0 +1,203 @@
+{
+  "id": "arthur",
+  "name": "Arthur",
+  "nameCn": "亚瑟",
+  "lane": "Clash Lane",
+  "class": "Fighter/Tank — Charger / Balanced",
+  "difficulty": "Easy",
+  "baseStats": {
+    "maxHealth": 3622,
+    "physicalDefense": 98,
+    "magicDefense": 50,
+    "physicalAttack": 164,
+    "moveSpeedFlat": 390
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Holy Vanguard",
+      "text": "Recovers Health every second. Health recovered is increased if his Movement Speed has been reduced."
+    },
+    {
+      "slot": "s1",
+      "name": "Valiant Charge",
+      "text": "Gains Movement Speed and enhances his next Basic Attack to dash to the enemy in front, then damage and silence them."
+    },
+    {
+      "slot": "s2",
+      "name": "Whirling Strike",
+      "text": "Deals damage every second to enemies within range."
+    },
+    {
+      "slot": "ult",
+      "name": "Might of Excalibur",
+      "text": "Leaps to the target, damaging and launching them."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full tank",
+      "context": "Position 1",
+      "itemIds": [
+        "lightfoot-shoes",
+        "boots-of-fortitude",
+        "blazing-cape",
+        "glacial-buckler",
+        "overlords-platemail",
+        "eye-of-the-phoenix",
+        "longnight-guardian",
+        "frostscars-embrace",
+        "boots-of-resistance"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "boots-of-resistance",
+        "dragons-rage",
+        "meteor",
+        "axe-of-torment",
+        "frostscars-embrace",
+        "spikemail",
+        "longnight-guardian",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "patrol-axe",
+        "boots-of-resistance",
+        "dragons-rage",
+        "giants-grip",
+        "meteor",
+        "axe-of-torment",
+        "frostscars-embrace",
+        "longnight-guardian",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Full tank (AD option)",
+      "context": "Position 1",
+      "itemIds": [
+        "nettle-gauntlet",
+        "boots-of-tranquility",
+        "frostscars-embrace",
+        "glacial-buckler",
+        "boots-of-resistance",
+        "succubus-cloak",
+        "frigid-charge",
+        "dragons-rage",
+        "blazing-cape",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "AD penetration",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "boots-of-resistance",
+        "axe-of-torment",
+        "frostscars-embrace",
+        "blazing-cape",
+        "longnight-guardian",
+        "ominous-premonition",
+        "glacial-buckler",
+        "overlords-platemail",
+        "frigid-charge",
+        "sages-sanctuary",
+        "destiny",
+        "amble-winter"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Full tank (AD option)",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-resistance",
+        "blazing-cape",
+        "axe-of-torment",
+        "overlords-platemail",
+        "eye-of-the-phoenix",
+        "glacial-buckler",
+        "cuirass-of-savagery",
+        "spikemail"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [
+      "Cai Yan",
+      "Liu Shan",
+      "Pei",
+      "Ukyo Tachibana"
+    ],
+    "synergies": [
+      "Angela",
+      "Diaochan",
+      "Marco Polo",
+      "Kaizer",
+      "Li Xin",
+      "Mulan"
+    ]
+  },
+  "arcana": [
+    "Fate",
+    "Harmony",
+    "Void"
+  ],
+  "spell": "Execute",
+  "rates": {
+    "winRate": 49.9,
+    "pickRate": 1.1,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jul 2026",
+      "type": "adjust",
+      "summary": "Upgraded Skill Effects"
+    },
+    {
+      "season": "S14",
+      "date": "Mar 2026",
+      "type": "buff",
+      "summary": "Increased Health recovery and skill damage"
+    },
+    {
+      "season": "S10",
+      "date": "Jun 2025",
+      "type": "buff",
+      "summary": "Skill 1 Damage Increase"
+    },
+    {
+      "season": "S8",
+      "date": "Jan 2025",
+      "type": "buff",
+      "summary": "Buffed base Physical Defense."
+    },
+    {
+      "season": "S7",
+      "date": "Oct 2024",
+      "type": "buff",
+      "summary": "Reduced Skill 1 cooldown, adjusted damage structure."
+    }
+  ],
+  "patch": "2026-09-07"
+}

@@ -1,0 +1,220 @@
+{
+  "id": "flowborn-tank",
+  "name": "Flowborn (Tank)",
+  "nameCn": "元流之子",
+  "lane": "Clash Lane",
+  "class": "Tank — Vanguard Tank / Crowd Control / Balanced",
+  "difficulty": "Easy",
+  "baseStats": {
+    "maxHealth": 3650,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 80,
+    "physicalAttack": 188,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 375,
+    "maxMana": 600,
+    "mp5": 15
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Flow of the World",
+      "text": "Can change Flow states at the Base to enhance stats. Vitality: Increases max Health and Physical and Magical Defense. Piercing Heart: Increases max Health and Physical Attack. Haste: Increases max Health and Movement Speed. Focus: Increases max Health and Cooldown Reduction. Spend 1 stack of Flow to perform an enhanced Basic Attack and deal damage and gain recovery."
+    },
+    {
+      "slot": "s1",
+      "name": "Convergence",
+      "text": "Channels the Flow, reducing the cooldown of other skills by 50%. Also gains 5–9 stacks of Flow based on the number of nearby heroes and minions and recovers Health based on Flow stacks. Damages and knocks back nearby enemies (without applying crowd control)."
+    },
+    {
+      "slot": "s2",
+      "name": "Power From Within",
+      "text": "Charges at the target and slashes, dealing damage, launching enemies, and gaining a shield. Using the skill continuously over a short time converts it to Clearing Slash and Rifting Slash. If the skill is not on cooldown, spend 4 stacks of Flow to stop it from entering cooldown after use."
+    },
+    {
+      "slot": "ult",
+      "name": "All In",
+      "text": "Leaps to the target location and attacks, dealing damage and launching enemies. If the skill is not on cooldown, spend 5 stacks of Flow to stop it from entering cooldown after this use."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle Full tank (AD option)",
+      "context": "Position 3",
+      "itemIds": [
+        "giants-grip",
+        "boots-of-resistance",
+        "blazing-cape",
+        "bloodweeper",
+        "overlords-platemail",
+        "glacial-buckler",
+        "longnight-guardian"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Full tank",
+      "context": "Position 3",
+      "itemIds": [
+        "patrol-axe",
+        "boots-of-tranquility",
+        "giants-grip",
+        "blazing-cape",
+        "blood-rage",
+        "longnight-guardian",
+        "belt-of-might",
+        "overlords-platemail",
+        "sages-sanctuary",
+        "ravage-phantom"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "rapacious-bite",
+        "demonsbane",
+        "spikemail",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Full tank (AD option)",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "blazing-cape",
+        "bloodweeper",
+        "overlords-platemail",
+        "longnight-guardian",
+        "cuirass-of-savagery"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Full tank",
+      "context": "Position 3",
+      "itemIds": [
+        "patrol-axe",
+        "boots-of-tranquility",
+        "giants-grip",
+        "blazing-cape",
+        "blood-rage",
+        "longnight-guardian",
+        "belt-of-might",
+        "overlords-platemail",
+        "sages-sanctuary",
+        "ravage-phantom"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Full AD lethality",
+      "context": "Position 1",
+      "itemIds": [
+        "meteor",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "nettle-gauntlet",
+        "frostscars-embrace",
+        "longnight-guardian",
+        "pure-sky",
+        "protectors-cuirass",
+        "ominous-premonition",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Jungle Full tank (AD option)",
+      "context": "Position 3",
+      "itemIds": [
+        "patrol-axe",
+        "boots-of-tranquility",
+        "giants-grip",
+        "blazing-cape",
+        "blood-rage",
+        "dragons-rage",
+        "overlords-platemail",
+        "overlords-might",
+        "sages-sanctuary",
+        "ravage-phantom",
+        "spikemail"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Jungle Full tank (AD option)",
+      "context": "Position 3",
+      "itemIds": [
+        "patrol-axe",
+        "boots-of-tranquility",
+        "giants-grip",
+        "blazing-cape",
+        "blood-rage",
+        "dragons-rage",
+        "overlords-platemail",
+        "overlords-might",
+        "sages-sanctuary",
+        "ravage-phantom",
+        "spikemail"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Jungle Full tank (AD option)",
+      "context": "Position 3",
+      "itemIds": [
+        "patrol-axe",
+        "boots-of-tranquility",
+        "blazing-cape",
+        "blood-rage",
+        "dragons-rage",
+        "giants-grip",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [],
+    "synergies": []
+  },
+  "arcana": [],
+  "spell": "",
+  "rates": {
+    "winRate": 48.8,
+    "pickRate": 0.6,
+    "banRate": 0.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S14",
+      "date": "May 2026",
+      "type": "buff",
+      "summary": "Increased skill damage"
+    },
+    {
+      "season": "S11",
+      "date": "Aug 2025",
+      "type": "buff",
+      "summary": "Adjusted Skill Damage"
+    }
+  ],
+  "patch": "2026-09-07"
+}

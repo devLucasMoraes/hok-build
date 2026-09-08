@@ -1,0 +1,254 @@
+{
+  "id": "chicha",
+  "name": "Chicha",
+  "nameCn": "蚩奼",
+  "lane": "Clash Lane",
+  "class": "Fighter — Charger / Maximum Attack Speed/Cleanup / Balanced",
+  "difficulty": "Easy",
+  "baseStats": {
+    "maxHealth": 3472,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 53,
+    "physicalAttack": 170,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 390,
+    "maxMana": 580,
+    "mp5": 15
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Forge Inheritor",
+      "text": "Basic Attacks restore Health and switch her weapons and combat forms. When hitting enemies with Basic Attacks or skills, she gains Attack Speed."
+    },
+    {
+      "slot": "s1",
+      "name": "Peak-Crushing Polearm",
+      "text": "Dashes in the target direction, dealing damage to enemies in her path and launching them."
+    },
+    {
+      "slot": "s1",
+      "name": "Hell-Binding Dagger-Axe",
+      "text": "Dashes in the target direction, dealing damage to enemies in her path and launching them."
+    },
+    {
+      "slot": "s1",
+      "name": "Sky-Shattering Bow",
+      "text": "Launches a flying kick in the target direction and fires a piercing arrow, dealing damage and knocking back enemies. If enemies hit a wall, they are restricted to a fixed area."
+    },
+    {
+      "slot": "s2",
+      "name": "World-Splitting Spear",
+      "text": "Thrusts forward in the target direction, dealing damage, knocking enemies back, and recovering Health."
+    },
+    {
+      "slot": "s2",
+      "name": "Realm-Sweeping Halberd",
+      "text": "Sweeps in the target direction, dealing damage, knocking enemies back, and recovering Health."
+    },
+    {
+      "slot": "s2",
+      "name": "Star-Felling Arrow",
+      "text": "Shoots deadly arrows, dealing grievous damage, knocking enemies back, and recovering Health."
+    },
+    {
+      "slot": "ult",
+      "name": "Return of the Armsmaster",
+      "text": "Enhances herself, gaining Movement Speed and Attack Speed, and breaking the Fighting Spirit stack limit. Her Basic Attacks will also deal extra damage, and she will be able to use them while moving."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Attack speed",
+      "context": "Safe default · Position 1",
+      "itemIds": [
+        "twinblades-of-destruction",
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "doomsday",
+        "spikemail",
+        "daybreakers-virtue",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Attack speed",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "blood-rage",
+        "ominous-premonition",
+        "blazing-cape",
+        "succubus-cloak",
+        "eternity-blade",
+        "ravage-phantom",
+        "longnight-guardian",
+        "doomsday",
+        "pure-sky",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Attack speed",
+      "context": "Position 1",
+      "itemIds": [
+        "iron-sword",
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "doomsday",
+        "cloud-piercer",
+        "blood-rage",
+        "daybreakers-virtue",
+        "ominous-premonition",
+        "spikemail",
+        "sages-sanctuary",
+        "destiny",
+        "tempest"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Attack speed",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "rapacious-bite",
+        "sparkforged-dagger",
+        "doomsday",
+        "blood-rage",
+        "daybreakers-virtue"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Attack speed",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "rapacious-bite",
+        "doomsday",
+        "spikemail",
+        "blood-rage",
+        "boots-of-resistance",
+        "sages-sanctuary",
+        "destiny",
+        "ravage-phantom",
+        "daybreakers-virtue"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Jungle Attack speed",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "doomsday",
+        "boots-of-resistance",
+        "rapacious-bite",
+        "blood-rage",
+        "deepfrost-siege",
+        "sages-sanctuary",
+        "ravage-phantom"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Attack speed",
+      "context": "Position 1",
+      "itemIds": [
+        "sparkforged-dagger",
+        "boots-of-dexterity",
+        "spikemail",
+        "doomsday",
+        "boots-of-resistance",
+        "daybreakers-virtue",
+        "succubus-cloak",
+        "destiny",
+        "sages-sanctuary",
+        "ravage-phantom"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Crit attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-resistance",
+        "sparkforged-dagger",
+        "doomsday",
+        "shadow-ripper",
+        "daybreakers-virtue",
+        "eternity-blade"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Jungle Crit attack speed",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "twinblades-of-destruction",
+        "sparkforged-dagger",
+        "boots-of-dexterity",
+        "doomsday",
+        "dragons-rage",
+        "daybreakers-virtue",
+        "blood-rage",
+        "sages-sanctuary",
+        "starbreaker",
+        "ravage-phantom",
+        "overlords-might",
+        "haste-sunpool"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [],
+    "synergies": []
+  },
+  "arcana": [],
+  "spell": "",
+  "rates": {
+    "winRate": 52.2,
+    "pickRate": 1.5,
+    "banRate": 0.4,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jul 2026",
+      "type": "buff",
+      "summary": "Increased skill damage"
+    },
+    {
+      "season": "S14",
+      "date": "Mar 2026",
+      "type": "nerf",
+      "summary": "Adjusted Movement Speed bonus"
+    },
+    {
+      "season": "S13",
+      "date": "Feb 2026",
+      "type": "adjust",
+      "summary": "Adjusted Attack Speed"
+    }
+  ],
+  "patch": "2026-09-07"
+}

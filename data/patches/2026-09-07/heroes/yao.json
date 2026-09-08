@@ -1,0 +1,282 @@
+{
+  "id": "yao",
+  "name": "Yao",
+  "nameCn": "曜",
+  "lane": "Jungle",
+  "class": "Fighter — Assassin Fighter / Balanced",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3304,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 49,
+    "physicalAttack": 163,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 380
+  },
+  "resource": {
+    "name": "Energy",
+    "value": 3
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Gift of the Stars",
+      "text": "Recovers Health when landing skill hits. Using any 3 skills enhances his next skill, and using the enhanced skill will enhance his next Basic Attack."
+    },
+    {
+      "slot": "s1",
+      "name": "Starlight Slice",
+      "text": "Deals damage to nearby enemies."
+    },
+    {
+      "slot": "s2",
+      "name": "Star Rush",
+      "text": "Moves quickly, dealing damage and slowing enemies in his path."
+    },
+    {
+      "slot": "ult",
+      "name": "Return to Dust",
+      "text": "Returns to his location 2s ago, removes Star Reduction, and deals damage to enemies in his path. Passive: Some of his damage taken is converted into Star Reduction after a short delay."
+    },
+    {
+      "slot": "s1",
+      "name": "Brilliance: Starlight Slice",
+      "text": "Deals damage to nearby enemies."
+    },
+    {
+      "slot": "s2",
+      "name": "Brilliance: Star Rush",
+      "text": "Moves quickly, dealing damage and slowing enemies in his path."
+    },
+    {
+      "slot": "ult",
+      "name": "Brilliance: Return to Dust",
+      "text": "Returns to his location 2s ago, removes Star Reduction, and deals damage to enemies in his path. Passive: Some of his damage taken is converted into Star Reduction after a short delay."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle Full AD lethality",
+      "context": "Safe default · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "dragons-rage",
+        "succubus-cloak",
+        "overlords-might",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "rapacious-bite",
+        "cuirass-of-savagery",
+        "overlords-might",
+        "boots-of-resistance",
+        "frostscars-embrace",
+        "sages-sanctuary",
+        "destiny",
+        "starbreaker",
+        "demonsbane"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "meteor",
+        "axe-of-torment",
+        "boots-of-resistance",
+        "rapacious-bite",
+        "cuirass-of-savagery",
+        "overlords-might",
+        "master-sword",
+        "sages-sanctuary",
+        "destiny",
+        "ravage-phantom"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "boots-of-resistance",
+        "dragons-rage",
+        "succubus-cloak",
+        "overlords-might",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "rapacious-bite",
+        "boots-of-resistance",
+        "protectors-cuirass",
+        "dragons-rage",
+        "pure-sky",
+        "blood-rage",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "meteor",
+        "axe-of-torment",
+        "boots-of-resistance",
+        "rapacious-bite",
+        "cuirass-of-savagery",
+        "overlords-might",
+        "master-sword",
+        "sages-sanctuary",
+        "destiny",
+        "ravage-phantom"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "rapacious-bite",
+        "boots-of-resistance",
+        "cuirass-of-savagery",
+        "pure-sky",
+        "overlords-might",
+        "sages-sanctuary",
+        "destiny",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "master-sword",
+        "overlords-might",
+        "cuirass-of-savagery",
+        "sages-sanctuary",
+        "destiny",
+        "blood-rage"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "rapacious-bite",
+        "dragons-rage",
+        "frostscars-embrace",
+        "overlords-might",
+        "sages-sanctuary",
+        "destiny",
+        "blood-rage"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Angela",
+      "Mi Yue",
+      "Ziya"
+    ],
+    "weakAgainst": [],
+    "synergies": [
+      "Guiguzi",
+      "Sun Bin",
+      "Zhang Fei",
+      "Angela",
+      "Mi Yue",
+      "Ziya"
+    ]
+  },
+  "arcana": [
+    "Mutation",
+    "Stealth",
+    "Eagle Eye"
+  ],
+  "spell": "Smite",
+  "rates": {
+    "winRate": 52,
+    "pickRate": 0.7,
+    "banRate": 0.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S11",
+      "date": "Aug 2025",
+      "type": "buff",
+      "summary": "Increased Skill 1's Damage"
+    },
+    {
+      "season": "S9",
+      "date": "Apr 2025",
+      "type": "adjust",
+      "summary": "Passive Recovery Effect Increased"
+    },
+    {
+      "season": "S7",
+      "date": "Sep 2024",
+      "type": "buff",
+      "summary": "Increased base Physical Defense and reduced the cooldown of Skill 2."
+    },
+    {
+      "season": "S6",
+      "date": "Jul 2024",
+      "type": "buff",
+      "summary": "Increased base stats and Skill 1 damage"
+    }
+  ],
+  "patch": "2026-09-07"
+}

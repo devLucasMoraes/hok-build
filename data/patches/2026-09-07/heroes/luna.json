@@ -1,0 +1,262 @@
+{
+  "id": "luna",
+  "name": "Luna",
+  "nameCn": "露娜",
+  "lane": "Jungle",
+  "class": "Fighter — Charger / Gap-Close/Cleanup / Balanced",
+  "difficulty": "Very Hard",
+  "baseStats": {
+    "maxHealth": 3207,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 52,
+    "physicalAttack": 170,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 380,
+    "maxMana": 620,
+    "mp5": 15
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Moonlight Dance",
+      "text": "Basic Attacks have two forms, melee and ranged. First Basic Attack in melee form will charge toward the target, and third Basic Attack deals extra damage. Enhanced Basic Attacks and skill damage mark enemies. Magical Attack boost will enhance her Attack Speed."
+    },
+    {
+      "slot": "s1",
+      "name": "Crescent Slice",
+      "text": "Unleashes a shockwave in the target direction, dealing damage and marking enemies hit."
+    },
+    {
+      "slot": "s2",
+      "name": "Searing Stab",
+      "text": "Gains a shield and pulls nearby enemies, dealing damage while stunning, slowing, and marking them."
+    },
+    {
+      "slot": "ult",
+      "name": "New Moon",
+      "text": "Dashes to the target location, dealing damage to enemies in her path. If she hits a marked enemy, this skill's cooldown is reset."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle Full AP burst",
+      "context": "Safe default · Position 3",
+      "itemIds": [
+        "guerrilla-machete",
+        "boots-of-the-arcane",
+        "insatiable-tome",
+        "augurs-word",
+        "boots-of-resistance",
+        "runeblade",
+        "void-staff",
+        "savants-wrath",
+        "sages-sanctuary",
+        "destiny",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle AP penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "runeblade",
+        "boots-of-resistance",
+        "augurs-word",
+        "insatiable-tome",
+        "breakthrough-robe",
+        "void-staff",
+        "sages-sanctuary",
+        "splendor",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle AP penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "guerrilla-machete",
+        "boots-of-dexterity",
+        "blood-clans-grimoire",
+        "augurs-word",
+        "runeblade",
+        "insatiable-tome",
+        "nebulon-wood",
+        "breakthrough-robe",
+        "void-staff",
+        "sages-sanctuary",
+        "destiny",
+        "boots-of-fortitude"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Full AP burst",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "guerrilla-machete",
+        "boots-of-the-arcane",
+        "insatiable-tome",
+        "augurs-word",
+        "boots-of-resistance",
+        "runeblade",
+        "void-staff",
+        "savants-wrath",
+        "sages-sanctuary",
+        "destiny",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle AP penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "guerrilla-machete",
+        "boots-of-resistance",
+        "blood-clans-grimoire",
+        "insatiable-tome",
+        "augurs-word",
+        "nebulon-wood",
+        "runeblade",
+        "void-staff",
+        "breakthrough-robe",
+        "sages-sanctuary",
+        "splendor",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Jungle AP penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "guerrilla-machete",
+        "boots-of-dexterity",
+        "blood-clans-grimoire",
+        "augurs-word",
+        "boots-of-resistance",
+        "insatiable-tome",
+        "runeblade",
+        "breakthrough-robe",
+        "blazing-cape",
+        "sages-sanctuary",
+        "splendor",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Jungle Full AP burst",
+      "context": "Position 3",
+      "itemIds": [
+        "guerrilla-machete",
+        "blood-clans-grimoire",
+        "boots-of-resistance",
+        "augurs-word",
+        "insatiable-tome",
+        "venomous-staff",
+        "runeblade",
+        "breakthrough-robe",
+        "ardent-dominion",
+        "sages-sanctuary",
+        "enigma-moon-goddess",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Jungle Full AP burst",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "guerrilla-machete",
+        "boots-of-the-arcane",
+        "insatiable-tome",
+        "augurs-word",
+        "boots-of-resistance",
+        "runeblade",
+        "void-staff",
+        "savants-wrath",
+        "sages-sanctuary",
+        "destiny",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Jungle Full AP burst",
+      "context": "Position 3",
+      "itemIds": [
+        "guerrilla-machete",
+        "boots-of-resistance",
+        "augurs-word",
+        "insatiable-tome",
+        "runeblade",
+        "breakthrough-robe",
+        "savants-wrath",
+        "sages-sanctuary",
+        "destiny",
+        "ardent-dominion"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Yuhuan",
+      "Lady Zhen",
+      "Heino"
+    ],
+    "weakAgainst": [
+      "Athena",
+      "Augran",
+      "Fuzi",
+      "Lu Bu",
+      "Musashi",
+      "Sakeer",
+      "Yang Jian"
+    ],
+    "synergies": [
+      "Dyadia",
+      "Guiguzi",
+      "Zhuangzi",
+      "Yuhuan",
+      "Lady Zhen",
+      "Heino"
+    ]
+  },
+  "arcana": [
+    "Red Moon",
+    "Hunt",
+    "Mind's Eye"
+  ],
+  "spell": "Smite",
+  "rates": {
+    "winRate": 46.2,
+    "pickRate": 0.6,
+    "banRate": 0.4,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S12",
+      "date": "Oct 2025",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S8",
+      "date": "Jan 2025",
+      "type": "adjust",
+      "summary": "Added ranged Basic Attack."
+    }
+  ],
+  "patch": "2026-09-07"
+}

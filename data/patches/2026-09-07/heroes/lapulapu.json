@@ -1,0 +1,224 @@
+{
+  "id": "lapulapu",
+  "name": "Lapulapu",
+  "nameCn": "拉普拉普",
+  "lane": "Roam",
+  "class": "Support — Defensive Support / Crowd Control/Team Buffs / Early Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3566,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 88,
+    "physicalAttack": 162,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 375,
+    "maxMana": 600,
+    "mp5": 15
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Sea Beast's Favor",
+      "text": "Increases the Physical and Magical Defense of himself and the teammate with the lowest Health nearby."
+    },
+    {
+      "slot": "s1",
+      "name": "Torrential Blade",
+      "text": "Damages and slows enemies within range."
+    },
+    {
+      "slot": "s2",
+      "name": "Island's Blessing",
+      "text": "Dashes in the target direction, dealing damage to enemies in his path and launching them."
+    },
+    {
+      "slot": "ult",
+      "name": "Raging Sea",
+      "text": "Splits the earth, damaging enemies within range and launching them. The fractured earth damages and slows enemies."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "guardian",
+        "boots-of-fortitude",
+        "guardian-redemption",
+        "protectors-cuirass",
+        "ominous-premonition",
+        "frigid-charge",
+        "succubus-cloak",
+        "overlords-platemail",
+        "sages-sanctuary",
+        "amble-winter",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-resistance",
+        "guardian-redemption",
+        "frigid-charge",
+        "ominous-premonition",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "spikemail"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-resistance",
+        "protectors-cuirass",
+        "crimson-shadow",
+        "ominous-premonition",
+        "longnight-guardian",
+        "crimson-shadow-starspring",
+        "frigid-charge",
+        "overlords-platemail",
+        "sages-sanctuary",
+        "amble-winter",
+        "succubus-cloak"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-resistance",
+        "guardian",
+        "glacial-buckler",
+        "longnight-guardian",
+        "guardian-redemption",
+        "spikemail",
+        "overlords-platemail",
+        "sages-sanctuary",
+        "amble-winter"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-deftness",
+        "guardian-radiance",
+        "boots-of-resistance",
+        "cloth-jerkin",
+        "frigid-charge",
+        "protectors-cuirass",
+        "ominous-premonition",
+        "clandestine-cape",
+        "succubus-cloak",
+        "overlords-platemail",
+        "blazing-cape"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Full tank",
+      "context": "Position 5",
+      "itemIds": [
+        "guardian-redemption",
+        "boots-of-fortitude",
+        "blazing-cape",
+        "overlords-platemail",
+        "longnight-guardian",
+        "frigid-charge"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-resistance",
+        "guardian-redemption",
+        "frigid-charge",
+        "succubus-cloak",
+        "ominous-premonition",
+        "overlords-platemail",
+        "sages-sanctuary",
+        "amble-winter"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-resistance",
+        "protectors-cuirass",
+        "crimson-shadow",
+        "ominous-premonition",
+        "longnight-guardian",
+        "crimson-shadow-redemption",
+        "frigid-charge",
+        "overlords-platemail",
+        "sages-sanctuary",
+        "amble-winter"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "guardian",
+        "boots-of-fortitude",
+        "guardian-radiance",
+        "ominous-premonition",
+        "succubus-cloak",
+        "frigid-charge",
+        "overlords-platemail"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [],
+    "synergies": []
+  },
+  "arcana": [],
+  "spell": "",
+  "rates": {
+    "winRate": 55.1,
+    "pickRate": 0.4,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jul 2026",
+      "type": "adjust",
+      "summary": "Adjusted skill damage"
+    },
+    {
+      "season": "S13",
+      "date": "Dec 2025",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    }
+  ],
+  "patch": "2026-09-07"
+}

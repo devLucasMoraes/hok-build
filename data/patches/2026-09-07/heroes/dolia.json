@@ -1,0 +1,266 @@
+{
+  "id": "dolia",
+  "name": "Dolia",
+  "nameCn": "朵莉亚",
+  "lane": "Roam",
+  "class": "Support — Buff Support / Team Buffs / Late Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3308,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 46,
+    "physicalAttack": 170,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 365,
+    "maxMana": 620,
+    "mp5": 15
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Mermaid's Gift",
+      "text": "Transforms into a mermaid while in water, reducing slow effects, recovering Health and Mana over time, and dealing area damage with Basic Attacks. Her Recovery skill changes to let her form a covenant with a teammate. Her Ultimate prioritizes resetting this teammate's skill cooldowns."
+    },
+    {
+      "slot": "s1",
+      "name": "Ode",
+      "text": "Unleashes soundwaves that deal damage and inflict slow. When in water, the last soundwave knocks back enemies."
+    },
+    {
+      "slot": "s2",
+      "name": "Wavemaker",
+      "text": "Creates a pool in the target direction, restoring Health and Mana to herself and teammates within. The pool disappears after she leaves it."
+    },
+    {
+      "slot": "ult",
+      "name": "Celestial Melody",
+      "text": "Resets the longest current skill cooldown of a teammate within range, transferring the cooldown to herself. Prioritizes covenant teammates."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-the-arcane",
+        "crimson-shadow-starspring",
+        "boots-of-resistance",
+        "frosthold-targe",
+        "dawnlight",
+        "crimson-shadow-redemption",
+        "cuirass-of-swiftness",
+        "frigid-charge",
+        "eye-of-the-phoenix",
+        "ominous-premonition"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-resistance",
+        "crimson-shadow-redemption",
+        "holy-grail",
+        "dawnlight",
+        "succubus-cloak",
+        "ominous-premonition"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-the-arcane",
+        "crimson-shadow-starspring",
+        "dawnlight",
+        "boots-of-resistance",
+        "ominous-premonition",
+        "succubus-cloak",
+        "venomous-staff",
+        "frozen-breath",
+        "frigid-charge",
+        "amble-winter",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Full tank (AP option)",
+      "context": "Position 5",
+      "itemIds": [
+        "guardian-redemption",
+        "boots-of-the-arcane",
+        "glacial-buckler",
+        "succubus-cloak",
+        "dawnlight",
+        "venomous-staff",
+        "sages-sanctuary",
+        "spikemail",
+        "longnight-guardian",
+        "blazing-cape",
+        "overlords-platemail",
+        "frostscars-embrace"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-resistance",
+        "crimson-shadow",
+        "crimson-shadow-redemption",
+        "holy-grail",
+        "ominous-premonition",
+        "frozen-breath",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "venomous-staff"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-resistance",
+        "crimson-shadow",
+        "crimson-shadow-redemption",
+        "dawnlight",
+        "succubus-cloak",
+        "holy-grail",
+        "ominous-premonition",
+        "venomous-staff",
+        "longnight-guardian",
+        "overlords-platemail",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Full tank (AP option)",
+      "context": "Position 5",
+      "itemIds": [
+        "boots-of-deftness",
+        "crimson-shadow-starspring",
+        "glacial-buckler",
+        "longnight-guardian",
+        "ominous-premonition",
+        "overlords-platemail",
+        "blazing-cape",
+        "sages-sanctuary",
+        "venomous-staff"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "lightfoot-shoes",
+        "boots-of-the-arcane",
+        "guardian-starspring",
+        "frozen-breath",
+        "ominous-premonition",
+        "overlords-platemail",
+        "venomous-staff",
+        "succubus-cloak",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Full AP burst",
+      "context": "Position 5",
+      "itemIds": [
+        "crimson-shadow-starspring",
+        "boots-of-resistance",
+        "mask-of-agony",
+        "frozen-breath",
+        "augurs-word",
+        "dawnlight",
+        "ominous-premonition",
+        "savants-wrath",
+        "void-staff"
+      ]
+    },
+    {
+      "id": "build-10",
+      "title": "Standard build",
+      "context": "",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "dawnlight",
+        "venomous-staff",
+        "sages-sanctuary",
+        "succubus-cloak"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Dharma",
+      "Augran",
+      "Mozi"
+    ],
+    "weakAgainst": [],
+    "synergies": [
+      "Di Renjie",
+      "Huang Zhong",
+      "Luara",
+      "Dharma",
+      "Augran",
+      "Mozi"
+    ]
+  },
+  "arcana": [],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 47,
+    "pickRate": 2.3,
+    "banRate": 1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S13",
+      "date": "Jan 2026",
+      "type": "buff",
+      "summary": "Increased Skill Damage"
+    },
+    {
+      "season": "S11",
+      "date": "Aug 2025",
+      "type": "buff",
+      "summary": "Increased Skill Damage"
+    },
+    {
+      "season": "S10",
+      "date": "Jun 2025",
+      "type": "buff",
+      "summary": "Skill Effects Upgrade"
+    },
+    {
+      "season": "S7",
+      "date": "Sep 2024",
+      "type": "adjust",
+      "summary": "Removed Skill 1's knockback effect on distant enemies."
+    }
+  ],
+  "patch": "2026-09-07"
+}

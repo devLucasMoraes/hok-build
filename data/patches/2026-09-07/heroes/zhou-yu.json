@@ -1,0 +1,123 @@
+{
+  "id": "zhou-yu",
+  "name": "Zhou Yu",
+  "nameCn": "周瑜",
+  "lane": "Mid",
+  "class": "Mage — Formation Mage / Sustained Damage/Pushing / Early Game",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3278,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 44,
+    "physicalAttack": 170,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 365,
+    "maxMana": 640,
+    "mp5": 16
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Blaze",
+      "text": "Damage from Basic Attacks and skills apply marks to enemy units and structures. At 4 stacks, targets are slowed and suffer damage over time."
+    },
+    {
+      "slot": "s1",
+      "name": "Wildfire",
+      "text": "Invokes a wind domain in the target direction, slowing and knocking back enemies in range. Nearby teammates gain Movement Speed, and his nearby fires will spread in the direction of the wind."
+    },
+    {
+      "slot": "s2",
+      "name": "Scorching Bolt",
+      "text": "Creates a fire domain at the target location that deals burning damage to enemies within it. Up to 6 fire domains can exist at a time. Recovers Health over time while in a fire domain. Can stock up to 3 charges of this skill."
+    },
+    {
+      "slot": "ult",
+      "name": "Flames of War",
+      "text": "Deals damage to enemies in range. If there's a fire domain in range, any enemies within it will be stunned and take extra damage."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "venomous-staff",
+        "sages-tome",
+        "void-staff",
+        "frozen-breath",
+        "twilight-stream",
+        "breakthrough-robe",
+        "ardent-dominion",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "mask-of-agony",
+        "venomous-staff",
+        "frozen-breath",
+        "twilight-stream",
+        "savants-wrath"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Cirrus",
+      "Nakoruru",
+      "Xuance"
+    ],
+    "weakAgainst": [
+      "Augran",
+      "Dian Wei"
+    ],
+    "synergies": [
+      "Dyadia",
+      "Kui",
+      "Liu Bang",
+      "Cirrus",
+      "Nakoruru",
+      "Xuance"
+    ]
+  },
+  "arcana": [
+    "Nightmare",
+    "Hunt",
+    "Avarice"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 51.3,
+    "pickRate": 0.4,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S7",
+      "date": "Nov 2024",
+      "type": "adjust",
+      "summary": "Increased base Movement Speed and Skill 1's late game cooldown."
+    },
+    {
+      "season": "S6",
+      "date": "Aug 2024",
+      "type": "buff",
+      "summary": "Increased Skill 2's damage over time and recovery and reduced late game stock time."
+    }
+  ],
+  "patch": "2026-09-07"
+}

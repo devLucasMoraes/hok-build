@@ -4,20 +4,21 @@ import { useEffect, useMemo, useState } from "react";
 import { buildCost, buildStats, diffStats, heroStatsAtLevel, previewSwap } from "@/lib/calc";
 import type { Hero, Item, PatchManifest } from "@/lib/types";
 import { CATEGORY_META, STAT_META, formatStatValue } from "@/lib/stat-meta";
+import { useAppStore, type MobileTab, type SlotState } from "../stores/app-store";
 import HeroSheet from "./hero-sheet";
 import ItemBrowser from "./item-browser";
 import StatPanel from "./stat-panel";
 import Toolbar from "./toolbar";
+import GameIcon, { heroPortrait } from "./game-icon";
 
 interface Props {
   hero: Hero;
   items: Item[];
   manifest: PatchManifest;
+  onSwitchHero: () => void;
 }
 
 const SLOTS = 6;
-type SlotState = (string | null)[];
-type MobileTab = "build" | "items" | "stats";
 
 /** Últimos 6 itens únicos da sequência (build final), mantendo a ordem. */
 function finalSix(ids: string[]): SlotState {
@@ -32,29 +33,30 @@ function finalSix(ids: string[]): SlotState {
   return [...Array<string | null>(SLOTS - last.length).fill(null), ...last];
 }
 
-function initials(name: string): string {
-  return name
-    .split(/[\s-]+/)
-    .map((w) => w[0])
-    .slice(0, 2)
-    .join("")
-    .toUpperCase();
-}
-
-export default function Builder({ hero, items, manifest }: Props) {
+export default function Builder({ hero, items, manifest, onSwitchHero }: Props) {
   const itemMap = useMemo(() => new Map(items.map((i) => [i.id, i])), [items]);
-  const [level, setLevel] = useState(hero.maxLevel);
-  const [slots, setSlots] = useState<SlotState>(() => finalSix(hero.recommendedBuilds[0]?.itemIds ?? []));
-  const [selectedSlot, setSelectedSlot] = useState<number>(0);
-  const [candidateId, setCandidateId] = useState<string | null>(null);
-  const [previewId, setPreviewId] = useState<string | null>(null);
-  const [history, setHistory] = useState<SlotState[]>([]);
-  const [mobileTab, setMobileTab] = useState<MobileTab>("build");
-  const [sheetOpen, setSheetOpen] = useState(false);
-  const [buildSel, setBuildSel] = useState(hero.recommendedBuilds[0]?.id ?? "");
+  const seedSlots = useMemo(() => finalSix(hero.recommendedBuilds[0]?.itemIds ?? []), [hero]);
+  const seedBuildId = hero.recommendedBuilds[0]?.id ?? "";
+
+  // Working state no store global (persiste por herói); seed só quando ausente.
+  const level = useAppStore((s) => s.levelByHero[hero.id] ?? hero.maxLevel);
+  const slots = useAppStore((s) => s.slotsByHero[hero.id] ?? seedSlots);
+  const selectedSlot = useAppStore((s) => s.selectedSlot);
+  const candidateId = useAppStore((s) => s.candidateId);
+  const previewId = useAppStore((s) => s.previewId);
+  const history = useAppStore((s) => s.history);
+  const mobileTab = useAppStore((s) => s.mobileTab);
+  const sheetOpen = useAppStore((s) => s.sheetOpen);
+  const buildSel = useAppStore((s) => s.buildSel || seedBuildId);
   const [canHover] = useState<boolean>(
     () => typeof window !== "undefined" && window.matchMedia("(hover: hover)").matches,
   );
+
+  useEffect(() => {
+    const st = useAppStore.getState();
+    st.ensureHero(hero.id, { slots: seedSlots, level: hero.maxLevel });
+    if (!st.buildSel) st.setBuildSel(seedBuildId);
+  }, [hero, hero.id, hero.maxLevel, seedSlots, seedBuildId]);
 
   const heroBase = useMemo(() => heroStatsAtLevel(hero, level), [hero, level]);
   const equipped = useMemo(() => slots.map((id) => (id ? itemMap.get(id) ?? null : null)), [slots, itemMap]);
@@ -74,50 +76,34 @@ export default function Builder({ hero, items, manifest }: Props) {
   /** Todos os atributos: valor padrão → valor com a build (ordem STAT_ORDER). */
   const fullStats = useMemo(() => diffStats(heroBase, total), [heroBase, total]);
 
-  function commit(next: SlotState) {
-    setHistory((h) => [...h.slice(-19), slots]);
-    setSlots(next);
-  }
-
   function equip(itemId: string, slot: number) {
-    const next = [...slots];
-    next[slot] = itemId;
-    commit(next);
-    setCandidateId(null);
-    setPreviewId(null);
+    useAppStore.getState().equip(hero.id, slot, itemId);
   }
 
   function handlePick(item: Item) {
+    const st = useAppStore.getState();
     if (canHover) {
       // desktop: hover já simulou — clique confirma direto
-      const empty = slots.findIndex((s) => !s);
-      equip(item.id, selectedSlot ?? (empty === -1 ? 0 : empty));
+      equip(item.id, selectedSlot);
       return;
     }
     // toque: 1º toque fixa preview, 2º no mesmo confirma
     if (candidateId === item.id) {
-      const empty = slots.findIndex((s) => !s);
-      equip(item.id, selectedSlot ?? (empty === -1 ? 0 : empty));
+      equip(item.id, selectedSlot);
     } else {
-      setCandidateId(item.id);
+      st.setCandidate(item.id);
     }
   }
 
   function undo() {
-    setHistory((h) => {
-      if (h.length === 0) return h;
-      setSlots(h[h.length - 1]);
-      setCandidateId(null);
-      setPreviewId(null);
-      return h.slice(0, -1);
-    });
+    useAppStore.getState().undo(hero.id);
   }
 
   function loadBuild(ids: string[], id: string) {
-    commit(finalSix(ids));
-    setBuildSel(id);
-    setCandidateId(null);
-    setPreviewId(null);
+    const st = useAppStore.getState();
+    st.commitSlots(hero.id, finalSix(ids));
+    st.setBuildSel(id);
+    st.clearPreview();
   }
 
   // Atalhos: 1–6 slot · Esc cancela · Ctrl+Z desfaz
@@ -125,23 +111,20 @@ export default function Builder({ hero, items, manifest }: Props) {
     function onKey(e: KeyboardEvent) {
       const t = e.target as HTMLElement | null;
       if (t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.tagName === "SELECT")) return;
+      const st = useAppStore.getState();
       if (e.key >= "1" && e.key <= "6") {
-        setSelectedSlot(Number(e.key) - 1);
-        setCandidateId(null);
+        st.selectSlot(Number(e.key) - 1);
       } else if (e.key === "Escape") {
-        if (sheetOpen) setSheetOpen(false);
-        else {
-          setCandidateId(null);
-          setPreviewId(null);
-        }
+        if (st.sheetOpen) st.setSheetOpen(false);
+        else st.clearPreview();
       } else if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "z") {
         e.preventDefault();
-        undo();
+        st.undo(hero.id);
       }
     }
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [slots, sheetOpen]);
+  }, [hero.id]);
 
   const patchInfo = manifest.patches.find((p) => p.patch === manifest.latest);
 
@@ -160,8 +143,7 @@ export default function Builder({ hero, items, manifest }: Props) {
             <button
               key={i}
               onClick={() => {
-                setSelectedSlot(i);
-                setCandidateId(null);
+                useAppStore.getState().selectSlot(i);
               }}
               title={item ? `${item.name} — tecla ${i + 1}` : `Slot vazio ${i + 1} — tecla ${i + 1}`}
               className={`slot-btn flex min-h-20 flex-col items-center justify-center gap-0.5 rounded-xl bg-[#100e19] p-1.5 ${
@@ -173,11 +155,13 @@ export default function Builder({ hero, items, manifest }: Props) {
               </span>
               {item && meta ? (
                 <>
-                  <span
-                    className={`flex h-8 w-8 items-center justify-center rounded-lg text-[10px] font-black text-white ${meta.dot}`}
-                  >
-                    {initials(item.name)}
-                  </span>
+                  <GameIcon
+                    src={item.icon}
+                    alt={item.name}
+                    name={item.name}
+                    fallbackClassName={meta.dot}
+                    className="h-8 w-8 rounded-lg"
+                  />
                   <span className="line-clamp-1 w-full text-center text-[10px] leading-tight font-semibold">
                     {item.name}
                   </span>
@@ -206,9 +190,9 @@ export default function Builder({ hero, items, manifest }: Props) {
         ) : (
           <ul className="flex flex-col gap-0.5">
             {fullStats.map((d) => (
-              <li key={d.key} className="flex items-baseline justify-between font-mono text-[11px]">
-                <span className="font-sans text-zinc-400">{STAT_META[d.key].short}</span>
-                <span className="whitespace-nowrap">
+              <li key={d.key} className="flex items-baseline justify-between gap-2 font-mono text-[11px]">
+                <span className="min-w-0 flex-1 font-sans text-zinc-400">{STAT_META[d.key].label}</span>
+                <span className="shrink-0 whitespace-nowrap">
                   <span className="text-zinc-500">{formatStatValue(d.key, d.before)}</span>
                   <span className="mx-1 text-zinc-700">→</span>
                   <span className={`font-bold ${d.delta !== 0 ? "text-emerald-300" : "text-zinc-300"}`}>
@@ -228,13 +212,15 @@ export default function Builder({ hero, items, manifest }: Props) {
       <Toolbar
         heroName={hero.name}
         heroCn={hero.nameCn}
+        heroPortrait={heroPortrait(hero.id)}
         level={level}
         maxLevel={hero.maxLevel}
-        onLevel={setLevel}
+        onLevel={(l) => useAppStore.getState().setLevel(hero.id, l)}
         gold={cost}
         canUndo={history.length > 0}
         onUndo={undo}
-        onHeroInfo={() => setSheetOpen(true)}
+        onHeroInfo={() => useAppStore.getState().setSheetOpen(true)}
+        onSwitchHero={onSwitchHero}
         patch={manifest.latest}
         season={patchInfo?.season ?? ""}
       />
@@ -247,8 +233,7 @@ export default function Builder({ hero, items, manifest }: Props) {
               <h2 className="text-xs font-bold tracking-widest uppercase gold-text">Build</h2>
               <button
                 onClick={() => {
-                  commit(Array(SLOTS).fill(null));
-                  setCandidateId(null);
+                  useAppStore.getState().clearSlots(hero.id);
                 }}
                 className="text-[11px] font-semibold text-zinc-500 hover:text-red-300"
               >
@@ -292,7 +277,7 @@ export default function Builder({ hero, items, manifest }: Props) {
           />
         </div>
 
-        <div className="flex min-h-0 flex-col" onMouseLeave={() => setPreviewId(null)}>
+        <div className="flex min-h-0 flex-col" onMouseLeave={() => useAppStore.getState().setPreview(null)}>
           <ItemBrowser
             items={itemMap}
             list={items}
@@ -301,7 +286,7 @@ export default function Builder({ hero, items, manifest }: Props) {
             previewId={previewId}
             selectedSlot={selectedSlot}
             onPick={handlePick}
-            onHover={(item) => setPreviewId(item?.id ?? null)}
+            onHover={(item) => useAppStore.getState().setPreview(item?.id ?? null)}
           />
         </div>
       </main>
@@ -334,13 +319,13 @@ export default function Builder({ hero, items, manifest }: Props) {
               </label>
               <div className="mt-2 flex gap-2">
                 <button
-                  onClick={() => setMobileTab("items")}
+                  onClick={() => useAppStore.getState().setMobileTab("items")}
                   className="flex-1 rounded-lg bg-[#c9a227] px-3 py-2 text-sm font-black text-black"
                 >
                   Trocar item do slot {selectedSlot + 1} →
                 </button>
                 <button
-                  onClick={() => commit(Array(SLOTS).fill(null))}
+                  onClick={() => useAppStore.getState().clearSlots(hero.id)}
                   className="rounded-lg border border-[#2b2640] px-3 py-2 text-xs text-zinc-400"
                 >
                   Limpar
@@ -391,8 +376,7 @@ export default function Builder({ hero, items, manifest }: Props) {
             <div className="mt-1.5 flex gap-2">
               <button
                 onClick={() => {
-                  setCandidateId(null);
-                  setPreviewId(null);
+                  useAppStore.getState().clearPreview();
                 }}
                 className="rounded-lg border border-[#2b2640] px-4 py-2 text-sm font-bold text-zinc-300"
               >
@@ -401,7 +385,7 @@ export default function Builder({ hero, items, manifest }: Props) {
               <button
                 onClick={() => {
                   equip(ghostItem.id, selectedSlot);
-                  setMobileTab("build");
+                  useAppStore.getState().setMobileTab("build");
                 }}
                 className="flex-1 rounded-lg bg-[#c9a227] px-3 py-2 text-sm font-black text-black"
               >
@@ -421,7 +405,7 @@ export default function Builder({ hero, items, manifest }: Props) {
           ).map((t) => (
             <button
               key={t.id}
-              onClick={() => setMobileTab(t.id)}
+              onClick={() => useAppStore.getState().setMobileTab(t.id)}
               className={`py-2.5 text-sm font-bold ${
                 mobileTab === t.id ? "text-[#e8c96a]" : "text-zinc-500"
               }`}
@@ -437,11 +421,12 @@ export default function Builder({ hero, items, manifest }: Props) {
           hero={hero}
           itemMap={itemMap}
           equippedIds={equippedIds}
+          level={level}
           onLoadBuild={(ids) => {
             const b = hero.recommendedBuilds.find((x) => x.itemIds === ids);
             loadBuild(ids, b?.id ?? buildSel);
           }}
-          onClose={() => setSheetOpen(false)}
+          onClose={() => useAppStore.getState().setSheetOpen(false)}
         />
       )}
     </div>

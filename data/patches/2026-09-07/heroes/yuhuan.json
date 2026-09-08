@@ -1,0 +1,172 @@
+{
+  "id": "yuhuan",
+  "name": "Yuhuan",
+  "nameCn": "杨玉环",
+  "lane": "Mid",
+  "class": "Mage — Formation Mage / Sustained Damage/Heal / Late Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3202,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 42,
+    "physicalAttack": 166,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 370,
+    "maxMana": 640,
+    "mp5": 16
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Poignant Melodies",
+      "text": "Changes the melody to produce different skill effects. War: Skills deal damage to nearby enemies. Peace: Skills heal nearby allies."
+    },
+    {
+      "slot": "s1",
+      "name": "Tragic Beauty",
+      "text": "Damages and slows nearby targets. Her next Basic Attack will deal more damage."
+    },
+    {
+      "slot": "s2",
+      "name": "Mournful Tempo",
+      "text": "Gains Movement Speed, and after a brief delay, inflicts damage and stun on enemies in the target area."
+    },
+    {
+      "slot": "ult",
+      "name": "Melody of Peace",
+      "text": "Changes the melody to Peace, in which skills restore Health to nearby allies."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Mage support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-the-arcane",
+        "crimson-shadow-starspring",
+        "longnight-guardian",
+        "staves-of-sorcery",
+        "ardent-dominion",
+        "venomous-staff"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "guardian-starspring",
+        "boots-of-the-arcane",
+        "holy-grail",
+        "ominous-premonition",
+        "eye-of-the-phoenix",
+        "frozen-breath",
+        "guardian-radiance",
+        "mask-of-agony",
+        "sages-sanctuary",
+        "venomous-staff",
+        "staves-of-sorcery"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-the-arcane",
+        "crimson-shadow",
+        "crimson-shadow-radiance",
+        "frostscars-embrace",
+        "eye-of-the-phoenix",
+        "breakthrough-robe",
+        "frozen-breath",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "holy-grail",
+        "staves-of-sorcery",
+        "twilight-stream",
+        "sages-tome",
+        "savants-wrath",
+        "sages-sanctuary",
+        "splendor",
+        "ardent-dominion"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Mai Shiranui",
+      "Nakoruru",
+      "Wukong"
+    ],
+    "weakAgainst": [
+      "Luna",
+      "Ying"
+    ],
+    "synergies": [
+      "Dolia",
+      "Ming",
+      "Liu Bang",
+      "Mai Shiranui",
+      "Nakoruru",
+      "Wukong"
+    ]
+  },
+  "arcana": [
+    "Nightmare",
+    "Hunt",
+    "Mind's Eye"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 49.5,
+    "pickRate": 0.5,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S12",
+      "date": "Oct 2025",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S11",
+      "date": "Jul 2025",
+      "type": "buff",
+      "summary": "Damage and Recovery Upgrade"
+    },
+    {
+      "season": "S10",
+      "date": "May 2025",
+      "type": "buff",
+      "summary": "Ultimate recovery effect strengthened"
+    },
+    {
+      "season": "S6",
+      "date": "Aug 2024",
+      "type": "buff",
+      "summary": "Increased number of Skill 1 sound waves, base damage, and jungling effectiveness"
+    }
+  ],
+  "patch": "2026-09-07"
+}

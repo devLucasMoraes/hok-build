@@ -1,0 +1,293 @@
+{
+  "id": "ying",
+  "name": "Ying",
+  "nameCn": "云缨",
+  "lane": "Jungle",
+  "class": "Fighter — Assassin Fighter / Gap-Close/Flexible / Mid Game",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3394,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 49,
+    "physicalAttack": 173,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 380,
+    "maxMana": 580,
+    "mp5": 14
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Spear Will - Sweeping Fire",
+      "text": "Gains an enhanced Basic Attack after using skills. Using the enhanced Basic Attack reduces the cooldowns of Skill 1 and Skill 2."
+    },
+    {
+      "slot": "s1",
+      "name": "Moonslash",
+      "text": "Launches and deals damage to enemies."
+    },
+    {
+      "slot": "s2",
+      "name": "Cloudchaser",
+      "text": "Gains Movement Speed while charging, then dashes forward, dealing damage and slowing enemies."
+    },
+    {
+      "slot": "ult",
+      "name": "Starburn",
+      "text": "Dashes in the target direction, then returns to her original location, launching and dealing damage to enemies in her path. She gains crowd control immunity and damage reduction while dashing. Second Phase: Deals damage over time in the target location. While Starburn is active, the second phase of the skill sweeps her surroundings, interrupting subsequent dashes, dealing area damage, and leaving a ring of fire behind for 0.2s."
+    },
+    {
+      "slot": "ult",
+      "name": "Stalwart - Peacemaker",
+      "text": "Continuously deals damage to enemies within range and gains a shield."
+    },
+    {
+      "slot": "ult",
+      "name": "Zealous - Devastation",
+      "text": "Strikes 3 times, dealing damage and restoring Health."
+    },
+    {
+      "slot": "ult",
+      "name": "Zenith - Wildfire",
+      "text": "Gains Movement Speed and damage reduction, and can ignore terrain. Then deals damage to enemies."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle Full AD lethality",
+      "context": "Safe default · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "master-sword",
+        "eternity-blade",
+        "overlords-might",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-resistance",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "nettle-gauntlet",
+        "frostscars-embrace",
+        "blood-rage",
+        "succubus-cloak",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "boots-of-resistance",
+        "nettle-gauntlet",
+        "frostscars-embrace",
+        "blood-rage",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "ravage-phantom"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "rapacious-bite",
+        "axe-of-torment",
+        "pure-sky",
+        "boots-of-resistance",
+        "master-sword",
+        "overlords-might",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "frostscars-embrace",
+        "rapacious-bite",
+        "dragons-rage",
+        "frigid-charge",
+        "sages-sanctuary",
+        "destiny",
+        "blood-rage",
+        "succubus-cloak"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "master-sword",
+        "rapacious-bite",
+        "starbreaker",
+        "overlords-might",
+        "sages-sanctuary",
+        "destiny",
+        "frostscars-embrace",
+        "blood-rage",
+        "succubus-cloak"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "master-sword",
+        "eternity-blade",
+        "overlords-might",
+        "boots-of-resistance",
+        "rapacious-bite",
+        "demonsbane",
+        "sages-sanctuary",
+        "splendor",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-resistance",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "frostscars-embrace",
+        "dragons-rage",
+        "overlords-platemail",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "hunting-knife",
+        "relentless-blade",
+        "lightfoot-shoes",
+        "rapacious-bite",
+        "boots-of-tranquility",
+        "dragons-rage",
+        "axe-of-torment",
+        "boots-of-resistance",
+        "frostscars-embrace",
+        "blood-rage",
+        "demonsbane",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-10",
+      "title": "Standard build",
+      "context": "",
+      "itemIds": [
+        "boots-of-resistance",
+        "rapacious-bite",
+        "axe-of-torment",
+        "frostscars-embrace",
+        "deepfrost-siege",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Kongming",
+      "Liang",
+      "Yuhuan"
+    ],
+    "weakAgainst": [
+      "Di Renjie",
+      "Erin",
+      "Lady Sun",
+      "Luban No.7",
+      "Sakeer",
+      "Shouyue",
+      "Ziya"
+    ],
+    "synergies": [
+      "Dyadia",
+      "Yaria",
+      "Zhuangzi",
+      "Kongming",
+      "Liang",
+      "Yuhuan"
+    ]
+  },
+  "arcana": [],
+  "spell": "Smite",
+  "rates": {
+    "winRate": 53.9,
+    "pickRate": 0.8,
+    "banRate": 0.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S14",
+      "date": "May 2026",
+      "type": "adjust",
+      "summary": "Skill Mechanics Upgraded"
+    },
+    {
+      "season": "S10",
+      "date": "May 2025",
+      "type": "buff",
+      "summary": "Enhanced Basic Attack"
+    },
+    {
+      "season": "S8",
+      "date": "Jan 2025",
+      "type": "buff",
+      "summary": "Reduced skill cooldowns and increased damage and Health recovery."
+    }
+  ],
+  "patch": "2026-09-07"
+}

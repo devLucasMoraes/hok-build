@@ -1,0 +1,200 @@
+{
+  "id": "pei",
+  "name": "Pei",
+  "nameCn": "裴擒虎",
+  "lane": "Jungle",
+  "class": "Assassin — Roving Assassin / Ranged Harass/Cleanup / Early Game",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3238,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 45,
+    "physicalAttack": 165,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 380,
+    "mp5": 50
+  },
+  "resource": {
+    "name": "Energy",
+    "value": 200
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Blast",
+      "text": "In human form, Basic Attacks have increased range and deal extra magical damage while recovering Energy. Consecutive hits on the same target will stack damage."
+    },
+    {
+      "slot": "s1",
+      "name": "Striker Stance",
+      "text": "Fires Inner Energy in the target direction, dealing damage to enemies in its path and slowing them. Recovers Energy upon hit."
+    },
+    {
+      "slot": "s2",
+      "name": "Guarding Stance",
+      "text": "Gains a shield and Attack Speed. Deals damage to enemies within range and continues to deal damage over time."
+    },
+    {
+      "slot": "ult",
+      "name": "Tiger Form",
+      "text": "Switches to tiger form, gaining Movement Speed and enhancing the next 2 Basic Attacks. The 1st Basic Attack lets him dash toward a locked-on target, damaging and slowing them. The 2nd Basic Attack deals magical damage."
+    },
+    {
+      "slot": "ult",
+      "name": "Beastly Instincts",
+      "text": "Gains extra Physical Attack, Physical Defense, Magical Defense, and Movement Speed while in tiger form."
+    },
+    {
+      "slot": "ult",
+      "name": "Roaring Tiger Stance",
+      "text": "Bites enemies, dealing damage. Restores Energy when this attack defeats an enemy."
+    },
+    {
+      "slot": "ult",
+      "name": "Leaping Tiger Stance",
+      "text": "Pounces in the target direction. If runs into terrain, latches onto it briefly and can pounce again. If the pounce hits an enemy, he deals damage, recovers Energy, and reduces this skill's cooldown."
+    },
+    {
+      "slot": "ult",
+      "name": "Human Form",
+      "text": "Switches to human form, gains Movement Speed and enhances the next Basic Attack. Deals damage to the target and enemies in a cone-shaped area behind them."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle Full AD lethality",
+      "context": "Safe default · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "rapacious-bite",
+        "axe-of-torment",
+        "frostscars-embrace",
+        "boots-of-resistance",
+        "pure-sky",
+        "overlords-might",
+        "sages-sanctuary",
+        "destiny",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "axe-of-torment",
+        "rapacious-bite",
+        "master-sword",
+        "boots-of-resistance",
+        "overlords-might",
+        "pure-sky",
+        "sages-sanctuary",
+        "destiny",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-resistance",
+        "master-sword",
+        "axe-of-torment",
+        "rapacious-bite",
+        "doomsday",
+        "overlords-might"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "boots-of-fortitude",
+        "master-sword",
+        "pure-sky",
+        "overlords-might",
+        "sages-sanctuary",
+        "destiny",
+        "immovable-sky-dome"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Arthur",
+      "Lu Bu",
+      "Wuyan"
+    ],
+    "weakAgainst": [
+      "Gan & Mo",
+      "Meng Ya",
+      "Milady",
+      "Nuwa"
+    ],
+    "synergies": [
+      "Xiao Qiao",
+      "Kongming",
+      "Liang",
+      "Arthur",
+      "Lu Bu",
+      "Wuyan"
+    ]
+  },
+  "arcana": [
+    "Conflict",
+    "Eagle Eye",
+    "Hunt"
+  ],
+  "spell": "Smite",
+  "rates": {
+    "winRate": 50.9,
+    "pickRate": 0.3,
+    "banRate": 0.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jun 2026",
+      "type": "nerf",
+      "summary": "Adjusted skill damage"
+    },
+    {
+      "season": "S14",
+      "date": "Apr 2026",
+      "type": "nerf",
+      "summary": "Adjusted passive damage"
+    },
+    {
+      "season": "S10",
+      "date": "May 2025",
+      "type": "buff",
+      "summary": "Enhanced Skill 2's shield"
+    },
+    {
+      "season": "S8",
+      "date": "Feb 2025",
+      "type": "buff",
+      "summary": "Buffed Tiger Form"
+    }
+  ],
+  "patch": "2026-09-07"
+}

@@ -1,0 +1,183 @@
+{
+  "id": "bai-qi",
+  "name": "Bai Qi",
+  "nameCn": "白起",
+  "lane": "Clash Lane",
+  "class": "Tank — Vanguard Tank / Crowd Control / Balanced",
+  "difficulty": "Easy",
+  "baseStats": {
+    "maxHealth": 3625,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 50,
+    "physicalAttack": 181,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 375
+  },
+  "resource": {
+    "name": "Shadow Power",
+    "value": 100
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Reaper's Revenge",
+      "text": "Gains Energy when dealing or taking damage, increasing his Movement Speed and enhancing his recovery effects."
+    },
+    {
+      "slot": "s1",
+      "name": "Blood Echo",
+      "text": "Deals damage to nearby enemies and recovers Health. Charging up will boost the skill's effects. Passive: When taking damage, there is a chance to automatically trigger Skill 1."
+    },
+    {
+      "slot": "s2",
+      "name": "Deathscythe",
+      "text": "Summons scythes in the target direction, pulling back enemies within range while inflicting damage and slow."
+    },
+    {
+      "slot": "ult",
+      "name": "Lay Waste",
+      "text": "Leaps to the target location and taunts enemies while dealing damage and enhancing his recovery effects. Taunt duration increases with max Health."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle Full tank",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "blazing-cape",
+        "longnight-guardian",
+        "eye-of-the-phoenix",
+        "overlords-platemail",
+        "spikemail",
+        "cuirass-of-savagery",
+        "succubus-cloak",
+        "dragons-rage",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Full tank",
+      "context": "Position 1",
+      "itemIds": [
+        "lightfoot-shoes",
+        "blazing-cape",
+        "boots-of-tranquility",
+        "dragons-rage",
+        "eye-of-the-phoenix",
+        "overlords-platemail",
+        "ominous-premonition"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Full tank",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "cuirass-of-savagery",
+        "blazing-cape",
+        "spikemail",
+        "eye-of-the-phoenix",
+        "ominous-premonition"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Full tank",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "blazing-cape",
+        "eye-of-the-phoenix",
+        "overlords-platemail",
+        "dragons-rage",
+        "frigid-charge",
+        "ominous-premonition",
+        "cuirass-of-savagery"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Full tank (AD option)",
+      "context": "Position 1",
+      "itemIds": [
+        "hunting-knife",
+        "boots-of-tranquility",
+        "protectors-cuirass",
+        "patrol-axe",
+        "dragons-rage",
+        "blazing-cape",
+        "longnight-guardian",
+        "giants-grip",
+        "frigid-charge",
+        "sages-sanctuary",
+        "destiny",
+        "overlords-platemail"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Jungle Full tank",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "blazing-cape",
+        "longnight-guardian",
+        "eye-of-the-phoenix",
+        "overlords-platemail",
+        "spikemail",
+        "cuirass-of-savagery",
+        "succubus-cloak",
+        "dragons-rage",
+        "sages-sanctuary"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [],
+    "synergies": [
+      "Ying",
+      "Diaochan",
+      "Yaria",
+      "Mozi",
+      "Angela",
+      "Marco Polo"
+    ]
+  },
+  "arcana": [
+    "Fate",
+    "Harmony",
+    "Void"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 51.2,
+    "pickRate": 0.4,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S13",
+      "date": "Feb 2026",
+      "type": "adjust",
+      "summary": "Adjusted skill damage and recovery"
+    },
+    {
+      "season": "S11",
+      "date": "Jul 2025",
+      "type": "buff",
+      "summary": "Damage and Recovery Upgrade"
+    }
+  ],
+  "patch": "2026-09-07"
+}

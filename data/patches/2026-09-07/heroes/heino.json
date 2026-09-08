@@ -1,0 +1,247 @@
+{
+  "id": "heino",
+  "name": "Heino",
+  "nameCn": "海诺",
+  "lane": "Mid",
+  "class": "Mage/Fighter — Formation Mage / Poke/Recovery / Late Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3313,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 46,
+    "physicalAttack": 165,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 365,
+    "maxMana": 640,
+    "mp5": 16
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Fate's Guidance",
+      "text": "Basic Attack damage differs depending on whether he is in melee or ranged mode. Skills and melee Basic Attacks place marks on enemies."
+    },
+    {
+      "slot": "s1",
+      "name": "Scepter of Fate",
+      "text": "Attacks in the target direction. If the target has a mark, skill cooldown is reduced. Ranged: Deals damage and an extra attack to marked targets. Melee: Deals damage and inflicts slow. Recovers Health upon hitting marked targets."
+    },
+    {
+      "slot": "s2",
+      "name": "Leap of Fate",
+      "text": "Dashes forward and switches attack mode. Enters melee mode if enemy heroes are nearby, increasing Physical and Magical Defense and restoring Health; otherwise, enters ranged mode, leaving a memory and gaining Movement Speed."
+    },
+    {
+      "slot": "ult",
+      "name": "Fate Rewind",
+      "text": "Gains damage reduction and crowd control immunity, recovers Health based on his current Health, and cannot move. Deals magical damage and travels back to where he was. If there is an allied tower within range, it returns to its state from 1.5s ago."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-tranquility",
+        "holy-grail",
+        "blood-clans-grimoire",
+        "nebulon-wood",
+        "insatiable-tome",
+        "twilight-stream",
+        "boots-of-resistance",
+        "savants-wrath",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-tranquility",
+        "holy-grail",
+        "mask-of-agony",
+        "primordial-crystal",
+        "boots-of-the-arcane",
+        "twilight-stream",
+        "savants-wrath",
+        "ardent-dominion",
+        "enigma-moon-goddess",
+        "insatiable-tome",
+        "venomous-staff",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-tranquility",
+        "holy-grail",
+        "belt-of-might",
+        "augurs-word",
+        "nebulon-wood",
+        "sages-tome",
+        "breakthrough-robe",
+        "savants-wrath",
+        "venomous-staff",
+        "ardent-dominion",
+        "splendor",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Sustained AP",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-tranquility",
+        "holy-grail",
+        "blazing-cape",
+        "longnight-guardian",
+        "boots-of-resistance",
+        "eye-of-the-phoenix",
+        "overlords-platemail",
+        "sages-sanctuary",
+        "frostscars-embrace",
+        "succubus-cloak",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Mage support",
+      "context": "Position 1",
+      "itemIds": [
+        "spell-tome",
+        "boots-of-tranquility",
+        "holy-grail",
+        "twilight-stream",
+        "insatiable-tome",
+        "boots-of-resistance",
+        "augurs-word",
+        "savants-wrath",
+        "sages-tome",
+        "void-staff"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Sustained AP",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-tranquility",
+        "holy-grail",
+        "venomous-staff",
+        "insatiable-tome",
+        "augurs-word",
+        "breakthrough-robe",
+        "ardent-dominion",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-tranquility",
+        "holy-grail",
+        "augurs-word",
+        "sages-tome",
+        "void-staff",
+        "insatiable-tome",
+        "venomous-staff",
+        "splendor",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "savants-wrath",
+        "scepter-of-reverberation"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-tranquility",
+        "holy-grail",
+        "twilight-stream",
+        "scepter-of-reverberation",
+        "augurs-word",
+        "void-staff",
+        "sages-sanctuary",
+        "splendor",
+        "destiny",
+        "venomous-staff"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Standard build",
+      "context": "",
+      "itemIds": [
+        "boots-of-tranquility",
+        "holy-grail",
+        "succubus-cloak",
+        "savants-wrath",
+        "blazing-cape",
+        "eye-of-the-phoenix"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Diaochan",
+      "Mulan",
+      "Wukong"
+    ],
+    "weakAgainst": [
+      "Butterfly",
+      "Dharma",
+      "Lu Bu",
+      "Luna",
+      "Zilong"
+    ],
+    "synergies": [
+      "Da Qiao",
+      "Donghuang",
+      "Sun Bin",
+      "Diaochan",
+      "Mulan",
+      "Wukong"
+    ]
+  },
+  "arcana": [],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 47.7,
+    "pickRate": 0.7,
+    "banRate": 0.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S13",
+      "date": "Jan 2026",
+      "type": "buff",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S6",
+      "date": "Aug 2024",
+      "type": "nerf",
+      "summary": "Reduced the continuous poke of Skill 1 and reduced the damage reduction when Ultimate is used."
+    }
+  ],
+  "patch": "2026-09-07"
+}

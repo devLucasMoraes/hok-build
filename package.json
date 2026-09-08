@@ -6,12 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "fetch-items": "node scripts/fetch-items-from-camp.mjs",
+    "fetch-heroes": "node scripts/fetch-heroes-from-camp.mjs",
+    "gen-loader": "node tools/gen-loader.ts",
     "lint": "eslint"
   },
   "dependencies": {
     "next": "16.3.4",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "zod": "^4.5.4",
+    "zustand": "^5.0.15"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

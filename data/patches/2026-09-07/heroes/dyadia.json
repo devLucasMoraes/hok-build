@@ -1,0 +1,240 @@
+{
+  "id": "dyadia",
+  "name": "Dyadia",
+  "nameCn": "少司缘",
+  "lane": "Roam",
+  "class": "Support — Buff Support / Team Buffs/Recovery / Balanced",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3332,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 45,
+    "physicalAttack": 169,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 365,
+    "maxMana": 620,
+    "mp5": 15
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Melodic Swing",
+      "text": "Enhances her next Basic Attack periodically to swing toward the enemy, dealing damage and knocking them back, then jumping back. When any hero receives Blessing of Fate or Bitter Reconciliation, she earns Gold and reduces the preparation time of her enhanced Basic Attack."
+    },
+    {
+      "slot": "s1",
+      "name": "Heartlink",
+      "text": "Blesses a teammate and restores Health. When two blessed teammates come close, they recover Health and gain Movement Speed. If she blesses an already blessed teammate, she will dash to them, and both recover Health and gain Movement Speed. Can use this skill again within 5s."
+    },
+    {
+      "slot": "s2",
+      "name": "Bitter Farewell",
+      "text": "Marks an enemy, exposes them and deals continuous damage. When two marked enemies come close, they stop taking damage. If she uses the skill on a marked enemy, she will dash to them, immobilizing them and dealing continuous damage. Can use this skill again within 5s."
+    },
+    {
+      "slot": "ult",
+      "name": "Destined Encounter",
+      "text": "Commands a swarm of wisps to fly forward, blessing and granting Health recovery to teammates, while marking and damaging enemies."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full tank (AD option)",
+      "context": "Position 5",
+      "itemIds": [
+        "crimson-shadow-redemption",
+        "boots-of-resistance",
+        "holy-grail",
+        "venomous-staff",
+        "blazing-cape",
+        "sages-sanctuary",
+        "succubus-cloak",
+        "ominous-premonition",
+        "destiny",
+        "frigid-charge",
+        "overlords-platemail"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-the-arcane",
+        "crimson-shadow",
+        "crimson-shadow-redemption",
+        "eye-of-the-phoenix",
+        "ominous-premonition",
+        "dawnlight",
+        "succubus-cloak",
+        "longnight-guardian",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "AP penetration",
+      "context": "Position 5",
+      "itemIds": [
+        "crimson-shadow-redemption",
+        "boots-of-the-arcane",
+        "blazing-cape",
+        "dawnlight",
+        "frigid-charge",
+        "succubus-cloak",
+        "ominous-premonition",
+        "venomous-staff",
+        "breakthrough-robe",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "crimson-shadow",
+        "boots-of-the-arcane",
+        "crimson-shadow-radiance",
+        "frigid-charge",
+        "sages-sanctuary",
+        "longnight-guardian",
+        "breakthrough-robe",
+        "amble-winter"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Sustained AP",
+      "context": "Position 5",
+      "itemIds": [
+        "crimson-shadow-redemption",
+        "boots-of-resistance",
+        "holy-grail",
+        "venomous-staff",
+        "eye-of-the-phoenix",
+        "longnight-guardian",
+        "succubus-cloak",
+        "ominous-premonition",
+        "sages-sanctuary",
+        "breakthrough-robe",
+        "blazing-cape",
+        "dawnlight"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "crimson-shadow",
+        "boots-of-the-arcane",
+        "crimson-shadow-starspring",
+        "ominous-premonition",
+        "succubus-cloak",
+        "blazing-cape",
+        "longnight-guardian",
+        "eye-of-the-phoenix"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Full tank (AP option)",
+      "context": "Position 5",
+      "itemIds": [
+        "crimson-shadow-redemption",
+        "boots-of-resistance",
+        "dawnlight",
+        "longnight-guardian",
+        "breakthrough-robe",
+        "overlords-platemail",
+        "succubus-cloak",
+        "blazing-cape",
+        "ominous-premonition",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-the-arcane",
+        "crimson-shadow",
+        "crimson-shadow-radiance",
+        "holy-grail",
+        "venomous-staff",
+        "breakthrough-robe",
+        "augurs-word",
+        "ominous-premonition",
+        "succubus-cloak",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-resistance",
+        "crimson-shadow",
+        "crimson-shadow-redemption",
+        "dawnlight",
+        "venomous-staff",
+        "breakthrough-robe",
+        "augurs-word",
+        "ominous-premonition",
+        "succubus-cloak"
+      ]
+    },
+    {
+      "id": "build-10",
+      "title": "Standard build",
+      "context": "",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "frozen-breath",
+        "augurs-word",
+        "venomous-staff",
+        "mask-of-agony"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Dian Wei",
+      "Liu Bei",
+      "Musashi"
+    ],
+    "weakAgainst": [],
+    "synergies": [
+      "Consort Yu",
+      "Huang Zhong",
+      "Meng Ya",
+      "Dian Wei",
+      "Liu Bei",
+      "Musashi"
+    ]
+  },
+  "arcana": [],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 48.7,
+    "pickRate": 1,
+    "banRate": 1.3,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [],
+  "patch": "2026-09-07"
+}

@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import type { Item, ItemCategory, StatKey } from "@/lib/types";
 import { CATEGORY_META, STAT_META } from "@/lib/stat-meta";
+import GameIcon from "./game-icon";
 
 interface Props {
   items: Map<string, Item>;
@@ -19,20 +20,11 @@ interface Props {
 
 const CATS: ("all" | ItemCategory)[] = ["all", "attack", "magic", "defense", "movement", "jungle", "support"];
 
-function initials(name: string): string {
-  return name
-    .split(/[\s-]+/)
-    .map((w) => w[0])
-    .slice(0, 2)
-    .join("")
-    .toUpperCase();
-}
-
 function shortStat(key: StatKey, value: number): string {
   const meta = STAT_META[key];
   const n = Number.isInteger(value) ? String(value) : value.toFixed(1);
   const signed = `${value > 0 ? "+" : ""}${n}${meta.kind === "percent" ? "%" : ""}`;
-  return `${signed} ${meta.short}`;
+  return `${signed} ${meta.label}`;
 }
 
 export default function ItemBrowser({
@@ -143,12 +135,13 @@ export default function ItemBrowser({
                       : "border-transparent bg-white/[0.02] hover:border-[#c9a227]/40"
                 } ${isEquipped ? "border-l-2 border-l-emerald-400" : ""}`}
               >
-                <span
-                  className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-md text-[10px] font-black text-white ${meta.dot}`}
-                  title={`${meta.label} · Tier ${item.tier}`}
-                >
-                  {initials(item.name)}
-                </span>
+                <GameIcon
+                  src={item.icon}
+                  alt={item.name}
+                  name={item.name}
+                  fallbackClassName={meta.dot}
+                  className="h-8 w-8 rounded-md"
+                />
                 <span className="min-w-0 flex-1">
                   <span className="block truncate text-[13px] leading-tight font-bold">
                     {item.name}

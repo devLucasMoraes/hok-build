@@ -1,0 +1,196 @@
+{
+  "id": "flowborn-mage",
+  "name": "Flowborn (Mage)",
+  "nameCn": "元流之子",
+  "lane": "Mid",
+  "class": "Mage — Artillery Mage / Sustained Damage / Late Game",
+  "difficulty": "Easy",
+  "baseStats": {
+    "maxHealth": 3270,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 45,
+    "physicalAttack": 170,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 360,
+    "maxMana": 640,
+    "mp5": 16
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Flow of the World",
+      "text": "Can change Flow states at the Base to enhance stats. Spends 1 stack of Flow to perform an enhanced Basic Attack that deals area damage."
+    },
+    {
+      "slot": "s1",
+      "name": "Convergence",
+      "text": "Channels the Flow, reducing the cooldown of other skills by 50%. Also gains 5–9 stacks of Flow based on the number of nearby heroes and minions and recovers Health based on Flow stacks. Damages and knocks back nearby enemies (without applying crowd control)."
+    },
+    {
+      "slot": "s2",
+      "name": "Flow Formation",
+      "text": "Deals damage and slows enemies within range, then deals damage over time. Using the skill repeatedly within a short time enhances it, dealing damage and launching or stunning enemies. When new magic circles overlap with the initial one, they increase its damage and refresh its duration. Can spend 4 stacks of Flow to use the skill without triggering cooldown."
+    },
+    {
+      "slot": "ult",
+      "name": "Arcane Arts",
+      "text": "Continuously channels a beam to deal damage over time. While the beam is linked with a hero, continuously throws Energy Bombs that deal area damage. Can spend 5 stacks of Flow to stop the skill from entering cooldown after this use."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "sages-tome",
+        "frozen-breath",
+        "blood-clans-grimoire",
+        "insatiable-tome",
+        "nebulon-wood",
+        "twilight-stream",
+        "savants-wrath",
+        "sages-sanctuary",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "frozen-breath",
+        "venomous-staff",
+        "insatiable-tome",
+        "savants-wrath",
+        "sages-tome",
+        "sages-sanctuary",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-deftness",
+        "sages-codex",
+        "cuirass-of-swiftness",
+        "holy-grail",
+        "stone-of-sorcery",
+        "venomous-staff",
+        "frozen-breath",
+        "twilight-stream",
+        "savants-wrath",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "frozen-breath",
+        "venomous-staff",
+        "nebulon-wood",
+        "twilight-stream",
+        "blood-clans-grimoire",
+        "insatiable-tome",
+        "sages-tome",
+        "destiny",
+        "sages-sanctuary",
+        "enigma-moon-goddess",
+        "void-staff"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "scepter-of-reverberation",
+        "frozen-breath",
+        "insatiable-tome",
+        "savants-wrath",
+        "void-staff",
+        "splendor",
+        "venomous-staff",
+        "destiny",
+        "sages-sanctuary",
+        "sages-tome",
+        "augurs-word"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "venomous-staff",
+        "void-staff",
+        "sages-tome",
+        "ardent-dominion",
+        "splendor",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "stone-of-sorcery",
+        "venomous-staff",
+        "savants-wrath",
+        "insatiable-tome",
+        "void-staff",
+        "sages-tome"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "frozen-breath",
+        "venomous-staff",
+        "nebulon-wood",
+        "twilight-stream",
+        "blood-clans-grimoire",
+        "insatiable-tome",
+        "sages-tome",
+        "destiny",
+        "sages-sanctuary",
+        "enigma-moon-goddess"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [],
+    "synergies": []
+  },
+  "arcana": [],
+  "spell": "",
+  "rates": {
+    "winRate": 51.1,
+    "pickRate": 0.4,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [],
+  "patch": "2026-09-07"
+}

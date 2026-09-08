@@ -1,0 +1,119 @@
+{
+  "id": "luban-no-7",
+  "name": "Luban No.7",
+  "nameCn": "鲁班七号",
+  "lane": "Farm",
+  "class": "Marksman — DPS Marksman / Ranged Harass / Late Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3366,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 42,
+    "physicalAttack": 174,
+    "attackSpeedPct": 10,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 370,
+    "maxMana": 600,
+    "mp5": 15
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Suppressive Fire",
+      "text": "After using 4 Basic Attacks or a skill, the next Basic Attack becomes a scattershot, dealing continuous piercing damage."
+    },
+    {
+      "slot": "s1",
+      "name": "Blowfish Grenade",
+      "text": "Throws a bomb at the target location, dealing area damage and slowing enemies."
+    },
+    {
+      "slot": "s2",
+      "name": "Shark Cannon",
+      "text": "Launches a rocket in the target direction, knocking back enemies directly in front of him and dealing area damage."
+    },
+    {
+      "slot": "ult",
+      "name": "Air Support",
+      "text": "Summons a blowfish airship to bombard the target location, dealing area damage and slowing enemies while gaining vision of the area."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Standard build",
+      "context": "Safe default",
+      "itemIds": [
+        "sparkforged-dagger",
+        "boots-of-dexterity",
+        "eternity-blade",
+        "cloud-piercer",
+        "doomsday",
+        "sages-sanctuary"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Ying",
+      "Ukyo Tachibana",
+      "Lam"
+    ],
+    "weakAgainst": [
+      "Lian Po"
+    ],
+    "synergies": [
+      "Agudo",
+      "Lian Po",
+      "Ying",
+      "Ukyo Tachibana",
+      "Lam"
+    ]
+  },
+  "arcana": [],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 51.9,
+    "pickRate": 2.1,
+    "banRate": 0.4,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jul 2026",
+      "type": "adjust",
+      "summary": "Adjusted skill damage"
+    },
+    {
+      "season": "S14",
+      "date": "May 2026",
+      "type": "buff",
+      "summary": "Reduced skill cooldown"
+    },
+    {
+      "season": "S13",
+      "date": "Dec 2025",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S6",
+      "date": "Sep 2024",
+      "type": "nerf",
+      "summary": "Decreased passive damage."
+    },
+    {
+      "season": "S6",
+      "date": "Aug 2024",
+      "type": "adjust",
+      "summary": "Adjusted Passive effect's damage against different targets."
+    }
+  ],
+  "patch": "2026-09-07"
+}

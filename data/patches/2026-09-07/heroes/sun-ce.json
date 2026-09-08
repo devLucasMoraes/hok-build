@@ -1,0 +1,249 @@
+{
+  "id": "sun-ce",
+  "name": "Sun Ce",
+  "nameCn": "孙策",
+  "lane": "Clash Lane",
+  "class": "Fighter — Charger / Crowd Control/Initiate / Balanced",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3504,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 80,
+    "physicalAttack": 166,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 380,
+    "maxMana": 580,
+    "mp5": 14
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Raging Tide",
+      "text": "The next Basic Attack periodically deals extra damage and restores Health. Gains 1 stack every time a skill deals damage, or every time he takes physical or true damage, for up to 10 stacks. Each stack increases Physical Defense."
+    },
+    {
+      "slot": "s1",
+      "name": "Wave Render",
+      "text": "Dashes in the target direction, dealing damage to enemies in his path and at the end of his dash. After a short delay, launches enemies and deals further damage."
+    },
+    {
+      "slot": "s2",
+      "name": "Typhoon",
+      "text": "Strides forward and sweeps enemies in front, dealing damage and slowing them. Can sweep an extra 2 times before the skill goes into cooldown."
+    },
+    {
+      "slot": "ult",
+      "name": "Set Sail!",
+      "text": "Pilots a boat forward and becomes immune to crowd control. The boat can also carry 1 teammate. When it hits obstacles or certain enemies, it explodes and launches enemies, dealing damage. If he bails out early, the boat will coast for a distance."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "AD penetration",
+      "context": "Safe default · Position 1",
+      "itemIds": [
+        "meteor",
+        "boots-of-fortitude",
+        "axe-of-torment",
+        "frigid-charge",
+        "succubus-cloak",
+        "spikemail",
+        "protectors-cuirass",
+        "blazing-cape",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Full AD lethality",
+      "context": "Position 1",
+      "itemIds": [
+        "iron-sword",
+        "boots-of-resistance",
+        "meteor",
+        "pure-sky",
+        "overlords-might",
+        "starbreaker",
+        "frostscars-embrace",
+        "clandestine-cape",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "boots-of-resistance",
+        "blazing-cape",
+        "axe-of-torment",
+        "ominous-premonition",
+        "frostscars-embrace",
+        "succubus-cloak",
+        "dragons-rage",
+        "longnight-guardian",
+        "sages-sanctuary",
+        "immovable-sky-dome",
+        "frigid-charge"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "meteor",
+        "boots-of-resistance",
+        "axe-of-torment",
+        "master-sword",
+        "overlords-might",
+        "starbreaker",
+        "ominous-premonition",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 1",
+      "itemIds": [
+        "iron-sword",
+        "lightfoot-shoes",
+        "sunglow-striker",
+        "meteor",
+        "axe-of-torment",
+        "boots-of-tranquility",
+        "clandestine-cape",
+        "protectors-cuirass",
+        "blazing-cape",
+        "dragons-rage",
+        "overlords-platemail",
+        "ominous-premonition"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "iron-sword",
+        "lightfoot-shoes",
+        "meteor",
+        "boots-of-resistance",
+        "axe-of-torment",
+        "spikemail",
+        "overlords-might",
+        "succubus-cloak",
+        "starbreaker",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "AD penetration",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "master-sword",
+        "boots-of-fortitude",
+        "pure-sky",
+        "starbreaker",
+        "frostscars-embrace",
+        "succubus-cloak",
+        "spikemail",
+        "overlords-platemail",
+        "eye-of-the-phoenix",
+        "sages-sanctuary",
+        "longnight-guardian"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "AD penetration",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "meteor",
+        "boots-of-fortitude",
+        "axe-of-torment",
+        "frigid-charge",
+        "succubus-cloak",
+        "spikemail",
+        "protectors-cuirass",
+        "blazing-cape",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "meteor",
+        "boots-of-fortitude",
+        "axe-of-torment",
+        "frigid-charge",
+        "blood-rage",
+        "pure-sky",
+        "frostscars-embrace",
+        "boots-of-resistance",
+        "starbreaker",
+        "destiny",
+        "sages-sanctuary"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Liang",
+      "Gan & Mo",
+      "Mi Yue"
+    ],
+    "weakAgainst": [],
+    "synergies": [
+      "Dyadia",
+      "Cai Yan",
+      "Liu Bang",
+      "Liang",
+      "Gan & Mo",
+      "Mi Yue"
+    ]
+  },
+  "arcana": [
+    "Red Moon",
+    "Mutation",
+    "Hunt"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 48.4,
+    "pickRate": 0.9,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S10",
+      "date": "Jun 2025",
+      "type": "buff",
+      "summary": "Skill Damage Increase"
+    },
+    {
+      "season": "S7",
+      "date": "Nov 2024",
+      "type": "buff",
+      "summary": "Increased base stats and Ultimate damage"
+    }
+  ],
+  "patch": "2026-09-07"
+}

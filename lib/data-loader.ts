@@ -1,30 +1,25 @@
 import type { Hero, Item, PatchManifest } from "./types";
+import { HEROES, ITEMS, MANIFEST } from "./data/generated";
 
-// Hoje: importa o snapshot JSON versionado por patch.
-// Amanhã (backend): trocar o corpo destas funções por fetch()
-// para GET /api/patches/:patch/items — os tipos não mudam.
-import manifest from "@/data/patches/manifest.json";
-import itemsJson from "@/data/patches/2026-04-29/items.json";
-import angelaJson from "@/data/patches/2026-04-29/heroes/angela.json";
-
-const HEROES: Record<string, Hero> = {
-  angela: angelaJson as Hero,
-};
+// Snapshot JSON versionado por patch — imports em ./data/generated.ts,
+// gerados por tools/gen-loader.ts (pnpm gen-loader). Não edite o gerado.
+// (Futuro backend: trocar o corpo destas funções por fetch()
+// para GET /api/patches/:patch/items — os tipos não mudam.)
 
 export function getManifest(): PatchManifest {
-  return manifest as PatchManifest;
+  return MANIFEST;
 }
 
 export function getPatch(): string {
-  return (manifest as PatchManifest).latest;
+  return MANIFEST.latest;
 }
 
 export function getItems(): Item[] {
-  return itemsJson as Item[];
+  return ITEMS;
 }
 
 export function getItemMap(): Map<string, Item> {
-  return new Map(getItems().map((i) => [i.id, i]));
+  return new Map(ITEMS.map((i) => [i.id, i]));
 }
 
 export function getHero(id: string): Hero {
@@ -33,7 +28,11 @@ export function getHero(id: string): Hero {
   return hero;
 }
 
+export function getHeroes(): Hero[] {
+  return Object.values(HEROES);
+}
+
 /** Deriva buildsInto (quem usa este item como componente). */
 export function getBuildsInto(itemId: string): Item[] {
-  return getItems().filter((i) => i.buildsFrom.includes(itemId));
+  return ITEMS.filter((i) => i.buildsFrom.includes(itemId));
 }

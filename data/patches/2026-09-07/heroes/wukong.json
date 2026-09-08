@@ -1,0 +1,256 @@
+{
+  "id": "wukong",
+  "name": "Wukong",
+  "nameCn": "孙悟空",
+  "lane": "Jungle",
+  "class": "Assassin — Burst Assassin / Gap-Close/Crowd Control / Late Game",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3334,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 50,
+    "physicalAttack": 173,
+    "attackSpeedPct": 5,
+    "critRatePct": 20,
+    "critDamagePct": 150,
+    "moveSpeedFlat": 385,
+    "maxMana": 560,
+    "mp5": 14
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "The Great Sage",
+      "text": "Using skills enhances the next Basic Attack to a dash strike that deals extra damage. He has a higher base Critical Rate but lower base Critical Damage than other heroes."
+    },
+    {
+      "slot": "s1",
+      "name": "Protective Shroud",
+      "text": "Gains Movement Speed and blocks the next enemy skill's damage and effects. Upon a successful block, grants temporary damage and skill invulnerability along with a shield."
+    },
+    {
+      "slot": "s2",
+      "name": "Furious Advance",
+      "text": "Dashes in the target direction. If he dashes into an enemy, he'll dash again and gain Movement Speed. The dash deals damage to monsters, and grievous damage to monsters at low Health."
+    },
+    {
+      "slot": "ult",
+      "name": "Golden Cudgel",
+      "text": "Launches enemies within range, damaging and placing 3 marks on them. Enemies lose 1 mark and take extra damage when hit by his Basic Attack."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle Critical strike",
+      "context": "Safe default · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-deftness",
+        "eternity-blade",
+        "rapacious-bite",
+        "shadow-ripper",
+        "master-sword",
+        "starbreaker",
+        "sages-sanctuary",
+        "succubus-cloak"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Critical strike",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "eternity-blade",
+        "shadow-ripper",
+        "rapacious-bite",
+        "master-sword",
+        "starbreaker",
+        "sages-sanctuary",
+        "destiny",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle Critical strike",
+      "context": "Position 3",
+      "itemIds": [
+        "rapacious-bite",
+        "boots-of-dexterity",
+        "eternity-blade",
+        "shadow-ripper",
+        "sunchaser",
+        "overlords-might",
+        "bloodweeper",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Critical strike",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "axe-of-torment",
+        "eternity-blade",
+        "boots-of-fortitude",
+        "shadow-ripper",
+        "bloodweeper",
+        "rapacious-bite",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Critical strike",
+      "context": "Position 3",
+      "itemIds": [
+        "hunting-knife",
+        "boots-of-dexterity",
+        "relentless-blade",
+        "rapacious-bite",
+        "eternity-blade",
+        "shadow-ripper",
+        "starbreaker",
+        "bloodweeper",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Jungle Critical strike",
+      "context": "Position 3",
+      "itemIds": [
+        "hunting-knife",
+        "boots-of-dexterity",
+        "relentless-blade",
+        "rapacious-bite",
+        "eternity-blade",
+        "shadow-ripper",
+        "axe-of-torment",
+        "master-sword",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Jungle Critical strike",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "eternity-blade",
+        "rapacious-bite",
+        "shadow-ripper",
+        "starbreaker",
+        "bloodweeper",
+        "mortal-punisher",
+        "sages-sanctuary",
+        "destiny",
+        "blood-rage",
+        "ravage-phantom"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "hunting-knife",
+        "boots-of-dexterity",
+        "relentless-blade",
+        "rapacious-bite",
+        "eternity-blade",
+        "blazing-cape",
+        "overlords-might",
+        "starbreaker",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "patrol-axe",
+        "boots-of-dexterity",
+        "eternity-blade",
+        "master-sword",
+        "axe-of-torment",
+        "doomsday",
+        "giants-grip"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Dun",
+      "Lian Po",
+      "Xiang Yu"
+    ],
+    "weakAgainst": [
+      "Agudo",
+      "Gao",
+      "Heino",
+      "Marco Polo",
+      "Nakoruru",
+      "Shi",
+      "Yuhuan"
+    ],
+    "synergies": [
+      "Heino",
+      "Shi",
+      "Kongming",
+      "Dun",
+      "Lian Po",
+      "Xiang Yu"
+    ]
+  },
+  "arcana": [
+    "Conflict",
+    "Reaver",
+    "Eagle Eye"
+  ],
+  "spell": "Smite",
+  "rates": {
+    "winRate": 49,
+    "pickRate": 1.4,
+    "banRate": 0.6,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S11",
+      "date": "Aug 2025",
+      "type": "buff",
+      "summary": "Increased Skill 1 shield"
+    },
+    {
+      "season": "S7",
+      "date": "Oct 2024",
+      "type": "buff",
+      "summary": "Reduced Ultimate cooldown and increased passive base damage."
+    },
+    {
+      "season": "S6",
+      "date": "Jul 2024",
+      "type": "buff",
+      "summary": "Ultimate damage and Skill 1 shield are increased, improving play from the beginning."
+    }
+  ],
+  "patch": "2026-09-07"
+}

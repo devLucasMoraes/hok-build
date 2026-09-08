@@ -1,0 +1,184 @@
+{
+  "id": "sun-bin",
+  "name": "Sun Bin",
+  "nameCn": "孙膑",
+  "lane": "Roam",
+  "class": "Support — Tactical Support / Crowd Control/Team Buffs / Late Game",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3348,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 45,
+    "physicalAttack": 177,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 360,
+    "maxMana": 620,
+    "mp5": 15
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Hourglass of Time",
+      "text": "Gains a Movement Speed bonus after using skills."
+    },
+    {
+      "slot": "s1",
+      "name": "Time Bomb",
+      "text": "Fires a bomb in the target direction, which deals damage and attaches itself to the hit enemy. After a brief delay, inflicts area damage and slow."
+    },
+    {
+      "slot": "s2",
+      "name": "Time Flux",
+      "text": "Increases his and nearby teammates' Movement Speed. When the effect ends, he restores Health equal to 25% of the damage taken during the effect's duration. Passive: Gains Cooldown Reduction."
+    },
+    {
+      "slot": "ult",
+      "name": "Time Lapse",
+      "text": "Throws a bomb in the target direction, inflicting area damage, slow, and silence upon coming in contact with an enemy or reaching its max range. After a brief delay, the bomb deals area damage again."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Tank support",
+      "context": "Position 3",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-the-arcane",
+        "crimson-shadow",
+        "crimson-shadow-redemption",
+        "dawnlight",
+        "succubus-cloak",
+        "venomous-staff",
+        "grand-staff",
+        "frozen-breath",
+        "sages-sanctuary",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "guardian",
+        "boots-of-the-arcane",
+        "guardian-redemption",
+        "holy-grail",
+        "ominous-premonition",
+        "dawnlight",
+        "frozen-breath",
+        "venomous-staff",
+        "succubus-cloak",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-the-arcane",
+        "crimson-shadow",
+        "crimson-shadow-redemption",
+        "dawnlight",
+        "succubus-cloak",
+        "venomous-staff",
+        "ominous-premonition"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "guardian",
+        "boots-of-tranquility",
+        "guardian-radiance",
+        "glacial-buckler",
+        "boots-of-the-arcane",
+        "dawnlight",
+        "longnight-guardian",
+        "spikemail",
+        "venomous-staff",
+        "blood-rage",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-the-arcane",
+        "crimson-shadow-starspring",
+        "dawnlight",
+        "venomous-staff",
+        "succubus-cloak",
+        "ominous-premonition"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Kaizer",
+      "Musashi"
+    ],
+    "weakAgainst": [],
+    "synergies": [
+      "Lady Sun",
+      "Luban No.7",
+      "Kaizer",
+      "Musashi"
+    ]
+  },
+  "arcana": [
+    "Nightmare",
+    "Mind's Eye",
+    "Reincarnation"
+  ],
+  "spell": "Heal",
+  "rates": {
+    "winRate": 48.8,
+    "pickRate": 0.3,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jul 2026",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S10",
+      "date": "Jun 2025",
+      "type": "buff",
+      "summary": "Skill 2 Effect Upgrade"
+    },
+    {
+      "season": "S9",
+      "date": "Apr 2025",
+      "type": "buff",
+      "summary": "Skill 1 damage increased, Skill 2's cooldown reduced"
+    },
+    {
+      "season": "S6",
+      "date": "Jul 2024",
+      "type": "buff",
+      "summary": "Increased base Movement Speed."
+    }
+  ],
+  "patch": "2026-09-07"
+}

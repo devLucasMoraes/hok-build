@@ -1,0 +1,266 @@
+{
+  "id": "hou-yi",
+  "name": "Hou Yi",
+  "nameCn": "后羿",
+  "lane": "Farm",
+  "class": "Marksman — DPS Marksman / Crowd Control/Initiate / Late Game",
+  "difficulty": "Easy",
+  "baseStats": {
+    "maxHealth": 3362,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 41,
+    "physicalAttack": 166,
+    "attackSpeedPct": 10,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 370,
+    "maxMana": 600,
+    "mp5": 15
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Chastising Shot",
+      "text": "Each Basic Attack hit increases Attack Speed. When the effect is fully stacked, he shoots several shots with each Basic Attack."
+    },
+    {
+      "slot": "s1",
+      "name": "Arrow Volley",
+      "text": "Increases Basic Attack damage and shoots extra arrows to hit multiple enemies."
+    },
+    {
+      "slot": "s2",
+      "name": "Afterglow",
+      "text": "Inflicts area damage and slow."
+    },
+    {
+      "slot": "ult",
+      "name": "Burning Sun Arrow",
+      "text": "Shoots a long-range explosive arrow that stuns the target on hit, dealing area damage and inflicting slow."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Crit attack speed",
+      "context": "Safe default · Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "doomsday",
+        "shadow-ripper",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "sages-sanctuary",
+        "destiny",
+        "mortal-punisher",
+        "deepfrost-siege"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "dagger",
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "mortal-punisher",
+        "haste-sunpool",
+        "sages-sanctuary",
+        "destiny",
+        "blood-rage"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "twinblades-of-destruction",
+        "vampiric-scythe",
+        "shadow-ripper",
+        "eternity-blade",
+        "doomsday",
+        "daybreakers-virtue",
+        "sunchaser",
+        "sages-sanctuary",
+        "destiny",
+        "haste-sunpool"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "dagger",
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "bloodweeper",
+        "sunchaser",
+        "sages-sanctuary",
+        "haste-sunpool",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "twinblades-of-destruction",
+        "vampiric-scythe",
+        "shadow-ripper",
+        "eternity-blade",
+        "doomsday",
+        "daybreakers-virtue",
+        "sunchaser",
+        "sages-sanctuary",
+        "destiny",
+        "haste-sunpool"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "twinblades-of-destruction",
+        "vampiric-scythe",
+        "shadow-ripper",
+        "eternity-blade",
+        "doomsday",
+        "daybreakers-virtue",
+        "sunchaser",
+        "sages-sanctuary",
+        "destiny",
+        "haste-sunpool"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "twinblades-of-destruction",
+        "vampiric-scythe",
+        "shadow-ripper",
+        "eternity-blade",
+        "doomsday",
+        "daybreakers-virtue",
+        "sunchaser",
+        "sages-sanctuary",
+        "destiny",
+        "haste-sunpool"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "swiftstrike-lance",
+        "shadow-ripper",
+        "eternity-blade",
+        "vampiric-scythe",
+        "mortal-punisher",
+        "daybreakers-virtue",
+        "sunchaser",
+        "bloodweeper",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Crit attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "bloodweeper",
+        "shadow-ripper",
+        "eternity-blade",
+        "pure-sky",
+        "immovable-sky-dome",
+        "doomsday"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Cirrus",
+      "Mulan",
+      "Xuance"
+    ],
+    "weakAgainst": [
+      "Agudo"
+    ],
+    "synergies": [
+      "Wuyan",
+      "Dun",
+      "Menki",
+      "Cirrus",
+      "Mulan",
+      "Xuance"
+    ]
+  },
+  "arcana": [
+    "Conflict",
+    "Eagle Eye",
+    "Hunt"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 49.3,
+    "pickRate": 2.7,
+    "banRate": 0.2,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S13",
+      "date": "Feb 2026",
+      "type": "buff",
+      "summary": "Increased skill damage"
+    },
+    {
+      "season": "S13",
+      "date": "Dec 2025",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S11",
+      "date": "Aug 2025",
+      "type": "nerf",
+      "summary": "Skill Damage Adjustments"
+    },
+    {
+      "season": "S10",
+      "date": "May 2025",
+      "type": "nerf",
+      "summary": "Passive Attack Speed reduced"
+    },
+    {
+      "season": "S6",
+      "date": "Jul 2024",
+      "type": "nerf",
+      "summary": "Increased Basic Attack interval slightly"
+    }
+  ],
+  "patch": "2026-09-07"
+}

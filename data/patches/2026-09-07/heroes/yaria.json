@@ -1,0 +1,168 @@
+{
+  "id": "yaria",
+  "name": "Yaria",
+  "nameCn": "瑶",
+  "lane": "Roam",
+  "class": "Support — Buff Support / Team Buffs / Balanced",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 2793,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 36,
+    "physicalAttack": 165,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 365,
+    "maxMana": 620,
+    "mp5": 15
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Deer Spirit",
+      "text": "When inflicted with crowd control effects (excluding suppression), gains immunity to all effects."
+    },
+    {
+      "slot": "s1",
+      "name": "Wandering Beam",
+      "text": "Releases a soul in the target direction, which tracks nearby enemies after reaching its max range. The soul launches and deals damage to enemies hit. In deer spirit form, using this skill will restore her to Human Form."
+    },
+    {
+      "slot": "s2",
+      "name": "Accelerating Blitz",
+      "text": "Deals continuous damage to nearby enemies. Attached: Increased range."
+    },
+    {
+      "slot": "ult",
+      "name": "Verdant Protector",
+      "text": "Attaches herself to a teammate, providing a true damage shield and enhancing her own skill effects. Attached: When the shield is exhausted, the attachment ends and the skill goes on cooldown. Actively detaching reduces the cooldown."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-tranquility",
+        "crimson-shadow-radiance",
+        "overlords-platemail",
+        "longnight-guardian",
+        "blazing-cape",
+        "sages-sanctuary",
+        "dawnlight",
+        "clandestine-cape",
+        "crimson-shadow"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Mage support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-the-arcane",
+        "guardian",
+        "guardian-redemption",
+        "dawnlight",
+        "frozen-breath",
+        "venomous-staff",
+        "breakthrough-robe",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Sustained AP",
+      "context": "Position 5",
+      "itemIds": [
+        "crimson-shadow-redemption",
+        "boots-of-deftness",
+        "dawnlight",
+        "frozen-breath",
+        "venomous-staff",
+        "frigid-charge",
+        "crimson-shadow-starspring",
+        "sages-sanctuary",
+        "splendor",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-tranquility",
+        "guardian-starspring",
+        "venomous-staff",
+        "dawnlight",
+        "succubus-cloak",
+        "overlords-platemail"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-the-arcane",
+        "crimson-shadow",
+        "crimson-shadow-redemption",
+        "dawnlight",
+        "frozen-breath",
+        "overlords-platemail",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "venomous-staff",
+        "breakthrough-robe",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Dian Wei",
+      "Dun",
+      "Mayene"
+    ],
+    "weakAgainst": [],
+    "synergies": [
+      "Erin",
+      "Fang",
+      "Luban No.7",
+      "Dian Wei",
+      "Dun",
+      "Mayene"
+    ]
+  },
+  "arcana": [
+    "Fate",
+    "Harmony",
+    "Void"
+  ],
+  "spell": "",
+  "rates": {
+    "winRate": 49.4,
+    "pickRate": 1.1,
+    "banRate": 1.6,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S7",
+      "date": "Dec 2024",
+      "type": "buff",
+      "summary": "Passive's CD reduces with level, adjusted shield multiplier"
+    }
+  ],
+  "patch": "2026-09-07"
+}

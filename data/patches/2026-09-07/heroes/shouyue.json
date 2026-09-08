@@ -1,0 +1,252 @@
+{
+  "id": "shouyue",
+  "name": "Shouyue",
+  "nameCn": "百里守约",
+  "lane": "Farm",
+  "class": "Marksman — Artillery Marksman / Ranged Harass / Late Game",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3275,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 39,
+    "physicalAttack": 178,
+    "attackSpeedPct": 10,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 365,
+    "maxMana": 600,
+    "mp5": 15
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Accuracy",
+      "text": "When out of combat, gains marks that increase his Physical Pierce and Basic Attack damage. Hitting enemy heroes with Basic Attacks or skills will consume marks. When his Attack Speed reaches certain thresholds, he gains marks faster."
+    },
+    {
+      "slot": "s1",
+      "name": "The Tranquil Eye",
+      "text": "Places a device that grants vision. Passive: When out of combat and near natural terrain or a scouting device, he disguises himself, gaining Movement Speed and Attack Speed."
+    },
+    {
+      "slot": "s2",
+      "name": "Wild Wind",
+      "text": "Snipes in the target direction, damaging and slowing targets. This skill will be enhanced when his Attack Speed reaches certain thresholds."
+    },
+    {
+      "slot": "ult",
+      "name": "Getaway",
+      "text": "Leaps backward and fires in the target direction, dealing damage and slowing the target hit while gaining increased Movement Speed. Bullets stocked are shared with Skill 2. Passive: Increases Basic Attack range."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Crit attack speed",
+      "context": "Safe default · Position 4",
+      "itemIds": [
+        "sparkforged-dagger",
+        "boots-of-dexterity",
+        "doomsday",
+        "shadow-ripper",
+        "overlords-might",
+        "eternity-blade",
+        "bloodweeper",
+        "master-sword",
+        "deepfrost-siege",
+        "frostscars-embrace",
+        "ravage-phantom",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "eternity-blade",
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "daybreakers-virtue",
+        "boots-of-resistance",
+        "doomsday",
+        "sunchaser",
+        "sages-sanctuary",
+        "destiny",
+        "haste-sunpool"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "eternity-blade",
+        "shadow-ripper",
+        "daybreakers-virtue",
+        "doomsday",
+        "overlords-might",
+        "haste-sunpool",
+        "mortal-punisher",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "eternity-blade",
+        "boots-of-resistance",
+        "shadow-ripper",
+        "mortal-punisher",
+        "daybreakers-virtue",
+        "sunchaser",
+        "destiny",
+        "sages-sanctuary",
+        "blood-rage",
+        "ravage-phantom",
+        "longnight-guardian"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "master-sword",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "overlords-might"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "storm-sword",
+        "boots-of-dexterity",
+        "eternity-blade",
+        "twinblades-of-destruction",
+        "shadow-ripper",
+        "cloud-piercer",
+        "daybreakers-virtue",
+        "sunchaser",
+        "bloodsoul",
+        "bloodweeper",
+        "sages-sanctuary",
+        "haste-sunpool"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "storm-sword",
+        "boots-of-dexterity",
+        "eternity-blade",
+        "twinblades-of-destruction",
+        "shadow-ripper",
+        "cloud-piercer",
+        "daybreakers-virtue",
+        "sunchaser",
+        "bloodsoul",
+        "bloodweeper",
+        "sages-sanctuary",
+        "haste-sunpool"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "eternity-blade",
+        "doomsday",
+        "daybreakers-virtue",
+        "overlords-might"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "storm-sword",
+        "boots-of-dexterity",
+        "eternity-blade",
+        "twinblades-of-destruction",
+        "shadow-ripper",
+        "vampiric-scythe",
+        "daybreakers-virtue",
+        "sunchaser",
+        "doomsday",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Diaochan",
+      "Nakoruru",
+      "Ying"
+    ],
+    "weakAgainst": [
+      "Liu Bang"
+    ],
+    "synergies": [
+      "Ata",
+      "Dun",
+      "Liu Bang",
+      "Diaochan",
+      "Nakoruru",
+      "Ying"
+    ]
+  },
+  "arcana": [
+    "Calamity",
+    "Hunt",
+    "Eagle Eye"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 50.5,
+    "pickRate": 0.9,
+    "banRate": 0.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S13",
+      "date": "Dec 2025",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S10",
+      "date": "May 2025",
+      "type": "buff",
+      "summary": "Increased snipe damage"
+    },
+    {
+      "season": "S7",
+      "date": "Nov 2024",
+      "type": "adjust",
+      "summary": "More Builds and Play Styles"
+    }
+  ],
+  "patch": "2026-09-07"
+}

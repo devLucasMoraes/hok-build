@@ -1,0 +1,166 @@
+{
+  "id": "agudo",
+  "name": "Agudo",
+  "nameCn": "阿古朵",
+  "lane": "Jungle",
+  "class": "Marksman — Jungling Marksman / Release/Enhance/Damage/Summon/Speed Up/Immunity/Crowd Control",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3280,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 50,
+    "physicalAttack": 176,
+    "attackSpeedPct": 10,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 370,
+    "maxMana": 600,
+    "mp5": 15
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Mountain Encounter",
+      "text": "Replaces Recovery with Release. Upon releasing monsters, they grant her Gold, EXP, and their respective blessing. Her Basic Attacks drop Seed Mines."
+    },
+    {
+      "slot": "s1",
+      "name": "Wild Growth",
+      "text": "Agudo grants Movement Speed and Health recovery to herself and summons in the target area, and summons multiple monsters at the center."
+    },
+    {
+      "slot": "s2",
+      "name": "Tumble, Furball!",
+      "text": "Rolls forward, dealing damage to nearby enemies. Gains immunity against 1 hard crowd control, and damages and launches enemies hit."
+    },
+    {
+      "slot": "ult",
+      "name": "Gorge Mobilization",
+      "text": "Summons Furball to leap to the target location, inflicting damage and crowd control. Furball then fights independently."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle — high damage and poke",
+      "context": "Position 3",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "doomsday",
+        "giants-grip",
+        "daybreakers-virtue",
+        "boots-of-resistance"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle — critical strike",
+      "context": "Safe default · Position 3",
+      "itemIds": [
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "eternity-blade",
+        "rapacious-bite",
+        "daybreakers-virtue",
+        "blood-rage"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle — attack speed",
+      "context": "Position 3",
+      "itemIds": [
+        "sparkforged-dagger",
+        "boots-of-dexterity",
+        "boots-of-resistance",
+        "doomsday",
+        "succubus-cloak",
+        "rapacious-bite"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Farm Lane — critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "eternity-blade",
+        "doomsday",
+        "daybreakers-virtue",
+        "overlords-might"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Farm Lane — attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "sparkforged-dagger",
+        "boots-of-dexterity",
+        "boots-of-resistance",
+        "doomsday",
+        "daybreakers-virtue",
+        "eternity-blade"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Farm Lane — mixed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "cuirass-of-savagery",
+        "bloodweeper"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [],
+    "synergies": [
+      "Zhou Yu",
+      "Liu Shan",
+      "Guan Yu",
+      "Dr Bian",
+      "Bai Qi"
+    ]
+  },
+  "arcana": [],
+  "spell": "Smite",
+  "rates": {
+    "winRate": 53.7,
+    "pickRate": 0.5,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S13",
+      "date": "Dec 2025",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S12",
+      "date": "Sep 2025",
+      "type": "adjust",
+      "summary": "Comprehensive Mechanics Upgrade"
+    },
+    {
+      "season": "S9",
+      "date": "Mar 2025",
+      "type": "adjust",
+      "summary": "New Marksman Playstyle"
+    }
+  ],
+  "patch": "2026-09-07"
+}

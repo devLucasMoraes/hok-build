@@ -51,7 +51,13 @@ export interface ItemAbility {
 export interface Item {
   /** slug estável entre patches: "savants-wrath" */
   id: string;
+  /** ID numérico oficial do camp.honorofkings.com (espelhado em hokstats.gg/items/<campId>/) */
+  campId: string;
   name: string;
+  /** nome PT-BR quando diferente do EN (nomes próprios costumam ser iguais) */
+  namePt?: string;
+  /** ícone em public/items/<campId>.png */
+  icon?: string;
   category: ItemCategory;
   tier: 1 | 2 | 3;
   /** custo de compra do item pronto (ouro) */
@@ -110,6 +116,8 @@ export interface Hero {
   difficulty: string;
   /** atributos no nível 1 (ou nível de referência do snapshot) */
   baseStats: Partial<Record<StatKey, number>>;
+  /** recurso alternativo à mana (ex: Energy, Fury, Heat): barra própria do herói */
+  resource?: { name: string; value: number };
   attackRange: "melee" | "ranged";
   /** escala por nível: stat(L) = base + perLevel * (L - 1) */
   growth: HeroGrowth[];

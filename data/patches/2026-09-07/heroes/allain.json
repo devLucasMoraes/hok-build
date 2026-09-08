@@ -1,0 +1,255 @@
+{
+  "id": "allain",
+  "name": "Allain",
+  "nameCn": "亚连",
+  "lane": "Clash Lane",
+  "class": "Fighter — Berserker / Gap-Close / Late Game",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3600,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 51,
+    "physicalAttack": 177,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 380
+  },
+  "resource": {
+    "name": "Fury",
+    "value": 96
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Howling Blade",
+      "text": "Basic Attacks and skills grant Fury, which increases his Physical Pierce and Magical Pierce and grants damage reduction. At max Fury, he recovers Health, and the lower his Health, the more he recovers."
+    },
+    {
+      "slot": "s1",
+      "name": "Meteor Kill",
+      "text": "Based on how many stacks of mark he has, deals multi-phase damage in the target direction and launches enemies. He gains marks by hitting enemies with Basic Attacks and his Ultimate."
+    },
+    {
+      "slot": "s2",
+      "name": "Moonlight Flash",
+      "text": "Dashes in the target direction, damaging and slowing enemies. He gains Movement Speed and his next 3 Basic Attacks gain increased Attack Speed."
+    },
+    {
+      "slot": "ult",
+      "name": "Death at Sunset",
+      "text": "Leaps toward the targeted enemy hero and becomes untargetable. After a short delay, he lands and deals area damage. For every enemy hero hit, he gains marks and Fury. He also gains a shield based on the number of enemies hit."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Bruiser",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "vampiric-scythe",
+        "blazing-cape",
+        "doomsday",
+        "boots-of-resistance",
+        "overlords-might",
+        "destiny",
+        "blood-rage",
+        "sages-sanctuary",
+        "eternity-blade",
+        "ravage-phantom"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Bruiser",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "blazing-cape",
+        "sparkforged-dagger",
+        "blood-rage",
+        "overlords-platemail",
+        "cuirass-of-savagery",
+        "sages-sanctuary",
+        "destiny",
+        "ravage-phantom",
+        "glacial-buckler",
+        "pure-sky"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle Bruiser",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "storm-sword",
+        "blazing-cape",
+        "blood-rage",
+        "dragons-rage",
+        "sparkforged-dagger",
+        "eye-of-the-phoenix",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Bruiser",
+      "context": "Position 1",
+      "itemIds": [
+        "iron-sword",
+        "boots-of-fortitude",
+        "blazing-cape",
+        "blood-rage",
+        "overlords-platemail",
+        "frigid-charge",
+        "dragons-rage",
+        "boots-of-resistance",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Full tank (AD option)",
+      "context": "Position 3",
+      "itemIds": [
+        "boots-of-fortitude",
+        "blazing-cape",
+        "sparkforged-dagger",
+        "blood-rage",
+        "overlords-platemail",
+        "cuirass-of-savagery",
+        "succubus-cloak"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Bruiser",
+      "context": "Position 1",
+      "itemIds": [
+        "swiftstrike-lance",
+        "boots-of-fortitude",
+        "sparkforged-dagger",
+        "blazing-cape",
+        "blood-rage",
+        "frigid-charge",
+        "overlords-platemail",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Jungle Full tank (AD option)",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "dragons-rage",
+        "overlords-platemail",
+        "blazing-cape",
+        "blood-rage",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Critical strike",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "vampiric-scythe",
+        "blazing-cape",
+        "doomsday",
+        "boots-of-resistance",
+        "shadow-ripper",
+        "eternity-blade",
+        "destiny",
+        "sages-sanctuary",
+        "overlords-might",
+        "ravage-phantom"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Sustain bruiser",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "vampiric-scythe",
+        "blazing-cape",
+        "sparkforged-dagger",
+        "boots-of-resistance",
+        "blood-rage",
+        "bloodweeper",
+        "cuirass-of-savagery",
+        "sages-sanctuary",
+        "destiny",
+        "ravage-phantom"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Kongming",
+      "Milady",
+      "Yixing"
+    ],
+    "weakAgainst": [
+      "Donghuang"
+    ],
+    "synergies": [
+      "Dolia",
+      "Sun Bin",
+      "Liu Bang",
+      "Kongming",
+      "Milady",
+      "Yixing"
+    ]
+  },
+  "arcana": [
+    "Red Moon",
+    "Harmony",
+    "Hunt"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 50.4,
+    "pickRate": 0.5,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S14",
+      "date": "Apr 2026",
+      "type": "buff",
+      "summary": "Increased skill damage"
+    },
+    {
+      "season": "S14",
+      "date": "Mar 2026",
+      "type": "buff",
+      "summary": "Increased skill damage"
+    },
+    {
+      "season": "S13",
+      "date": "Jan 2026",
+      "type": "buff",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S6",
+      "date": "Sep 2024",
+      "type": "nerf",
+      "summary": "Increased Basic Attack interval and reduced Ultimate's shield effect."
+    }
+  ],
+  "patch": "2026-09-07"
+}

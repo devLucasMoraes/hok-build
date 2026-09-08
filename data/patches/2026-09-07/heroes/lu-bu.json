@@ -1,0 +1,233 @@
+{
+  "id": "lu-bu",
+  "name": "Lu Bu",
+  "nameCn": "吕布",
+  "lane": "Clash Lane",
+  "class": "Fighter — Heavy Fighter / Cleanup / Late Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3587,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 54,
+    "physicalAttack": 182,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 380
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Bloodthirsty Ancestry",
+      "text": "Enchants his weapon when it hits an enemy during Skill 1 or Ultimate. While enchanted, Basic Attacks and Skills deal additional true damage and recover his Health."
+    },
+    {
+      "slot": "s1",
+      "name": "Impaling Thrust",
+      "text": "Performs a sweep attack on the target area. Restores a certain amount of Health with each enemy hero hit. Failing to hit a hero will cause his enhancement to disappear."
+    },
+    {
+      "slot": "s2",
+      "name": "Souleater",
+      "text": "Slows and damages enemies in the target area and gains a shield for each enemy hit (up to 3 stacks). The shield value is converted to Health over time."
+    },
+    {
+      "slot": "ult",
+      "name": "Tremble, Mortals",
+      "text": "Leaps to the target location, launching and damaging enemies within range upon landing, then forming a ring of slaughter. While inside the ring, he gains increased Physical and Magical Defense, while enemies suffer damage and slow."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Bruiser",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-deftness",
+        "nettle-gauntlet",
+        "pure-sky",
+        "twinblades-of-destruction",
+        "shadow-ripper",
+        "storm-sword",
+        "overlords-might",
+        "demonsbane",
+        "belt-of-might",
+        "overlords-platemail",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Physical damage",
+      "context": "Safe default · Position 1",
+      "itemIds": [
+        "lightfoot-shoes",
+        "pure-sky",
+        "boots-of-fortitude",
+        "overlords-might",
+        "destiny",
+        "boots-of-resistance",
+        "mortal-punisher",
+        "demonsbane",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Bruiser",
+      "context": "Position 1",
+      "itemIds": [
+        "iron-sword",
+        "nettle-gauntlet",
+        "boots-of-tranquility",
+        "pure-sky",
+        "boots-of-resistance",
+        "destiny",
+        "blood-rage",
+        "overlords-might",
+        "demonsbane",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Bruiser",
+      "context": "Safe default · Position 1",
+      "itemIds": [
+        "nettle-gauntlet",
+        "boots-of-fortitude",
+        "storm-sword",
+        "overlords-might",
+        "pure-sky",
+        "demonsbane",
+        "destiny",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Bruiser",
+      "context": "Position 1",
+      "itemIds": [
+        "nettle-gauntlet",
+        "boots-of-dexterity",
+        "dragons-rage",
+        "cuirass-of-savagery",
+        "mortal-punisher",
+        "boots-of-resistance",
+        "overlords-might",
+        "pure-sky",
+        "destiny",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Full tank",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-resistance",
+        "frostscars-embrace",
+        "blazing-cape",
+        "succubus-cloak",
+        "overlords-platemail",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Bruiser",
+      "context": "Position 1",
+      "itemIds": [
+        "iron-sword",
+        "nettle-gauntlet",
+        "boots-of-fortitude",
+        "pure-sky",
+        "overlords-might",
+        "blazing-cape",
+        "demonsbane",
+        "frigid-charge"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Physical damage",
+      "context": "Safe default · Position 1",
+      "itemIds": [
+        "boots-of-tranquility",
+        "overlords-might",
+        "destiny",
+        "pure-sky",
+        "boots-of-resistance",
+        "shadow-ripper",
+        "demonsbane"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Heino",
+      "Daji",
+      "Luna"
+    ],
+    "weakAgainst": [
+      "Han Xin",
+      "Lam",
+      "Pei",
+      "Sima Yi"
+    ],
+    "synergies": [
+      "Donghuang",
+      "Dyadia",
+      "Guiguzi",
+      "Heino",
+      "Daji",
+      "Luna"
+    ]
+  },
+  "arcana": [
+    "Fate",
+    "Harmony",
+    "Eagle Eye"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 48.9,
+    "pickRate": 1.1,
+    "banRate": 0.3,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jul 2026",
+      "type": "buff",
+      "summary": "Increased skill damage"
+    },
+    {
+      "season": "S14",
+      "date": "Apr 2026",
+      "type": "buff",
+      "summary": "Increased skill damage and recovery"
+    },
+    {
+      "season": "S8",
+      "date": "Jan 2025",
+      "type": "adjust",
+      "summary": "Basic Attacks and skills deal true damage when enhanced and gain Physical Pierce when not enchanted."
+    },
+    {
+      "season": "S6",
+      "date": "Aug 2024",
+      "type": "buff",
+      "summary": "Skill 2 has newly added damage."
+    }
+  ],
+  "patch": "2026-09-07"
+}

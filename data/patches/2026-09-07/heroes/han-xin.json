@@ -1,0 +1,258 @@
+{
+  "id": "han-xin",
+  "name": "Han Xin",
+  "nameCn": "韩信",
+  "lane": "Jungle",
+  "class": "Assassin — Roving Assassin / Gap-Close / Balanced",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3232,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 47,
+    "physicalAttack": 180,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 385,
+    "maxMana": 560,
+    "mp5": 14
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Killing Spear",
+      "text": "Every 4th Basic Attack launches the target. Hits from skills and enhanced Basic Attacks grant increased Attack Speed."
+    },
+    {
+      "slot": "s1",
+      "name": "Ruthless Assault",
+      "text": "Leaps to the target location to deal damage and launch the enemy. The second charge will not launch the enemy."
+    },
+    {
+      "slot": "s2",
+      "name": "Fight or Die!",
+      "text": "Dashes backward and enhances the next Basic Attack to deal extra damage. If the Fight or Die! sweep is his 4th Basic Attack, it will include the 4th Basic Attack's extra effects."
+    },
+    {
+      "slot": "ult",
+      "name": "The Unrivaled Spear",
+      "text": "Swings spear 4 times, gaining damage reduction and crowd control immunity. Deals damage each time and launches enemies the 4th time."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle Full AD lethality",
+      "context": "Safe default · Position 3",
+      "itemIds": [
+        "rapacious-bite",
+        "boots-of-dexterity",
+        "axe-of-torment",
+        "cuirass-of-savagery",
+        "master-sword",
+        "overlords-might",
+        "sages-sanctuary",
+        "destiny",
+        "blood-rage",
+        "ravage-phantom"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "rapacious-bite",
+        "meteor",
+        "axe-of-torment",
+        "boots-of-fortitude",
+        "master-sword",
+        "overlords-might",
+        "starbreaker"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "meteor",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "rapacious-bite",
+        "eternity-blade",
+        "master-sword",
+        "overlords-might",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "meteor",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "rapacious-bite",
+        "master-sword",
+        "overlords-might",
+        "bloodsoul",
+        "bloodweeper",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Full tank (AD option)",
+      "context": "Position 3",
+      "itemIds": [
+        "rapacious-bite",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "frostscars-embrace",
+        "boots-of-fortitude",
+        "succubus-cloak",
+        "blood-rage",
+        "overlords-platemail",
+        "sages-sanctuary",
+        "destiny",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "rapacious-bite",
+        "boots-of-fortitude",
+        "sunglow-striker",
+        "axe-of-torment",
+        "dragons-rage",
+        "master-sword",
+        "overlords-might"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Jungle Full tank",
+      "context": "Position 3",
+      "itemIds": [
+        "giants-grip",
+        "boots-of-fortitude",
+        "blazing-cape",
+        "blood-rage",
+        "overlords-platemail",
+        "ominous-premonition"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "meteor",
+        "boots-of-resistance",
+        "bloodsoul",
+        "master-sword",
+        "axe-of-torment",
+        "rapacious-bite",
+        "bloodweeper",
+        "overlords-might",
+        "sages-sanctuary",
+        "splendor",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-fortitude",
+        "meteor",
+        "axe-of-torment",
+        "nettle-gauntlet",
+        "cuirass-of-savagery",
+        "rapacious-bite",
+        "master-sword",
+        "eternity-blade",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Lu Bu",
+      "Dun",
+      "Xiang Yu"
+    ],
+    "weakAgainst": [
+      "Agudo",
+      "Alessio",
+      "Erin",
+      "Kongming",
+      "Liang",
+      "Xiao Qiao"
+    ],
+    "synergies": [
+      "Liang",
+      "Mozi",
+      "Mai Shiranui",
+      "Lu Bu",
+      "Dun",
+      "Xiang Yu"
+    ]
+  },
+  "arcana": [
+    "Calamity",
+    "Reaver",
+    "Eagle Eye"
+  ],
+  "spell": "Smite",
+  "rates": {
+    "winRate": 47.6,
+    "pickRate": 0.3,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S14",
+      "date": "May 2026",
+      "type": "nerf",
+      "summary": "Adjusted skill damage"
+    },
+    {
+      "season": "S8",
+      "date": "Feb 2025",
+      "type": "adjust",
+      "summary": "Upgraded Passive and Skill 2"
+    },
+    {
+      "season": "S7",
+      "date": "Sep 2024",
+      "type": "buff",
+      "summary": "Improved base Physical Defense and balanced Ultimate's late game damage"
+    },
+    {
+      "season": "S6",
+      "date": "Aug 2024",
+      "type": "buff",
+      "summary": "Increased base Health and Skill 1 damage, reduced Skill 1's early game CD."
+    }
+  ],
+  "patch": "2026-09-07"
+}

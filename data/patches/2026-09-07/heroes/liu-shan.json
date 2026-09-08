@@ -1,0 +1,133 @@
+{
+  "id": "liu-shan",
+  "name": "Liu Shan",
+  "nameCn": "刘禅",
+  "lane": "Roam",
+  "class": "Support — Tactical Support / Push/Crowd Control / Early Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3539,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 84,
+    "physicalAttack": 180,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 375,
+    "maxMana": 600,
+    "mp5": 15
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Magnetic Barrier",
+      "text": "Skills deal equal damage to structures and disrupt them, while also recovering Health."
+    },
+    {
+      "slot": "s1",
+      "name": "Overcharge!",
+      "text": "Gains a shield and increased Movement Speed while enhancing the next Basic Attack to damage and launch enemies."
+    },
+    {
+      "slot": "s2",
+      "name": "Robo Smash",
+      "text": "Inflicts damage and stun on enemies in the target area."
+    },
+    {
+      "slot": "ult",
+      "name": "Take It for a Spin",
+      "text": "Unleashes a spinning attack that continuously deals damage to nearby enemies. While spinning, Basic Attacks slow and deal damage to targets."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-resistance",
+        "crimson-shadow",
+        "crimson-shadow-howl",
+        "protectors-cuirass",
+        "glacial-buckler",
+        "clandestine-cape",
+        "succubus-cloak",
+        "ominous-premonition",
+        "spikemail",
+        "sages-sanctuary",
+        "overlords-platemail"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-resistance",
+        "crimson-shadow-radiance",
+        "axe-of-torment",
+        "blazing-cape",
+        "blood-rage",
+        "longnight-guardian",
+        "ravage-phantom",
+        "sages-sanctuary"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Arthur",
+      "Augran",
+      "Biron"
+    ],
+    "weakAgainst": [
+      "Li Bai"
+    ],
+    "synergies": [
+      "Erin",
+      "Garo",
+      "Hou Yi",
+      "Arthur",
+      "Augran",
+      "Biron"
+    ]
+  },
+  "arcana": [
+    "Fate",
+    "Harmony",
+    "Void"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 48.6,
+    "pickRate": 0.9,
+    "banRate": 0.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S14",
+      "date": "Apr 2026",
+      "type": "buff",
+      "summary": "Increased skill's shield"
+    },
+    {
+      "season": "S8",
+      "date": "Feb 2025",
+      "type": "buff",
+      "summary": "Crowd Control Effects Adjusted"
+    },
+    {
+      "season": "S7",
+      "date": "Oct 2024",
+      "type": "buff",
+      "summary": "Increased shield from Skill 1 when using defensive equipment."
+    }
+  ],
+  "patch": "2026-09-07"
+}

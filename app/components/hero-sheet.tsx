@@ -1,32 +1,48 @@
 "use client";
 
 import type { Hero, Item } from "@/lib/types";
+import { heroStatsAtLevel } from "@/lib/calc";
+import { STAT_META, STAT_ORDER, formatStatValue } from "@/lib/stat-meta";
+import GameIcon, { heroPortrait } from "./game-icon";
 
 interface Props {
   hero: Hero;
   itemMap: Map<string, Item>;
   equippedIds: Set<string>;
+  level: number;
   onLoadBuild: (ids: string[]) => void;
   onClose: () => void;
 }
 
 /** Diálogo com tudo que saiu do primeiro viewport: rates, builds, skills, counters, timeline. */
-export default function HeroSheet({ hero, itemMap, equippedIds, onLoadBuild, onClose }: Props) {
+export default function HeroSheet({ hero, itemMap, equippedIds, level, onLoadBuild, onClose }: Props) {
+  const base = heroStatsAtLevel(hero, level);
   return (
     <div className="fixed inset-0 z-50 flex items-end justify-center sm:items-center" role="dialog" aria-modal="true">
       <div className="absolute inset-0 bg-black/70" onClick={onClose} />
       <div className="panel relative max-h-[88dvh] w-full max-w-2xl overflow-hidden rounded-b-none sm:rounded-b-2xl">
         <div className="flex items-center justify-between border-b border-[#2b2640] p-4">
-          <div>
-            <h2 className="text-lg font-black">
-              {hero.name} {hero.nameCn && <span className="text-sm font-semibold text-zinc-400">{hero.nameCn}</span>}
-            </h2>
-            <p className="text-xs text-zinc-400">
-              {hero.lane} · {hero.class} · Dificuldade {hero.difficulty} ·{" "}
-              {hero.attackRange === "ranged" ? "à distância" : "corpo a corpo"} · Win{" "}
-              {hero.rates.winRate.toLocaleString("pt-BR")}% · Pick {hero.rates.pickRate.toLocaleString("pt-BR")}% ·
-              Ban {hero.rates.banRate.toLocaleString("pt-BR")}%
-            </p>
+          <div className="flex min-w-0 items-center gap-3">
+            <GameIcon
+              src={heroPortrait(hero.id)}
+              alt={hero.name}
+              name={hero.name}
+              className="h-12 w-12 rounded-xl"
+            />
+            <div className="min-w-0">
+              <h2 className="text-lg font-black">
+                {hero.name} {hero.nameCn && <span className="text-sm font-semibold text-zinc-400">{hero.nameCn}</span>}
+              </h2>
+              <p className="text-xs text-zinc-400">
+                {hero.lane} · {hero.class} · Dificuldade {hero.difficulty} ·{" "}
+                {hero.attackRange === "ranged" ? "à distância" : "corpo a corpo"} · Win{" "}
+                {hero.rates.winRate.toLocaleString("pt-BR")}% · Pick {hero.rates.pickRate.toLocaleString("pt-BR")}% ·
+                Ban {hero.rates.banRate.toLocaleString("pt-BR")}%
+                {hero.resource && (
+                  <> · Recurso: {hero.resource.name} {hero.resource.value.toLocaleString("pt-BR")}</>
+                )}
+              </p>
+            </div>
           </div>
           <button
             onClick={onClose}
@@ -55,14 +71,23 @@ export default function HeroSheet({ hero, itemMap, equippedIds, onLoadBuild, onC
                     </button>
                   </div>
                   <p className="mt-1 text-[11px] leading-relaxed text-zinc-400">
-                    {b.itemIds.map((id, i) => (
-                      <span key={`${id}-${i}`}>
-                        {i > 0 && <span className="mx-0.5 text-zinc-600">→</span>}
-                        <span className={equippedIds.has(id) ? "font-semibold text-emerald-300" : ""}>
-                          {itemMap.get(id)?.name ?? id}
+                    {b.itemIds.map((id, i) => {
+                      const item = itemMap.get(id);
+                      return (
+                        <span key={`${id}-${i}`} className="mr-1 inline-flex items-center gap-0.5 align-middle">
+                          {i > 0 && <span className="mr-1 text-zinc-600">→</span>}
+                          <GameIcon
+                            src={item?.icon}
+                            alt={item?.name ?? id}
+                            name={item?.name ?? id}
+                            className="h-5 w-5 rounded"
+                          />
+                          <span className={equippedIds.has(id) ? "font-semibold text-emerald-300" : ""}>
+                            {item?.name ?? id}
+                          </span>
                         </span>
-                      </span>
-                    ))}
+                      );
+                    })}
                   </p>
                 </li>
               ))}
@@ -114,6 +139,20 @@ export default function HeroSheet({ hero, itemMap, equippedIds, onLoadBuild, onC
               ))}
             </ol>
           </section>
+        </div>
+
+        <div className="border-t border-[#2b2640] px-4 py-3">
+          <h3 className="mb-2 text-xs font-bold tracking-widest uppercase gold-text">
+            Atributos base · nv. {level}
+          </h3>
+          <ul className="grid grid-cols-1 gap-x-4 sm:grid-cols-2">
+            {STAT_ORDER.map((key) => (
+              <li key={key} className="flex items-baseline justify-between gap-2 font-mono text-[11px]">
+                <span className="font-sans text-zinc-400">{STAT_META[key].label}</span>
+                <span className="shrink-0 font-bold text-zinc-200">{formatStatValue(key, base[key])}</span>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </div>

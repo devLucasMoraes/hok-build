@@ -1,0 +1,184 @@
+{
+  "id": "alessio",
+  "name": "Alessio",
+  "nameCn": "莱西奥",
+  "lane": "Farm",
+  "class": "Marksman — Nimble Marksman / Ranged Harass / Balanced",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3340,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 46,
+    "physicalAttack": 175,
+    "attackSpeedPct": 10,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 370,
+    "maxMana": 600,
+    "mp5": 15
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Rebellious Little Hawk",
+      "text": "Basic Attacks deal area damage and extra physical damage."
+    },
+    {
+      "slot": "s1",
+      "name": "Upgraded Shell",
+      "text": "Enhances his next 3 Basic Attacks to deal extra physical damage in a greater area."
+    },
+    {
+      "slot": "s2",
+      "name": "Legendary Hero Debut",
+      "text": "Throws a smoke bomb, creating a cloud of smoke that grants Stealth to teammates within it, including himself. The bomb's explosion sends him airborne, and his Basic Attacks allow him to stay airborne longer."
+    },
+    {
+      "slot": "ult",
+      "name": "Sunset Fireworks Show",
+      "text": "Leaps into the air and fires several shells, each shell dealing physical damage to the target in the area. Up to 1 enemy can take a shell for the target."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Critical strike",
+      "context": "Safe default · Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "eternity-blade",
+        "doomsday",
+        "daybreakers-virtue",
+        "overlords-might",
+        "sunchaser",
+        "sages-sanctuary",
+        "destiny",
+        "haste-sunpool",
+        "cuirass-of-savagery",
+        "bloodweeper"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Crit attack speed",
+      "context": "Anti-tank · Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "eternity-blade",
+        "axe-of-torment",
+        "daybreakers-virtue",
+        "tempest",
+        "sages-sanctuary",
+        "destiny",
+        "overlords-might",
+        "doomsday"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "overlords-might",
+        "doomsday",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "master-sword",
+        "cloud-piercer",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "overlords-might"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "eternity-blade",
+        "doomsday",
+        "daybreakers-virtue",
+        "overlords-might",
+        "sunchaser",
+        "sages-sanctuary",
+        "destiny",
+        "haste-sunpool",
+        "cuirass-of-savagery",
+        "bloodweeper"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Standard build",
+      "context": "",
+      "itemIds": [
+        "sparkforged-dagger",
+        "boots-of-dexterity",
+        "eternity-blade",
+        "bloodweeper",
+        "shadow-ripper",
+        "daybreakers-virtue"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Han Xin",
+      "Mai Shiranui",
+      "Sima Yi"
+    ],
+    "weakAgainst": [],
+    "synergies": [
+      "Ata",
+      "Dharma",
+      "Zhuangzi",
+      "Han Xin",
+      "Mai Shiranui",
+      "Sima Yi"
+    ]
+  },
+  "arcana": [],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 52.4,
+    "pickRate": 0.9,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S11",
+      "date": "Aug 2025",
+      "type": "nerf",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S9",
+      "date": "Apr 2025",
+      "type": "nerf",
+      "summary": "Passive Damage Reduced"
+    }
+  ],
+  "patch": "2026-09-07"
+}

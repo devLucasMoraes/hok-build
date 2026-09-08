@@ -1,5 +1,7 @@
 # Honor of Kings — Guia de Equipamentos + Banco de Dados Completo (107 itens)
 
+> Movido de `itens_honor_of_kings.md` (raiz) — referência completa; regras acionáveis resumidas em `hok-rules.md`.
+>
 > Fontes:
 > - Tutorial: vídeo oficial *Aprenda a usar equipamentos | Honor of Kings Brasil*
 > - Banco de dados: [hokstats.gg/pt-br/items](https://hokstats.gg/pt-br/items/) (dados de camp.honorofkings.com, centro oficial de estratégia da Tencent, servidor internacional)

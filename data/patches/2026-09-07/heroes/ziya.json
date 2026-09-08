@@ -1,0 +1,244 @@
+{
+  "id": "ziya",
+  "name": "Ziya",
+  "nameCn": "姜子牙",
+  "lane": "Mid",
+  "class": "Mage — Artillery Mage / Poke/Team Buffs / Late Game",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3222,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 42,
+    "physicalAttack": 172,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 370,
+    "maxMana": 640,
+    "mp5": 16
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Sanctification",
+      "text": "After hitting a target, gains EXP if it is defeated within 4s. Upon reaching level , gains Sanctify and increases his level cap to . Sanctify: Increases a teammate's level cap, with a chance to earn EXP. When playing as support, grants additional Sanctification effects."
+    },
+    {
+      "slot": "s1",
+      "name": "Divine Seal",
+      "text": "Seals enemies within range, dealing magical damage while reducing their Movement Speed, Physical and Magical Defense for 3.5s. If the skill hits any enemy, he gains a Movement Speed boost."
+    },
+    {
+      "slot": "s2",
+      "name": "Divine Punishment",
+      "text": "Conjures a magic circle that deals 3 strikes of damage to enemies in the target area. After a short delay, the magic circle explodes, dealing extra magical damage and launching enemies for 0.8s."
+    },
+    {
+      "slot": "ult",
+      "name": "Universal Law",
+      "text": "Unleashes 3 shockwaves that deal magical damage. At level 15, the Ultimate's charging speed increases by 10%, and Ziya can move while charging."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-tranquility",
+        "frozen-breath",
+        "venomous-staff",
+        "savants-wrath",
+        "nebulon-wood",
+        "void-staff",
+        "sages-tome"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "stone-of-sorcery",
+        "boots-of-resistance",
+        "scepter-of-reverberation",
+        "sages-tome",
+        "ominous-premonition",
+        "void-staff",
+        "augurs-word",
+        "succubus-cloak",
+        "twilight-stream"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "stone-of-sorcery",
+        "scepter-of-reverberation",
+        "blood-clans-grimoire",
+        "nebulon-wood",
+        "insatiable-tome",
+        "void-staff",
+        "splendor",
+        "sages-tome",
+        "sages-sanctuary",
+        "ardent-dominion"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-deftness",
+        "frozen-breath",
+        "breakthrough-robe",
+        "augurs-word",
+        "mask-of-agony",
+        "splendor",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-deftness",
+        "stone-of-sorcery",
+        "scepter-of-reverberation",
+        "twilight-stream",
+        "savants-wrath",
+        "sages-tome",
+        "splendor",
+        "sages-sanctuary",
+        "destiny",
+        "ardent-dominion"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Mage support",
+      "context": "Position 5",
+      "itemIds": [
+        "crimson-shadow",
+        "boots-of-deftness",
+        "crimson-shadow-radiance",
+        "frozen-breath",
+        "stone-of-sorcery",
+        "mask-of-agony",
+        "twilight-stream",
+        "venomous-staff",
+        "sages-sanctuary",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-deftness",
+        "stone-of-sorcery",
+        "scepter-of-reverberation",
+        "twilight-stream",
+        "savants-wrath",
+        "sages-tome",
+        "splendor",
+        "sages-sanctuary",
+        "destiny",
+        "ardent-dominion"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Mage support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "guardian-radiance",
+        "boots-of-deftness",
+        "frozen-breath",
+        "mask-of-agony",
+        "twilight-stream",
+        "void-staff",
+        "venomous-staff",
+        "sages-sanctuary",
+        "enigma-moon-goddess",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "insatiable-tome",
+        "frozen-breath",
+        "savants-wrath",
+        "void-staff",
+        "mask-of-agony",
+        "ardent-dominion",
+        "venomous-staff",
+        "splendor",
+        "enigma-moon-goddess"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Diaochan",
+      "Ying",
+      "Zilong"
+    ],
+    "weakAgainst": [
+      "Biron",
+      "Charlotte",
+      "Yao"
+    ],
+    "synergies": [
+      "Da Qiao",
+      "Yaria",
+      "Donghuang",
+      "Diaochan",
+      "Ying",
+      "Zilong"
+    ]
+  },
+  "arcana": [
+    "Saint",
+    "Avarice",
+    "Tribute"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 50,
+    "pickRate": 0.6,
+    "banRate": 0.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S12",
+      "date": "Nov 2025",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S9",
+      "date": "Mar 2025",
+      "type": "adjust",
+      "summary": "New Sanctification Effect when Roaming"
+    }
+  ],
+  "patch": "2026-09-07"
+}

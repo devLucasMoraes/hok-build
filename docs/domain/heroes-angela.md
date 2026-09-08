@@ -1,4 +1,6 @@
-# Angela — Honor of Kings
+# Angela — Honor of Kings (hero exemplo)
+
+> Movido de `heroi_angela.md` (raiz) — exemplo trabalhado do shape `Hero` (`lib/types.ts`) e da ficha exibida em `HeroSheet`.
 
 > Fonte: [hokstats.gg/pt-br/heroes/angela](https://hokstats.gg/pt-br/heroes/angela/) (dados oficiais do Honor of Kings Camp + HokBuild + referências públicas verificadas, servidor internacional).
 > Última verificação da fonte: 2026-06-04 · Patch mais recente referenciado: 2026/04/29

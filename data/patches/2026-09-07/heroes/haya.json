@@ -1,0 +1,230 @@
+{
+  "id": "haya",
+  "name": "Haya",
+  "nameCn": "海月",
+  "lane": "Mid",
+  "class": "Mage — Artillery Mage / Ranged Harass / Early Game",
+  "difficulty": "Very Hard",
+  "baseStats": {
+    "maxHealth": 3212,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 44,
+    "physicalAttack": 158,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 360,
+    "maxMana": 640,
+    "mp5": 16
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Moon's Farewell",
+      "text": "Spends moon crystals to use skills. When all moon crystals have been spent, her Skill 1 and Skill 2 will enter their cooldowns, and her next Basic Attack is enhanced, dealing extra damage. Skill 1 and Skill 2 apply a Mark on hit. Hitting marked targets again triggers additional effects."
+    },
+    {
+      "slot": "s1",
+      "name": "Crescent Wave",
+      "text": "Unleashes a beam of moonlight, dealing damage. Deals extra damage if a mark is triggered."
+    },
+    {
+      "slot": "s2",
+      "name": "Wayward Rays",
+      "text": "Releases orbs to deal damage while gaining a shield and increased Movement Speed. If marks are triggered, targets will be stunned."
+    },
+    {
+      "slot": "ult",
+      "name": "Moonscape Mirage",
+      "text": "Links to a hero, gaining damage reduction while linked. After a delay, they enter a mirage. Upon entering, she gains a shield, and her skill cooldowns are shorter. If she uses this skill again while inside the mirage, she moves 700 units away from the target."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "twilight-stream",
+        "venomous-staff",
+        "scepter-of-reverberation",
+        "sages-tome",
+        "void-staff"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "spell-tome",
+        "boots-of-the-arcane",
+        "sages-tome",
+        "venomous-staff",
+        "void-staff",
+        "savants-wrath",
+        "insatiable-tome",
+        "sages-sanctuary",
+        "splendor",
+        "ardent-dominion"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "spell-tome",
+        "boots-of-deftness",
+        "venomous-staff",
+        "twilight-stream",
+        "insatiable-tome",
+        "boots-of-resistance",
+        "savants-wrath",
+        "void-staff",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "spell-tome",
+        "boots-of-the-arcane",
+        "venomous-staff",
+        "insatiable-tome",
+        "twilight-stream",
+        "savants-wrath",
+        "sages-tome",
+        "void-staff",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "spell-tome",
+        "venomous-staff",
+        "boots-of-the-arcane",
+        "twilight-stream",
+        "ardent-dominion",
+        "savants-wrath",
+        "void-staff",
+        "splendor",
+        "sages-sanctuary",
+        "sages-tome"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "venomous-staff",
+        "twilight-stream",
+        "insatiable-tome",
+        "savants-wrath",
+        "ardent-dominion",
+        "sages-sanctuary",
+        "mask-of-agony",
+        "splendor",
+        "destiny",
+        "holy-grail"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "spell-tome",
+        "venomous-staff",
+        "boots-of-the-arcane",
+        "twilight-stream",
+        "ardent-dominion",
+        "savants-wrath",
+        "void-staff",
+        "splendor",
+        "sages-sanctuary",
+        "sages-tome"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "grand-staff",
+        "boots-of-tranquility",
+        "scepter-of-reverberation",
+        "savants-wrath",
+        "boots-of-the-arcane",
+        "sages-tome",
+        "insatiable-tome",
+        "void-staff",
+        "staves-of-sorcery"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "scepter-of-reverberation",
+        "venomous-staff",
+        "sages-tome",
+        "void-staff",
+        "savants-wrath",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Sakeer",
+      "Zilong",
+      "Milady"
+    ],
+    "weakAgainst": [],
+    "synergies": [
+      "Umbrosa",
+      "Fatih",
+      "Sakeer",
+      "Zilong",
+      "Milady"
+    ]
+  },
+  "arcana": [
+    "Fate",
+    "Hunt",
+    "Tribute"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 48.2,
+    "pickRate": 1.1,
+    "banRate": 2.4,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S44",
+      "date": "May 2026",
+      "type": "adjust",
+      "summary": "Targeted problem fixes / Mechanics upgrade (S44 Preview)"
+    }
+  ],
+  "patch": "2026-09-07"
+}

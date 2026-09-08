@@ -1,0 +1,210 @@
+{
+  "id": "athena",
+  "name": "Athena",
+  "nameCn": "雅典娜",
+  "lane": "Jungle",
+  "class": "Fighter/Assassin — Assassin Fighter / Gap-Close / Early Game",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3201,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 44,
+    "physicalAttack": 166,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 390,
+    "maxMana": 580,
+    "mp5": 14
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Divine Awakening",
+      "text": "Able to move in her Divine form after dying. When resurrected, flies toward the nearest allied tower, dealing damage and launching enemies within takeoff range."
+    },
+    {
+      "slot": "s1",
+      "name": "Holy Advance",
+      "text": "Raises her shield and dashes, knocking back and dealing damage to enemies while gaining a shield that grants crowd control immunity."
+    },
+    {
+      "slot": "s1",
+      "name": "Victory Call",
+      "text": "Dashes in the target direction."
+    },
+    {
+      "slot": "s2",
+      "name": "Unstoppable Spear",
+      "text": "Dashes in the target direction and enhances the next Basic Attack, in which she charges at the enemy and deals damage to them."
+    },
+    {
+      "slot": "s2",
+      "name": "Victory Call",
+      "text": "Flaps her wings, granting a shield to a nearby teammate."
+    },
+    {
+      "slot": "ult",
+      "name": "Immovable Aegis",
+      "text": "Raises a shield that grants crowd control immunity. Damage taken while the shield is up will be returned after a brief delay, dealing damage to enemies within range."
+    },
+    {
+      "slot": "ult",
+      "name": "Victory Call",
+      "text": "Flies toward the nearest allied tower, dealing damage and launching enemies within takeoff range."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle Full AD lethality",
+      "context": "Safe default · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "axe-of-torment",
+        "rapacious-bite",
+        "master-sword",
+        "overlords-might",
+        "doomsday",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "axe-of-torment",
+        "boots-of-dexterity",
+        "dragons-rage",
+        "overlords-might",
+        "frostscars-embrace",
+        "starbreaker",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "meteor",
+        "rapacious-bite",
+        "frostscars-embrace",
+        "vampiric-scythe",
+        "axe-of-torment",
+        "doomsday",
+        "blood-rage"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "rapacious-bite",
+        "meteor",
+        "axe-of-torment",
+        "dragons-rage",
+        "boots-of-resistance",
+        "overlords-might",
+        "blood-rage",
+        "sages-sanctuary",
+        "destiny",
+        "ravage-phantom"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Critical strike",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "master-sword",
+        "eternity-blade",
+        "shadow-ripper",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Da Qiao",
+      "Luna",
+      "Shi"
+    ],
+    "weakAgainst": [
+      "Da Qiao",
+      "Nakoruru"
+    ],
+    "synergies": [
+      "Zhang Fei",
+      "Zhuangzi",
+      "Kui",
+      "Da Qiao",
+      "Luna",
+      "Shi"
+    ]
+  },
+  "arcana": [
+    "Red Moon",
+    "Calamity",
+    "Reaver"
+  ],
+  "spell": "Smite",
+  "rates": {
+    "winRate": 54.2,
+    "pickRate": 0.1,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S13",
+      "date": "Dec 2025",
+      "type": "adjust",
+      "summary": "Divine Form Upgrade"
+    },
+    {
+      "season": "S13",
+      "date": "Dec 2025",
+      "type": "adjust",
+      "summary": "Divine Form Upgrade"
+    },
+    {
+      "season": "S13",
+      "date": "Dec 2025",
+      "type": "adjust",
+      "summary": "Divine Form Upgrade"
+    },
+    {
+      "season": "S13",
+      "date": "Dec 2025",
+      "type": "adjust",
+      "summary": "Divine Form Upgrade"
+    },
+    {
+      "season": "S13",
+      "date": "Dec 2025",
+      "type": "adjust",
+      "summary": "Divine Form Upgrade"
+    }
+  ],
+  "patch": "2026-09-07"
+}

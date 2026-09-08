@@ -1,0 +1,202 @@
+{
+  "id": "xiang-yu",
+  "name": "Xiang Yu",
+  "nameCn": "项羽",
+  "lane": "Roam",
+  "class": "Tank — Guardian Tank / Crowd Control/Tank / Late Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3546,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 76,
+    "physicalAttack": 195,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 375,
+    "maxMana": 600,
+    "mp5": 15
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Resolute Will",
+      "text": "When his Health drops to a certain level, he gains damage reduction. Skill uses grant enhanced Basic Attacks."
+    },
+    {
+      "slot": "s1",
+      "name": "Righteous Fervor",
+      "text": "Dashes forward and knocks back the enemy. At the end of the dash, launches the enemy, deals damage, and gains an enhanced Basic Attack."
+    },
+    {
+      "slot": "s2",
+      "name": "No Retreat",
+      "text": "Slows nearby enemies and reduces their damage output while dealing damage. Gains an enhanced Basic Attack and increased Movement Speed."
+    },
+    {
+      "slot": "ult",
+      "name": "Hegemon's Slash",
+      "text": "Gains crowd control immunity and Undying while using. Deals damage to enemies in the target direction, and deals extra damage to and stuns nearby enemies. The lower his Health, the higher the damage."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle Full tank",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-resistance",
+        "blazing-cape",
+        "succubus-cloak",
+        "dragons-rage",
+        "ominous-premonition",
+        "longnight-guardian",
+        "sages-sanctuary",
+        "amble-winter",
+        "cuirass-of-savagery",
+        "blood-rage",
+        "eye-of-the-phoenix"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "nettle-gauntlet",
+        "boots-of-tranquility",
+        "meteor",
+        "axe-of-torment",
+        "frostscars-embrace",
+        "pure-sky",
+        "boots-of-resistance",
+        "eye-of-the-phoenix",
+        "starbreaker",
+        "immovable-sky-dome",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Full tank",
+      "context": "Position 5",
+      "itemIds": [
+        "crimson-shadow-redemption",
+        "boots-of-resistance",
+        "frigid-charge",
+        "longnight-guardian",
+        "ominous-premonition",
+        "succubus-cloak"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Full tank",
+      "context": "Position 5",
+      "itemIds": [
+        "crimson-shadow-redemption",
+        "boots-of-fortitude",
+        "blazing-cape",
+        "ominous-premonition",
+        "eye-of-the-phoenix",
+        "sages-sanctuary",
+        "clandestine-cape",
+        "nettle-gauntlet",
+        "cuirass-of-savagery",
+        "ravage-phantom"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "AD penetration",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "nettle-gauntlet",
+        "boots-of-resistance",
+        "meteor",
+        "axe-of-torment",
+        "frostscars-embrace",
+        "blood-rage",
+        "clandestine-cape",
+        "eye-of-the-phoenix",
+        "cuirass-of-savagery",
+        "sages-sanctuary",
+        "ravage-phantom"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Full AD lethality",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-deftness",
+        "bloodweeper",
+        "axe-of-torment",
+        "overlords-might",
+        "master-sword",
+        "cuirass-of-savagery",
+        "pure-sky",
+        "sages-sanctuary",
+        "destiny",
+        "splendor",
+        "blood-rage",
+        "ravage-phantom"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [
+      "Han Xin",
+      "Kui",
+      "Lam",
+      "Nakoruru",
+      "Wukong"
+    ],
+    "synergies": [
+      "Alessio",
+      "Huang Zhong",
+      "Lady Sun",
+      "Di Renjie",
+      "Erin",
+      "Meng Ya"
+    ]
+  },
+  "arcana": [
+    "Fate",
+    "Harmony",
+    "Void"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 50.8,
+    "pickRate": 0.7,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S11",
+      "date": "Jun 2025",
+      "type": "buff",
+      "summary": "Damage Recovery Increased"
+    },
+    {
+      "season": "S10",
+      "date": "May 2025",
+      "type": "adjust",
+      "summary": "Enhanced Basic Attack and Ultimate Effect Upgrade"
+    },
+    {
+      "season": "S6",
+      "date": "Jun 2024",
+      "type": "adjust",
+      "summary": "Hero updated"
+    }
+  ],
+  "patch": "2026-09-07"
+}

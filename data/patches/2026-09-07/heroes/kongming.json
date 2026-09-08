@@ -1,0 +1,215 @@
+{
+  "id": "kongming",
+  "name": "Kongming",
+  "nameCn": "诸葛亮",
+  "lane": "Mid",
+  "class": "Mage — Ambush Mage / Burst/Cleanup / Late Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3300,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 46,
+    "physicalAttack": 162,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 360,
+    "maxMana": 640,
+    "mp5": 16
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Time for Tactics",
+      "text": "Active skill hits on enemies grant 1 stack. At the max of 5 stacks, he summons prisms to attack nearby enemies."
+    },
+    {
+      "slot": "s1",
+      "name": "Arcane Assault",
+      "text": "Fires 3 prisms in a cone-shaped area, dealing damage to enemies hit."
+    },
+    {
+      "slot": "s2",
+      "name": "Time Shift",
+      "text": "Teleports in the target direction, dealing damage to enemies near the start and end points."
+    },
+    {
+      "slot": "ult",
+      "name": "Winning Strategy",
+      "text": "Channels briefly and unleashes a Spirit Bomb at the target enemy, dealing grievous damage. If the bomb defeats an enemy hero, the skill's cooldown is reduced by 80%."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full AP burst",
+      "context": "Safe default · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "insatiable-tome",
+        "ardent-dominion",
+        "sages-tome",
+        "savants-wrath",
+        "void-staff",
+        "scepter-of-reverberation",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "insatiable-tome",
+        "ardent-dominion",
+        "sages-tome",
+        "savants-wrath",
+        "void-staff"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "insatiable-tome",
+        "boots-of-the-arcane",
+        "scepter-of-reverberation",
+        "sages-tome",
+        "savants-wrath",
+        "void-staff"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Full AP burst",
+      "context": "Position 3",
+      "itemIds": [
+        "guerrilla-machete",
+        "boots-of-tranquility",
+        "blood-clans-grimoire",
+        "insatiable-tome",
+        "runeblade",
+        "savants-wrath",
+        "void-staff",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Full AP burst",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "hunting-knife",
+        "boots-of-tranquility",
+        "guerrilla-machete",
+        "sages-codex",
+        "insatiable-tome",
+        "boots-of-the-arcane",
+        "runeblade",
+        "savants-wrath",
+        "void-staff",
+        "splendor",
+        "sages-sanctuary",
+        "sages-tome"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Mage support",
+      "context": "Position 3",
+      "itemIds": [
+        "guerrilla-machete",
+        "boots-of-the-arcane",
+        "blood-clans-grimoire",
+        "runeblade",
+        "insatiable-tome",
+        "scepter-of-reverberation",
+        "nebulon-wood",
+        "void-staff",
+        "savants-wrath",
+        "venomous-staff",
+        "splendor",
+        "twilight-stream"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "insatiable-tome",
+        "ardent-dominion",
+        "sages-tome",
+        "savants-wrath",
+        "void-staff"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Han Xin",
+      "Jing",
+      "Ukyo Tachibana"
+    ],
+    "weakAgainst": [
+      "Allain",
+      "Biron",
+      "Wuyan",
+      "Ying"
+    ],
+    "synergies": [
+      "Donghuang",
+      "Kui",
+      "Yaria",
+      "Han Xin",
+      "Jing",
+      "Ukyo Tachibana"
+    ]
+  },
+  "arcana": [
+    "Nightmare",
+    "Hunt",
+    "Mind's Eye"
+  ],
+  "spell": "Smite",
+  "rates": {
+    "winRate": 51.4,
+    "pickRate": 1.8,
+    "banRate": 0.7,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S11",
+      "date": "Aug 2025",
+      "type": "buff",
+      "summary": "Reduced Skill Cooldown"
+    },
+    {
+      "season": "S9",
+      "date": "Mar 2025",
+      "type": "nerf",
+      "summary": "Stat Nerfs"
+    },
+    {
+      "season": "S8",
+      "date": "Jan 2025",
+      "type": "adjust",
+      "summary": "Balanced the effects of different presets."
+    },
+    {
+      "season": "S7",
+      "date": "Oct 2024",
+      "type": "buff",
+      "summary": "Increased damage from Skill 1 and reduced Skill 2 charge time."
+    }
+  ],
+  "patch": "2026-09-07"
+}

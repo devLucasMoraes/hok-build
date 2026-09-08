@@ -1,8 +1,11 @@
 "use client";
 
+import GameIcon from "./game-icon";
+
 interface Props {
   heroName: string;
   heroCn?: string;
+  heroPortrait: string;
   level: number;
   maxLevel: number;
   onLevel: (level: number) => void;
@@ -10,6 +13,7 @@ interface Props {
   canUndo: boolean;
   onUndo: () => void;
   onHeroInfo: () => void;
+  onSwitchHero: () => void;
   patch: string;
   season: string;
 }
@@ -18,6 +22,7 @@ interface Props {
 export default function Toolbar({
   heroName,
   heroCn,
+  heroPortrait,
   level,
   maxLevel,
   onLevel,
@@ -25,15 +30,14 @@ export default function Toolbar({
   canUndo,
   onUndo,
   onHeroInfo,
+  onSwitchHero,
   patch,
   season,
 }: Props) {
   return (
     <div className="flex shrink-0 items-center gap-2 border-b border-[#2b2640] bg-black/40 px-3 py-2 sm:gap-3 sm:px-4">
       <button onClick={onHeroInfo} className="flex min-w-0 items-center gap-2 text-left" title="Ver dados do herói">
-        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-[#c9a227] to-[#ff5a3c] text-sm font-black text-black">
-          {heroName[0]}
-        </span>
+        <GameIcon src={heroPortrait} alt={heroName} name={heroName} className="h-8 w-8 rounded-lg" />
         <span className="min-w-0">
           <span className="block truncate text-sm leading-tight font-black">
             {heroName} <span className="hidden font-semibold text-zinc-500 sm:inline">{heroCn}</span>
@@ -82,6 +86,12 @@ export default function Toolbar({
           className="rounded-lg border border-[#2b2640] px-2.5 py-1.5 text-xs font-bold text-zinc-300 hover:border-[#c9a227] hover:text-white"
         >
           Herói
+        </button>
+        <button
+          onClick={onSwitchHero}
+          className="rounded-lg border border-[#c9a227]/60 px-2.5 py-1.5 text-xs font-bold text-[#e8c96a] hover:bg-[#c9a227]/15"
+        >
+          Trocar
         </button>
       </div>
     </div>

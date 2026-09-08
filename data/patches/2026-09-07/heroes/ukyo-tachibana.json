@@ -1,0 +1,251 @@
+{
+  "id": "ukyo-tachibana",
+  "name": "Ukyo Tachibana",
+  "nameCn": "橘右京",
+  "lane": "Jungle",
+  "class": "Assassin — Assassin Fighter / Gap-Close/Recovery / Early Game",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3250,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 48,
+    "physicalAttack": 170,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 385
+  },
+  "resource": {
+    "name": "Energy",
+    "value": 1050
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "CONCEALED SABRE HAZY BLADE",
+      "text": "Every 4–5s, Ukyo Tachibana gains one enhanced Basic Attack that has increased range, restores Health, deals extra damage, and slows enemies. Dealing skill damage shortens the enhanced Basic Attack's cooldown."
+    },
+    {
+      "slot": "s1",
+      "name": "CONCEALED SABRE SWALLOW SWIPE",
+      "text": "Ukyo Tachibana creates a domain around himself, then leaps backward, dealing damage to enemies in his path. This skill can be used again after 2s, or immediately if it hits a target. If he returns to the starting point of phase 1 after using phase 2, phase 2 is enhanced."
+    },
+    {
+      "slot": "s2",
+      "name": "CONCEALED SABRE HEAVENLY HACK",
+      "text": "Slashes in the target direction, dealing damage to enemies within range. Enemies at the edge of the skill's range will be stunned."
+    },
+    {
+      "slot": "ult",
+      "name": "CONCEALED SABRE SNOWFALL SLASH",
+      "text": "Slashes 4 times in the target direction, dealing damage to enemies within range. Recovers Health each time damage is dealt."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle Full AD lethality",
+      "context": "Safe default · Position 3",
+      "itemIds": [
+        "hunting-knife",
+        "relentless-blade",
+        "lightfoot-shoes",
+        "boots-of-fortitude",
+        "meteor",
+        "axe-of-torment",
+        "nettle-gauntlet",
+        "rapacious-bite",
+        "overlords-might",
+        "cuirass-of-savagery",
+        "pure-sky",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "lightfoot-shoes",
+        "boots-of-resistance",
+        "rapacious-bite",
+        "meteor",
+        "axe-of-torment",
+        "pure-sky",
+        "dragons-rage",
+        "starbreaker",
+        "sages-sanctuary",
+        "destiny",
+        "boots-of-tranquility"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-resistance",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "overlords-might",
+        "cuirass-of-savagery",
+        "starbreaker",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-resistance",
+        "axe-of-torment",
+        "rapacious-bite",
+        "overlords-might",
+        "blazing-cape",
+        "frostscars-embrace",
+        "spikemail",
+        "sages-sanctuary",
+        "dragons-rage"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Full tank",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "dragons-rage",
+        "rapacious-bite",
+        "blazing-cape",
+        "cuirass-of-savagery",
+        "overlords-platemail"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "hunting-knife",
+        "relentless-blade",
+        "boots-of-tranquility",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "nettle-gauntlet",
+        "pure-sky",
+        "cuirass-of-savagery",
+        "starbreaker",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Attack speed",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "axe-of-torment",
+        "boots-of-resistance",
+        "overlords-might",
+        "starbreaker",
+        "doomsday",
+        "master-sword",
+        "destiny",
+        "sparkforged-dagger"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-fortitude",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "overlords-might",
+        "cuirass-of-savagery",
+        "starbreaker",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "rapacious-bite",
+        "boots-of-tranquility",
+        "meteor",
+        "axe-of-torment",
+        "relentless-blade",
+        "pure-sky",
+        "dragons-rage",
+        "starbreaker"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Arthur",
+      "Lian Po",
+      "Wuyan"
+    ],
+    "weakAgainst": [
+      "Di Renjie",
+      "Kongming",
+      "Luban No.7",
+      "Shi",
+      "Xiao Qiao"
+    ],
+    "synergies": [
+      "Luna",
+      "Mai Shiranui",
+      "Xiao Qiao",
+      "Arthur",
+      "Lian Po",
+      "Wuyan"
+    ]
+  },
+  "arcana": [
+    "Calamity",
+    "Eagle Eye",
+    "Reaver"
+  ],
+  "spell": "Smite",
+  "rates": {
+    "winRate": 48.9,
+    "pickRate": 0.3,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S9",
+      "date": "Apr 2025",
+      "type": "buff",
+      "summary": "Passive Recovery Effect Increased"
+    },
+    {
+      "season": "S7",
+      "date": "Sep 2024",
+      "type": "adjust",
+      "summary": "Improved the and healing and prgression of his passive, and upgraded the second stage of Skill 1."
+    }
+  ],
+  "patch": "2026-09-07"
+}

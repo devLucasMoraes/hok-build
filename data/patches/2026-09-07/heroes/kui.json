@@ -1,0 +1,97 @@
+{
+  "id": "kui",
+  "name": "Kui",
+  "nameCn": "钟馗",
+  "lane": "Roam",
+  "class": "Support/Mage — Offensive Support / Crowd Control/Initiate / Early Game",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3537,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 79,
+    "physicalAttack": 181,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 370,
+    "maxMana": 600,
+    "mp5": 15
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Ethereal Outburst",
+      "text": "Deals area damage upon taking heavy damage in a single hit or after dying."
+    },
+    {
+      "slot": "s1",
+      "name": "Mortals!",
+      "text": "Damages and slows nearby enemies. Marks enemies in the inner circle while dealing extra damage and slowing enemies."
+    },
+    {
+      "slot": "s2",
+      "name": "Join Me",
+      "text": "Throws a chain hook in the target direction that pulls the target back, dealing damage and marking them. Passive: Defeats and assists permanently boost Health."
+    },
+    {
+      "slot": "ult",
+      "name": "Into the Void",
+      "text": "Deals damage multiple times and slows enemies within range. Against marked heroes, the slow effect is upgraded to a stun."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-tranquility",
+        "crimson-shadow",
+        "crimson-shadow-radiance",
+        "frigid-charge",
+        "longnight-guardian",
+        "ominous-premonition",
+        "overlords-platemail"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Kaizer",
+      "Xiang Yu"
+    ],
+    "weakAgainst": [],
+    "synergies": [
+      "Huang Zhong",
+      "Lady Sun",
+      "Luara",
+      "Kaizer",
+      "Xiang Yu"
+    ]
+  },
+  "arcana": [
+    "Fate",
+    "Harmony",
+    "Void"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 49.1,
+    "pickRate": 0.9,
+    "banRate": 0.5,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S11",
+      "date": "Jul 2025",
+      "type": "adjust",
+      "summary": "Skill 1 Effects Upgrade"
+    }
+  ],
+  "patch": "2026-09-07"
+}

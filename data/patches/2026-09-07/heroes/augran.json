@@ -1,0 +1,267 @@
+{
+  "id": "augran",
+  "name": "Augran",
+  "nameCn": "大司命",
+  "lane": "Jungle",
+  "class": "Fighter — Assassin Fighter / Gap-Close/Cleanup / Balanced",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3401,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 51,
+    "physicalAttack": 177,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 380,
+    "maxMana": 580,
+    "mp5": 14
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Soul Resonance",
+      "text": "Basic Attacks can connect to an enemy's soul, dealing damage continuously unless the enemy breaks free. When the connection ends, it deals a large amount of damage."
+    },
+    {
+      "slot": "s1",
+      "name": "Path of Passing",
+      "text": "Carves a path to the afterlife, dealing damage to enemies hit. The path accelerates when it hits walls or the Life-Death Border, then deals extra damage. By traversing on the path, he can ignore terrain and gain Movement Speed. Hitting a wall for the first time generates an afterlife bridge, and he gains Movement Speed when crossing the bridge while enemies nearby are slowed. Using this skill again causes him to enter the Seer State."
+    },
+    {
+      "slot": "s2",
+      "name": "Death's Precipice",
+      "text": "Deals damage and inflicts slow on enemies to the front, then generates a Life-Death Border which damages, slows, and marks enemies who touch it. His next Basic Attack attacks up to 3 additional marked targets, dealing extra damage and recovering his Health."
+    },
+    {
+      "slot": "ult",
+      "name": "Conductor of Souls",
+      "text": "Descends from the sky, damaging and knocking back nearby enemies. Hitting an enemy hero will recover his Health and summon their spirit counterpart to assist him. Enters the Seer State after, in which his Basic Attacks will kill targets with low Health instantly."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle AD penetration",
+      "context": "Safe default · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "rapacious-bite",
+        "axe-of-torment",
+        "dragons-rage",
+        "boots-of-resistance",
+        "doomsday",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "destiny",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Bruiser",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "rapacious-bite",
+        "vampiric-scythe",
+        "boots-of-resistance",
+        "protectors-cuirass",
+        "doomsday",
+        "ominous-premonition",
+        "pure-sky",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle Full tank (AD option)",
+      "context": "Position 3",
+      "itemIds": [
+        "patrol-axe",
+        "boots-of-tranquility",
+        "dragons-rage",
+        "blood-rage",
+        "giants-grip",
+        "eye-of-the-phoenix",
+        "longnight-guardian",
+        "overlords-platemail",
+        "blazing-cape",
+        "sages-sanctuary",
+        "destiny",
+        "boots-of-deftness"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-resistance",
+        "shadow-ripper",
+        "bloodweeper",
+        "pure-sky",
+        "rapacious-bite",
+        "cuirass-of-savagery",
+        "axe-of-torment",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Full tank (AD option)",
+      "context": "Position 3",
+      "itemIds": [
+        "patrol-axe",
+        "boots-of-dexterity",
+        "dragons-rage",
+        "clandestine-cape",
+        "boots-of-resistance",
+        "giants-grip",
+        "eye-of-the-phoenix",
+        "blood-rage",
+        "longnight-guardian",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "doomsday",
+        "axe-of-torment",
+        "rapacious-bite",
+        "pure-sky",
+        "nettle-gauntlet",
+        "cuirass-of-savagery",
+        "sages-sanctuary",
+        "destiny",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Jungle Critical strike",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "boots-of-fortitude",
+        "shadow-ripper",
+        "thunderclap-brand",
+        "eternity-blade",
+        "destiny",
+        "rapacious-bite",
+        "doomsday",
+        "boots-of-resistance",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "rapacious-bite",
+        "boots-of-dexterity",
+        "axe-of-torment",
+        "blood-rage",
+        "dragons-rage",
+        "overlords-platemail",
+        "ravage-phantom",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Jungle Critical strike",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "axe-of-torment",
+        "rapacious-bite",
+        "shadow-ripper",
+        "eternity-blade",
+        "doomsday",
+        "overlords-might",
+        "sages-sanctuary",
+        "destiny",
+        "ominous-premonition",
+        "boots-of-resistance"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Luna",
+      "Shangguan",
+      "Zhou Yu"
+    ],
+    "weakAgainst": [
+      "Angela",
+      "Daji",
+      "Dolia",
+      "Liu Shan",
+      "Yixing"
+    ],
+    "synergies": [
+      "Ming",
+      "Yaria",
+      "Cai Yan",
+      "Luna",
+      "Shangguan",
+      "Zhou Yu"
+    ]
+  },
+  "arcana": [
+    "Calamity",
+    "Hunt",
+    "Eagle Eye"
+  ],
+  "spell": "Smite",
+  "rates": {
+    "winRate": 49.6,
+    "pickRate": 1.6,
+    "banRate": 4,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jun 2026",
+      "type": "buff",
+      "summary": "Upgraded skill effects"
+    },
+    {
+      "season": "S7",
+      "date": "Sep 2024",
+      "type": "nerf",
+      "summary": "Reduced his ability to deal sustained damage with his Basic Attack."
+    },
+    {
+      "season": "S6",
+      "date": "Aug 2024",
+      "type": "nerf",
+      "summary": "Increased Ultimate cooldown and reduced damage and recovery of Skill 2"
+    }
+  ],
+  "patch": "2026-09-07"
+}

@@ -1,0 +1,246 @@
+{
+  "id": "biron",
+  "name": "Biron",
+  "nameCn": "狂铁",
+  "lane": "Clash Lane",
+  "class": "Fighter — Heavy Fighter / Gap-Close/Crowd Control / Early Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3508,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 50,
+    "physicalAttack": 175,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 380
+  },
+  "resource": {
+    "name": "Energy",
+    "value": 90
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Fearless Chariot",
+      "text": "Charges up when Basic Attacks and unenhanced skills hit. Charged skills gain extra effects. When charged to at least 1 bars, Basic Attacks recover Health on hit."
+    },
+    {
+      "slot": "s1",
+      "name": "Electrifying Charge",
+      "text": "Swings his weapon in the target direction, dealing damage and recovering Health with every hit. While charged, deals more damage and recovers more Health."
+    },
+    {
+      "slot": "s2",
+      "name": "Storm Strike",
+      "text": "Dashes in the target direction, gaining an enhanced Basic Attack that deals damage and slows targets. While charged, the next Basic Attack deals more damage, and the slow effect is changed to a launch effect."
+    },
+    {
+      "slot": "ult",
+      "name": "Force Field Suppression",
+      "text": "Damages and slows nearby enemies while gaining a shield. When charged, deals more damage, grants a stronger shield, and generates an electric wave that damages nearby enemies while stealing Movement Speed from enemy heroes."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "AD penetration",
+      "context": "Safe default · Position 1",
+      "itemIds": [
+        "nettle-gauntlet",
+        "boots-of-tranquility",
+        "pure-sky",
+        "frigid-charge",
+        "axe-of-torment",
+        "frostscars-embrace",
+        "boots-of-resistance",
+        "eye-of-the-phoenix",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Bruiser",
+      "context": "Position 1",
+      "itemIds": [
+        "meteor",
+        "boots-of-fortitude",
+        "nettle-gauntlet",
+        "pure-sky",
+        "glacial-buckler",
+        "boots-of-resistance",
+        "eye-of-the-phoenix",
+        "longnight-guardian",
+        "ominous-premonition",
+        "sages-sanctuary",
+        "destiny",
+        "spikemail"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "protectors-cuirass",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "dragons-rage",
+        "pure-sky",
+        "frostscars-embrace",
+        "eye-of-the-phoenix"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Bruiser",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "blazing-cape",
+        "boots-of-resistance",
+        "eye-of-the-phoenix",
+        "glacial-buckler",
+        "longnight-guardian",
+        "pure-sky",
+        "destiny",
+        "cuirass-of-savagery",
+        "demonsbane",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Full tank (AD option)",
+      "context": "Position 1",
+      "itemIds": [
+        "axe-of-torment",
+        "boots-of-resistance",
+        "frostscars-embrace",
+        "cuirass-of-savagery",
+        "eye-of-the-phoenix",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "nettle-gauntlet",
+        "boots-of-resistance",
+        "pure-sky",
+        "axe-of-torment",
+        "eye-of-the-phoenix",
+        "frigid-charge",
+        "sages-sanctuary",
+        "glacial-buckler",
+        "destiny",
+        "starbreaker"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "boots-of-resistance",
+        "pure-sky",
+        "axe-of-torment",
+        "longnight-guardian",
+        "glacial-buckler",
+        "blazing-cape",
+        "cuirass-of-savagery",
+        "frostscars-embrace",
+        "dragons-rage"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "AD penetration",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "axe-of-torment",
+        "starbreaker",
+        "blazing-cape",
+        "eye-of-the-phoenix",
+        "ominous-premonition"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Full AD lethality",
+      "context": "Position 1",
+      "itemIds": [
+        "iron-sword",
+        "boots-of-resistance",
+        "meteor",
+        "axe-of-torment",
+        "frostscars-embrace",
+        "eye-of-the-phoenix",
+        "cuirass-of-savagery",
+        "pure-sky",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Kongming",
+      "Shangguan",
+      "Ziya"
+    ],
+    "weakAgainst": [
+      "Da Qiao",
+      "Liu Shan"
+    ],
+    "synergies": [
+      "Sun Bin",
+      "Zhuangzi",
+      "Dyadia",
+      "Kongming",
+      "Shangguan",
+      "Ziya"
+    ]
+  },
+  "arcana": [
+    "Mutation",
+    "Stealth",
+    "Hunt"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 47.8,
+    "pickRate": 0.7,
+    "banRate": 0.2,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S14",
+      "date": "Mar 2026",
+      "type": "buff",
+      "summary": "Increased skill damage and recovery"
+    },
+    {
+      "season": "S9",
+      "date": "Apr 2025",
+      "type": "buff",
+      "summary": "Skill 1 recovery effect increased"
+    },
+    {
+      "season": "S7",
+      "date": "Oct 2024",
+      "type": "buff",
+      "summary": "Increased shield and healing when using defensive equipment."
+    }
+  ],
+  "patch": "2026-09-07"
+}

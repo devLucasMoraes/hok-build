@@ -1,0 +1,260 @@
+{
+  "id": "nuwa",
+  "name": "Nuwa",
+  "nameCn": "女娲",
+  "lane": "Mid",
+  "class": "Mage — Artillery Mage / Poke/Teleport / Late Game",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3226,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 45,
+    "physicalAttack": 163,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 360,
+    "maxMana": 640,
+    "mp5": 16
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Divine Consciousness",
+      "text": "Gains enhanced vision and range when leveling up."
+    },
+    {
+      "slot": "s1",
+      "name": "Divine Glow - Creation",
+      "text": "Unleashes energy that deals damage, knocks back enemies, and creates a matrix. When the energy stops, it expands to deal extra damage."
+    },
+    {
+      "slot": "s2",
+      "name": "Divine Glow - Coalescence",
+      "text": "Creates a matrix that she can jump over but blocks enemy heroes' movement. Matrices can be fused twice and set off explosions if hit by her other skills."
+    },
+    {
+      "slot": "ult",
+      "name": "Divine Glow - Emergence",
+      "text": "Teleports to the target area after a short delay. Generates a shield, gains Movement Speed, deals damage, and slows the enemy. Passive: Magical Attack can reduce cast time."
+    },
+    {
+      "slot": "ult",
+      "name": "Divine Glow - Annihilation",
+      "text": "Deals damage to targets in a straight line across the map."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full AP burst",
+      "context": "Safe default · Position 2",
+      "itemIds": [
+        "primordial-crystal",
+        "lightfoot-shoes",
+        "boots-of-tranquility",
+        "scepter-of-reverberation",
+        "sages-tome",
+        "blood-clans-grimoire",
+        "savants-wrath",
+        "void-staff",
+        "insatiable-tome",
+        "splendor",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-tranquility",
+        "venomous-staff",
+        "mask-of-agony",
+        "scepter-of-reverberation",
+        "savants-wrath",
+        "sages-tome",
+        "holy-grail",
+        "nebulon-wood",
+        "boots-of-resistance"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "venomous-staff",
+        "mask-of-agony",
+        "twilight-stream",
+        "savants-wrath",
+        "sages-tome",
+        "splendor",
+        "sages-sanctuary",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "venomous-staff",
+        "insatiable-tome",
+        "mask-of-agony",
+        "savants-wrath",
+        "frozen-breath",
+        "sages-tome",
+        "void-staff",
+        "ardent-dominion",
+        "splendor",
+        "destiny",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "spell-tome",
+        "boots-of-the-arcane",
+        "venomous-staff",
+        "mask-of-agony",
+        "twilight-stream",
+        "sages-tome",
+        "void-staff"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "spell-tome",
+        "boots-of-the-arcane",
+        "stone-of-sorcery",
+        "venomous-staff",
+        "mask-of-agony",
+        "twilight-stream",
+        "savants-wrath",
+        "void-staff",
+        "sages-tome"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-tranquility",
+        "scepter-of-reverberation",
+        "sages-tome",
+        "savants-wrath",
+        "void-staff",
+        "splendor",
+        "destiny",
+        "ardent-dominion"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-tranquility",
+        "scepter-of-reverberation",
+        "sages-codex",
+        "sages-tome",
+        "savants-wrath",
+        "void-staff",
+        "splendor",
+        "sages-sanctuary",
+        "enigma-moon-goddess",
+        "ardent-dominion",
+        "venomous-staff"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "stone-of-sorcery",
+        "scepter-of-reverberation",
+        "sages-tome",
+        "savants-wrath",
+        "void-staff",
+        "splendor",
+        "enigma-moon-goddess"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Mulan",
+      "Nakoruru",
+      "Pei"
+    ],
+    "weakAgainst": [
+      "Liu Bei",
+      "Mayene",
+      "Mulan",
+      "Nezha"
+    ],
+    "synergies": [
+      "Da Qiao",
+      "Zhuangzi",
+      "Dyadia",
+      "Mulan",
+      "Nakoruru",
+      "Pei"
+    ]
+  },
+  "arcana": [
+    "Nightmare",
+    "Hunt",
+    "Tribute"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 53.8,
+    "pickRate": 1,
+    "banRate": 0.6,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jul 2026",
+      "type": "buff",
+      "summary": "Increased skill damage"
+    },
+    {
+      "season": "S14",
+      "date": "May 2026",
+      "type": "nerf",
+      "summary": "Adjusted skill damage"
+    },
+    {
+      "season": "S11",
+      "date": "Aug 2025",
+      "type": "nerf",
+      "summary": "Skill Effect Adjustments"
+    },
+    {
+      "season": "S8",
+      "date": "Jan 2025",
+      "type": "adjust",
+      "summary": "Comprehensive upgrade"
+    }
+  ],
+  "patch": "2026-09-07"
+}

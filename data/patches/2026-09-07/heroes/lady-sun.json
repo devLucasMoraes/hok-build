@@ -1,0 +1,258 @@
+{
+  "id": "lady-sun",
+  "name": "Lady Sun",
+  "nameCn": "孙尚香",
+  "lane": "Farm",
+  "class": "Marksman — Artillery Marksman / Gap-Close/Cleanup / Late Game",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3329,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 40,
+    "physicalAttack": 169,
+    "attackSpeedPct": 10,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 360,
+    "maxMana": 600,
+    "mp5": 15
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Energy Burst",
+      "text": "Basic Attacks reduce the cooldown of Skill 1."
+    },
+    {
+      "slot": "s1",
+      "name": "Rolling Raid",
+      "text": "Rolls in the target direction, gaining an enhanced Basic Attack that has extra range and pierces through enemies. Gains Movement Speed if there are enemy heroes nearby after rolling."
+    },
+    {
+      "slot": "s2",
+      "name": "Frag Grenade",
+      "text": "Throws a grenade at the target location, damaging and marking enemies hit, reducing their Physical Defense by 10%. Her Basic Attack deals extra damage to marked targets."
+    },
+    {
+      "slot": "ult",
+      "name": "Ultimate Shell",
+      "text": "Fires a shot in the target direction, dealing area damage when enemies are hit or when exploding at max range."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Critical strike",
+      "context": "Safe default · Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "meteor",
+        "axe-of-torment",
+        "master-sword",
+        "eternity-blade",
+        "cloud-piercer",
+        "daybreakers-virtue",
+        "bloodweeper",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "lightfoot-shoes",
+        "storm-sword",
+        "boots-of-dexterity",
+        "eternity-blade",
+        "cloud-piercer",
+        "daybreakers-virtue",
+        "thunderclap-brand",
+        "shadow-ripper",
+        "vampiric-scythe",
+        "doomsday",
+        "overlords-might",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "eternity-blade",
+        "shadow-ripper",
+        "doomsday",
+        "daybreakers-virtue",
+        "mortal-punisher",
+        "sages-sanctuary",
+        "splendor",
+        "ardent-dominion"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Critical strike",
+      "context": "Anti-tank · Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "eternity-blade",
+        "master-sword",
+        "shadow-ripper",
+        "axe-of-torment",
+        "daybreakers-virtue",
+        "sages-sanctuary",
+        "splendor",
+        "destiny",
+        "doomsday",
+        "overlords-might",
+        "mortal-punisher"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "eternity-blade",
+        "doomsday",
+        "daybreakers-virtue",
+        "master-sword",
+        "overlords-might",
+        "boots-of-resistance"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Critical strike",
+      "context": "Anti-tank · Position 4",
+      "itemIds": [
+        "iron-sword",
+        "boots-of-resistance",
+        "meteor",
+        "axe-of-torment",
+        "master-sword",
+        "eternity-blade",
+        "cloud-piercer",
+        "daybreakers-virtue",
+        "mortal-punisher",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "dagger",
+        "eternity-blade",
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "master-sword",
+        "daybreakers-virtue",
+        "overlords-might",
+        "sages-sanctuary",
+        "destiny",
+        "boots-of-resistance"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Critical strike",
+      "context": "Anti-tank · Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "master-sword",
+        "axe-of-torment",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "bloodweeper",
+        "shadow-ripper",
+        "sages-sanctuary",
+        "overlords-might",
+        "doomsday",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Critical strike",
+      "context": "Anti-tank · Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "axe-of-torment",
+        "master-sword",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "doomsday",
+        "destiny",
+        "starbreaker",
+        "mortal-punisher",
+        "sages-sanctuary"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Diaochan",
+      "Nakoruru",
+      "Ying"
+    ],
+    "weakAgainst": [],
+    "synergies": [
+      "Lian Po",
+      "Ata",
+      "Lu Bu",
+      "Diaochan",
+      "Nakoruru",
+      "Ying"
+    ]
+  },
+  "arcana": [
+    "Conflict",
+    "Hunt",
+    "Eagle Eye"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 49,
+    "pickRate": 1.8,
+    "banRate": 0.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jul 2026",
+      "type": "buff",
+      "summary": "Increased skill damage"
+    },
+    {
+      "season": "S14",
+      "date": "Apr 2026",
+      "type": "buff",
+      "summary": "Increased skill damage"
+    },
+    {
+      "season": "S13",
+      "date": "Dec 2025",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S9",
+      "date": "Mar 2025",
+      "type": "buff",
+      "summary": "Stat Buffs"
+    }
+  ],
+  "patch": "2026-09-07"
+}

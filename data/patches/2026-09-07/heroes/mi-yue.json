@@ -1,0 +1,172 @@
+{
+  "id": "mi-yue",
+  "name": "Mi Yue",
+  "nameCn": "芈月",
+  "lane": "Clash Lane",
+  "class": "Mage — Formation Mage / Sustained Damage/Recovery / Early Game",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3251,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 44,
+    "physicalAttack": 160,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 370
+  },
+  "resource": {
+    "name": "Shadow Power",
+    "value": 100
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Eternal Youth",
+      "text": "Summons a shadow servant that damages enemies and restores Health to her whenever she uses a skill. She also gains Shadow Power that boosts her Movement Speed and healing effects."
+    },
+    {
+      "slot": "s1",
+      "name": "Dark Transfer",
+      "text": "Unleashes shadow energy, dealing damage to enemies that come into contact with it. Can use the skill again to teleport to the shadow's location, dealing damage again. Summons a shadow servant when either use of the skill hits an enemy."
+    },
+    {
+      "slot": "s2",
+      "name": "Ravenous Tether",
+      "text": "Releases a tether that links to the first enemy hit. Damages and slows over time. Steals Physical and Magical Attack while recovering Health."
+    },
+    {
+      "slot": "ult",
+      "name": "Umbral Moon",
+      "text": "Removes debuffs, gains Movement Speed, and becomes untargetable. Deals damage to nearby enemies upon entering and exiting the untargetable state."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Mage support",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "golden-blade",
+        "blood-clans-grimoire",
+        "insatiable-tome",
+        "twilight-stream",
+        "overlords-platemail",
+        "sages-sanctuary",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Mage support",
+      "context": "Position 3",
+      "itemIds": [
+        "guerrilla-machete",
+        "boots-of-dexterity",
+        "golden-blade",
+        "shadow-ripper",
+        "blood-clans-grimoire",
+        "insatiable-tome",
+        "runeblade",
+        "nebulon-wood",
+        "twilight-stream",
+        "sages-sanctuary",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Mage support",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-deftness",
+        "golden-blade",
+        "shadow-ripper",
+        "mask-of-agony",
+        "twilight-stream",
+        "insatiable-tome",
+        "succubus-cloak",
+        "savants-wrath"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Tank support",
+      "context": "Position 1",
+      "itemIds": [
+        "twinblades-of-destruction",
+        "boots-of-dexterity",
+        "golden-blade",
+        "blood-clans-grimoire",
+        "shadow-ripper",
+        "protectors-cuirass",
+        "insatiable-tome",
+        "ominous-premonition",
+        "pure-sky",
+        "destiny",
+        "blood-rage"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Mage support",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-dexterity",
+        "golden-blade",
+        "insatiable-tome",
+        "twilight-stream",
+        "shadow-ripper",
+        "ominous-premonition",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [
+      "Dharma",
+      "Dian Wei",
+      "Guan Yu",
+      "Mayene",
+      "Mulan",
+      "Sun Ce",
+      "Yao"
+    ],
+    "synergies": [
+      "Guiguzi",
+      "Da Qiao",
+      "Liu Bang",
+      "Mai Shiranui",
+      "Wukong"
+    ]
+  },
+  "arcana": [
+    "Fate",
+    "Red Moon",
+    "Hunt"
+  ],
+  "spell": "Smite",
+  "rates": {
+    "winRate": 50,
+    "pickRate": 0.8,
+    "banRate": 1.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S14",
+      "date": "Apr 2026",
+      "type": "buff",
+      "summary": "Increased skill damage"
+    }
+  ],
+  "patch": "2026-09-07"
+}

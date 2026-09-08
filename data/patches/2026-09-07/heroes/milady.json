@@ -1,0 +1,211 @@
+{
+  "id": "milady",
+  "name": "Milady",
+  "nameCn": "米莱狄",
+  "lane": "Mid",
+  "class": "Mage — Formation Mage / Sustained Damage/Pushing / Early Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3213,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 45,
+    "physicalAttack": 168,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 365,
+    "maxMana": 640,
+    "mp5": 16
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Mechanical Minions",
+      "text": "Summons minions upon killing a unit. Minions attack automatically, then merge into an advanced bot or explode at the end of their duration, dealing damage to nearby enemies."
+    },
+    {
+      "slot": "s1",
+      "name": "Air Superiority",
+      "text": "Commands her aircraft to move in the target direction, dealing damage to enemies in its path. Using the skill again splits the aircraft in two, damaging and slowing enemies."
+    },
+    {
+      "slot": "s2",
+      "name": "Forced Invasion",
+      "text": "Summons mechanical minions in the target area, dealing area damage before automatically attacking nearby enemies."
+    },
+    {
+      "slot": "ult",
+      "name": "Chaos Field",
+      "text": "Marks a target enemy or structure, damaging them over time. Non-structures are also stunned and slowed. Nearby mechanical minions are enhanced while the mark is active. The mark explodes upon expiry, dealing damage proportional to the damage taken while marked."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full AP burst",
+      "context": "Safe default · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "sages-tome",
+        "venomous-staff",
+        "scepter-of-reverberation",
+        "void-staff",
+        "savants-wrath"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-tranquility",
+        "stone-of-sorcery",
+        "scepter-of-reverberation",
+        "mask-of-agony",
+        "savants-wrath",
+        "nebulon-wood",
+        "void-staff",
+        "splendor",
+        "sages-sanctuary",
+        "destiny",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "spell-tome",
+        "boots-of-tranquility",
+        "nebulon-wood",
+        "mask-of-agony",
+        "boots-of-the-arcane",
+        "venomous-staff",
+        "splendor",
+        "void-staff",
+        "frozen-breath",
+        "enigma-moon-goddess",
+        "ardent-dominion",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "lightfoot-shoes",
+        "spell-tome",
+        "boots-of-deftness",
+        "boots-of-the-arcane",
+        "sages-codex",
+        "venomous-staff",
+        "mask-of-agony",
+        "twilight-stream",
+        "frozen-breath",
+        "scepter-of-reverberation",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-tranquility",
+        "stone-of-sorcery",
+        "scepter-of-reverberation",
+        "mask-of-agony",
+        "savants-wrath",
+        "nebulon-wood",
+        "void-staff",
+        "splendor",
+        "sages-sanctuary",
+        "destiny",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "lightfoot-shoes",
+        "spell-tome",
+        "boots-of-deftness",
+        "boots-of-the-arcane",
+        "sages-codex",
+        "venomous-staff",
+        "mask-of-agony",
+        "twilight-stream",
+        "frozen-breath",
+        "savants-wrath",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-tranquility",
+        "stone-of-sorcery",
+        "scepter-of-reverberation",
+        "mask-of-agony",
+        "savants-wrath",
+        "nebulon-wood",
+        "void-staff",
+        "splendor",
+        "sages-sanctuary",
+        "destiny",
+        "enigma-moon-goddess"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Nakoruru",
+      "Pei",
+      "Mai Shiranui"
+    ],
+    "weakAgainst": [
+      "Allain",
+      "Fuzi",
+      "Haya"
+    ],
+    "synergies": [
+      "Sun Bin",
+      "Yaria",
+      "Zhang Fei",
+      "Nakoruru",
+      "Pei",
+      "Mai Shiranui"
+    ]
+  },
+  "arcana": [
+    "Nightmare",
+    "Reincarnation",
+    "Mind's Eye"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 47.8,
+    "pickRate": 1.7,
+    "banRate": 1.8,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S10",
+      "date": "May 2025",
+      "type": "adjust",
+      "summary": "Mechanical minion merging"
+    }
+  ],
+  "patch": "2026-09-07"
+}

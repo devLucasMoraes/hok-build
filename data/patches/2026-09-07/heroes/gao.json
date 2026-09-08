@@ -1,0 +1,112 @@
+{
+  "id": "gao",
+  "name": "Gao",
+  "nameCn": "高渐离",
+  "lane": "Mid",
+  "class": "Mage — Formation Mage / Sustained Damage/Damage Reduction / Balanced",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3320,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 44,
+    "physicalAttack": 167,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 370,
+    "maxMana": 640,
+    "mp5": 16
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Guitar Solo",
+      "text": "For every 3 Basic Attacks or skills Gao uses, his Basic Attack is enhanced, dealing damage on hit."
+    },
+    {
+      "slot": "s1",
+      "name": "Wild Chord",
+      "text": "Launches musical notes that bounce between enemies, dealing damage."
+    },
+    {
+      "slot": "s2",
+      "name": "String Bender",
+      "text": "Damages and slows enemies within range. Hits on heroes recover Health, and he gains damage reduction during the dash."
+    },
+    {
+      "slot": "ult",
+      "name": "Rock Out!",
+      "text": "Gains Movement Speed and damage reduction while dealing continuous damage to enemies within range."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Standard build",
+      "context": "Safe default",
+      "itemIds": [
+        "insatiable-tome",
+        "boots-of-resistance",
+        "savants-wrath",
+        "void-staff",
+        "staves-of-sorcery",
+        "splendor"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Mai Shiranui",
+      "Wukong",
+      "Xuance"
+    ],
+    "weakAgainst": [],
+    "synergies": [
+      "Kui",
+      "Sun Bin",
+      "Liu Bang",
+      "Mai Shiranui",
+      "Wukong",
+      "Xuance"
+    ]
+  },
+  "arcana": [],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 52.1,
+    "pickRate": 0.4,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S14",
+      "date": "May 2026",
+      "type": "buff",
+      "summary": "Increased skill damage"
+    },
+    {
+      "season": "S13",
+      "date": "Jan 2026",
+      "type": "buff",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S10",
+      "date": "May 2025",
+      "type": "nerf",
+      "summary": "Skill 1 damage reduced"
+    },
+    {
+      "season": "S8",
+      "date": "Feb 2025",
+      "type": "buff",
+      "summary": "Increased Attack Range and Added Damage Reduction to Ultimate"
+    }
+  ],
+  "patch": "2026-09-07"
+}

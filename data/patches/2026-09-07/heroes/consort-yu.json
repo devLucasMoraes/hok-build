@@ -1,0 +1,246 @@
+{
+  "id": "consort-yu",
+  "name": "Consort Yu",
+  "nameCn": "虞姬",
+  "lane": "Farm",
+  "class": "Marksman — DPS Marksman / Gap-Close/Ranged Harass / Balanced",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3234,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 36,
+    "physicalAttack": 167,
+    "attackSpeedPct": 10,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 370,
+    "maxMana": 600,
+    "mp5": 15
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Blessing of the Dryads",
+      "text": "Basic Attacks have a chance to shoot two bolts in a row and inflict slow."
+    },
+    {
+      "slot": "s1",
+      "name": "Oak Bolt",
+      "text": "Charges up and shoots a bolt in the target direction, dealing damage to enemies in its path. The higher her Attack Speed, the shorter the charge time."
+    },
+    {
+      "slot": "s2",
+      "name": "Protecting Winds",
+      "text": "Gains Movement Speed and enhances the next Basic Attack. During this effect, becomes Invulnerable to physical damage. Upon learning, gains a permanent Attack Speed boost and enhanced Passive effect."
+    },
+    {
+      "slot": "ult",
+      "name": "Vaulting Shot",
+      "text": "Jumps at a target, slowing and stunning them, then returns to the original location, gaining an Attack boost and shooting bolts. The higher her Attack Speed, the more bolts are shot."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Critical strike",
+      "context": "Safe default · Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "eternity-blade",
+        "shadow-ripper",
+        "daybreakers-virtue",
+        "bloodweeper",
+        "sunchaser",
+        "sages-sanctuary",
+        "destiny",
+        "haste-sunpool"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "eternity-blade",
+        "twinblades-of-destruction",
+        "shadow-ripper",
+        "bloodsoul",
+        "mortal-punisher",
+        "cloud-piercer",
+        "daybreakers-virtue",
+        "deepfrost-siege",
+        "bloodweeper"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "doomsday",
+        "succubus-cloak",
+        "deepfrost-siege",
+        "daybreakers-virtue",
+        "sages-sanctuary",
+        "blood-rage",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Crit attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "doomsday",
+        "daybreakers-virtue",
+        "eternity-blade",
+        "shadow-ripper",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Crit attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "sparkforged-dagger",
+        "boots-of-dexterity",
+        "doomsday",
+        "daybreakers-virtue",
+        "eternity-blade",
+        "shadow-ripper",
+        "sages-sanctuary",
+        "destiny",
+        "boots-of-resistance",
+        "overlords-might"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "eternity-blade",
+        "doomsday",
+        "shadow-ripper",
+        "daybreakers-virtue",
+        "bloodweeper",
+        "destiny",
+        "sunchaser",
+        "overlords-might"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Attack speed",
+      "context": "Anti-tank · Position 4",
+      "itemIds": [
+        "meteor",
+        "boots-of-dexterity",
+        "axe-of-torment",
+        "deepfrost-siege",
+        "overlords-might",
+        "doomsday",
+        "daybreakers-virtue",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "twinblades-of-destruction",
+        "shadow-ripper",
+        "eternity-blade",
+        "cloud-piercer",
+        "bloodsoul",
+        "bloodweeper",
+        "sunchaser",
+        "daybreakers-virtue",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Crit attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "doomsday",
+        "daybreakers-virtue",
+        "eternity-blade",
+        "sunchaser",
+        "sages-sanctuary",
+        "destiny",
+        "haste-sunpool"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [
+      "Zhang Fei"
+    ],
+    "synergies": [
+      "Kaizer",
+      "Liu Bang",
+      "Diaochan",
+      "Nakoruru",
+      "Ying"
+    ]
+  },
+  "arcana": [
+    "Red Moon",
+    "Eagle Eye",
+    "Reaver"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 51.9,
+    "pickRate": 1.7,
+    "banRate": 0.3,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S13",
+      "date": "Jan 2026",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S13",
+      "date": "Dec 2025",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S11",
+      "date": "Aug 2025",
+      "type": "nerf",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S8",
+      "date": "Jan 2025",
+      "type": "buff",
+      "summary": "Increased passive damage."
+    }
+  ],
+  "patch": "2026-09-07"
+}

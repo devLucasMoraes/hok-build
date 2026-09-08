@@ -1,0 +1,251 @@
+{
+  "id": "kaizer",
+  "name": "Kaizer",
+  "nameCn": "铠",
+  "lane": "Clash Lane",
+  "class": "Fighter — Assassin Fighter / Late Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3476,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 44,
+    "physicalAttack": 178,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 385,
+    "maxMana": 580,
+    "mp5": 14
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Demon Soul",
+      "text": "Basic Attacks and Skill 2 deal extra damage to single targets."
+    },
+    {
+      "slot": "s1",
+      "name": "Vortex Brand",
+      "text": "Throws a ricocheting blade in the target direction, damaging and slowing enemies hit. The blade returns on hit, recovering Health and granting Movement Speed and Attack Speed."
+    },
+    {
+      "slot": "s2",
+      "name": "Blade Tempest",
+      "text": "Slashes twice, dealing damage. The second slash launches enemies and increases the damage of the next Basic Attack. Gains increased Health and Mana recovery, and Movement Speed when out of combat."
+    },
+    {
+      "slot": "ult",
+      "name": "Invincible Warrior",
+      "text": "Becomes enhanced, gaining max Health, Physical Attack, and Movement Speed, while blocking incoming damage and dealing damage over time to nearby enemies."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full AD lethality",
+      "context": "Safe default · Position 1",
+      "itemIds": [
+        "lightfoot-shoes",
+        "boots-of-resistance",
+        "meteor",
+        "axe-of-torment",
+        "spikemail",
+        "master-sword",
+        "pure-sky",
+        "sages-sanctuary",
+        "immovable-sky-dome",
+        "destiny",
+        "ardent-dominion"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Bruiser",
+      "context": "Safe default · Position 3",
+      "itemIds": [
+        "patrol-axe",
+        "boots-of-tranquility",
+        "master-sword",
+        "eternity-blade",
+        "dragons-rage",
+        "blood-rage"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "patrol-axe",
+        "boots-of-resistance",
+        "meteor",
+        "axe-of-torment",
+        "giants-grip",
+        "master-sword",
+        "eternity-blade",
+        "pure-sky",
+        "sages-sanctuary",
+        "immovable-sky-dome",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Sustain bruiser",
+      "context": "Position 3",
+      "itemIds": [
+        "rapacious-bite",
+        "boots-of-resistance",
+        "blazing-cape",
+        "eye-of-the-phoenix",
+        "bloodweeper",
+        "eternity-blade"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "rapacious-bite",
+        "boots-of-resistance",
+        "nettle-gauntlet",
+        "axe-of-torment",
+        "spikemail",
+        "tempest",
+        "master-sword",
+        "succubus-cloak",
+        "destiny",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-resistance",
+        "cloth-jerkin",
+        "rapacious-bite",
+        "dragons-rage",
+        "axe-of-torment",
+        "overlords-platemail",
+        "eye-of-the-phoenix",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-resistance",
+        "axe-of-torment",
+        "rapacious-bite",
+        "nettle-gauntlet",
+        "cuirass-of-savagery",
+        "master-sword",
+        "pure-sky",
+        "overlords-might",
+        "bloodweeper",
+        "starbreaker",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Critical strike",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "shadow-ripper",
+        "eternity-blade",
+        "blazing-cape",
+        "overlords-platemail",
+        "blood-rage"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "rapacious-bite",
+        "boots-of-resistance",
+        "axe-of-torment",
+        "ominous-premonition",
+        "spikemail",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "pure-sky",
+        "dragons-rage",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Da Qiao",
+      "Diaochan",
+      "Daji"
+    ],
+    "weakAgainst": [
+      "Donghuang",
+      "Kui",
+      "Sun Bin"
+    ],
+    "synergies": [
+      "Ming",
+      "Yaria",
+      "Zhuangzi",
+      "Da Qiao",
+      "Diaochan",
+      "Daji"
+    ]
+  },
+  "arcana": [
+    "Calamity",
+    "Hunt",
+    "Eagle Eye"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 50.7,
+    "pickRate": 1.4,
+    "banRate": 0.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S14",
+      "date": "Mar 2026",
+      "type": "buff",
+      "summary": "Increased skill recovery and skill effect"
+    },
+    {
+      "season": "S12",
+      "date": "Sep 2025",
+      "type": "buff",
+      "summary": "Increased Skill Damage"
+    },
+    {
+      "season": "S8",
+      "date": "Jan 2025",
+      "type": "buff",
+      "summary": "Increased damage of attack preset."
+    },
+    {
+      "season": "S6",
+      "date": "Aug 2024",
+      "type": "adjust",
+      "summary": "Balanced the strength of different builds."
+    }
+  ],
+  "patch": "2026-09-07"
+}

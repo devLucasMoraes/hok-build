@@ -1,0 +1,143 @@
+{
+  "id": "fuzi",
+  "name": "Fuzi",
+  "nameCn": "老夫子",
+  "lane": "Clash Lane",
+  "class": "Fighter — Berserker / Gap-Close / Late Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3432,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 51,
+    "physicalAttack": 176,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 385
+  },
+  "resource": {
+    "name": "Admonition",
+    "value": 5
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Ancient Wisdom",
+      "text": "After landing 5 Basic Attacks, he becomes enhanced. While enhanced, he gains Attack Speed and Movement Speed. Each Basic Attack deals extra true damage and reduces the cooldown of Skills 1 and 2."
+    },
+    {
+      "slot": "s1",
+      "name": "Corporal Punishment",
+      "text": "Swings his ferule in the target direction, pulling enemies in its path to his location while dealing damage and slowing them."
+    },
+    {
+      "slot": "s2",
+      "name": "Intuition",
+      "text": "Enhances himself. While enhanced, he reflects every enemy hero's 1st Basic Attack and slows them. Passive: Basic Attacks have a chance of turning into 2 consecutive Basic Attacks."
+    },
+    {
+      "slot": "ult",
+      "name": "Sage's Might",
+      "text": "Charges in the target direction, dealing damage to the 1st enemy hero hit and restricting their movement to a fixed area for a while. Restricted targets deal less damage."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Attack speed",
+      "context": "Safe default · Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "sparkforged-dagger",
+        "doomsday",
+        "spikemail",
+        "succubus-cloak",
+        "blood-rage"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Bruiser",
+      "context": "Position 1",
+      "itemIds": [
+        "lightfoot-shoes",
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "protectors-cuirass",
+        "glacial-buckler",
+        "twinblades-of-destruction",
+        "sunglow-striker",
+        "pure-sky",
+        "succubus-cloak",
+        "shadow-ripper",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Milady",
+      "Luna",
+      "Mai Shiranui"
+    ],
+    "weakAgainst": [],
+    "synergies": [
+      "Yaria",
+      "Dyadia",
+      "Liu Shan",
+      "Milady",
+      "Luna",
+      "Mai Shiranui"
+    ]
+  },
+  "arcana": [
+    "Conflict",
+    "Eagle Eye",
+    "Hunt"
+  ],
+  "spell": "Execute",
+  "rates": {
+    "winRate": 52.7,
+    "pickRate": 0.4,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S14",
+      "date": "Mar 2026",
+      "type": "nerf",
+      "summary": "Adjusted skill damage"
+    },
+    {
+      "season": "S13",
+      "date": "Jan 2026",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S12",
+      "date": "Oct 2025",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage & Cooldown"
+    },
+    {
+      "season": "S11",
+      "date": "Jul 2025",
+      "type": "buff",
+      "summary": "Reduced Skill 2 Cooldown"
+    },
+    {
+      "season": "S7",
+      "date": "Nov 2024",
+      "type": "buff",
+      "summary": "Reduced the cooldown of Skills 1 and 2 in the late game"
+    }
+  ],
+  "patch": "2026-09-07"
+}

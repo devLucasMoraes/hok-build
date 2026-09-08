@@ -1,0 +1,263 @@
+{
+  "id": "nakoruru",
+  "name": "Nakoruru",
+  "nameCn": "娜可露露",
+  "lane": "Jungle",
+  "class": "Assassin — Burst Assassin / Gap-Close / Late Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3359,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 47,
+    "physicalAttack": 176,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 385,
+    "maxMana": 560,
+    "mp5": 14
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "DANCING SWORD ARTS",
+      "text": "Enhances her next Basic Attack after landing a skill hit, dealing extra damage."
+    },
+    {
+      "slot": "s1",
+      "name": "AMUBE YATORO",
+      "text": "Deals damage to a selected enemy and marks them. Damaging a marked enemy triggers the mark, dealing extra damage and reducing the cooldown time of the skill."
+    },
+    {
+      "slot": "s2",
+      "name": "RERA MUTSUBE",
+      "text": "Dashes forward, dealing damage to enemies and recovering Health."
+    },
+    {
+      "slot": "ult",
+      "name": "KAMUI MUTSUBE",
+      "text": "Gains a Movement Speed boost. Using the skill again deals damage to enemies in the target area, slows them, and reduces their damage output."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle Full AD lethality",
+      "context": "Safe default · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "rapacious-bite",
+        "overlords-might",
+        "bloodweeper",
+        "starbreaker"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-resistance",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "bloodweeper",
+        "overlords-might",
+        "starbreaker",
+        "splendor",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "rapacious-bite",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "mortal-punisher",
+        "overlords-might",
+        "spikemail",
+        "master-sword",
+        "cuirass-of-savagery",
+        "starbreaker",
+        "frostscars-embrace",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "boots-of-resistance",
+        "nettle-gauntlet",
+        "overlords-might",
+        "frostscars-embrace",
+        "starbreaker",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "storm-sword",
+        "eye-of-the-phoenix",
+        "overlords-might",
+        "starbreaker",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "nettle-gauntlet",
+        "rapacious-bite",
+        "overlords-might",
+        "master-sword",
+        "cuirass-of-savagery",
+        "starbreaker",
+        "frostscars-embrace",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "rapacious-bite",
+        "overlords-might",
+        "bloodweeper",
+        "starbreaker"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "meteor",
+        "boots-of-resistance",
+        "axe-of-torment",
+        "nettle-gauntlet",
+        "overlords-might",
+        "rapacious-bite",
+        "spikemail",
+        "starbreaker",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-fortitude",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "overlords-might",
+        "deepfrost-siege",
+        "starbreaker",
+        "sages-sanctuary"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Wukong",
+      "Athena",
+      "Xiang Yu"
+    ],
+    "weakAgainst": [
+      "Diaochan",
+      "Fang",
+      "Garo",
+      "Lady Sun",
+      "Lady Zhen",
+      "Milady",
+      "Nuwa",
+      "Shouyue",
+      "Yuhuan",
+      "Zhou Yu"
+    ],
+    "synergies": [
+      "Lady Zhen",
+      "Mi Yue",
+      "Dr Bian",
+      "Wukong",
+      "Athena",
+      "Xiang Yu"
+    ]
+  },
+  "arcana": [
+    "Mutation",
+    "Stealth",
+    "Eagle Eye"
+  ],
+  "spell": "Smite",
+  "rates": {
+    "winRate": 49.7,
+    "pickRate": 0.5,
+    "banRate": 0.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S14",
+      "date": "May 2026",
+      "type": "buff",
+      "summary": "Increased skill damage"
+    },
+    {
+      "season": "S11",
+      "date": "Jun 2025",
+      "type": "adjust",
+      "summary": "Ultimate Effect & Enhanced Basic Attack Upgrade"
+    },
+    {
+      "season": "S9",
+      "date": "Apr 2025",
+      "type": "buff",
+      "summary": "Skill 1 CD reduced"
+    }
+  ],
+  "patch": "2026-09-07"
+}

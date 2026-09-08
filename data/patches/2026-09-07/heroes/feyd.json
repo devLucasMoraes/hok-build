@@ -1,0 +1,262 @@
+{
+  "id": "feyd",
+  "name": "Feyd",
+  "nameCn": "暃",
+  "lane": "Jungle",
+  "class": "Assassin — Roving Assassin / Gap-Close/Cleanup / Balanced",
+  "difficulty": "Very Hard",
+  "baseStats": {
+    "maxHealth": 3335,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 48,
+    "physicalAttack": 175,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 380,
+    "maxMana": 560,
+    "mp5": 14
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Jade Carriage - View from Above",
+      "text": "Can jump onto and walk on natural walls. Basic Attack becomes ranged while on a wall."
+    },
+    {
+      "slot": "s1",
+      "name": "Jade Chase - Returning Strike",
+      "text": "Dashes, dealing damage to enemies in his path and launching them. Enhances his next 3 Basic Attacks. Enhanced Basic Attacks deal extra damage and restore Health."
+    },
+    {
+      "slot": "s2",
+      "name": "Stepping on Jade",
+      "text": "Jumps onto the target wall."
+    },
+    {
+      "slot": "ult",
+      "name": "Hardened Jade Seal",
+      "text": "Damages and marks nearby enemies. Using the skill again unleashes 4 strikes of damage. The last strike will defeat marked enemies with low health. Can use to jump down from walls."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle Full AD lethality",
+      "context": "Safe default · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "meteor",
+        "axe-of-torment",
+        "frostscars-embrace",
+        "rapacious-bite",
+        "dragons-rage",
+        "doomsday",
+        "sages-sanctuary",
+        "destiny",
+        "blood-rage"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Critical strike",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "master-sword",
+        "shadow-ripper",
+        "eternity-blade",
+        "haste-sunpool"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "lightfoot-shoes",
+        "meteor",
+        "boots-of-dexterity",
+        "axe-of-torment",
+        "rapacious-bite",
+        "nettle-gauntlet",
+        "resilient-agate",
+        "frostscars-embrace",
+        "pure-sky",
+        "demonsbane"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "axe-of-torment",
+        "master-sword",
+        "rapacious-bite",
+        "boots-of-resistance",
+        "dragons-rage",
+        "doomsday",
+        "sages-sanctuary",
+        "destiny",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-resistance",
+        "blazing-cape",
+        "rapacious-bite",
+        "overlords-might",
+        "master-sword",
+        "sages-sanctuary",
+        "frostscars-embrace",
+        "blood-rage",
+        "destiny",
+        "starbreaker",
+        "boots-of-deftness"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Jungle Full tank (AD option)",
+      "context": "Position 3",
+      "itemIds": [
+        "giants-grip",
+        "boots-of-dexterity",
+        "blazing-cape",
+        "dragons-rage",
+        "blood-rage",
+        "overlords-platemail",
+        "sages-sanctuary",
+        "destiny",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "lightfoot-shoes",
+        "boots-of-dexterity",
+        "meteor",
+        "axe-of-torment",
+        "frostscars-embrace",
+        "rapacious-bite",
+        "ominous-premonition",
+        "doomsday",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "meteor",
+        "rapacious-bite",
+        "axe-of-torment",
+        "boots-of-resistance",
+        "blazing-cape",
+        "dragons-rage",
+        "blood-rage",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "hunting-knife",
+        "boots-of-resistance",
+        "meteor",
+        "axe-of-torment",
+        "relentless-blade",
+        "pure-sky",
+        "overlords-might",
+        "rapacious-bite",
+        "master-sword",
+        "sages-sanctuary",
+        "destiny",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-10",
+      "title": "Standard build",
+      "context": "",
+      "itemIds": [
+        "rapacious-bite",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "master-sword",
+        "ominous-premonition",
+        "deepfrost-siege"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [],
+    "synergies": [
+      "Diaochan",
+      "Xuance",
+      "Mulan",
+      "Nezha",
+      "Kaizer",
+      "Dharma"
+    ]
+  },
+  "arcana": [],
+  "spell": "Smite",
+  "rates": {
+    "winRate": 53.9,
+    "pickRate": 0.5,
+    "banRate": 0.3,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jul 2026",
+      "type": "buff",
+      "summary": "Reduced skill cooldown"
+    },
+    {
+      "season": "S12",
+      "date": "Oct 2025",
+      "type": "buff",
+      "summary": "Increased Skill Damage"
+    },
+    {
+      "season": "S11",
+      "date": "Jun 2025",
+      "type": "adjust",
+      "summary": "Ultimate Effect Upgrade"
+    }
+  ],
+  "patch": "2026-09-07"
+}

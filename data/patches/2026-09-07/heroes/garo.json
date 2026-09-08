@@ -1,0 +1,262 @@
+{
+  "id": "garo",
+  "name": "Garo",
+  "nameCn": "伽罗",
+  "lane": "Farm",
+  "class": "Marksman — DPS Marksman / Ranged Harass/Team Buffs / Late Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3282,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 39,
+    "physicalAttack": 175,
+    "attackSpeedPct": 10,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 365,
+    "maxMana": 600,
+    "mp5": 15
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Piercing Arrow",
+      "text": "Basic Attacks and skills deal 50% extra damage to shields."
+    },
+    {
+      "slot": "s1",
+      "name": "Enchanted Arrows",
+      "text": "Enhanced: Attack Range and Basic Attack interval increase. Basic Attacks cost Mana and deal damage over time. Unenhanced: Gains Movement Speed and restores Attack Range and Basic Attack interval to initial values. Basic Attack hits restore Mana."
+    },
+    {
+      "slot": "s2",
+      "name": "Silent Arrow",
+      "text": "Fires an arrow in the target direction, dealing damage to enemies hit while silencing and slowing them. After a brief delay, deals another strike of damage to enemies within range of the same location."
+    },
+    {
+      "slot": "ult",
+      "name": "Sphere of Purity",
+      "text": "Creates a magic circle, dealing damage and increasing her Movement Speed and Critical Rate. When the circle is destroyed, it deals damage and increases her Critical Rate and Movement Speed."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Critical strike",
+      "context": "Safe default · Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "eternity-blade",
+        "sunchaser",
+        "cloud-piercer",
+        "daybreakers-virtue",
+        "bloodweeper",
+        "sages-sanctuary",
+        "destiny",
+        "haste-sunpool"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Crit attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "sparkforged-dagger",
+        "boots-of-dexterity",
+        "doomsday",
+        "shadow-ripper",
+        "eternity-blade",
+        "haste-sunpool",
+        "mortal-punisher",
+        "bloodweeper",
+        "overlords-might",
+        "frostscars-embrace",
+        "ravage-phantom",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "bloodweeper",
+        "overlords-might",
+        "sunchaser",
+        "sages-sanctuary",
+        "doomsday",
+        "blazing-cape",
+        "succubus-cloak",
+        "boots-of-deftness"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "eternity-blade",
+        "sunchaser",
+        "doomsday",
+        "daybreakers-virtue",
+        "mortal-punisher",
+        "destiny",
+        "sages-sanctuary",
+        "haste-sunpool",
+        "succubus-cloak"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "shadow-ripper",
+        "eternity-blade",
+        "mortal-punisher",
+        "daybreakers-virtue",
+        "boots-of-resistance",
+        "sunchaser",
+        "bloodweeper",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "eternity-blade",
+        "doomsday",
+        "sunchaser",
+        "daybreakers-virtue",
+        "mortal-punisher",
+        "destiny",
+        "sages-sanctuary",
+        "haste-sunpool",
+        "succubus-cloak"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "eternity-blade",
+        "deepfrost-siege",
+        "bloodweeper",
+        "daybreakers-virtue"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "twinblades-of-destruction",
+        "shadow-ripper",
+        "eternity-blade",
+        "pugilists-gauntlet",
+        "daybreakers-virtue",
+        "sunchaser",
+        "doomsday",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "doomsday",
+        "shadow-ripper",
+        "master-sword",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "overlords-might"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Nakoruru",
+      "Xuance",
+      "Li Bai"
+    ],
+    "weakAgainst": [],
+    "synergies": [
+      "Liu Shan",
+      "Lian Po",
+      "Wuyan",
+      "Nakoruru",
+      "Xuance",
+      "Li Bai"
+    ]
+  },
+  "arcana": [
+    "Conflict",
+    "Eagle Eye",
+    "Reaver"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 53.8,
+    "pickRate": 1.6,
+    "banRate": 0.4,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S13",
+      "date": "Dec 2025",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S11",
+      "date": "Jun 2025",
+      "type": "nerf",
+      "summary": "Ultimate Critical Rate reduced"
+    },
+    {
+      "season": "S10",
+      "date": "May 2025",
+      "type": "nerf",
+      "summary": "Ultimate cooldown increased"
+    },
+    {
+      "season": "S7",
+      "date": "Nov 2024",
+      "type": "nerf",
+      "summary": "Reduced Skill 1 damage, standardized Ultimate effects"
+    },
+    {
+      "season": "S7",
+      "date": "Sep 2024",
+      "type": "adjust",
+      "summary": "Casting speed of Skill 2 increases with Attack Speed."
+    }
+  ],
+  "patch": "2026-09-07"
+}

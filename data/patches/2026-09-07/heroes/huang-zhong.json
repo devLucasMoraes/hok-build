@@ -1,0 +1,220 @@
+{
+  "id": "huang-zhong",
+  "name": "Huang Zhong",
+  "nameCn": "黄忠",
+  "lane": "Farm",
+  "class": "Marksman — DPS Marksman / Cleanup/Ranged Harass / Late Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3318,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 39,
+    "physicalAttack": 175,
+    "attackSpeedPct": 10,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 365,
+    "maxMana": 600,
+    "mp5": 15
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Gunner's Spirit",
+      "text": "Basic Attacks increase Physical Attack and Critical Rate."
+    },
+    {
+      "slot": "s1",
+      "name": "Unleash Your Potential",
+      "text": "Gains a Movement Speed boost. Exits Turret Mode if it is active. Permanently gains Physical Attack upon learning."
+    },
+    {
+      "slot": "s2",
+      "name": "Lay the Mines",
+      "text": "Places a trap in the target area. The trap grants vision of enemies that trigger it, while also inflicting damage, slow, and sunder on them and granting Huang Zhong a shield."
+    },
+    {
+      "slot": "ult",
+      "name": "Bring out the Artillery",
+      "text": "Dashes and deploys a turret while refreshing his Skill 1. He becomes immobile, gains Attack Range, and increases his Physical and Magical Defense. Basic Attacks deal area damage. The turret will be deactivated after a certain number of Basic Attacks."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Crit attack speed",
+      "context": "Safe default · Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "eternity-blade",
+        "tempest",
+        "daybreakers-virtue",
+        "sunchaser",
+        "doomsday",
+        "sages-sanctuary",
+        "splendor",
+        "destiny",
+        "haste-sunpool",
+        "mortal-punisher"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "swiftstrike-lance",
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "tempest",
+        "eternity-blade",
+        "cloud-piercer",
+        "bloodsoul",
+        "daybreakers-virtue",
+        "bloodweeper",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "swiftstrike-lance",
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "tempest",
+        "eternity-blade",
+        "cloud-piercer",
+        "bloodsoul",
+        "daybreakers-virtue",
+        "bloodweeper",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Crit attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "tempest",
+        "doomsday",
+        "eternity-blade",
+        "bloodweeper",
+        "twinblades-of-destruction",
+        "sages-sanctuary",
+        "master-sword",
+        "daybreakers-virtue"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "twinblades-of-destruction",
+        "shadow-ripper",
+        "tempest",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "bloodweeper",
+        "sages-sanctuary",
+        "master-sword"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Critical strike",
+      "context": "Anti-tank · Position 4",
+      "itemIds": [
+        "twinblades-of-destruction",
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "eternity-blade",
+        "bloodweeper",
+        "tempest",
+        "daybreakers-virtue",
+        "starbreaker",
+        "sages-sanctuary",
+        "destiny",
+        "succubus-cloak",
+        "ominous-premonition"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Crit attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "thunderclap-brand",
+        "shadow-ripper",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "doomsday",
+        "tempest",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Xuance",
+      "Mai Shiranui",
+      "Jing"
+    ],
+    "weakAgainst": [],
+    "synergies": [
+      "Ata",
+      "Agudo",
+      "Lian Po",
+      "Xuance",
+      "Mai Shiranui",
+      "Jing"
+    ]
+  },
+  "arcana": [
+    "Red Moon",
+    "Conflict",
+    "Hunt"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 50.7,
+    "pickRate": 0.4,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S13",
+      "date": "Dec 2025",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S10",
+      "date": "May 2025",
+      "type": "buff",
+      "summary": "Improved shield"
+    },
+    {
+      "season": "S6",
+      "date": "Sep 2024",
+      "type": "buff",
+      "summary": "Increased base Movement Speed."
+    }
+  ],
+  "patch": "2026-09-07"
+}

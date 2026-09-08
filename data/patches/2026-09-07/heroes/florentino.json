@@ -1,0 +1,86 @@
+{
+  "id": "florentino",
+  "name": "Florentino",
+  "nameCn": "弗洛伦",
+  "lane": "Clash Lane",
+  "class": "Fighter",
+  "difficulty": "Very Hard",
+  "baseStats": {},
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Shuffle",
+      "text": "After leaving combat or touching a bouquet, enhances the next Basic Attack to include a dash and deal extra damage. If the attack hits a hero, recovers Health. He can dash again after the initial dash."
+    },
+    {
+      "slot": "ult",
+      "name": "Gentlemen's Duel",
+      "text": "Dashes forward and marks the first target, increasing their damage taken, then scatters bouquets. While the skill is active, recovers twice as much Health and gains crowd control immunity. He can dash again after the initial dash."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Royal's",
+      "context": "Safe default · Position 1",
+      "itemIds": [
+        "boots-of-tranquility",
+        "meteor",
+        "axe-of-torment",
+        "nettle-gauntlet",
+        "frostscars-embrace",
+        "cuirass-of-savagery",
+        "pure-sky",
+        "ominous-premonition",
+        "sages-sanctuary",
+        "destiny",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Clash",
+      "context": "Safe default · Position 1",
+      "itemIds": [
+        "nettle-gauntlet",
+        "boots-of-resistance",
+        "frostscars-embrace",
+        "dragons-rage",
+        "cuirass-of-savagery",
+        "succubus-cloak",
+        "axe-of-torment",
+        "sages-sanctuary",
+        "spikemail",
+        "ravage-phantom",
+        "glacial-buckler",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [],
+    "synergies": []
+  },
+  "arcana": [],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 51.8,
+    "pickRate": 0.5,
+    "banRate": 1.7,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jul 2026",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    }
+  ],
+  "patch": "2026-09-07"
+}

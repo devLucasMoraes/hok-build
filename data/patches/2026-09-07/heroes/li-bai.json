@@ -1,0 +1,275 @@
+{
+  "id": "li-bai",
+  "name": "Li Bai",
+  "nameCn": "李白",
+  "lane": "Jungle",
+  "class": "Assassin — Roving Assassin / Gap-Close/Cleanup / Late Game",
+  "difficulty": "Very Hard",
+  "baseStats": {
+    "maxHealth": 3257,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 49,
+    "physicalAttack": 171,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 385,
+    "maxMana": 560,
+    "mp5": 14
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Way of the Sword",
+      "text": "Basic Attack hits grant stacks. At 4 stacks, increases Physical Attack and unlocks the Ultimate."
+    },
+    {
+      "slot": "s1",
+      "name": "Stupor Slash",
+      "text": "Dashes and leaves an afterimage at the start point while stunning and damaging enemies in his path. Can dash again before cooldown starts, and a third time to return to the afterimage."
+    },
+    {
+      "slot": "s2",
+      "name": "Stroke of Genius",
+      "text": "Removes all debuffs from self and becomes untargetable. Damages enemies in range, leaving behind a sword formation. Enemies that touch the edge of the formation are damaged, slowed, and sundered."
+    },
+    {
+      "slot": "ult",
+      "name": "Flickering Flurry",
+      "text": "Transforms into a phantom, continuously slashing at the specified area. Removes all debuffs and becomes untargetable while the skill is active. Deals area damage, but damage is diminished upon hitting multiple enemy heroes."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle Full AD lethality",
+      "context": "Safe default · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "rapacious-bite",
+        "axe-of-torment",
+        "bloodweeper",
+        "tempest",
+        "overlords-might",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "lightfoot-shoes",
+        "meteor",
+        "boots-of-dexterity",
+        "axe-of-torment",
+        "bloodweeper",
+        "rapacious-bite",
+        "master-sword",
+        "overlords-might",
+        "mortal-punisher",
+        "destiny",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "meteor",
+        "axe-of-torment",
+        "bloodsoul",
+        "rapacious-bite",
+        "bloodweeper",
+        "boots-of-resistance",
+        "overlords-might",
+        "sages-sanctuary",
+        "splendor",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "meteor",
+        "axe-of-torment",
+        "bloodsoul",
+        "rapacious-bite",
+        "bloodweeper",
+        "master-sword",
+        "overlords-might",
+        "sages-sanctuary",
+        "splendor",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "meteor",
+        "axe-of-torment",
+        "bloodsoul",
+        "rapacious-bite",
+        "bloodweeper",
+        "master-sword",
+        "overlords-might",
+        "sages-sanctuary",
+        "destiny",
+        "shadow-ripper"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "meteor",
+        "axe-of-torment",
+        "bloodsoul",
+        "rapacious-bite",
+        "bloodweeper",
+        "master-sword",
+        "overlords-might",
+        "sages-sanctuary",
+        "destiny",
+        "shadow-ripper"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "axe-of-torment",
+        "bloodweeper",
+        "rapacious-bite",
+        "overlords-might",
+        "pure-sky",
+        "sages-sanctuary",
+        "splendor",
+        "immovable-sky-dome",
+        "destiny",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "meteor",
+        "axe-of-torment",
+        "bloodsoul",
+        "rapacious-bite",
+        "mortal-punisher",
+        "master-sword",
+        "overlords-might",
+        "sages-sanctuary",
+        "splendor",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "meteor",
+        "axe-of-torment",
+        "bloodsoul",
+        "rapacious-bite",
+        "bloodweeper",
+        "overlords-might",
+        "sages-sanctuary",
+        "splendor",
+        "mortal-punisher",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Dun",
+      "Lian Po",
+      "Liu Shan"
+    ],
+    "weakAgainst": [
+      "Garo",
+      "Mozi",
+      "Shi"
+    ],
+    "synergies": [
+      "Lady Zhen",
+      "Luna",
+      "Shi",
+      "Dun",
+      "Lian Po",
+      "Liu Shan"
+    ]
+  },
+  "arcana": [
+    "Mutation",
+    "Red Moon",
+    "Hunt"
+  ],
+  "spell": "Smite",
+  "rates": {
+    "winRate": 52.2,
+    "pickRate": 0.5,
+    "banRate": 0.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jul 2026",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S12",
+      "date": "Oct 2025",
+      "type": "buff",
+      "summary": "Increased Skill Damage"
+    },
+    {
+      "season": "S8",
+      "date": "Jan 2025",
+      "type": "buff",
+      "summary": "Increased base stats and Ultimate damage."
+    },
+    {
+      "season": "S6",
+      "date": "Aug 2024",
+      "type": "buff",
+      "summary": "Skill 1 damage increased."
+    }
+  ],
+  "patch": "2026-09-07"
+}

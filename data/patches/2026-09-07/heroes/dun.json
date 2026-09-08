@@ -1,0 +1,266 @@
+{
+  "id": "dun",
+  "name": "Dun",
+  "nameCn": "夏侯惇",
+  "lane": "Clash Lane",
+  "class": "Tank — Guardian Tank / Gap-Close/Crowd Control / Early Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3590,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 84,
+    "physicalAttack": 183,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 380,
+    "maxMana": 600,
+    "mp5": 15
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Unyielding Might",
+      "text": "Periodic Passive effect: When Health drops beyond a certain threshold, taking damage will enhance him. While enhanced, he recovers Health when hitting enemies with skills and Basic Attacks."
+    },
+    {
+      "slot": "s1",
+      "name": "Wind Slash",
+      "text": "Slashes in the target direction, dealing damage to enemies within range and slowing them. If the skill lands a hit, it can be used again before going into cooldown, dealing damage to enemies in range and launching them."
+    },
+    {
+      "slot": "s2",
+      "name": "Gale's Benediction",
+      "text": "Deals damage to enemies in range and grants a shield. Enhances the next 3 Basic Attacks to deal extra true damage. Every enhanced Basic Attack hit reduces his Ultimate's cooldown."
+    },
+    {
+      "slot": "ult",
+      "name": "Unruly Blade",
+      "text": "Throws his chain blade to the target location, stunning and dealing damage to enemies hit. When max range is reached or an enemy is hit, the chain blade will pull him to its location, dealing damage to nearby enemies."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full tank",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "blazing-cape",
+        "ominous-premonition",
+        "eye-of-the-phoenix",
+        "frigid-charge",
+        "glacial-buckler"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Full tank",
+      "context": "Position 1",
+      "itemIds": [
+        "lightfoot-shoes",
+        "blazing-cape",
+        "boots-of-resistance",
+        "longnight-guardian",
+        "ominous-premonition",
+        "dragons-rage",
+        "overlords-platemail",
+        "sages-sanctuary",
+        "succubus-cloak",
+        "cuirass-of-savagery",
+        "ravage-phantom"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle Full tank",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "blazing-cape",
+        "dragons-rage",
+        "eye-of-the-phoenix",
+        "ominous-premonition",
+        "overlords-platemail",
+        "longnight-guardian",
+        "frigid-charge",
+        "blood-rage",
+        "sages-sanctuary",
+        "ravage-phantom",
+        "amble-winter"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Full tank",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "blazing-cape",
+        "longnight-guardian",
+        "dragons-rage",
+        "ominous-premonition",
+        "overlords-platemail",
+        "sages-sanctuary",
+        "spikemail",
+        "succubus-cloak",
+        "amble-winter",
+        "ravage-phantom"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Full tank",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-resistance",
+        "dragons-rage",
+        "dawnlight",
+        "eye-of-the-phoenix",
+        "overlords-platemail",
+        "frigid-charge",
+        "sages-sanctuary",
+        "blood-rage",
+        "longnight-guardian"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Full tank",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "blazing-cape",
+        "ominous-premonition",
+        "longnight-guardian",
+        "overlords-platemail",
+        "frigid-charge",
+        "sages-sanctuary",
+        "amble-winter"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Jungle Full tank",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-resistance",
+        "blazing-cape",
+        "dragons-rage",
+        "eye-of-the-phoenix",
+        "ominous-premonition",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "blood-rage",
+        "frigid-charge",
+        "spikemail",
+        "amble-winter",
+        "ravage-phantom"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Jungle Full tank",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "blazing-cape",
+        "dragons-rage",
+        "eye-of-the-phoenix",
+        "blood-rage",
+        "spikemail",
+        "longnight-guardian",
+        "frigid-charge",
+        "sages-sanctuary",
+        "frostscars-embrace",
+        "boots-of-resistance"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Jungle Bruiser",
+      "context": "Position 3",
+      "itemIds": [
+        "patrol-axe",
+        "boots-of-tranquility",
+        "dragons-rage",
+        "blood-rage",
+        "giants-grip",
+        "blazing-cape",
+        "overlords-platemail",
+        "sages-sanctuary",
+        "deepfrost-siege",
+        "overlords-might"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Diaochan",
+      "Fang",
+      "Erin"
+    ],
+    "weakAgainst": [
+      "Han Xin",
+      "Li Bai",
+      "Wukong",
+      "Yaria"
+    ],
+    "synergies": [
+      "Dun",
+      "Li Bai",
+      "Arli",
+      "Diaochan",
+      "Fang",
+      "Erin"
+    ]
+  },
+  "arcana": [
+    "Fate",
+    "Hunt",
+    "Void"
+  ],
+  "spell": "Execute",
+  "rates": {
+    "winRate": 52.8,
+    "pickRate": 1.7,
+    "banRate": 0.6,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jul 2026",
+      "type": "adjust",
+      "summary": "Adjusted skill damage"
+    },
+    {
+      "season": "S14",
+      "date": "May 2026",
+      "type": "buff",
+      "summary": "Increased skill damage"
+    },
+    {
+      "season": "S14",
+      "date": "Mar 2026",
+      "type": "buff",
+      "summary": "Increased skill damage"
+    },
+    {
+      "season": "S11",
+      "date": "Jun 2025",
+      "type": "nerf",
+      "summary": "Damage reduced"
+    },
+    {
+      "season": "S9",
+      "date": "Apr 2025",
+      "type": "adjust",
+      "summary": "Adjusted the damage enhanced Basic Attacks deal to heroes and non-hero units"
+    }
+  ],
+  "patch": "2026-09-07"
+}

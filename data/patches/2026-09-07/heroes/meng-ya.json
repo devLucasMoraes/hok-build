@@ -1,0 +1,243 @@
+{
+  "id": "meng-ya",
+  "name": "Meng Ya",
+  "nameCn": "蒙犽",
+  "lane": "Farm",
+  "class": "Marksman — DPS Marksman / Ranged Harass / Early Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3331,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 40,
+    "physicalAttack": 165,
+    "attackSpeedPct": 10,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 370
+  },
+  "resource": {
+    "name": "Heat",
+    "value": 100
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Fiery Temper",
+      "text": "Cooldown is reduced when Attack Speed is increased. Gains Anger when Basic Attack and Skill 1 hit targets. At max Anger, becomes Excited, enhancing all skills. While Excited, surplus Anger restores Health."
+    },
+    {
+      "slot": "s1",
+      "name": "Awesome Barrage",
+      "text": "Uses the Apocalyptor to strafe continuously and deal damage. Excited: Bullets have a piercing effect, dealing half damage to subsequent enemies."
+    },
+    {
+      "slot": "s2",
+      "name": "Heavy Shot",
+      "text": "Shoots a heavy round in the target direction, inflicting damage and slow. Upon hitting an obstacle or reaching its max range, it will split into splinters that deal damage. Excited: Increases the number of splinters."
+    },
+    {
+      "slot": "ult",
+      "name": "Missile Mayhem",
+      "text": "Scans the vicinity and fires missiles at enemies within range who are attacked by teammates, dealing damage. Excited: Reduces interval between missiles."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Critical strike",
+      "context": "Safe default · Position 4",
+      "itemIds": [
+        "boots-of-resistance",
+        "storm-sword",
+        "eternity-blade",
+        "shadow-ripper",
+        "cloud-piercer",
+        "cuirass-of-savagery",
+        "longnight-guardian",
+        "daybreakers-virtue",
+        "sages-sanctuary",
+        "destiny",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "sparkforged-dagger",
+        "boots-of-dexterity",
+        "doomsday",
+        "deepfrost-siege",
+        "daybreakers-virtue",
+        "overlords-might"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "eternity-blade",
+        "shadow-ripper",
+        "doomsday",
+        "sunchaser",
+        "daybreakers-virtue",
+        "sages-sanctuary",
+        "splendor",
+        "destiny",
+        "haste-sunpool",
+        "overlords-might",
+        "mortal-punisher"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Crit attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "sparkforged-dagger",
+        "boots-of-dexterity",
+        "doomsday",
+        "master-sword",
+        "overlords-might",
+        "haste-sunpool",
+        "destiny",
+        "shadow-ripper",
+        "frostscars-embrace",
+        "blood-rage",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "eternity-blade",
+        "sunchaser",
+        "bloodweeper",
+        "overlords-might",
+        "boots-of-resistance",
+        "cuirass-of-savagery",
+        "succubus-cloak",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "eternity-blade",
+        "doomsday",
+        "daybreakers-virtue",
+        "sunchaser",
+        "mortal-punisher"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "twinblades-of-destruction",
+        "shadow-ripper",
+        "eternity-blade",
+        "cloud-piercer",
+        "daybreakers-virtue",
+        "sunglow-striker",
+        "pure-sky",
+        "overlords-might",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "shadow-ripper",
+        "boots-of-deftness",
+        "eternity-blade",
+        "doomsday",
+        "starbreaker",
+        "blood-rage"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-resistance",
+        "storm-sword",
+        "eternity-blade",
+        "shadow-ripper",
+        "cloud-piercer",
+        "cuirass-of-savagery",
+        "longnight-guardian",
+        "daybreakers-virtue",
+        "sages-sanctuary",
+        "destiny",
+        "immovable-sky-dome"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Mai Shiranui",
+      "Pei",
+      "Diaochan"
+    ],
+    "weakAgainst": [
+      "Liu Bang"
+    ],
+    "synergies": [
+      "Menki",
+      "Arthur",
+      "Agudo",
+      "Mai Shiranui",
+      "Pei",
+      "Diaochan"
+    ]
+  },
+  "arcana": [
+    "Calamity",
+    "Stealth",
+    "Eagle Eye"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 52.3,
+    "pickRate": 0.4,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S13",
+      "date": "Dec 2025",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S12",
+      "date": "Oct 2025",
+      "type": "buff",
+      "summary": "Increased Skill Damage"
+    }
+  ],
+  "patch": "2026-09-07"
+}

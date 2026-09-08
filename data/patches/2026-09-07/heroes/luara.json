@@ -1,0 +1,256 @@
+{
+  "id": "luara",
+  "name": "Luara",
+  "nameCn": "卢雅那",
+  "lane": "Farm",
+  "class": "Marksman — DPS Marksman / Carry/Traverse Terrain / Late Game",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3204,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 37,
+    "physicalAttack": 170,
+    "attackSpeedPct": 10,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 360,
+    "maxMana": 600,
+    "mp5": 15
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Serpent's Envoy",
+      "text": "Basic Attacks unleash serpent blades to deal damage, reducing Skill 1's cooldown for every enemy hit."
+    },
+    {
+      "slot": "s1",
+      "name": "Deadly Fang",
+      "text": "Activates a serpent blade and gains Movement Speed. She can quickly scale walls should she run into them during this period."
+    },
+    {
+      "slot": "s2",
+      "name": "Furtive Attack",
+      "text": "Summons the Fire Serpent at the target location, which then moves toward her, damaging and slowing enemies in its path. If serpent blades are active, it deals additional damage to enemies. If not, the cooldown is reduced."
+    },
+    {
+      "slot": "ult",
+      "name": "Blazing Glare",
+      "text": "Releases the Fire Serpent in the target direction, dealing damage and blinding enemies in its path, and gains a serpent blade. During this time, both attacking and being attacked will accumulate Fury. At full Fury, deals area damage and launches enemies."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Critical strike",
+      "context": "Safe default · Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "doomsday",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "overlords-might",
+        "sages-sanctuary",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "doomsday",
+        "deepfrost-siege",
+        "cuirass-of-savagery",
+        "overlords-might",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Crit attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "doomsday",
+        "eternity-blade",
+        "deepfrost-siege",
+        "daybreakers-virtue",
+        "sages-sanctuary",
+        "destiny",
+        "mortal-punisher"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "vampiric-scythe",
+        "shadow-ripper",
+        "eternity-blade",
+        "blood-rage",
+        "daybreakers-virtue",
+        "bloodweeper",
+        "mortal-punisher",
+        "doomsday",
+        "ravage-phantom",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "doomsday",
+        "shadow-ripper",
+        "master-sword",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "overlords-might"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-fortitude",
+        "swiftstrike-lance",
+        "sparkforged-dagger",
+        "doomsday",
+        "deepfrost-siege",
+        "cuirass-of-savagery",
+        "belt-of-might",
+        "blood-rage",
+        "sages-sanctuary",
+        "ravage-phantom"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "sparkforged-dagger",
+        "bloodweeper",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "sparkforged-dagger",
+        "bloodweeper",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "mortal-punisher",
+        "shadow-ripper",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "overlords-might"
+      ]
+    },
+    {
+      "id": "build-10",
+      "title": "Standard build",
+      "context": "",
+      "itemIds": [
+        "shadow-ripper",
+        "boots-of-fortitude",
+        "eternity-blade",
+        "bloodweeper",
+        "daybreakers-virtue",
+        "cuirass-of-savagery"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Diaochan",
+      "Mulan",
+      "Lam"
+    ],
+    "weakAgainst": [],
+    "synergies": [
+      "Lu Bu",
+      "Menki",
+      "Diaochan",
+      "Mulan",
+      "Lam"
+    ]
+  },
+  "arcana": [],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 46.4,
+    "pickRate": 0.9,
+    "banRate": 0.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S14",
+      "date": "Mar 2026",
+      "type": "buff",
+      "summary": "Reduced Mana consumption and adjusted skill damage."
+    },
+    {
+      "season": "S12",
+      "date": "Oct 2025",
+      "type": "buff",
+      "summary": "Increased Skill Damage"
+    },
+    {
+      "season": "S11",
+      "date": "Jun 2025",
+      "type": "nerf",
+      "summary": "Skill Cooldown Increased"
+    },
+    {
+      "season": "S10",
+      "date": "May 2025",
+      "type": "adjust",
+      "summary": "Base stats changed"
+    },
+    {
+      "season": "S8",
+      "date": "Jan 2025",
+      "type": "adjust",
+      "summary": "Mechanics Upgrade"
+    }
+  ],
+  "patch": "2026-09-07"
+}

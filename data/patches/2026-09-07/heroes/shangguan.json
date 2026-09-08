@@ -1,0 +1,244 @@
+{
+  "id": "shangguan",
+  "name": "Shangguan",
+  "nameCn": "上官婉儿",
+  "lane": "Mid",
+  "class": "Mage — Ambush Mage / Burst/Gap-Close / Early Game",
+  "difficulty": "Very Hard",
+  "baseStats": {
+    "maxHealth": 3389,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 48,
+    "physicalAttack": 161,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 360,
+    "maxMana": 640,
+    "mp5": 16
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Piercing Brush",
+      "text": "Enhances every 3rd Basic Attack, causing it to deal pierce damage. Deals damage when ink from different skills come in contact. Gains an enhanced Basic Attack and recovers Health if she is also nearby when they do."
+    },
+    {
+      "slot": "s1",
+      "name": "Ink Burst",
+      "text": "Flings a powerful drop of ink, which deals damage to enemies in its path and explodes to deal extra damage at the end of its range."
+    },
+    {
+      "slot": "s2",
+      "name": "Seething Script",
+      "text": "Summons a brush to write at the target location, dealing damage and slowing enemies in its path."
+    },
+    {
+      "slot": "ult",
+      "name": "Finishing Stroke",
+      "text": "Dashes wildly with her brush, dealing damage to enemies in her path. Can dash again if she passes through an enemy or ink left by another skill. After dashing 3–5 times, becomes untargetable and continuously attacks nearby enemies."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full AP burst",
+      "context": "Safe default · Position 2",
+      "itemIds": [
+        "lightfoot-shoes",
+        "scepter-of-reverberation",
+        "boots-of-tranquility",
+        "savants-wrath",
+        "sages-tome",
+        "ardent-dominion",
+        "void-staff"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "spell-tome",
+        "boots-of-the-arcane",
+        "venomous-staff",
+        "savants-wrath",
+        "sages-tome",
+        "boots-of-resistance",
+        "insatiable-tome",
+        "void-staff",
+        "splendor",
+        "ardent-dominion",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "scepter-of-reverberation",
+        "savants-wrath",
+        "breakthrough-robe",
+        "splendor",
+        "sages-tome",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "splendor",
+        "venomous-staff",
+        "void-staff",
+        "sages-tome",
+        "savants-wrath",
+        "dawnlight",
+        "enigma-moon-goddess",
+        "cuirass-of-savagery"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "blood-clans-grimoire",
+        "insatiable-tome",
+        "splendor",
+        "augurs-word",
+        "breakthrough-robe",
+        "void-staff",
+        "savants-wrath",
+        "sages-tome",
+        "venomous-staff",
+        "enigma-moon-goddess",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-tranquility",
+        "stone-of-sorcery",
+        "scepter-of-reverberation",
+        "savants-wrath",
+        "ardent-dominion",
+        "nebulon-wood",
+        "void-staff",
+        "sages-tome",
+        "sages-sanctuary",
+        "destiny",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "insatiable-tome",
+        "venomous-staff",
+        "twilight-stream",
+        "savants-wrath",
+        "void-staff"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "insatiable-tome",
+        "breakthrough-robe",
+        "augurs-word",
+        "ardent-dominion",
+        "sages-tome",
+        "venomous-staff",
+        "splendor",
+        "enigma-moon-goddess",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-resistance",
+        "stone-of-sorcery",
+        "scepter-of-reverberation",
+        "savants-wrath",
+        "sages-tome",
+        "nebulon-wood",
+        "void-staff",
+        "splendor",
+        "sages-sanctuary",
+        "destiny",
+        "enigma-moon-goddess"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Diaochan",
+      "Mulan",
+      "Sima Yi"
+    ],
+    "weakAgainst": [
+      "Augran",
+      "Biron",
+      "Musashi"
+    ],
+    "synergies": [
+      "Ming",
+      "Cai Yan",
+      "Guiguzi",
+      "Diaochan",
+      "Mulan",
+      "Sima Yi"
+    ]
+  },
+  "arcana": [
+    "Nightmare",
+    "Hunt",
+    "Mind's Eye"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 48.8,
+    "pickRate": 0.4,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S10",
+      "date": "May 2025",
+      "type": "buff",
+      "summary": "Increased skill damage"
+    },
+    {
+      "season": "S6",
+      "date": "Jul 2024",
+      "type": "buff",
+      "summary": "Increased base Movement Speed and reduced Skill 2's stock interval."
+    }
+  ],
+  "patch": "2026-09-07"
+}

@@ -1,9 +1,9 @@
-import Builder from "./components/builder";
-import { getHero, getItems, getManifest } from "@/lib/data-loader";
+import AppShell from "./components/app-shell";
+import { getHeroes, getItems, getManifest } from "@/lib/data-loader";
 
 export default function Home() {
-  const hero = getHero("angela");
+  const heroes = getHeroes();
   const items = getItems();
   const manifest = getManifest();
-  return <Builder hero={hero} items={items} manifest={manifest} />;
+  return <AppShell heroes={heroes} items={items} manifest={manifest} initialHeroId="angela" />;
 }

@@ -1,0 +1,217 @@
+{
+  "id": "garuda",
+  "name": "Garuda",
+  "nameCn": "迦楼罗",
+  "lane": "Mid",
+  "class": "Mage — Artillery Mage / Poke/Speed Up / Late Game",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3270,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 44,
+    "physicalAttack": 167,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 360,
+    "maxMana": 640,
+    "mp5": 16
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Keen Feathers",
+      "text": "Basic Attacks can pierce and deal damage to enemies in their path."
+    },
+    {
+      "slot": "s1",
+      "name": "Arrows of Gold",
+      "text": "Conjures an arrow formation that deals continuous damage to targets within range while slowing them."
+    },
+    {
+      "slot": "s2",
+      "name": "Golden Winged Blessing",
+      "text": "Gains Movement Speed and a shield while dealing damage to nearby enemies."
+    },
+    {
+      "slot": "ult",
+      "name": "Wings of Judgment",
+      "text": "Sends arrows surging forward, dealing damage. Using the skill again shoots all remaining arrows, damaging nearby enemies, inflicting them with Dread, and removing all Physical Attack bonuses granted by their equipment."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full AP burst",
+      "context": "Safe default · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "mask-of-agony",
+        "venomous-staff",
+        "frozen-breath",
+        "insatiable-tome",
+        "void-staff",
+        "sages-sanctuary",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "stone-of-sorcery",
+        "scepter-of-reverberation",
+        "blood-clans-grimoire",
+        "nebulon-wood",
+        "insatiable-tome",
+        "void-staff",
+        "splendor",
+        "sages-tome",
+        "sages-sanctuary",
+        "ardent-dominion"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "golden-blade",
+        "ardent-dominion",
+        "frozen-breath",
+        "sages-tome",
+        "void-staff",
+        "sages-sanctuary",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "spell-tome",
+        "boots-of-the-arcane",
+        "mask-of-agony",
+        "twilight-stream",
+        "venomous-staff",
+        "frozen-breath",
+        "sages-sanctuary",
+        "sages-tome",
+        "splendor",
+        "savants-wrath",
+        "ardent-dominion",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "dagger",
+        "boots-of-dexterity",
+        "golden-blade",
+        "insatiable-tome",
+        "venomous-staff",
+        "staves-of-sorcery",
+        "ardent-dominion"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "ardent-dominion",
+        "twilight-stream",
+        "venomous-staff",
+        "scepter-of-reverberation",
+        "void-staff",
+        "boots-of-tranquility",
+        "breakthrough-robe"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-tranquility",
+        "venomous-staff",
+        "sages-tome",
+        "scepter-of-reverberation",
+        "savants-wrath",
+        "void-staff",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "venomous-staff",
+        "void-staff",
+        "mask-of-agony",
+        "savants-wrath",
+        "scepter-of-reverberation",
+        "sages-tome",
+        "breakthrough-robe"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "sages-tome",
+        "frozen-breath",
+        "twilight-stream",
+        "scepter-of-reverberation",
+        "savants-wrath"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [],
+    "synergies": [
+      "Dolia",
+      "Lu Bu",
+      "Mai Shiranui"
+    ]
+  },
+  "arcana": [
+    "Nightmare",
+    "Hunt",
+    "Mind's Eye"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 51,
+    "pickRate": 0.8,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S13",
+      "date": "Jan 2026",
+      "type": "buff",
+      "summary": "Reduced Skill Mana Cost"
+    }
+  ],
+  "patch": "2026-09-07"
+}

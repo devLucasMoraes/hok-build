@@ -1,0 +1,183 @@
+{
+  "id": "dharma",
+  "name": "Dharma",
+  "nameCn": "达摩",
+  "lane": "Clash Lane",
+  "class": "Fighter — Charger / Gap-Close/Crowd Control / Balanced",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3456,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 51,
+    "physicalAttack": 174,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 380,
+    "maxMana": 580,
+    "mp5": 14
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Heart Meridian Mantra",
+      "text": "When using skills, he gains Physical and Magical Defense, as well as enhanced Basic Attacks that inflict extra damage and slow."
+    },
+    {
+      "slot": "s1",
+      "name": "Formlessness Mantra",
+      "text": "Dashes forward, dealing damage to enemies and crowd controlling them."
+    },
+    {
+      "slot": "s2",
+      "name": "Enlightenment Mantra",
+      "text": "Damages enemies in front of him and recovers Health."
+    },
+    {
+      "slot": "ult",
+      "name": "Truth Mantra",
+      "text": "Damages nearby enemies and knocks them back. If an enemy is knocked back into a wall, they take extra damage and are stunned."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full AD lethality",
+      "context": "Safe default · Position 1",
+      "itemIds": [
+        "meteor",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "master-sword",
+        "overlords-might",
+        "boots-of-resistance",
+        "pure-sky",
+        "starbreaker",
+        "sages-sanctuary",
+        "destiny",
+        "eye-of-the-phoenix",
+        "glacial-buckler"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Full tank (AD option)",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "dragons-rage",
+        "frostscars-embrace",
+        "axe-of-torment",
+        "eye-of-the-phoenix",
+        "frigid-charge"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "frostscars-embrace",
+        "rapacious-bite",
+        "boots-of-resistance",
+        "pure-sky",
+        "starbreaker",
+        "sages-sanctuary",
+        "destiny",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Full AD lethality",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-resistance",
+        "demonsbane",
+        "pure-sky",
+        "axe-of-torment",
+        "eye-of-the-phoenix",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "destiny",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "dragons-rage",
+        "boots-of-resistance",
+        "axe-of-torment",
+        "frostscars-embrace",
+        "pure-sky",
+        "blazing-cape",
+        "cuirass-of-savagery",
+        "sages-sanctuary",
+        "destiny",
+        "longnight-guardian"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Heino",
+      "Mi Yue",
+      "Yixing"
+    ],
+    "weakAgainst": [
+      "Dolia",
+      "Jing"
+    ],
+    "synergies": [
+      "Dolia",
+      "Guiguzi",
+      "Kui",
+      "Heino",
+      "Mi Yue",
+      "Yixing"
+    ]
+  },
+  "arcana": [
+    "Mutation",
+    "Stealth",
+    "Eagle Eye"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 52.8,
+    "pickRate": 0.3,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S14",
+      "date": "Mar 2026",
+      "type": "nerf",
+      "summary": "Adjusted skill damage"
+    },
+    {
+      "season": "S12",
+      "date": "Oct 2025",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S6",
+      "date": "Aug 2024",
+      "type": "buff",
+      "summary": "Reduced Skill 1 and Skill 3 cooldowns."
+    }
+  ],
+  "patch": "2026-09-07"
+}

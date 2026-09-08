@@ -1,0 +1,240 @@
+{
+  "id": "musashi",
+  "name": "Musashi",
+  "nameCn": "宫本武藏",
+  "lane": "Jungle",
+  "class": "Fighter — Assassin Fighter / Gap-Close/Cleanup / Balanced",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3300,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 48,
+    "physicalAttack": 167,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 385
+  },
+  "resource": {
+    "name": "Energy",
+    "value": 2
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Niten Ichiryuu",
+      "text": "Using skills generates Vigor, which is consumed by Basic Attacks to gain enhancement effects. Hitting an enemy reduces the cooldown of Skills 1 and 2. 1 Vigor: Enhances Basic Attack damage. 2 Vigor: Dashes and slows enemies."
+    },
+    {
+      "slot": "s1",
+      "name": "Illuminating Slash",
+      "text": "Unleashes sword energy in the target direction, dealing damage to enemies in its path and knocking down projectiles. Gains crowd control immunity when using the skill."
+    },
+    {
+      "slot": "s2",
+      "name": "Extreme Speed",
+      "text": "Dashes in the target direction, dealing damage and gaining a shield upon hitting an enemy."
+    },
+    {
+      "slot": "ult",
+      "name": "Duel to the Death",
+      "text": "Dashes to the target, launching and damaging enemies within range. Also delays the target's recovery effects."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle AD penetration",
+      "context": "Safe default · Position 3",
+      "itemIds": [
+        "rapacious-bite",
+        "boots-of-resistance",
+        "axe-of-torment",
+        "frostscars-embrace",
+        "bloodweeper",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "AD penetration",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "frostscars-embrace",
+        "pure-sky",
+        "master-sword",
+        "ominous-premonition"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "rapacious-bite",
+        "blazing-cape",
+        "blood-rage",
+        "overlords-might",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "rapacious-bite",
+        "dragons-rage",
+        "frostscars-embrace",
+        "boots-of-resistance",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Standard build",
+      "context": "Position 3",
+      "itemIds": [
+        "rapacious-bite",
+        "boots-of-resistance",
+        "axe-of-torment",
+        "frostscars-embrace",
+        "cuirass-of-savagery",
+        "succubus-cloak"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "master-sword",
+        "pure-sky",
+        "overlords-might",
+        "dragons-rage"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "nettle-gauntlet",
+        "frostscars-embrace",
+        "protectors-cuirass",
+        "dragons-rage",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "lightfoot-shoes",
+        "meteor",
+        "boots-of-resistance",
+        "axe-of-torment",
+        "bloodsoul",
+        "frostscars-embrace",
+        "bloodweeper",
+        "tempest",
+        "rapacious-bite",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Full AD lethality",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-tranquility",
+        "primordial-crystal",
+        "meteor",
+        "axe-of-torment",
+        "pure-sky",
+        "frostscars-embrace",
+        "sunglow-striker",
+        "bloodweeper",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Diaochan",
+      "Luna",
+      "Shangguan"
+    ],
+    "weakAgainst": [
+      "Dyadia",
+      "Sun Bin"
+    ],
+    "synergies": [
+      "Dolia",
+      "Guiguzi",
+      "Zhang Fei",
+      "Diaochan",
+      "Luna",
+      "Shangguan"
+    ]
+  },
+  "arcana": [
+    "Mutation",
+    "Red Moon",
+    "Stealth"
+  ],
+  "spell": "Smite",
+  "rates": {
+    "winRate": 49.5,
+    "pickRate": 0.9,
+    "banRate": 0.3,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S12",
+      "date": "Nov 2025",
+      "type": "buff",
+      "summary": "Increased Skill Damage"
+    },
+    {
+      "season": "S10",
+      "date": "May 2025",
+      "type": "buff",
+      "summary": "Improved shield"
+    },
+    {
+      "season": "S7",
+      "date": "Nov 2024",
+      "type": "adjust",
+      "summary": "Balanced Stats to Suit Different Equipment"
+    }
+  ],
+  "patch": "2026-09-07"
+}

@@ -1,0 +1,136 @@
+{
+  "id": "liu-bang",
+  "name": "Liu Bang",
+  "nameCn": "刘邦",
+  "lane": "Clash Lane",
+  "class": "Tank — Guardian Tank / Support / Balanced",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3510,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 88,
+    "physicalAttack": 180,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 385,
+    "maxMana": 620,
+    "mp5": 15
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Royal Ambition",
+      "text": "Gains 1 mark every second, for up to 4 marks. Basic Attacks expend all marks, dealing additional magical damage per mark. At maximum marks, the next Basic Attack is enhanced into a ranged attack."
+    },
+    {
+      "slot": "s1",
+      "name": "Dominator's Shield",
+      "text": "Grants himself a shield. If the shield is still not depleted when it expires, it will deal damage to nearby enemies."
+    },
+    {
+      "slot": "s2",
+      "name": "Staggering Charge",
+      "text": "Charges up and dashes forward, damaging and stunning enemies in his path."
+    },
+    {
+      "slot": "ult",
+      "name": "Battlefield Command",
+      "text": "Provides a shield to a teammate. After a short delay, teleports to the teammate and gains Movement Speed."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full AP burst",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-deftness",
+        "breakthrough-robe",
+        "augurs-word",
+        "savants-wrath",
+        "scepter-of-reverberation",
+        "staves-of-sorcery"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Full tank (AP option)",
+      "context": "Position 1",
+      "itemIds": [
+        "cloth-jerkin",
+        "boots-of-tranquility",
+        "frosthold-targe",
+        "glacial-buckler",
+        "protectors-cuirass",
+        "blazing-cape",
+        "breakthrough-robe",
+        "clandestine-cape",
+        "succubus-cloak",
+        "overlords-platemail",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "AP penetration",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-tranquility",
+        "breakthrough-robe",
+        "blazing-cape",
+        "augurs-word",
+        "insatiable-tome",
+        "staves-of-sorcery",
+        "venomous-staff",
+        "sages-sanctuary"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Marco Polo",
+      "Meng Ya",
+      "Shouyue"
+    ],
+    "weakAgainst": [],
+    "synergies": [
+      "Di Renjie",
+      "Erin",
+      "Fang",
+      "Marco Polo",
+      "Meng Ya",
+      "Shouyue"
+    ]
+  },
+  "arcana": [
+    "Fate",
+    "Harmony",
+    "Reverberation"
+  ],
+  "spell": "Execute",
+  "rates": {
+    "winRate": 51.2,
+    "pickRate": 0.3,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jul 2026",
+      "type": "buff",
+      "summary": "Increased skill damage"
+    },
+    {
+      "season": "S13",
+      "date": "Feb 2026",
+      "type": "buff",
+      "summary": "Increased skill damage"
+    }
+  ],
+  "patch": "2026-09-07"
+}

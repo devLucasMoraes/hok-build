@@ -1,0 +1,151 @@
+{
+  "id": "cirrus",
+  "name": "Cirrus",
+  "nameCn": "云中君",
+  "lane": "Jungle",
+  "class": "Assassin — Burst Assassin / Gap-Close/Cleanup / Mid Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3218,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 49,
+    "physicalAttack": 171,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 380
+  },
+  "resource": {
+    "name": "Breath",
+    "value": 450
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Through the Clouds",
+      "text": "Ignores terrain after reaching level 4 and gains Movement Speed when using Basic Attacks. Enemies hit by his Basic Attacks or skills take damage when they move."
+    },
+    {
+      "slot": "s1",
+      "name": "Cloud Descending",
+      "text": "Charges up, gaining Movement Speed. Then dashes forward, damaging and stunning enemies. Can jump back if he hits a hero."
+    },
+    {
+      "slot": "s2",
+      "name": "Razor Wind",
+      "text": "Throws wind blades that slow and deal damage to enemies 2 times. Then gains Attack Speed and ranged Basic Attacks."
+    },
+    {
+      "slot": "ult",
+      "name": "Soaring Whirlwind",
+      "text": "Carries an enemy hero into the air, then strikes the ground, dealing area damage and launching the enemy he carried."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle Full AD lethality",
+      "context": "Safe default · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "doomsday",
+        "overlords-might",
+        "sages-sanctuary",
+        "destiny",
+        "master-sword"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "doomsday",
+        "starbreaker",
+        "rapacious-bite",
+        "destiny",
+        "overlords-might",
+        "sages-sanctuary",
+        "frigid-charge",
+        "blood-rage"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "rapacious-bite",
+        "boots-of-dexterity",
+        "axe-of-torment",
+        "mortal-punisher",
+        "overlords-might",
+        "master-sword",
+        "destiny",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [
+      "Cai Yan",
+      "Donghuang",
+      "Gan & Mo",
+      "Hou Yi",
+      "Lady Zhen",
+      "Marco Polo",
+      "Ming",
+      "Mozi",
+      "Yixing",
+      "Zhou Yu",
+      "Zhuangzi"
+    ],
+    "synergies": [
+      "Da Qiao",
+      "Luna",
+      "Xiao Qiao",
+      "Wukong",
+      "Zilong",
+      "Yang Jian"
+    ]
+  },
+  "arcana": [
+    "Red Moon",
+    "Reaver",
+    "Hunt"
+  ],
+  "spell": "Smite",
+  "rates": {
+    "winRate": 51.7,
+    "pickRate": 0.2,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S9",
+      "date": "Mar 2025",
+      "type": "nerf",
+      "summary": "Stat Nerfs"
+    },
+    {
+      "season": "S8",
+      "date": "Feb 2025",
+      "type": "buff",
+      "summary": "Reduced Skill Cooldowns"
+    }
+  ],
+  "patch": "2026-09-07"
+}

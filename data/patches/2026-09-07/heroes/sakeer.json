@@ -1,0 +1,151 @@
+{
+  "id": "sakeer",
+  "name": "Sakeer",
+  "nameCn": "桑启",
+  "lane": "Roam",
+  "class": "Support — Buff Support / Crowd Control/Team Buffs / Balanced",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3211,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 47,
+    "physicalAttack": 140,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 360,
+    "maxMana": 620,
+    "mp5": 15
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Firefly Protection",
+      "text": "Basic Attacks and skills summon fireflies that deal extra damage to enemies and grant vision of them. Periodically heals teammates, or can charge up his Basic Attack to heal himself instead."
+    },
+    {
+      "slot": "s1",
+      "name": "Mulberry Power",
+      "text": "Launches and damages enemies in front while summoning fireflies to heal teammates or damage enemies."
+    },
+    {
+      "slot": "s2",
+      "name": "Ride the Wind",
+      "text": "Flies to a brush while summoning fireflies that heal teammates or damage enemies."
+    },
+    {
+      "slot": "ult",
+      "name": "Firefly Fields",
+      "text": "Summons a brush and can fly into it by using this skill again. The brush summons fireflies over time that heal teammates or damage enemies."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Sustained AP",
+      "context": "Position 5",
+      "itemIds": [
+        "crimson-shadow-redemption",
+        "boots-of-deftness",
+        "dawnlight",
+        "eye-of-the-phoenix",
+        "overlords-platemail",
+        "ominous-premonition",
+        "breakthrough-robe",
+        "frozen-breath",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "longnight-guardian",
+        "glacial-buckler"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "crimson-shadow",
+        "boots-of-deftness",
+        "crimson-shadow-redemption",
+        "overlords-platemail",
+        "eye-of-the-phoenix",
+        "ominous-premonition",
+        "breakthrough-robe",
+        "frozen-breath",
+        "sages-sanctuary",
+        "longnight-guardian",
+        "dawnlight"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-the-arcane",
+        "guardian",
+        "guardian-redemption",
+        "venomous-staff",
+        "ominous-premonition",
+        "overlords-platemail",
+        "boots-of-resistance",
+        "longnight-guardian",
+        "sages-sanctuary",
+        "enigma-moon-goddess"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Ying",
+      "Luna"
+    ],
+    "weakAgainst": [
+      "Haya"
+    ],
+    "synergies": [
+      "Alessio",
+      "Meng Ya",
+      "Ying",
+      "Luna"
+    ]
+  },
+  "arcana": [
+    "Fate",
+    "Longevity",
+    "Void"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 52.7,
+    "pickRate": 0.5,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S12",
+      "date": "Oct 2025",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S10",
+      "date": "May 2025",
+      "type": "nerf",
+      "summary": "Skill 1 cooldown increased"
+    },
+    {
+      "season": "S8",
+      "date": "Feb 2025",
+      "type": "nerf",
+      "summary": "Reduced damage and recovery"
+    }
+  ],
+  "patch": "2026-09-07"
+}

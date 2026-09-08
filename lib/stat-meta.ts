@@ -1,28 +1,31 @@
 import type { ItemCategory, StatKey } from "./types";
 
-/** Metadados de exibição: rótulo PT-BR, natureza e ordem no painel. */
-export const STAT_META: Record<StatKey, { label: string; short: string; kind: "flat" | "percent" }> = {
-  physicalAttack: { label: "Ataque Físico", short: "Atq. Fís.", kind: "flat" },
-  magicAttack: { label: "Ataque Mágico", short: "Atq. Mág.", kind: "flat" },
-  maxHealth: { label: "Vida Máx.", short: "Vida", kind: "flat" },
-  maxMana: { label: "Mana Máx.", short: "Mana", kind: "flat" },
-  physicalDefense: { label: "Defesa Física", short: "Def. Fís.", kind: "flat" },
-  magicDefense: { label: "Defesa Mágica", short: "Def. Mág.", kind: "flat" },
-  moveSpeedFlat: { label: "Vel. Movimento", short: "Vel. Mov.", kind: "flat" },
-  moveSpeedPct: { label: "Vel. Movimento %", short: "Vel. Mov. %", kind: "percent" },
-  attackSpeedPct: { label: "Vel. de Ataque", short: "Vel. Atq.", kind: "percent" },
-  critRatePct: { label: "Taxa Crítica", short: "Crítico", kind: "percent" },
-  critDamagePct: { label: "Dano Crítico", short: "Dano Crit", kind: "percent" },
-  physLifestealPct: { label: "Roubo de Vida Fís.", short: "Roubo Fís.", kind: "percent" },
-  magicLifestealPct: { label: "Roubo de Vida Mág.", short: "Roubo Mág.", kind: "percent" },
-  cdrPct: { label: "Redução de Recarga", short: "CDR", kind: "percent" },
-  physPierceFlat: { label: "Perfuração Física", short: "Perf. Fís.", kind: "flat" },
-  physPiercePct: { label: "Perfuração Física %", short: "Perf. Fís. %", kind: "percent" },
-  magicPierceFlat: { label: "Perfuração Mágica", short: "Perf. Mág.", kind: "flat" },
-  magicPiercePct: { label: "Perfuração Mágica %", short: "Perf. Mág. %", kind: "percent" },
-  tenacityPct: { label: "Resistência", short: "Resist.", kind: "percent" },
-  hp5: { label: "Regen. Vida / 5s", short: "HP/5s", kind: "flat" },
-  mp5: { label: "Regen. Mana / 5s", short: "MP/5s", kind: "flat" },
+/** Metadados de exibição: rótulo PT-BR fiel ao vocabulário da API
+ *  (hokstats: coluna de stats EN + tradução PT oficial) e natureza flat/percent.
+ *  Sem campo `short` — todas as superfícies usam o nome cheio.
+ */
+export const STAT_META: Record<StatKey, { label: string; kind: "flat" | "percent" }> = {
+  physicalAttack: { label: "Ataque Físico", kind: "flat" },
+  magicAttack: { label: "Ataque Mágico", kind: "flat" },
+  maxHealth: { label: "Vida", kind: "flat" },
+  maxMana: { label: "Mana", kind: "flat" },
+  physicalDefense: { label: "Defesa Física", kind: "flat" },
+  magicDefense: { label: "Defesa Mágica", kind: "flat" },
+  moveSpeedFlat: { label: "Velocidade de Movimento", kind: "flat" },
+  moveSpeedPct: { label: "Velocidade de Movimento %", kind: "percent" },
+  attackSpeedPct: { label: "Velocidade de Ataque", kind: "percent" },
+  critRatePct: { label: "Taxa Crítica", kind: "percent" },
+  critDamagePct: { label: "Dano Crítico", kind: "percent" },
+  physLifestealPct: { label: "Roubo de Vida Físico", kind: "percent" },
+  magicLifestealPct: { label: "Roubo de Vida Mágico", kind: "percent" },
+  cdrPct: { label: "Redução de Recarga", kind: "percent" },
+  physPierceFlat: { label: "Perfuração Física", kind: "flat" },
+  physPiercePct: { label: "Perfuração Física %", kind: "percent" },
+  magicPierceFlat: { label: "Perfuração Mágica", kind: "flat" },
+  magicPiercePct: { label: "Perfuração Mágica %", kind: "percent" },
+  tenacityPct: { label: "Resistência", kind: "percent" },
+  hp5: { label: "Regeneração de Vida / 5s", kind: "flat" },
+  mp5: { label: "Regeneração de Mana / 5s", kind: "flat" },
 };
 
 /** Ordem de exibição no painel de atributos. */

@@ -1,0 +1,271 @@
+{
+  "id": "diaochan",
+  "name": "Diaochan",
+  "nameCn": "貂蝉",
+  "lane": "Mid",
+  "class": "Mage — Formation Mage / Sustained Damage/True Damage / Late Game",
+  "difficulty": "Very Hard",
+  "baseStats": {
+    "maxHealth": 3205,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 43,
+    "physicalAttack": 170,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 365,
+    "maxMana": 640,
+    "mp5": 16
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Explosion of Fragrance",
+      "text": "Applies stacks to the opponent. At max stacks, deals area damage and slows enemies, while recovering Health."
+    },
+    {
+      "slot": "s1",
+      "name": "Returning Lotus",
+      "text": "Sends out a lotus in the target direction that returns to her when it reaches its max distance, damaging enemies in its path."
+    },
+    {
+      "slot": "s2",
+      "name": "Petals in the Wind",
+      "text": "Dashes in the target direction, becoming untargetable during the dash. Releases petals to attack nearby enemies, dealing damage and reducing the cooldown of Skill 2."
+    },
+    {
+      "slot": "ult",
+      "name": "Flowery Potential",
+      "text": "Conjures up a magic circle around her, which lasts for a period of time. While she is within the circle, the cooldowns of Skill 1 and Skill 2 are sped up. The circle deals damage to enemies within it when it is conjured and when it expires."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full AP burst",
+      "context": "Safe default · Position 2",
+      "itemIds": [
+        "spell-tome",
+        "boots-of-tranquility",
+        "holy-grail",
+        "breakthrough-robe",
+        "augurs-word",
+        "savants-wrath",
+        "splendor",
+        "boots-of-resistance",
+        "void-staff",
+        "sages-tome",
+        "enigma-moon-goddess",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-tranquility",
+        "insatiable-tome",
+        "savants-wrath",
+        "blazing-cape",
+        "breakthrough-robe",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Mage support",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-tranquility",
+        "holy-grail",
+        "twilight-stream",
+        "boots-of-resistance",
+        "splendor",
+        "augurs-word",
+        "savants-wrath",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Sustained AP",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-tranquility",
+        "holy-grail",
+        "insatiable-tome",
+        "clandestine-cape",
+        "breakthrough-robe",
+        "boots-of-resistance",
+        "longnight-guardian",
+        "eye-of-the-phoenix",
+        "sages-sanctuary",
+        "venomous-staff",
+        "splendor",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Tanky mage",
+      "context": "Position 1",
+      "itemIds": [
+        "lightfoot-shoes",
+        "boots-of-tranquility",
+        "venomous-staff",
+        "ominous-premonition",
+        "insatiable-tome",
+        "eye-of-the-phoenix",
+        "ardent-dominion",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Mage support",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-tranquility",
+        "sages-codex",
+        "holy-grail",
+        "twilight-stream",
+        "blood-clans-grimoire",
+        "insatiable-tome",
+        "boots-of-resistance",
+        "ominous-premonition",
+        "eye-of-the-phoenix"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-tranquility",
+        "insatiable-tome",
+        "breakthrough-robe",
+        "cuirass-of-savagery",
+        "sages-tome",
+        "cuirass-of-swiftness",
+        "boots-of-the-arcane",
+        "frozen-breath"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "spell-tome",
+        "boots-of-tranquility",
+        "primordial-crystal",
+        "sages-codex",
+        "twilight-stream",
+        "insatiable-tome",
+        "boots-of-resistance",
+        "augurs-word",
+        "frozen-breath",
+        "savants-wrath"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-tranquility",
+        "holy-grail",
+        "mystic-page",
+        "insatiable-tome",
+        "boots-of-resistance",
+        "augurs-word",
+        "breakthrough-robe",
+        "savants-wrath",
+        "sages-tome",
+        "void-staff",
+        "splendor"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Mulan",
+      "Nakoruru",
+      "Xuance"
+    ],
+    "weakAgainst": [
+      "Angela",
+      "Butterfly",
+      "Dr Bian",
+      "Dun",
+      "Heino",
+      "Kaizer",
+      "Lady Sun",
+      "Luara",
+      "Meng Ya",
+      "Musashi",
+      "Shangguan",
+      "Shouyue",
+      "Yang Jian",
+      "Ziya"
+    ],
+    "synergies": [
+      "Ming",
+      "Yaria",
+      "Liu Bang",
+      "Mulan",
+      "Nakoruru",
+      "Xuance"
+    ]
+  },
+  "arcana": [
+    "Saint",
+    "Harmony",
+    "Compassion"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 47.6,
+    "pickRate": 0.7,
+    "banRate": 0.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S13",
+      "date": "Feb 2026",
+      "type": "buff",
+      "summary": "Increased skill damage and recovery"
+    },
+    {
+      "season": "S12",
+      "date": "Sep 2025",
+      "type": "buff",
+      "summary": "Increased Skill Damage"
+    },
+    {
+      "season": "S10",
+      "date": "Jun 2025",
+      "type": "nerf",
+      "summary": "Cooldown Mechanic Adjustments"
+    },
+    {
+      "season": "S9",
+      "date": "Mar 2025",
+      "type": "nerf",
+      "summary": "Stat Nerfs"
+    },
+    {
+      "season": "S7",
+      "date": "Nov 2024",
+      "type": "buff",
+      "summary": "Enhanced Base Stats"
+    }
+  ],
+  "patch": "2026-09-07"
+}

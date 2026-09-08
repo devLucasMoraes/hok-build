@@ -1,0 +1,231 @@
+{
+  "id": "umbrosa",
+  "name": "Umbrosa",
+  "nameCn": "影",
+  "lane": "Clash Lane",
+  "class": "Fighter — Charger / Sustained Damage/Resurrect / Balanced",
+  "difficulty": "Easy",
+  "baseStats": {
+    "maxHealth": 3415,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 50,
+    "physicalAttack": 170,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 375,
+    "maxMana": 580,
+    "mp5": 14
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Whirling Featherblades",
+      "text": "When attacking at a distance, Basic Attacks throw a blade that returns to her. She can hit the blade as it returns to bounce it back at the enemy, dealing increased damage with each rebound. When attacking nearby targets, she enters melee mode and attacks faster. Basic Attacks mark targets. Marked enemies take extra damage from Skill 2."
+    },
+    {
+      "slot": "s1",
+      "name": "Feverish Dance",
+      "text": "Sweeps the surrounding area, damaging and slowing nearby enemies. Then enters Frenzied state, gaining a major boost to Movement Speed and Attack Speed."
+    },
+    {
+      "slot": "s2",
+      "name": "Feathered Tempest",
+      "text": "Dashes forward, damaging and knocking back enemies. Also triggers Featherblade marks and spreads them to nearby enemies. Then, throws rebounding blades at enemies in front, dealing damage and recovering Health. Each hit consumes 1 mark to deal extra damage."
+    },
+    {
+      "slot": "ult",
+      "name": "Final Frenzy",
+      "text": "Damages nearby enemies and gains Movement Speed. Also enters the Indomitable state for 4s, gaining temporary Health. If she is defeated while this skill is not on cooldown, she resurrects after a short delay, damaging nearby enemies. The skill will then enter cooldown. Passive: Upgrading this skill increases Skill 2 and melee Basic Attack damage. The Indomitable state ends immediately if she loses all of her temporary Health."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full AD lethality",
+      "context": "Safe default · Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "axe-of-torment",
+        "deepfrost-siege",
+        "spikemail",
+        "overlords-might",
+        "pure-sky",
+        "demonsbane",
+        "sages-sanctuary",
+        "destiny",
+        "succubus-cloak",
+        "starbreaker"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "meteor",
+        "axe-of-torment",
+        "nettle-gauntlet",
+        "rapacious-bite",
+        "spikemail",
+        "deepfrost-siege",
+        "mortal-punisher",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Attack speed",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "doomsday",
+        "deepfrost-siege",
+        "shadow-ripper",
+        "master-sword"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "rapacious-bite",
+        "boots-of-dexterity",
+        "axe-of-torment",
+        "blazing-cape",
+        "starbreaker",
+        "sages-sanctuary",
+        "bloodweeper",
+        "cuirass-of-savagery",
+        "master-sword",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "deepfrost-siege",
+        "nettle-gauntlet",
+        "spikemail",
+        "demonsbane",
+        "boots-of-resistance",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "nettle-gauntlet",
+        "boots-of-fortitude",
+        "axe-of-torment",
+        "swiftstrike-lance",
+        "deepfrost-siege",
+        "spikemail",
+        "overlords-might",
+        "demonsbane",
+        "sages-sanctuary",
+        "destiny",
+        "succubus-cloak",
+        "starbreaker"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "hunting-knife",
+        "relentless-blade",
+        "boots-of-dexterity",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "bloodweeper",
+        "cuirass-of-savagery",
+        "master-sword",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Full AD lethality",
+      "context": "Position 1",
+      "itemIds": [
+        "nettle-gauntlet",
+        "boots-of-fortitude",
+        "axe-of-torment",
+        "deepfrost-siege",
+        "spikemail",
+        "overlords-might",
+        "demonsbane",
+        "sages-sanctuary",
+        "destiny",
+        "immovable-sky-dome",
+        "boots-of-resistance"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Full AD lethality",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-dexterity",
+        "meteor",
+        "axe-of-torment",
+        "doomsday",
+        "boots-of-resistance",
+        "master-sword",
+        "pure-sky",
+        "cuirass-of-savagery",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [],
+    "synergies": [
+      "Fatih",
+      "Chano",
+      "Sakeer",
+      "Feyd",
+      "Arke",
+      "Sun Ce"
+    ]
+  },
+  "arcana": [
+    "Mutation",
+    "Hunt",
+    "Eagle Eye"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 50.6,
+    "pickRate": 1,
+    "banRate": 0.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [],
+  "patch": "2026-09-07"
+}

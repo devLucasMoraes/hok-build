@@ -1,0 +1,180 @@
+{
+  "id": "menki",
+  "name": "Menki",
+  "nameCn": "梦奇",
+  "lane": "Jungle",
+  "class": "Fighter — Formation Mage / Solo/Gap-Close / Balanced",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3350,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 76,
+    "physicalAttack": 171,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 380
+  },
+  "resource": {
+    "name": "Mass",
+    "value": 100
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Dream-eating",
+      "text": "Gains Mass when using skills. Mass increases his Physical Attack, Physical Defense, and Magical Defense."
+    },
+    {
+      "slot": "s1",
+      "name": "Lingering Dream",
+      "text": "Gains Mass and a shield while damaging enemies within range. Basic Attack hits reduce this skill's cooldown."
+    },
+    {
+      "slot": "s2",
+      "name": "Dream Bubble",
+      "text": "Throws a bubble in the target direction, then pulls it back. He does this twice. The bubble damages and slows enemies hit. The bubble can be thrown again as a bomb in the target direction, damaging enemies."
+    },
+    {
+      "slot": "ult",
+      "name": "Dream Roam",
+      "text": "Flies in a circle, dealing magical damage to enemies in his path while gaining Mass. When he stops flying, he launches and damages nearby enemies."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "AD penetration",
+      "context": "Safe default · Position 1",
+      "itemIds": [
+        "axe-of-torment",
+        "boots-of-tranquility",
+        "sparkforged-dagger",
+        "blazing-cape",
+        "blood-rage",
+        "sages-sanctuary",
+        "destiny",
+        "ravage-phantom"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Standard build",
+      "context": "Position 3",
+      "itemIds": [
+        "patrol-axe",
+        "boots-of-dexterity",
+        "dragons-rage",
+        "blood-rage",
+        "giants-grip",
+        "deepfrost-siege",
+        "overlords-platemail"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle Attack speed",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "lightfoot-shoes",
+        "vampiric-scythe",
+        "boots-of-resistance",
+        "deepfrost-siege",
+        "doomsday",
+        "mortal-punisher",
+        "starbreaker",
+        "rapacious-bite",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Standard build",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "lightfoot-shoes",
+        "boots-of-tranquility",
+        "rapacious-bite",
+        "deepfrost-siege",
+        "frostscars-embrace",
+        "dragons-rage",
+        "overlords-platemail"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Bruiser",
+      "context": "Position 3",
+      "itemIds": [
+        "patrol-axe",
+        "boots-of-tranquility",
+        "giants-grip",
+        "blazing-cape",
+        "overlords-platemail",
+        "pure-sky",
+        "frozen-breath",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Lady Zhen",
+      "Mai Shiranui",
+      "Xiao Qiao"
+    ],
+    "weakAgainst": [
+      "Ming",
+      "Sima Yi",
+      "Zhuangzi"
+    ],
+    "synergies": [
+      "Sun Bin",
+      "Zhang Fei",
+      "Guiguzi",
+      "Lady Zhen",
+      "Mai Shiranui",
+      "Xiao Qiao"
+    ]
+  },
+  "arcana": [
+    "Fate",
+    "Hunt",
+    "Void"
+  ],
+  "spell": "Smite",
+  "rates": {
+    "winRate": 53.2,
+    "pickRate": 0.2,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jul 2026",
+      "type": "buff",
+      "summary": "Increased skill damage"
+    },
+    {
+      "season": "S7",
+      "date": "Dec 2024",
+      "type": "buff",
+      "summary": "Reduced Skill 1 CD"
+    },
+    {
+      "season": "S7",
+      "date": "Sep 2024",
+      "type": "buff",
+      "summary": "Increased base stats."
+    }
+  ],
+  "patch": "2026-09-07"
+}

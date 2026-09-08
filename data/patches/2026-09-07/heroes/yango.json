@@ -1,0 +1,243 @@
+{
+  "id": "yango",
+  "name": "Yango",
+  "nameCn": "元歌",
+  "lane": "Clash Lane",
+  "class": "Assassin — Roving Assassin / Initiate / Balanced",
+  "difficulty": "Very Hard",
+  "baseStats": {
+    "maxHealth": 3001,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 40,
+    "physicalAttack": 165,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 375,
+    "maxMana": 560,
+    "mp5": 14
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Occult Arts - Manipulation",
+      "text": "Gain Hero Shards and recover Health when attacking. Collect 50 Hero Shards to summon the corresponding hero."
+    },
+    {
+      "slot": "s1",
+      "name": "Occult Arts - Umbra",
+      "text": "Throws the puppet, dealing damage and launching enemies in the path, then begins controlling the puppet."
+    },
+    {
+      "slot": "s2",
+      "name": "Occult Arts - Zhi Chu Luan",
+      "text": "Tosses paper birds, which deal damage to enemies in their path."
+    },
+    {
+      "slot": "ult",
+      "name": "Occult Arts - Dispersal",
+      "text": "Vanishes, cleansing all crowd control effects, then reappears in the target location after a brief delay."
+    },
+    {
+      "slot": "s1",
+      "name": "Occult Arts - Return",
+      "text": "Retrieves the puppet immediately, dealing damage to enemies along the path and launching them."
+    },
+    {
+      "slot": "s2",
+      "name": "Occult Arts - Substitution",
+      "text": "Swaps positions with the puppet, dealing damage to enemies in the path."
+    },
+    {
+      "slot": "ult",
+      "name": "Occult Arts - Binding",
+      "text": "Phase 1: Damages and slows nearby enemies. Phase 2: Continuously stuns and damages enemies."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full AD lethality",
+      "context": "Safe default · Position 1",
+      "itemIds": [
+        "iron-sword",
+        "lightfoot-shoes",
+        "meteor",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "overlords-might",
+        "master-sword",
+        "ominous-premonition",
+        "starbreaker",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "iron-sword",
+        "meteor",
+        "axe-of-torment",
+        "overlords-might",
+        "deepfrost-siege",
+        "starbreaker",
+        "pure-sky",
+        "sages-sanctuary",
+        "destiny",
+        "demonsbane",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "iron-sword",
+        "cloth-jerkin",
+        "boots-of-fortitude",
+        "sunglow-striker",
+        "axe-of-torment",
+        "overlords-might",
+        "starbreaker",
+        "deepfrost-siege",
+        "frostscars-embrace",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "storm-sword",
+        "meteor",
+        "boots-of-tranquility",
+        "overlords-might",
+        "axe-of-torment",
+        "starbreaker",
+        "ominous-premonition",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "destiny",
+        "splendor",
+        "ardent-dominion"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "sunglow-striker",
+        "boots-of-fortitude",
+        "axe-of-torment",
+        "deepfrost-siege",
+        "overlords-might",
+        "nettle-gauntlet",
+        "starbreaker",
+        "frostscars-embrace",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "iron-sword",
+        "sunglow-striker",
+        "boots-of-fortitude",
+        "axe-of-torment",
+        "deepfrost-siege",
+        "overlords-might",
+        "starbreaker",
+        "bloodweeper",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "iron-sword",
+        "sunglow-striker",
+        "boots-of-fortitude",
+        "axe-of-torment",
+        "deepfrost-siege",
+        "overlords-might",
+        "starbreaker",
+        "demonsbane"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Full AD lethality",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "overlords-might",
+        "pure-sky",
+        "destiny",
+        "demonsbane",
+        "bloodweeper",
+        "deepfrost-siege",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "boots-of-resistance",
+        "axe-of-torment",
+        "overlords-might",
+        "starbreaker",
+        "dragons-rage",
+        "succubus-cloak",
+        "glacial-buckler",
+        "blazing-cape",
+        "sages-sanctuary",
+        "destiny",
+        "splendor",
+        "ardent-dominion"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [],
+    "synergies": [
+      "Umbrosa",
+      "Fatih",
+      "Haya"
+    ]
+  },
+  "arcana": [
+    "Mutation",
+    "Stealth",
+    "Eagle Eye"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 49.2,
+    "pickRate": 0.3,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [],
+  "patch": "2026-09-07"
+}

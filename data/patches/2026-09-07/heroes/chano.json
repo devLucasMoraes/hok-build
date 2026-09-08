@@ -1,0 +1,247 @@
+{
+  "id": "chano",
+  "name": "Chano",
+  "nameCn": "苍",
+  "lane": "Farm",
+  "class": "Marksman — Artillery Marksman / Initiate/Cleanup / Late Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3299,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 37,
+    "physicalAttack": 175,
+    "attackSpeedPct": 10,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 375,
+    "maxMana": 600,
+    "mp5": 15
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Hunting",
+      "text": "Whenever he moves through brush, gains Movement Speed and enhances his next Basic Attack to a double shot that deals extra damage. Leaps when emerging from brush."
+    },
+    {
+      "slot": "s1",
+      "name": "Soaring Signal",
+      "text": "Leaps into the air, gaining Movement Speed and allowing him to traverse terrain. While airborne, his Basic Attack fires a powerful arrow, dealing physical damage and knocking back enemies."
+    },
+    {
+      "slot": "s2",
+      "name": "Lupine Trap",
+      "text": "Throws a wolf spirit trap at a target location. When triggered, it deals physical damage and summons a wolf spirit to attack the enemy."
+    },
+    {
+      "slot": "ult",
+      "name": "Leader Stance",
+      "text": "Summons wolf spirits and gains the ability to shoot while moving. Also boosts Physical Attack, Movement Speed, and Attack Speed for 8s."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Critical strike",
+      "context": "Safe default · Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "eternity-blade",
+        "boots-of-resistance",
+        "daybreakers-virtue",
+        "bloodweeper",
+        "sunchaser",
+        "doomsday",
+        "sages-sanctuary",
+        "destiny",
+        "haste-sunpool",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "swiftstrike-lance",
+        "shadow-ripper",
+        "eternity-blade",
+        "demonsbane",
+        "daybreakers-virtue",
+        "bloodweeper",
+        "mortal-punisher",
+        "destiny",
+        "sages-sanctuary",
+        "splendor",
+        "sunchaser"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Critical strike",
+      "context": "Anti-tank · Position 4",
+      "itemIds": [
+        "storm-sword",
+        "boots-of-dexterity",
+        "eternity-blade",
+        "shadow-ripper",
+        "cloud-piercer",
+        "daybreakers-virtue",
+        "mortal-punisher",
+        "axe-of-torment",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "storm-sword",
+        "lightfoot-shoes",
+        "eternity-blade",
+        "shadow-ripper",
+        "boots-of-resistance",
+        "daybreakers-virtue",
+        "sunchaser",
+        "bloodweeper",
+        "doomsday"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "bloodweeper",
+        "master-sword",
+        "mortal-punisher",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "iron-sword",
+        "boots-of-dexterity",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "doomsday",
+        "sunchaser",
+        "shadow-ripper",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "eternity-blade",
+        "cloud-piercer",
+        "daybreakers-virtue",
+        "doomsday",
+        "sunchaser",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "boots-of-resistance",
+        "bloodweeper",
+        "master-sword",
+        "sages-sanctuary",
+        "destiny",
+        "haste-sunpool"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "storm-sword",
+        "eternity-blade",
+        "twinblades-of-destruction",
+        "shadow-ripper",
+        "cloud-piercer",
+        "daybreakers-virtue",
+        "doomsday",
+        "master-sword",
+        "overlords-might",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [],
+    "synergies": [
+      "Cai Yan",
+      "Zhuangzi",
+      "Yaria",
+      "Arke",
+      "Nakoruru",
+      "Han Xin"
+    ]
+  },
+  "arcana": [
+    "Calamity",
+    "Eagle Eye",
+    "Reaver"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 51,
+    "pickRate": 0.8,
+    "banRate": 0.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S13",
+      "date": "Jan 2026",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S13",
+      "date": "Dec 2025",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S11",
+      "date": "Aug 2025",
+      "type": "buff",
+      "summary": "Increased Enhanced Basic Attack Damage"
+    }
+  ],
+  "patch": "2026-09-07"
+}

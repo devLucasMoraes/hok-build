@@ -1,0 +1,256 @@
+{
+  "id": "jing",
+  "name": "Jing",
+  "nameCn": "镜",
+  "lane": "Jungle",
+  "class": "Assassin — Roving Assassin / Gap-Close/Cleanup / Balanced",
+  "difficulty": "Very Hard",
+  "baseStats": {
+    "maxHealth": 3343,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 52,
+    "physicalAttack": 176,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 385,
+    "maxMana": 560,
+    "mp5": 14
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Lethal Reflections",
+      "text": "Jing and her image apply 2 different types of marks on enemies when they deal damage. If an enemy has both types of mark at the same time, they take damage and the cooldowns of Skill 1 and Skill 2 are reset."
+    },
+    {
+      "slot": "s1",
+      "name": "Reflective Assault",
+      "text": "Dashes forward, damaging enemies in her path and slowing them while enhancing her next Basic Attack. If no mirror image is present on the battlefield, one will be created to fight alongside her."
+    },
+    {
+      "slot": "s2",
+      "name": "Shattered Illusions",
+      "text": "Deals damage to nearby enemies while recovering Health and gaining increased Movement Speed. If no mirror image is present on the battlefield, then one will be created to fight alongside her."
+    },
+    {
+      "slot": "ult",
+      "name": "Mirror Domain",
+      "text": "Dashes forward, pulling enemies to the center of her magic circle and immobilizing them there. She gains damage reduction while inside the circle, and recovers Health when she swaps locations."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle AD penetration",
+      "context": "Safe default · Position 3",
+      "itemIds": [
+        "rapacious-bite",
+        "boots-of-dexterity",
+        "axe-of-torment",
+        "dragons-rage",
+        "blazing-cape",
+        "overlords-might",
+        "cuirass-of-savagery",
+        "succubus-cloak",
+        "blood-rage"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "meteor",
+        "axe-of-torment",
+        "master-sword",
+        "overlords-might",
+        "rapacious-bite",
+        "starbreaker",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "axe-of-torment",
+        "master-sword",
+        "rapacious-bite",
+        "boots-of-resistance",
+        "overlords-might",
+        "starbreaker",
+        "sages-sanctuary",
+        "destiny",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "meteor",
+        "axe-of-torment",
+        "boots-of-resistance",
+        "master-sword",
+        "rapacious-bite",
+        "overlords-might",
+        "starbreaker",
+        "sages-sanctuary",
+        "destiny",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-resistance",
+        "rapacious-bite",
+        "axe-of-torment",
+        "blazing-cape",
+        "master-sword",
+        "overlords-might",
+        "sages-sanctuary",
+        "destiny",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-resistance",
+        "axe-of-torment",
+        "dragons-rage",
+        "rapacious-bite",
+        "overlords-might",
+        "blazing-cape",
+        "sages-sanctuary",
+        "destiny",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "patrol-axe",
+        "boots-of-dexterity",
+        "axe-of-torment",
+        "deepfrost-siege",
+        "giants-grip",
+        "dragons-rage",
+        "blazing-cape"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "lightfoot-shoes",
+        "meteor",
+        "boots-of-dexterity",
+        "axe-of-torment",
+        "master-sword",
+        "boots-of-resistance",
+        "rapacious-bite",
+        "overlords-might",
+        "starbreaker",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Jungle Bruiser",
+      "context": "Position 3",
+      "itemIds": [
+        "rapacious-bite",
+        "boots-of-resistance",
+        "meteor",
+        "frostscars-embrace",
+        "blazing-cape",
+        "dragons-rage",
+        "blood-rage",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Dharma",
+      "Ata",
+      "Lian Po"
+    ],
+    "weakAgainst": [
+      "Angela",
+      "Daji",
+      "Gan & Mo",
+      "Huang Zhong",
+      "Kongming"
+    ],
+    "synergies": [
+      "Lady Zhen",
+      "Liang",
+      "Mai Shiranui",
+      "Dharma",
+      "Ata",
+      "Lian Po"
+    ]
+  },
+  "arcana": [
+    "Mutation",
+    "Stealth",
+    "Eagle Eye"
+  ],
+  "spell": "Smite",
+  "rates": {
+    "winRate": 45.8,
+    "pickRate": 0.3,
+    "banRate": 0.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S14",
+      "date": "Apr 2026",
+      "type": "buff",
+      "summary": "Increased skill damage"
+    },
+    {
+      "season": "S10",
+      "date": "Jun 2025",
+      "type": "buff",
+      "summary": "Damage and Recovery Upgrade"
+    },
+    {
+      "season": "S10",
+      "date": "May 2025",
+      "type": "adjust",
+      "summary": "Enhanced Basic Attack and Ultimate Effect Upgrade"
+    }
+  ],
+  "patch": "2026-09-07"
+}

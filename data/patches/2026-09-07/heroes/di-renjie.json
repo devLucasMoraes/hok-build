@@ -1,0 +1,243 @@
+{
+  "id": "di-renjie",
+  "name": "Di Renjie",
+  "nameCn": "狄仁杰",
+  "lane": "Farm",
+  "class": "Marksman — DPS Marksman / Ranged Harass / Balanced",
+  "difficulty": "Easy",
+  "baseStats": {
+    "maxHealth": 3352,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 40,
+    "physicalAttack": 170,
+    "attackSpeedPct": 10,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 370,
+    "maxMana": 600,
+    "mp5": 15
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Swift Justice",
+      "text": "Each Basic Attack stacks Swift Justice (up to 5 stacks), with each stack increasing his Attack Speed and Movement Speed."
+    },
+    {
+      "slot": "s1",
+      "name": "Respect the Law",
+      "text": "Throws tokens in a cone-shaped area, dealing physical damage and magical damage. Passive: After every two Basic Attacks, the next Basic Attack gains a random enhanced effect."
+    },
+    {
+      "slot": "s2",
+      "name": "Legal Immunity",
+      "text": "Throws tokens to damage nearby enemies. Removes debuffs from himself and gains brief invincibility."
+    },
+    {
+      "slot": "ult",
+      "name": "Imperial Order",
+      "text": "Throws a token in the target direction, damaging, stunning, and reducing the Physical and Magical Defense of the first enemy hero hit."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Attack speed",
+      "context": "Safe default · Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "doomsday",
+        "deepfrost-siege",
+        "blood-rage",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Crit attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "shadow-ripper",
+        "doomsday",
+        "eternity-blade",
+        "daybreakers-virtue"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-fortitude",
+        "sparkforged-dagger",
+        "doomsday",
+        "cuirass-of-savagery",
+        "tempest",
+        "succubus-cloak"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "doomsday",
+        "sparkforged-dagger",
+        "deepfrost-siege",
+        "cloud-piercer",
+        "sunchaser",
+        "daybreakers-virtue",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "sparkforged-dagger",
+        "boots-of-fortitude",
+        "doomsday",
+        "deepfrost-siege",
+        "daybreakers-virtue",
+        "blood-rage",
+        "sages-sanctuary",
+        "destiny",
+        "ominous-premonition",
+        "sunchaser"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-fortitude",
+        "sparkforged-dagger",
+        "doomsday",
+        "cuirass-of-savagery",
+        "daybreakers-virtue",
+        "succubus-cloak",
+        "mortal-punisher",
+        "sunchaser",
+        "destiny",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "doomsday",
+        "deepfrost-siege",
+        "daybreakers-virtue",
+        "cuirass-of-savagery",
+        "sages-sanctuary",
+        "destiny",
+        "blood-rage",
+        "ravage-phantom"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "sparkforged-dagger",
+        "boots-of-fortitude",
+        "doomsday",
+        "deepfrost-siege",
+        "daybreakers-virtue",
+        "blood-rage",
+        "sages-sanctuary",
+        "destiny",
+        "ominous-premonition",
+        "sunchaser"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "sparkforged-dagger",
+        "boots-of-fortitude",
+        "doomsday",
+        "deepfrost-siege",
+        "daybreakers-virtue",
+        "blood-rage",
+        "sages-sanctuary",
+        "destiny",
+        "ominous-premonition",
+        "sunchaser"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Mai Shiranui",
+      "Ukyo Tachibana",
+      "Ying"
+    ],
+    "weakAgainst": [],
+    "synergies": [
+      "Dharma",
+      "Lu Bu",
+      "Zhang Fei",
+      "Mai Shiranui",
+      "Ukyo Tachibana",
+      "Ying"
+    ]
+  },
+  "arcana": [
+    "Red Moon",
+    "Calamity",
+    "Eagle Eye"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 51.9,
+    "pickRate": 0.9,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S13",
+      "date": "Dec 2025",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S10",
+      "date": "May 2025",
+      "type": "nerf",
+      "summary": "Skill 1 damage reduced"
+    },
+    {
+      "season": "S8",
+      "date": "Jan 2025",
+      "type": "buff",
+      "summary": "Increased token damage."
+    },
+    {
+      "season": "S7",
+      "date": "Nov 2024",
+      "type": "buff",
+      "summary": "Increased base Movement Speed and the early game damage of Skill 1's tokens."
+    }
+  ],
+  "patch": "2026-09-07"
+}

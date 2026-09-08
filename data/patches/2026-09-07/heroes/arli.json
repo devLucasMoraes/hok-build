@@ -1,0 +1,236 @@
+{
+  "id": "arli",
+  "name": "Arli",
+  "nameCn": "公孙离",
+  "lane": "Farm",
+  "class": "Marksman — Nimble Marksman / Gap-Close/Cleanup / Balanced",
+  "difficulty": "Very Hard",
+  "baseStats": {
+    "maxHealth": 3219,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 39,
+    "physicalAttack": 165,
+    "attackSpeedPct": 10,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 360,
+    "maxMana": 600,
+    "mp5": 15
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Falling Leaves",
+      "text": "Basic Attack hits place marks on the target. At max marks, damage is dealt to them. Using skills grants a follow-up Basic Attack. Gains Movement Speed and Attack Speed while parasol is away."
+    },
+    {
+      "slot": "s1",
+      "name": "Lithe Step",
+      "text": "Shifts in the target direction."
+    },
+    {
+      "slot": "s2",
+      "name": "Maple Dance",
+      "text": "Knocks down nearby projectiles and deals 2 strikes of damage."
+    },
+    {
+      "slot": "ult",
+      "name": "Autumn Storm",
+      "text": "Knocks back enemies in the target area and deals damage."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Sustain DPS",
+      "context": "Safe default · Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "doomsday",
+        "daybreakers-virtue",
+        "cuirass-of-savagery",
+        "bloodweeper",
+        "sages-sanctuary",
+        "destiny",
+        "sunchaser"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Crit attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "doomsday",
+        "sunchaser",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Crit attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-resistance",
+        "sparkforged-dagger",
+        "doomsday",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "sunchaser",
+        "sages-sanctuary",
+        "destiny",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Crit attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "doomsday",
+        "daybreakers-virtue",
+        "eternity-blade",
+        "sunchaser",
+        "sages-sanctuary",
+        "destiny",
+        "ominous-premonition",
+        "haste-sunpool"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "sparkforged-dagger",
+        "boots-of-dexterity",
+        "doomsday",
+        "dragons-rage",
+        "daybreakers-virtue",
+        "frostscars-embrace",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Crit attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "sparkforged-dagger",
+        "boots-of-fortitude",
+        "doomsday",
+        "daybreakers-virtue",
+        "sunchaser",
+        "eternity-blade",
+        "sages-sanctuary",
+        "destiny",
+        "overlords-might"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Crit attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "cloud-piercer",
+        "boots-of-dexterity",
+        "doomsday",
+        "sparkforged-dagger",
+        "shadow-ripper",
+        "master-sword",
+        "daybreakers-virtue"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Crit attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "lightfoot-shoes",
+        "sparkforged-dagger",
+        "boots-of-dexterity",
+        "doomsday",
+        "daybreakers-virtue",
+        "eternity-blade",
+        "sunchaser",
+        "destiny",
+        "sages-sanctuary",
+        "haste-sunpool"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "sparkforged-dagger",
+        "boots-of-dexterity",
+        "doomsday",
+        "tempest",
+        "daybreakers-virtue",
+        "cuirass-of-savagery",
+        "boots-of-fortitude"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Sima Yi",
+      "Zilong"
+    ],
+    "weakAgainst": [
+      "Zhang Fei"
+    ],
+    "synergies": [
+      "Lian Po",
+      "Kaizer",
+      "Sima Yi",
+      "Zilong"
+    ]
+  },
+  "arcana": [
+    "Calamity",
+    "Hunt",
+    "Eagle Eye"
+  ],
+  "spell": "Frenzy",
+  "rates": {
+    "winRate": 46.9,
+    "pickRate": 0.7,
+    "banRate": 0.2,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S13",
+      "date": "Dec 2025",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S6",
+      "date": "Sep 2024",
+      "type": "buff",
+      "summary": "Reduced cooldown for Skill 1."
+    },
+    {
+      "season": "S6",
+      "date": "Jun 2024",
+      "type": "adjust",
+      "summary": "Hero updated"
+    }
+  ],
+  "patch": "2026-09-07"
+}

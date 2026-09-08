@@ -1,0 +1,266 @@
+{
+  "id": "mayene",
+  "name": "Mayene",
+  "nameCn": "姬小满",
+  "lane": "Clash Lane",
+  "class": "Fighter — Charger / Gap-Close/Crowd Control / Balanced",
+  "difficulty": "Very Hard",
+  "baseStats": {
+    "maxHealth": 3409,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 49,
+    "physicalAttack": 172,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 380
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Slack Off a Lil Bit",
+      "text": "Using skills consumes Strength, which is recovered over time. When not moving, Strength and Health recover faster."
+    },
+    {
+      "slot": "s1",
+      "name": "Whatever (I)",
+      "text": "Runs in the target direction and pulls enemies in front, dealing area damage and slowing them. 1-1 Combo: Deals area damage and launches enemies. 1-2 Combo: Deals damage and recovers Health."
+    },
+    {
+      "slot": "s1",
+      "name": "Exploit Weakness",
+      "text": "Runs in the target direction and pulls enemies in front, dealing area damage and slowing them. 1-1 Combo: Deals area damage and launches enemies. 1-2 Combo: Deals damage and recovers Health."
+    },
+    {
+      "slot": "s1",
+      "name": "Defend by Attacking",
+      "text": "Runs in the target direction and pulls enemies in front, dealing area damage and slowing them. 1-1 Combo: Deals area damage and launches enemies. 1-2 Combo: Deals damage and recovers Health."
+    },
+    {
+      "slot": "s2",
+      "name": "Feint to Retreat",
+      "text": "Skill 2: Flips forward, gains immunity and damage reduction, and recovers Health. 2-1 Combo: Blinks behind the enemy, knocking them back and damaging them. 2-2 Combo: Deals damage before leaping back, gaining immunity and damage reduction, and recovering Health."
+    },
+    {
+      "slot": "s2",
+      "name": "Whatever (II)",
+      "text": "Skill 2: Flips forward, gains immunity and damage reduction, and recovers Health. 2-1 Combo: Blinks behind the enemy, knocking them back and damaging them. 2-2 Combo: Deals damage before leaping back, gaining immunity and damage reduction, and recovering Health."
+    },
+    {
+      "slot": "s2",
+      "name": "Flee Danger",
+      "text": "Skill 2: Flips forward, gains immunity and damage reduction, and recovers Health. 2-1 Combo: Blinks behind the enemy, knocking them back and damaging them. 2-2 Combo: Deals damage before leaping back, gaining immunity and damage reduction, and recovering Health."
+    },
+    {
+      "slot": "ult",
+      "name": "Get Serious",
+      "text": "Damages nearby enemies and recovers Punch Strength and Kick Strength. For 10s, increases max Strength and gains Movement Speed."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full AD lethality",
+      "context": "Safe default · Position 1",
+      "itemIds": [
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "pure-sky",
+        "overlords-might",
+        "cuirass-of-savagery",
+        "demonsbane",
+        "blood-rage",
+        "sages-sanctuary",
+        "blazing-cape"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "meteor",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "master-sword",
+        "eternity-blade",
+        "starbreaker",
+        "eye-of-the-phoenix"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "AD penetration",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "axe-of-torment",
+        "boots-of-tranquility",
+        "blazing-cape",
+        "overlords-might",
+        "succubus-cloak",
+        "starbreaker"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Full AD lethality",
+      "context": "Position 1",
+      "itemIds": [
+        "iron-sword",
+        "meteor",
+        "axe-of-torment",
+        "frosthold-targe",
+        "frostscars-embrace",
+        "boots-of-tranquility",
+        "overlords-might",
+        "primordial-crystal",
+        "boots-of-resistance",
+        "frigid-charge",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "boots-of-resistance",
+        "meteor",
+        "nettle-gauntlet",
+        "axe-of-torment",
+        "blazing-cape",
+        "overlords-might",
+        "frostscars-embrace",
+        "starbreaker"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Full AD lethality",
+      "context": "Position 1",
+      "itemIds": [
+        "meteor",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "overlords-might",
+        "frostscars-embrace",
+        "boots-of-resistance",
+        "pure-sky",
+        "blazing-cape"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "axe-of-torment",
+        "boots-of-fortitude",
+        "overlords-might",
+        "starbreaker",
+        "frostscars-embrace",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "cuirass-of-savagery",
+        "eye-of-the-phoenix",
+        "demonsbane",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "axe-of-torment",
+        "boots-of-fortitude",
+        "overlords-might",
+        "starbreaker",
+        "frostscars-embrace",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "cuirass-of-savagery",
+        "eye-of-the-phoenix",
+        "demonsbane",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "meteor",
+        "boots-of-fortitude",
+        "axe-of-torment",
+        "nettle-gauntlet",
+        "pure-sky",
+        "starbreaker",
+        "frostscars-embrace",
+        "overlords-might",
+        "boots-of-resistance",
+        "immovable-sky-dome",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-10",
+      "title": "Standard build",
+      "context": "",
+      "itemIds": [
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "pure-sky",
+        "cuirass-of-savagery",
+        "deepfrost-siege",
+        "starbreaker"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Nuwa",
+      "Mi Yue",
+      "Liang"
+    ],
+    "weakAgainst": [
+      "Yaria"
+    ],
+    "synergies": [
+      "Donghuang",
+      "Dyadia",
+      "Kui",
+      "Nuwa",
+      "Mi Yue",
+      "Liang"
+    ]
+  },
+  "arcana": [],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 47.4,
+    "pickRate": 0.4,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S14",
+      "date": "Apr 2026",
+      "type": "buff",
+      "summary": "Increased skill recovery effect"
+    },
+    {
+      "season": "S9",
+      "date": "Mar 2025",
+      "type": "adjust",
+      "summary": "Enhanced Synergy Between Different Skill Combos"
+    }
+  ],
+  "patch": "2026-09-07"
+}

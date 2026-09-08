@@ -1,4 +1,8 @@
-/** Converte itens_honor_of_kings.md + heroi_angela.md em JSON versionado.
+/** Converte docs/domain/items-db.md + docs/domain/heroes-angela.md em JSON versionado.
+ *  (Legado: etapa one-shot que gerou o snapshot 2026-04-29; pipeline atual em
+ *  scripts/fetch-*-from-camp.mjs. ATENÇÃO: parseItems espera seções `## Ataque`
+ *  mas o MD usa `###` — hoje retorna 0 itens. Não usar sem corrigir; o snapshot
+ *  2026-04-29 em data/patches/ é a fonte de verdade.)
  *  Uso: node scripts/parse-md-to-json.mjs
  *  Saída: data/patches/<PATCH>/items.json, heroes/angela.json, manifest.json
  */
@@ -294,8 +298,8 @@ function parseHero(md, items) {
 
 // ---------------- MAIN ----------------
 
-const itemsMd = readFileSync(join(ROOT, "itens_honor_of_kings.md"), "utf8");
-const heroMd = readFileSync(join(ROOT, "heroi_angela.md"), "utf8");
+const itemsMd = readFileSync(join(ROOT, "docs", "domain", "items-db.md"), "utf8");
+const heroMd = readFileSync(join(ROOT, "docs", "domain", "heroes-angela.md"), "utf8");
 
 const items = parseItems(itemsMd);
 const hero = parseHero(heroMd, items);

@@ -1,0 +1,128 @@
+{
+  "id": "gao-changgong",
+  "name": "Gao Changgong",
+  "nameCn": "兰陵王",
+  "lane": "Jungle",
+  "class": "Assassin — Burst Assassin / Gap-Close/Cleanup / Early Game",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3340,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 52,
+    "physicalAttack": 173,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 390,
+    "maxMana": 560,
+    "mp5": 14
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Secret Skill - Rush",
+      "text": "When an enemy is within a certain range, moving toward them will grant him increased Movement Speed."
+    },
+    {
+      "slot": "s1",
+      "name": "Secret Skill - Split",
+      "text": "Deals damage to enemies within a certain range, and deals a second strike of damage to a random enemy in range."
+    },
+    {
+      "slot": "s2",
+      "name": "Secret Skill - Sling",
+      "text": "Throws a dagger that damages, slows, and marks the first enemy in its path. When attacking marked targets, he stuns them and recovers Health. Marks deal grievous damage when disappearing."
+    },
+    {
+      "slot": "ult",
+      "name": "Secret Skill - Strike",
+      "text": "Exits stealth mode and dashes in the target direction, dealing damage to enemies in his path."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle Bruiser",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-resistance",
+        "overlords-might",
+        "rapacious-bite",
+        "master-sword",
+        "pure-sky",
+        "sages-sanctuary",
+        "destiny",
+        "mortal-punisher",
+        "blood-rage",
+        "ravage-phantom",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-resistance",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "master-sword",
+        "cuirass-of-savagery",
+        "starbreaker",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-deftness",
+        "axe-of-torment",
+        "rapacious-bite",
+        "master-sword",
+        "overlords-might",
+        "starbreaker",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [],
+    "synergies": []
+  },
+  "arcana": [],
+  "spell": "",
+  "rates": {
+    "winRate": 47.9,
+    "pickRate": 0.5,
+    "banRate": 1.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S14",
+      "date": "Mar 2026",
+      "type": "buff",
+      "summary": "Increased skill damage"
+    },
+    {
+      "season": "S8",
+      "date": "Jan 2025",
+      "type": "adjust",
+      "summary": "Adjusted Skill 4's stealth mechanic."
+    }
+  ],
+  "patch": "2026-09-07"
+}

@@ -1,0 +1,270 @@
+{
+  "id": "angela",
+  "name": "Angela",
+  "nameCn": "安琪拉",
+  "lane": "Mid",
+  "class": "Mage — Artillery Mage / Burst/Shield / Balanced",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3328,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 47,
+    "physicalAttack": 172,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 360,
+    "maxMana": 640,
+    "mp5": 16
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Flame Incantation",
+      "text": "Hitting enemies with skills increases Movement Speed and damage."
+    },
+    {
+      "slot": "s1",
+      "name": "Scorching Barrage",
+      "text": "Unleashes multiple fireballs, dealing multi-phase damage."
+    },
+    {
+      "slot": "s2",
+      "name": "Chaos Cinder",
+      "text": "Fires a large fireball in the target direction, dealing damage and inflicting stun and slow."
+    },
+    {
+      "slot": "ult",
+      "name": "Blazing Brilliance",
+      "text": "Channels a blazing beam in the target direction, dealing damage over time. Also gains a shield and crowd control immunity."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full AP burst",
+      "context": "Safe default · Position 2",
+      "itemIds": [
+        "spell-tome",
+        "boots-of-deftness",
+        "venomous-staff",
+        "savants-wrath",
+        "void-staff",
+        "insatiable-tome",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "lightfoot-shoes",
+        "boots-of-the-arcane",
+        "holy-grail",
+        "savants-wrath",
+        "scepter-of-reverberation",
+        "insatiable-tome",
+        "void-staff",
+        "boots-of-tranquility",
+        "sages-tome",
+        "splendor",
+        "ardent-dominion",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "stone-of-sorcery",
+        "scepter-of-reverberation",
+        "blood-clans-grimoire",
+        "insatiable-tome",
+        "savants-wrath",
+        "nebulon-wood",
+        "void-staff",
+        "sages-tome",
+        "splendor",
+        "ardent-dominion",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "stone-of-sorcery",
+        "scepter-of-reverberation",
+        "blood-clans-grimoire",
+        "savants-wrath",
+        "void-staff",
+        "insatiable-tome",
+        "sages-tome",
+        "sages-sanctuary",
+        "splendor",
+        "ardent-dominion"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "stone-of-sorcery",
+        "scepter-of-reverberation",
+        "blood-clans-grimoire",
+        "insatiable-tome",
+        "savants-wrath",
+        "nebulon-wood",
+        "void-staff",
+        "sages-tome",
+        "splendor",
+        "ardent-dominion",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "stone-of-sorcery",
+        "scepter-of-reverberation",
+        "blood-clans-grimoire",
+        "insatiable-tome",
+        "savants-wrath",
+        "nebulon-wood",
+        "void-staff",
+        "sages-tome",
+        "splendor",
+        "ardent-dominion",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "scepter-of-reverberation",
+        "mask-of-agony",
+        "venomous-staff",
+        "savants-wrath",
+        "sages-tome",
+        "void-staff",
+        "ardent-dominion",
+        "sages-sanctuary",
+        "splendor",
+        "enigma-moon-goddess",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "stone-of-sorcery",
+        "scepter-of-reverberation",
+        "blood-clans-grimoire",
+        "insatiable-tome",
+        "savants-wrath",
+        "nebulon-wood",
+        "void-staff",
+        "sages-tome",
+        "splendor",
+        "ardent-dominion",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "stone-of-sorcery",
+        "scepter-of-reverberation",
+        "blood-clans-grimoire",
+        "savants-wrath",
+        "void-staff",
+        "insatiable-tome",
+        "sages-tome",
+        "sages-sanctuary",
+        "splendor",
+        "ardent-dominion",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Augran",
+      "Diaochan",
+      "Jing"
+    ],
+    "weakAgainst": [
+      "Yao"
+    ],
+    "synergies": [
+      "Zhuangzi",
+      "Dyadia",
+      "Guiguzi",
+      "Augran",
+      "Diaochan",
+      "Jing"
+    ]
+  },
+  "arcana": [
+    "Nightmare",
+    "Hunt",
+    "Mind's Eye"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 51.1,
+    "pickRate": 2.8,
+    "banRate": 1.4,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S14",
+      "date": "Apr 2026",
+      "type": "buff",
+      "summary": "Increased skill damage"
+    },
+    {
+      "season": "S12",
+      "date": "Nov 2025",
+      "type": "buff",
+      "summary": "Reduced Skill Cooldown"
+    },
+    {
+      "season": "S8",
+      "date": "Jan 2025",
+      "type": "adjust",
+      "summary": "Optimized Skill 1's indicator."
+    },
+    {
+      "season": "S6",
+      "date": "Aug 2024",
+      "type": "nerf",
+      "summary": "Increased Ultimate's cooldown in the early and mid game."
+    }
+  ],
+  "patch": "2026-09-07"
+}

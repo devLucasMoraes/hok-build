@@ -1,0 +1,206 @@
+{
+  "id": "gan-mo",
+  "name": "Gan & Mo",
+  "nameCn": "干将莫邪",
+  "lane": "Mid",
+  "class": "Mage — Artillery Mage / Burst/Long Range Vision / Late Game",
+  "difficulty": "Very Hard",
+  "baseStats": {
+    "maxHealth": 3251,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 45,
+    "physicalAttack": 165,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 370,
+    "maxMana": 640,
+    "mp5": 16
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Forever Entwined",
+      "text": "Basic Attacks deal extra damage. Flying sword skills have a shared usage cap. When flying swords hit, place Sword Energy on targets, and flying swords deal extra damage to targets marked with Sword Energy."
+    },
+    {
+      "slot": "s1",
+      "name": "Guard Her Grave",
+      "text": "Unleashes Splitting Sword and moves backwards, knocking back enemies and dealing damage while reducing their Magical Defense."
+    },
+    {
+      "slot": "s2",
+      "name": "Coupled Blades - Short",
+      "text": "Throws flying swords that deal damage to enemies in their path."
+    },
+    {
+      "slot": "ult",
+      "name": "Freshly Forged",
+      "text": "Immediately gains 2 uses of flying sword skill and summons more swords to enhance the next flying sword skill. Passive: Increases field of vision and grants one additional use of Coupled Blades. Each time a flying sword hits an enemy, the cooldown of Freshly Forged is reduced."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full AP burst",
+      "context": "Safe default · Position 2",
+      "itemIds": [
+        "stone-of-sorcery",
+        "boots-of-the-arcane",
+        "scepter-of-reverberation",
+        "sages-tome",
+        "nebulon-wood",
+        "savants-wrath",
+        "void-staff",
+        "splendor",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "stone-of-sorcery",
+        "scepter-of-reverberation",
+        "sages-tome",
+        "nebulon-wood",
+        "savants-wrath",
+        "void-staff",
+        "splendor",
+        "sages-sanctuary",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "sages-tome",
+        "ardent-dominion",
+        "savants-wrath",
+        "void-staff",
+        "insatiable-tome",
+        "sages-sanctuary",
+        "splendor",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "scepter-of-reverberation",
+        "savants-wrath",
+        "void-staff",
+        "insatiable-tome",
+        "sages-tome",
+        "ardent-dominion",
+        "splendor",
+        "venomous-staff"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "stone-of-sorcery",
+        "boots-of-the-arcane",
+        "scepter-of-reverberation",
+        "sages-tome",
+        "nebulon-wood",
+        "savants-wrath",
+        "void-staff",
+        "splendor",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "scepter-of-reverberation",
+        "savants-wrath",
+        "void-staff",
+        "mask-of-agony",
+        "sages-tome"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "blood-clans-grimoire",
+        "holy-grail",
+        "insatiable-tome",
+        "void-staff",
+        "savants-wrath",
+        "twilight-stream",
+        "splendor",
+        "sages-sanctuary"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Cirrus",
+      "Jing",
+      "Pei"
+    ],
+    "weakAgainst": [
+      "Butterfly",
+      "Sun Ce"
+    ],
+    "synergies": [
+      "Cai Yan",
+      "Guiguzi",
+      "Dolia",
+      "Cirrus",
+      "Jing",
+      "Pei"
+    ]
+  },
+  "arcana": [
+    "Nightmare",
+    "Hunt",
+    "Mind's Eye"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 50,
+    "pickRate": 0.4,
+    "banRate": 0.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S14",
+      "date": "Mar 2026",
+      "type": "nerf",
+      "summary": "Adjusted skill damage"
+    },
+    {
+      "season": "S7",
+      "date": "Sep 2024",
+      "type": "adjust",
+      "summary": "Increased skill use count."
+    }
+  ],
+  "patch": "2026-09-07"
+}

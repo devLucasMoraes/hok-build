@@ -1,0 +1,6011 @@
+{
+  "source": "hokstats-mirror",
+  "patch": "2026-09-07",
+  "items": [
+    {
+      "campId": "1351",
+      "urlEn": "https://hokstats.gg/items/1351/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1351/",
+      "parsedEn": {
+        "name": "Amble - Winter",
+        "cost": 3190,
+        "categoryLabel": "Defense",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Cooldown Reduction",
+            "value": "+7.5%"
+          },
+          {
+            "label": "Physical Defense",
+            "value": "+150"
+          },
+          {
+            "label": "Health",
+            "value": "+900"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Ice Armor\nResistance +10%. When affected by hard crowd control effects other than suppression, grants a shield that negates (10% Health) damage for 5s.\n(Cooldown: 15s)"
+          },
+          {
+            "kind": "active",
+            "text": "Impact\nCreates a frost field within a range of 600, slowing enemies immensely. After 0.75s, deals 100–200 magical damage and freezes enemies for 0.75s.\n(Cooldown: 75s)"
+          }
+        ],
+        "buildsFrom": [
+          "1341"
+        ]
+      },
+      "parsedPt": {
+        "name": "Amble - Winter",
+        "cost": 3190,
+        "categoryLabel": "Defesa",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Redução de Recarga",
+            "value": "+7.5%"
+          },
+          {
+            "label": "Defesa Física",
+            "value": "+150"
+          },
+          {
+            "label": "Vida",
+            "value": "+900"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Ice Armor\nResistência +10%. Ao sofrer um efeito de controle de grupo severo que não seja supressão, concede um escudo que anula dano equivalente a (10% da Vida) por 5s.\n(Recarga: 15s)"
+          },
+          {
+            "kind": "active",
+            "text": "Impact\nCria um campo de gelo em um raio de 600, desacelerando imensamente os inimigos. Após 0,75s, causa 100–200 de dano mágico e congela os inimigos por 0,75s.\n(Recarga: 75s)"
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1227",
+      "urlEn": "https://hokstats.gg/items/1227/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1227/",
+      "parsedEn": {
+        "name": "Ardent Dominion",
+        "cost": 2040,
+        "categoryLabel": "Magic",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Magical Attack",
+            "value": "+150"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Mana Shield\nWhen Health drops below 30%, removes all crowd control effects and grants a shield that negates (500–1,000 + 100% Magical Attack + 7.5% extra Health) damage and increases Movement Speed by 30% for 4s.\n(Cooldown: 90s)."
+          }
+        ],
+        "buildsFrom": [
+          "1222",
+          "1224"
+        ]
+      },
+      "parsedPt": {
+        "name": "Ardent Dominion",
+        "cost": 2040,
+        "categoryLabel": "Magia",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Ataque Mágico",
+            "value": "+150"
+          },
+          {
+            "label": "Velocidade de Movimento",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Mana Shield\nQuando a Vida cai abaixo de 30%, remove todos os efeitos de controle de grupo, concede um escudo que anula (500–1.000 + 100% do Ataque Mágico + 7,5% da Vida adicional) de dano e aumenta a Velocidade de Movimento em 30% por 4s.\n(Recarga: 90s)."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1237",
+      "urlEn": "https://hokstats.gg/items/1237/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1237/",
+      "parsedEn": {
+        "name": "Augur's Word",
+        "cost": 2150,
+        "categoryLabel": "Magic",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Magical Attack",
+            "value": "+140"
+          },
+          {
+            "label": "Mana",
+            "value": "+450"
+          },
+          {
+            "label": "Health",
+            "value": "+900"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Hero's Reward\nLeveling up restores 20% of max Health and max Mana over 3s. After reaching max level, this effect triggers once every 45s."
+          },
+          {
+            "kind": "passive",
+            "text": "Augury\nGrants 50–100 (+10% Magical Attack) Physical Defense and Magical Defense."
+          }
+        ],
+        "buildsFrom": [
+          "1221",
+          "1321"
+        ]
+      },
+      "parsedPt": {
+        "name": "Augur's Word",
+        "cost": 2150,
+        "categoryLabel": "Magia",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Mágico",
+            "value": "+140"
+          },
+          {
+            "label": "Mana",
+            "value": "+450"
+          },
+          {
+            "label": "Vida",
+            "value": "+900"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Hero's Reward\nSubir de nível restaura 20% da Vida máxima e da Mana máxima ao longo de 3s. Após alcançar o nível máximo, este efeito é ativado uma vez a cada 45s."
+          },
+          {
+            "kind": "passive",
+            "text": "Augury\nConcede 50–100 (+10% do Ataque Mágico) de Defesa Física e Defesa Mágica."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1137",
+      "urlEn": "https://hokstats.gg/items/1137/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1137/",
+      "parsedEn": {
+        "name": "Axe of Torment",
+        "cost": 2090,
+        "categoryLabel": "Attack",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+80"
+          },
+          {
+            "label": "Cooldown Reduction",
+            "value": "+10%"
+          },
+          {
+            "label": "Health",
+            "value": "+500"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Sever\nIncreases Physical Pierce by 90–180."
+          }
+        ],
+        "buildsFrom": [
+          "1124",
+          "1122"
+        ]
+      },
+      "parsedPt": {
+        "name": "Axe of Torment",
+        "cost": 2090,
+        "categoryLabel": "Ataque",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+80"
+          },
+          {
+            "label": "Redução de Recarga",
+            "value": "+10%"
+          },
+          {
+            "label": "Vida",
+            "value": "+500"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Sever\nAumenta a Perfuração Física em 90–180."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1321",
+      "urlEn": "https://hokstats.gg/items/1321/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1321/",
+      "parsedEn": {
+        "name": "Belt of Might",
+        "cost": 850,
+        "categoryLabel": "Defense",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Health",
+            "value": "+900"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": [
+          "1311",
+          "1311"
+        ]
+      },
+      "parsedPt": {
+        "name": "Belt of Might",
+        "cost": 850,
+        "categoryLabel": "Defesa",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Vida",
+            "value": "+900"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1331",
+      "urlEn": "https://hokstats.gg/items/1331/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1331/",
+      "parsedEn": {
+        "name": "Blazing Cape",
+        "cost": 2040,
+        "categoryLabel": "Defense",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Physical Defense",
+            "value": "+150"
+          },
+          {
+            "label": "Magical Defense",
+            "value": "+150"
+          },
+          {
+            "label": "Health",
+            "value": "+1,100"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Conflagration\nBurns enemies within a range of 375 every second, dealing (1.5% Health) magical damage. Deals double damage to minions and monsters."
+          },
+          {
+            "kind": "passive",
+            "text": "Imperil\nWhen an enemy is inflicted with a burning effect, it reduces their Health recovery and Lifesteal by 35%. Lasts 2.5s."
+          }
+        ],
+        "buildsFrom": [
+          "1325",
+          "1323"
+        ]
+      },
+      "parsedPt": {
+        "name": "Blazing Cape",
+        "cost": 2040,
+        "categoryLabel": "Defesa",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Defesa Física",
+            "value": "+150"
+          },
+          {
+            "label": "Defesa Mágica",
+            "value": "+150"
+          },
+          {
+            "label": "Vida",
+            "value": "+1.100"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Conflagration\nQueima inimigos em um raio de 375 a cada segundo, causando dano mágico equivalente a (1,5% da Vida). Causa o dobro de dano a tropas e monstros."
+          },
+          {
+            "kind": "passive",
+            "text": "Imperil\nQuando um inimigo é afetado por queimadura, reduz a recuperação de Vida e o Roubo de Vida dele em 35%. Dura 2,5s."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1222",
+      "urlEn": "https://hokstats.gg/items/1222/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1222/",
+      "parsedEn": {
+        "name": "Blood Clan's Grimoire",
+        "cost": 800,
+        "categoryLabel": "Magic",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Magical Attack",
+            "value": "+60"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": [
+          "1211",
+          "1217"
+        ]
+      },
+      "parsedPt": {
+        "name": "Blood Clan's Grimoire",
+        "cost": 800,
+        "categoryLabel": "Magia",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Ataque Mágico",
+            "value": "+60"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1328",
+      "urlEn": "https://hokstats.gg/items/1328/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1328/",
+      "parsedEn": {
+        "name": "Blood Rage",
+        "cost": 2180,
+        "categoryLabel": "Defense",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+75"
+          },
+          {
+            "label": "Health",
+            "value": "+900"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Apoplexy\nBasic Attacks deal an extra (1.5% Health) physical damage. When Health drops below 50%, this damage increases by 25%–50%."
+          },
+          {
+            "kind": "active",
+            "text": "Blood Fury\nGradually depletes 30% of current Health while progressively granting a shield that negates damage equal to 40% of Health over 4s.\n(Cooldown: 75s)"
+          }
+        ],
+        "buildsFrom": [
+          "1121",
+          "1321"
+        ]
+      },
+      "parsedPt": {
+        "name": "Blood Rage",
+        "cost": 2180,
+        "categoryLabel": "Defesa",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+75"
+          },
+          {
+            "label": "Vida",
+            "value": "+900"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Apoplexy\nAtaques Básicos causam dano físico adicional equivalente a (1,5% da Vida). Quando a Vida cai abaixo de 50%, esse dano aumenta em 25%–50%."
+          },
+          {
+            "kind": "active",
+            "text": "Blood Fury\nConsome gradualmente 30% da Vida atual enquanto concede progressivamente, ao longo de 4s, um escudo que anula dano equivalente a 40% da Vida.\n(Recarga: 75s)"
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1158",
+      "urlEn": "https://hokstats.gg/items/1158/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1158/",
+      "parsedEn": {
+        "name": "Bloodsoul",
+        "cost": 800,
+        "categoryLabel": "Attack",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+35"
+          },
+          {
+            "label": "Physical Lifesteal",
+            "value": "+12%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": [
+          "1114",
+          "1111"
+        ]
+      },
+      "parsedPt": {
+        "name": "Bloodsoul",
+        "cost": 800,
+        "categoryLabel": "Ataque",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+35"
+          },
+          {
+            "label": "Roubo de Vida Físico",
+            "value": "+12%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1132",
+      "urlEn": "https://hokstats.gg/items/1132/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1132/",
+      "parsedEn": {
+        "name": "Bloodweeper",
+        "cost": 2000,
+        "categoryLabel": "Attack",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+85"
+          },
+          {
+            "label": "Physical Lifesteal",
+            "value": "+25%"
+          },
+          {
+            "label": "Health",
+            "value": "+500"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Recuperation\nGrants 25% Physical skill Lifesteal."
+          }
+        ],
+        "buildsFrom": [
+          "1158",
+          "1122"
+        ]
+      },
+      "parsedPt": {
+        "name": "Bloodweeper",
+        "cost": 2000,
+        "categoryLabel": "Ataque",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+85"
+          },
+          {
+            "label": "Roubo de Vida Físico",
+            "value": "+25%"
+          },
+          {
+            "label": "Vida",
+            "value": "+500"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Recuperation\nConcede 25% de Roubo de Vida para habilidades físicas."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1426",
+      "urlEn": "https://hokstats.gg/items/1426/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1426/",
+      "parsedEn": {
+        "name": "Boots of Deftness",
+        "cost": 700,
+        "categoryLabel": "Movement",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Health",
+            "value": "+300"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Swift II\nGrants 70 Movement Speed."
+          },
+          {
+            "kind": "passive",
+            "text": "Divine Wind\nIncreases Movement Speed by 35–70 when out of combat for 5s."
+          },
+          {
+            "kind": "passive",
+            "text": "Can switch to another pair of upgraded footwear free of charge. Cooldown: 5 min."
+          }
+        ],
+        "buildsFrom": [
+          "1411",
+          "1311"
+        ]
+      },
+      "parsedPt": {
+        "name": "Boots of Deftness",
+        "cost": 700,
+        "categoryLabel": "Movimento",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Vida",
+            "value": "+300"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Swift II\nConcede 70 de Velocidade de Movimento."
+          },
+          {
+            "kind": "passive",
+            "text": "Divine Wind\nAumenta a Velocidade de Movimento em 35–70 ao ficar fora de combate por 5s."
+          },
+          {
+            "kind": "passive",
+            "text": "Pode trocar gratuitamente por outro par de calçados aprimorados. Recarga: 5 min."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1425",
+      "urlEn": "https://hokstats.gg/items/1425/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1425/",
+      "parsedEn": {
+        "name": "Boots of Dexterity",
+        "cost": 700,
+        "categoryLabel": "Movement",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Attack Speed",
+            "value": "+20%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Swift\nGrants 50 Movement Speed."
+          },
+          {
+            "kind": "passive",
+            "text": "Lightning Recovery\nBasic Attacks restore 20–40/30–60 Health for melee/ranged heroes."
+          },
+          {
+            "kind": "passive",
+            "text": "Can switch to another pair of upgraded footwear free of charge. Cooldown: 5m."
+          }
+        ],
+        "buildsFrom": [
+          "1411",
+          "1112"
+        ]
+      },
+      "parsedPt": {
+        "name": "Boots of Dexterity",
+        "cost": 700,
+        "categoryLabel": "Movimento",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Velocidade de Ataque",
+            "value": "+20%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Swift\nConcede 50 de Velocidade de Movimento."
+          },
+          {
+            "kind": "passive",
+            "text": "Lightning Recovery\nAtaques Básicos restauram 20–40/30–60 de Vida para heróis corpo a corpo/de ataque à distância."
+          },
+          {
+            "kind": "passive",
+            "text": "Pode trocar gratuitamente por outro par de calçados aprimorados. Recarga: 5 min."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1421",
+      "urlEn": "https://hokstats.gg/items/1421/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1421/",
+      "parsedEn": {
+        "name": "Boots of Fortitude",
+        "cost": 700,
+        "categoryLabel": "Movement",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Physical Defense",
+            "value": "+100"
+          },
+          {
+            "label": "Magical Defense",
+            "value": "+50"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Swift\nGrants 50 Movement Speed."
+          },
+          {
+            "kind": "passive",
+            "text": "Sanctuary\nReduces physical damage taken by 6%–12%."
+          },
+          {
+            "kind": "passive",
+            "text": "Can switch to another pair of upgraded footwear free of charge. Cooldown: 5 min."
+          }
+        ],
+        "buildsFrom": [
+          "1411",
+          "1312"
+        ]
+      },
+      "parsedPt": {
+        "name": "Boots of Fortitude",
+        "cost": 700,
+        "categoryLabel": "Movimento",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Defesa Física",
+            "value": "+100"
+          },
+          {
+            "label": "Defesa Mágica",
+            "value": "+50"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Swift\nConcede 50 de Velocidade de Movimento."
+          },
+          {
+            "kind": "passive",
+            "text": "Sanctuary\nReduz o dano físico recebido em 6%–12%."
+          },
+          {
+            "kind": "passive",
+            "text": "Pode trocar gratuitamente por outro par de calçados aprimorados. Recarga: 5 min."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1422",
+      "urlEn": "https://hokstats.gg/items/1422/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1422/",
+      "parsedEn": {
+        "name": "Boots of Resistance",
+        "cost": 700,
+        "categoryLabel": "Movement",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Physical Defense",
+            "value": "+50"
+          },
+          {
+            "label": "Magical Defense",
+            "value": "+100"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Swift\nGrants 50 Movement Speed."
+          },
+          {
+            "kind": "passive",
+            "text": "Tough\nGrants 25% Resistance."
+          },
+          {
+            "kind": "passive",
+            "text": "Can switch to another pair of upgraded footwear free of charge. Cooldown: 5 min."
+          }
+        ],
+        "buildsFrom": [
+          "1411"
+        ]
+      },
+      "parsedPt": {
+        "name": "Boots of Resistance",
+        "cost": 700,
+        "categoryLabel": "Movimento",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Defesa Física",
+            "value": "+50"
+          },
+          {
+            "label": "Defesa Mágica",
+            "value": "+100"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Swift\nConcede 50 de Velocidade de Movimento."
+          },
+          {
+            "kind": "passive",
+            "text": "Tough\nConcede 25% de Resistência."
+          },
+          {
+            "kind": "passive",
+            "text": "Pode trocar gratuitamente por outro par de calçados aprimorados. Recarga: 5 min."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1424",
+      "urlEn": "https://hokstats.gg/items/1424/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1424/",
+      "parsedEn": {
+        "name": "Boots of the Arcane",
+        "cost": 700,
+        "categoryLabel": "Movement",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Mana",
+            "value": "+400"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Swift\nGrants 50 Movement Speed."
+          },
+          {
+            "kind": "passive",
+            "text": "Magical Mastery\nGrants 60–120 Magical Pierce. Restores 10 Mana every 5s."
+          },
+          {
+            "kind": "passive",
+            "text": "Can switch to another pair of upgraded footwear free of charge. Cooldown: 5 min."
+          }
+        ],
+        "buildsFrom": [
+          "1411"
+        ]
+      },
+      "parsedPt": {
+        "name": "Boots of the Arcane",
+        "cost": 700,
+        "categoryLabel": "Movimento",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Mana",
+            "value": "+400"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Swift\nConcede 50 de Velocidade de Movimento."
+          },
+          {
+            "kind": "passive",
+            "text": "Magical Mastery\nConcede 60–120 de Perfuração Mágica. Restaura 10 de Mana a cada 5s."
+          },
+          {
+            "kind": "passive",
+            "text": "Pode trocar gratuitamente por outro par de calçados aprimorados. Recarga: 5 min."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1423",
+      "urlEn": "https://hokstats.gg/items/1423/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1423/",
+      "parsedEn": {
+        "name": "Boots of Tranquility",
+        "cost": 700,
+        "categoryLabel": "Movement",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Cooldown Reduction",
+            "value": "+15%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Swift\nGrants 50 Movement Speed."
+          },
+          {
+            "kind": "passive",
+            "text": "Tranquility\nReduces the Cooldown of Common Skills by 10%–20%."
+          },
+          {
+            "kind": "passive",
+            "text": "Can switch to another pair of upgraded footwear free of charge. Cooldown: 5 min."
+          }
+        ],
+        "buildsFrom": [
+          "1411",
+          "1218"
+        ]
+      },
+      "parsedPt": {
+        "name": "Boots of Tranquility",
+        "cost": 700,
+        "categoryLabel": "Movimento",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Redução de Recarga",
+            "value": "+15%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Swift\nConcede 50 de Velocidade de Movimento."
+          },
+          {
+            "kind": "passive",
+            "text": "Tranquility\nReduz a Recarga das Habilidades Comuns em 10%–20%."
+          },
+          {
+            "kind": "passive",
+            "text": "Pode trocar gratuitamente por outro par de calçados aprimorados. Recarga: 5 min."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1244",
+      "urlEn": "https://hokstats.gg/items/1244/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1244/",
+      "parsedEn": {
+        "name": "Breakthrough Robe",
+        "cost": 2120,
+        "categoryLabel": "Magic",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Magical Attack",
+            "value": "+120"
+          },
+          {
+            "label": "Health",
+            "value": "+900"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Breakthrough\nGrants 20–40 (+2% extra Health) Magical Attack, up to 100."
+          },
+          {
+            "kind": "passive",
+            "text": "Purge\nGrants 30–60 (+3% extra Health) Magical Pierce, up to 150."
+          }
+        ],
+        "buildsFrom": [
+          "1243",
+          "1243"
+        ]
+      },
+      "parsedPt": {
+        "name": "Breakthrough Robe",
+        "cost": 2120,
+        "categoryLabel": "Magia",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Mágico",
+            "value": "+120"
+          },
+          {
+            "label": "Vida",
+            "value": "+900"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Breakthrough\nConcede 20–40 (+2% da Vida adicional) de Ataque Mágico, até 100."
+          },
+          {
+            "kind": "passive",
+            "text": "Purge\nConcede 30–60 (+3% da Vida adicional) de Perfuração Mágica, até 150."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1323",
+      "urlEn": "https://hokstats.gg/items/1323/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1323/",
+      "parsedEn": {
+        "name": "Clandestine Cape",
+        "cost": 800,
+        "categoryLabel": "Defense",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Magical Defense",
+            "value": "+150"
+          },
+          {
+            "label": "Health",
+            "value": "+450"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": [
+          "1311"
+        ]
+      },
+      "parsedPt": {
+        "name": "Clandestine Cape",
+        "cost": 800,
+        "categoryLabel": "Defesa",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Defesa Mágica",
+            "value": "+150"
+          },
+          {
+            "label": "Vida",
+            "value": "+450"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1312",
+      "urlEn": "https://hokstats.gg/items/1312/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1312/",
+      "parsedEn": {
+        "name": "Cloth Jerkin",
+        "cost": 275,
+        "categoryLabel": "Defense",
+        "tier": 1,
+        "stats": [
+          {
+            "label": "Physical Defense",
+            "value": "+100"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      },
+      "parsedPt": {
+        "name": "Cloth Jerkin",
+        "cost": 275,
+        "categoryLabel": "Defesa",
+        "tier": 1,
+        "stats": [
+          {
+            "label": "Defesa Física",
+            "value": "+100"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1154",
+      "urlEn": "https://hokstats.gg/items/1154/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1154/",
+      "parsedEn": {
+        "name": "Cloud Piercer",
+        "cost": 800,
+        "categoryLabel": "Attack",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Attack Speed",
+            "value": "+15%"
+          },
+          {
+            "label": "Critical Rate",
+            "value": "+12%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": [
+          "1112",
+          "1113"
+        ]
+      },
+      "parsedPt": {
+        "name": "Cloud Piercer",
+        "cost": 800,
+        "categoryLabel": "Ataque",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Velocidade de Ataque",
+            "value": "+15%"
+          },
+          {
+            "label": "Taxa Crítica",
+            "value": "+12%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1711",
+      "urlEn": "https://hokstats.gg/items/1711/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1711/",
+      "parsedEn": {
+        "name": "Crimson Shadow",
+        "cost": 850,
+        "categoryLabel": "Support",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Health",
+            "value": "+500"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "+5%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": [
+          "1701",
+          "1311"
+        ]
+      },
+      "parsedPt": {
+        "name": "Crimson Shadow",
+        "cost": 850,
+        "categoryLabel": "Suporte",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Vida",
+            "value": "+500"
+          },
+          {
+            "label": "Velocidade de Movimento",
+            "value": "+5%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1723",
+      "urlEn": "https://hokstats.gg/items/1723/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1723/",
+      "parsedEn": {
+        "name": "Crimson Shadow - Howl",
+        "cost": 2080,
+        "categoryLabel": "Support",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Health",
+            "value": "+1,200"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": [
+          "1711",
+          "1321"
+        ]
+      },
+      "parsedPt": {
+        "name": "Crimson Shadow - Howl",
+        "cost": 2080,
+        "categoryLabel": "Suporte",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Vida",
+            "value": "+1.200"
+          },
+          {
+            "label": "Velocidade de Movimento",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1737",
+      "urlEn": "https://hokstats.gg/items/1737/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1737/",
+      "parsedEn": {
+        "name": "Crimson Shadow - Radiance",
+        "cost": 2080,
+        "categoryLabel": "Support",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Health",
+            "value": "+1,200"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "active",
+            "text": "Mirror Domain\nReleases a scouting light wave that deals damage 4 times to enemies within a range of 1,200, each dealing damage equal to 3% of current Health and slowing them by 25%–50%. The scouting light remains within range for 2s, providing visibility and exposing stealth units, while also dealing damage and slowing enemies.\n(Cooldown: 75s. If no targets are hit, 75% of the Cooldown will be restored.)\nRoaming equipment active skill cooldown is shared by the team."
+          },
+          {
+            "kind": "passive",
+            "text": "Agility Aura\nGrants 20% Attack Speed and 15% Cooldown Reduction, and restores 15 Mana every 5s. Teammates within a range of 800 gain 50% of this effect.\nPassive - Reward\nIncreases Max Health by 400–800\nIncreases Main Attack Stat by 25–50\n(1 main attack stat = 1 Physical Attack or 2 Magical Attack)"
+          },
+          {
+            "kind": "passive",
+            "text": "Guerrilla\nEvery 3s, grants 6 EXP, and grants 6 Gold to the teammate with the lowest amount of Gold."
+          },
+          {
+            "kind": "passive",
+            "text": "Wielder does not take a share of the earnings from monster and minion kills, but instead gains a separate 25%-50% Gold and EXP (maxes out at the 20:00 mark).\nIf lane minions die and their Gold is not collected, 50% of the Gold will drop on the ground. Up to 600 Gold can be picked up."
+          },
+          {
+            "kind": "passive",
+            "text": "Can quickly switch between Crimson Shadow roaming equipment at no cost (Cooldown 300s)."
+          }
+        ],
+        "buildsFrom": [
+          "1711",
+          "1321"
+        ]
+      },
+      "parsedPt": {
+        "name": "Crimson Shadow - Radiance",
+        "cost": 2080,
+        "categoryLabel": "Suporte",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Vida",
+            "value": "+1.200"
+          },
+          {
+            "label": "Velocidade de Movimento",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "active",
+            "text": "Mirror Domain\nLibera uma onda de luz de reconhecimento que causa dano 4 vezes aos inimigos em um raio de 1.200; cada golpe causa dano equivalente a 3% da Vida atual e os desacelera em 25%–50%. A luz permanece no alcance por 2s, concedendo visão e revelando unidades furtivas, enquanto também causa dano e desacelera inimigos.\n(Recarga: 75s. Se nenhum alvo for atingido, 75% da Recarga será restaurada.)\nA recarga da habilidade ativa dos equipamentos de Roaming é compartilhada pela equipe."
+          },
+          {
+            "kind": "passive",
+            "text": "Agility Aura\nConcede 20% de Velocidade de Ataque e 15% de Redução de Recarga e restaura 15 de Mana a cada 5s. Aliados em um raio de 800 recebem 50% deste efeito.\nPassiva - Reward\nAumenta a Vida Máxima em 400–800\nAumenta o Atributo de Ataque Principal em 25–50\n(1 atributo de ataque principal = 1 de Ataque Físico ou 2 de Ataque Mágico)"
+          },
+          {
+            "kind": "passive",
+            "text": "Guerrilla\nA cada 3s, concede 6 de EXP e 6 de Ouro ao aliado com a menor quantidade de Ouro."
+          },
+          {
+            "kind": "passive",
+            "text": "O usuário não recebe uma parte dos ganhos por abates de monstros e tropas, mas obtém separadamente 25%–50% de Ouro e EXP (atinge o máximo aos 20:00).\nSe tropas da rota morrerem e o Ouro delas não for coletado, 50% do Ouro cairá no chão. É possível coletar até 600 de Ouro."
+          },
+          {
+            "kind": "passive",
+            "text": "Pode alternar rapidamente entre equipamentos de Roaming Crimson Shadow sem custo (Recarga: 300s)."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1721",
+      "urlEn": "https://hokstats.gg/items/1721/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1721/",
+      "parsedEn": {
+        "name": "Crimson Shadow - Redemption",
+        "cost": 2080,
+        "categoryLabel": "Support",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Health",
+            "value": "+1,200"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "active",
+            "text": "Rescue\nGrants a shield that negates (240–480 + 10%Health) damage to teammates within range for 4s.\n(Cooldown: 60s)\nRoaming equipment active skill cooldown is shared by the team."
+          },
+          {
+            "kind": "passive",
+            "text": "Agility Aura\nGrants 20% Attack Speed and 15% Cooldown Reduction, and restores 15 Mana every 5s. Teammates within a range of 800 gain 50% of this effect.\nPassive - Reward\nIncreases Max Health by 400–800\nIncreases Main Attack Stat by 25–50\n(1 main attack stat = 1 Physical Attack or 2 Magical Attack)"
+          },
+          {
+            "kind": "passive",
+            "text": "Guerrilla\nEvery 3s, grants 6 EXP, and grants 6 Gold to the teammate with the lowest amount of Gold."
+          },
+          {
+            "kind": "passive",
+            "text": "Wielder does not take a share of the earnings from monster and minion kills, but instead gains a separate 25%-50% Gold and EXP (maxes out at the 20:00 mark).\nIf lane minions die and their Gold is not collected, 50% of the Gold will drop on the ground. Up to 600 Gold can be picked up."
+          },
+          {
+            "kind": "passive",
+            "text": "Can quickly switch between Crimson Shadow roaming equipment at no cost (Cooldown 300s)."
+          }
+        ],
+        "buildsFrom": [
+          "1711",
+          "1321"
+        ]
+      },
+      "parsedPt": {
+        "name": "Crimson Shadow - Redemption",
+        "cost": 2080,
+        "categoryLabel": "Suporte",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Vida",
+            "value": "+1.200"
+          },
+          {
+            "label": "Velocidade de Movimento",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "active",
+            "text": "Rescue\nConcede por 4s um escudo que anula (240–480 + 10% da Vida) de dano aos aliados no alcance.\n(Recarga: 60s)\nA recarga da habilidade ativa dos equipamentos de Roaming é compartilhada pela equipe."
+          },
+          {
+            "kind": "passive",
+            "text": "Agility Aura\nConcede 20% de Velocidade de Ataque e 15% de Redução de Recarga e restaura 15 de Mana a cada 5s. Aliados em um raio de 800 recebem 50% deste efeito.\nPassiva - Reward\nAumenta a Vida Máxima em 400–800\nAumenta o Atributo de Ataque Principal em 25–50\n(1 atributo de ataque principal = 1 de Ataque Físico ou 2 de Ataque Mágico)"
+          },
+          {
+            "kind": "passive",
+            "text": "Guerrilla\nA cada 3s, concede 6 de EXP e 6 de Ouro ao aliado com a menor quantidade de Ouro."
+          },
+          {
+            "kind": "passive",
+            "text": "O usuário não recebe uma parte dos ganhos por abates de monstros e tropas, mas obtém separadamente 25%–50% de Ouro e EXP (atinge o máximo aos 20:00).\nSe tropas da rota morrerem e o Ouro delas não for coletado, 50% do Ouro cairá no chão. É possível coletar até 600 de Ouro."
+          },
+          {
+            "kind": "passive",
+            "text": "Pode alternar rapidamente entre equipamentos de Roaming Crimson Shadow sem custo (Recarga: 300s)."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1747",
+      "urlEn": "https://hokstats.gg/items/1747/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1747/",
+      "parsedEn": {
+        "name": "Crimson Shadow - Starspring",
+        "cost": 2080,
+        "categoryLabel": "Support",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Health",
+            "value": "+1,200"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "active",
+            "text": "Starburst\nLinks with a teammate (by default, the teammate with the lowest Health) within range for 5s, recovering (500–1,060 + 20% Health) Health and 25% of max Mana to both self and that teammate for the duration. The link will be broken when it exceeds a certain distance. Recovery effects decrease to 20% upon attacking or being attacked. 1 use of Starburst is gained every 50s, and up to 2 can be stored at a time.\n(Cooldown: 5s)\nRoaming equipment active skill cooldown is shared by the team."
+          },
+          {
+            "kind": "passive",
+            "text": "Agility Aura\nGrants 20% Attack Speed and 15% Cooldown Reduction, and restores 15 Mana every 5s. Teammates within a range of 800 gain 50% of this effect.\nPassive - Reward\nIncreases Max Health by 400–800\nIncreases Main Attack Stat by 25–50\n(1 main attack stat = 1 Physical Attack or 2 Magical Attack)"
+          },
+          {
+            "kind": "passive",
+            "text": "Guerrilla\nEvery 3s, grants 6 EXP, and grants 6 Gold to the teammate with the lowest amount of Gold."
+          },
+          {
+            "kind": "passive",
+            "text": "Wielder does not take a share of the earnings from monster and minion kills, but instead gains a separate 25%-50% Gold and EXP (maxes out at the 20:00 mark).\nIf lane minions die and their Gold is not collected, 50% of the Gold will drop on the ground. Up to 600 Gold can be picked up."
+          },
+          {
+            "kind": "passive",
+            "text": "Can quickly switch between Crimson Shadow roaming equipment at no cost (Cooldown 300s)."
+          }
+        ],
+        "buildsFrom": [
+          "1711",
+          "1321"
+        ]
+      },
+      "parsedPt": {
+        "name": "Crimson Shadow - Starspring",
+        "cost": 2080,
+        "categoryLabel": "Suporte",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Vida",
+            "value": "+1.200"
+          },
+          {
+            "label": "Velocidade de Movimento",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "active",
+            "text": "Starburst\nCria por 5s um vínculo com um aliado no alcance (por padrão, o aliado com menos Vida), restaurando (500–1.060 + 20% da Vida) de Vida e 25% da Mana máxima tanto para o usuário quanto para esse aliado durante o efeito. O vínculo é rompido ao exceder certa distância. Os efeitos de recuperação diminuem para 20% ao atacar ou ser atacado. Ganha 1 uso de Starburst a cada 50s, podendo armazenar até 2 usos.\n(Recarga: 5s)\nA recarga da habilidade ativa dos equipamentos de Roaming é compartilhada pela equipe."
+          },
+          {
+            "kind": "passive",
+            "text": "Agility Aura\nConcede 20% de Velocidade de Ataque e 15% de Redução de Recarga e restaura 15 de Mana a cada 5s. Aliados em um raio de 800 recebem 50% deste efeito.\nPassiva - Reward\nAumenta a Vida Máxima em 400–800\nAumenta o Atributo de Ataque Principal em 25–50\n(1 atributo de ataque principal = 1 de Ataque Físico ou 2 de Ataque Mágico)"
+          },
+          {
+            "kind": "passive",
+            "text": "Guerrilla\nA cada 3s, concede 6 de EXP e 6 de Ouro ao aliado com a menor quantidade de Ouro."
+          },
+          {
+            "kind": "passive",
+            "text": "O usuário não recebe uma parte dos ganhos por abates de monstros e tropas, mas obtém separadamente 25%–50% de Ouro e EXP (atinge o máximo aos 20:00).\nSe tropas da rota morrerem e o Ouro delas não for coletado, 50% do Ouro cairá no chão. É possível coletar até 600 de Ouro."
+          },
+          {
+            "kind": "passive",
+            "text": "Pode alternar rapidamente entre equipamentos de Roaming Crimson Shadow sem custo (Recarga: 300s)."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1338",
+      "urlEn": "https://hokstats.gg/items/1338/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1338/",
+      "parsedEn": {
+        "name": "Cuirass of Savagery",
+        "cost": 2050,
+        "categoryLabel": "Defense",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+35"
+          },
+          {
+            "label": "Physical Defense",
+            "value": "+210"
+          },
+          {
+            "label": "Health",
+            "value": "+900"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Fearless\nWhen taking damage, increases own damage and Movement Speed by 1% for 3s, for up to 10 stacks (gains 2 stacks when hit by enemy heroes)."
+          }
+        ],
+        "buildsFrom": [
+          "1345",
+          "1321"
+        ]
+      },
+      "parsedPt": {
+        "name": "Cuirass of Savagery",
+        "cost": 2050,
+        "categoryLabel": "Defesa",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+35"
+          },
+          {
+            "label": "Defesa Física",
+            "value": "+210"
+          },
+          {
+            "label": "Vida",
+            "value": "+900"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Fearless\nAo sofrer dano, aumenta o próprio dano e a Velocidade de Movimento em 1% por 3s, acumulando até 10 vezes (recebe 2 acúmulos ao ser atingido por heróis inimigos)."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1317",
+      "urlEn": "https://hokstats.gg/items/1317/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1317/",
+      "parsedEn": {
+        "name": "Cuirass of Swiftness",
+        "cost": 800,
+        "categoryLabel": "Defense",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Cooldown Reduction",
+            "value": "+7.5%"
+          },
+          {
+            "label": "Health",
+            "value": "+450"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": [
+          "1311",
+          "1218"
+        ]
+      },
+      "parsedPt": {
+        "name": "Cuirass of Swiftness",
+        "cost": 800,
+        "categoryLabel": "Defesa",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Redução de Recarga",
+            "value": "+7.5%"
+          },
+          {
+            "label": "Vida",
+            "value": "+450"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1112",
+      "urlEn": "https://hokstats.gg/items/1112/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1112/",
+      "parsedEn": {
+        "name": "Dagger",
+        "cost": 300,
+        "categoryLabel": "Attack",
+        "tier": 1,
+        "stats": [
+          {
+            "label": "Attack Speed",
+            "value": "+10%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      },
+      "parsedPt": {
+        "name": "Dagger",
+        "cost": 300,
+        "categoryLabel": "Ataque",
+        "tier": 1,
+        "stats": [
+          {
+            "label": "Velocidade de Ataque",
+            "value": "+10%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1353",
+      "urlEn": "https://hokstats.gg/items/1353/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1353/",
+      "parsedEn": {
+        "name": "Dawnlight",
+        "cost": 2040,
+        "categoryLabel": "Defense",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Cooldown Reduction",
+            "value": "+10%"
+          },
+          {
+            "label": "Physical Defense",
+            "value": "+210"
+          },
+          {
+            "label": "Health",
+            "value": "+900"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Firstlight\nWhen dealing damage to enemy heroes with Basic Attacks or skills, grants a shield that negates (250–500 + 4% Health) damage to self and the nearby teammate with the lowest Health for 3s. When no teammates are nearby, shield value increases by 50%.\n(Melee/Ranged Cooldown: 10/12.5s)"
+          }
+        ],
+        "buildsFrom": [
+          "1324",
+          "1321"
+        ]
+      },
+      "parsedPt": {
+        "name": "Dawnlight",
+        "cost": 2040,
+        "categoryLabel": "Defesa",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Redução de Recarga",
+            "value": "+10%"
+          },
+          {
+            "label": "Defesa Física",
+            "value": "+210"
+          },
+          {
+            "label": "Vida",
+            "value": "+900"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Firstlight\nAo causar dano a heróis inimigos com Ataques Básicos ou habilidades, concede por 3s um escudo que anula (250–500 + 4% da Vida) de dano a si e ao aliado próximo com menos Vida. Quando não há aliados próximos, o valor do escudo aumenta em 50%.\n(Recarga corpo a corpo/à distância: 10/12,5s)"
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1155",
+      "urlEn": "https://hokstats.gg/items/1155/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1155/",
+      "parsedEn": {
+        "name": "Daybreaker's Virtue",
+        "cost": 2570,
+        "categoryLabel": "Attack",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+75"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "+30%"
+          },
+          {
+            "label": "Critical Rate",
+            "value": "+15%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Sunder\nPhysical Pierce +15% (doubled for ranged heroes)"
+          },
+          {
+            "kind": "passive",
+            "text": "Daybreaker\nBasic Attack Damage +25 (doubled for ranged heroes)."
+          }
+        ],
+        "buildsFrom": [
+          "1154",
+          "1129"
+        ]
+      },
+      "parsedPt": {
+        "name": "Daybreaker's Virtue",
+        "cost": 2570,
+        "categoryLabel": "Ataque",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+75"
+          },
+          {
+            "label": "Velocidade de Ataque",
+            "value": "+30%"
+          },
+          {
+            "label": "Taxa Crítica",
+            "value": "+15%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Sunder\nPerfuração Física +15% (dobrada para heróis de ataque à distância)"
+          },
+          {
+            "kind": "passive",
+            "text": "Daybreaker\nDano do Ataque Básico +25 (dobrado para heróis de ataque à distância)."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1128",
+      "urlEn": "https://hokstats.gg/items/1128/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1128/",
+      "parsedEn": {
+        "name": "Deepfrost Siege",
+        "cost": 2040,
+        "categoryLabel": "Attack",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+70"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "+25%"
+          },
+          {
+            "label": "Health",
+            "value": "+750"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Deepfrost\nBasic Attacks and skills reduce Movement Speed by 5%–10% for 1.5s, for up to 2 stacks."
+          },
+          {
+            "kind": "passive",
+            "text": "Frostbite\nBasic Attacks and skills deal an extra 135–270 (+45% extra Physical Attack) physical damage. (Cooldown: 3s)"
+          }
+        ],
+        "buildsFrom": [
+          "1122",
+          "1129"
+        ]
+      },
+      "parsedPt": {
+        "name": "Deepfrost Siege",
+        "cost": 2040,
+        "categoryLabel": "Ataque",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+70"
+          },
+          {
+            "label": "Velocidade de Ataque",
+            "value": "+25%"
+          },
+          {
+            "label": "Vida",
+            "value": "+750"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Deepfrost\nAtaques Básicos e habilidades reduzem a Velocidade de Movimento em 5%–10% por 1,5s, acumulando até 2 vezes."
+          },
+          {
+            "kind": "passive",
+            "text": "Frostbite\nAtaques Básicos e habilidades causam 135–270 (+45% do Ataque Físico adicional) de dano físico adicional. (Recarga: 3s)"
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1125",
+      "urlEn": "https://hokstats.gg/items/1125/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1125/",
+      "parsedEn": {
+        "name": "Demonsbane",
+        "cost": 2060,
+        "categoryLabel": "Attack",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+90"
+          },
+          {
+            "label": "Magical Defense",
+            "value": "+150"
+          },
+          {
+            "label": "Health",
+            "value": "+600"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Anti-Mage\nIncreases Magical Defense by (50% Physical Attack), up to 250."
+          }
+        ],
+        "buildsFrom": [
+          "1121",
+          "1323"
+        ]
+      },
+      "parsedPt": {
+        "name": "Demonsbane",
+        "cost": 2060,
+        "categoryLabel": "Ataque",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+90"
+          },
+          {
+            "label": "Defesa Mágica",
+            "value": "+150"
+          },
+          {
+            "label": "Vida",
+            "value": "+600"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Anti-Mage\nAumenta a Defesa Mágica em (50% do Ataque Físico), até 250."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1127",
+      "urlEn": "https://hokstats.gg/items/1127/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1127/",
+      "parsedEn": {
+        "name": "Destiny",
+        "cost": 2060,
+        "categoryLabel": "Attack",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+75"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "+15%"
+          },
+          {
+            "label": "Health",
+            "value": "+500"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Dark Curtain\nWhen taking fatal damage, instead of dying immediately, the hero gains invincibility and a 15% Attack Speed and Movement Speed increase for 1s (0.75s for ranged heroes). After equipping this item, its effect duration increases by 0.01s every 5s, up to a maximum of 0.5s.\n(Cooldown: 120s)"
+          }
+        ],
+        "buildsFrom": [
+          "1121"
+        ]
+      },
+      "parsedPt": {
+        "name": "Destiny",
+        "cost": 2060,
+        "categoryLabel": "Ataque",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+75"
+          },
+          {
+            "label": "Velocidade de Ataque",
+            "value": "+15%"
+          },
+          {
+            "label": "Vida",
+            "value": "+500"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Dark Curtain\nAo sofrer dano fatal, em vez de morrer imediatamente, o herói se torna invencível e recebe 15% de Velocidade de Ataque e de Movimento por 1s (0,75s para heróis de ataque à distância). Depois de equipar este item, a duração do efeito aumenta em 0,01s a cada 5s, até o máximo de 0,5s.\n(Recarga: 120s)"
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1126",
+      "urlEn": "https://hokstats.gg/items/1126/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1126/",
+      "parsedEn": {
+        "name": "Doomsday",
+        "cost": 2100,
+        "categoryLabel": "Attack",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+40"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "+20%"
+          },
+          {
+            "label": "Physical Lifesteal",
+            "value": "+20%"
+          },
+          {
+            "label": "Health",
+            "value": "+500"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Destruction\nBasic Attacks deal an extra 80–160 (+7% of the target's extra Health) physical damage."
+          }
+        ],
+        "buildsFrom": [
+          "1158"
+        ]
+      },
+      "parsedPt": {
+        "name": "Doomsday",
+        "cost": 2100,
+        "categoryLabel": "Ataque",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+40"
+          },
+          {
+            "label": "Velocidade de Ataque",
+            "value": "+20%"
+          },
+          {
+            "label": "Roubo de Vida Físico",
+            "value": "+20%"
+          },
+          {
+            "label": "Vida",
+            "value": "+500"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Destruction\nAtaques Básicos causam 80–160 (+7% da Vida adicional do alvo) de dano físico adicional."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1534",
+      "urlEn": "https://hokstats.gg/items/1534/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1534/",
+      "parsedEn": {
+        "name": "Dragon's Rage",
+        "cost": 2040,
+        "categoryLabel": "Defense",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Physical Defense",
+            "value": "+180"
+          },
+          {
+            "label": "Magical Defense",
+            "value": "+90"
+          },
+          {
+            "label": "Health",
+            "value": "+1,350"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Devastating Blow\nBasic Attacks and skills deal physical damage equal to 7% Health to minions and monsters, and restore Health equal to 50% of the damage dealt (halved for ranged attacks).\n(Cooldown: 2s)"
+          },
+          {
+            "kind": "passive",
+            "text": "Divine Power\nBasic Attacks and skills deal physical damage equal to 3.5% Health to enemy heroes and towers (halved for ranged attacks).\n(Cooldown: 2s)"
+          }
+        ],
+        "buildsFrom": [
+          "1321",
+          "1325"
+        ]
+      },
+      "parsedPt": {
+        "name": "Dragon's Rage",
+        "cost": 2040,
+        "categoryLabel": "Defesa",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Defesa Física",
+            "value": "+180"
+          },
+          {
+            "label": "Defesa Mágica",
+            "value": "+90"
+          },
+          {
+            "label": "Vida",
+            "value": "+1.350"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Devastating Blow\nAtaques Básicos e habilidades causam dano físico equivalente a 7% da Vida a tropas e monstros e restauram Vida equivalente a 50% do dano causado (reduzido pela metade para ataques à distância).\n(Recarga: 2s)"
+          },
+          {
+            "kind": "passive",
+            "text": "Divine Power\nAtaques Básicos e habilidades causam dano físico equivalente a 3,5% da Vida a heróis inimigos e torres (reduzido pela metade para ataques à distância).\n(Recarga: 2s)"
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1242",
+      "urlEn": "https://hokstats.gg/items/1242/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1242/",
+      "parsedEn": {
+        "name": "Enigma - Moon Goddess",
+        "cost": 3340,
+        "categoryLabel": "Magic",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Magical Attack",
+            "value": "+160"
+          },
+          {
+            "label": "Cooldown Reduction",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "active",
+            "text": "Moonguard\nGrants immunity to all effects, but renders the user unable to move, attack, or use skills for 1.5s. When the effect wears off, grants a 60% Movement Speed bonus that diminishes over 2s and restores a total of (1,000 + 100% Magical Attack) Health.\n(Cooldown: 75s)"
+          }
+        ],
+        "buildsFrom": [
+          "1239"
+        ]
+      },
+      "parsedPt": {
+        "name": "Enigma - Moon Goddess",
+        "cost": 3340,
+        "categoryLabel": "Magia",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Mágico",
+            "value": "+160"
+          },
+          {
+            "label": "Redução de Recarga",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "active",
+            "text": "Moonguard\nConcede imunidade a todos os efeitos, mas impede o usuário de se mover, atacar ou usar habilidades por 1,5s. Quando o efeito termina, concede um bônus de 60% de Velocidade de Movimento que diminui ao longo de 2s e restaura um total de (1.000 + 100% do Ataque Mágico) de Vida.\n(Recarga: 75s)"
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1133",
+      "urlEn": "https://hokstats.gg/items/1133/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1133/",
+      "parsedEn": {
+        "name": "Eternity Blade",
+        "cost": 2110,
+        "categoryLabel": "Attack",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+120"
+          },
+          {
+            "label": "Critical Rate",
+            "value": "+20%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Relentless\nGains 20% Critical Damage, and every 2% Critical Rate increases Critical Damage by 1% (up to 50%)."
+          }
+        ],
+        "buildsFrom": [
+          "1121",
+          "1116"
+        ]
+      },
+      "parsedPt": {
+        "name": "Eternity Blade",
+        "cost": 2110,
+        "categoryLabel": "Ataque",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+120"
+          },
+          {
+            "label": "Taxa Crítica",
+            "value": "+20%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Relentless\nConcede 20% de Dano Crítico, e cada 2% de Taxa Crítica aumenta o Dano Crítico em 1% (até 50%)."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1334",
+      "urlEn": "https://hokstats.gg/items/1334/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1334/",
+      "parsedEn": {
+        "name": "Eye of the Phoenix",
+        "cost": 2020,
+        "categoryLabel": "Defense",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Physical Defense",
+            "value": "+90"
+          },
+          {
+            "label": "Magical Defense",
+            "value": "+180"
+          },
+          {
+            "label": "Health",
+            "value": "+1,350"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Bloodline\nIncreases Health recovery by 5% for every 10% of Health lost."
+          }
+        ],
+        "buildsFrom": [
+          "1321",
+          "1323"
+        ]
+      },
+      "parsedPt": {
+        "name": "Eye of the Phoenix",
+        "cost": 2020,
+        "categoryLabel": "Defesa",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Defesa Física",
+            "value": "+90"
+          },
+          {
+            "label": "Defesa Mágica",
+            "value": "+180"
+          },
+          {
+            "label": "Vida",
+            "value": "+1.350"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Bloodline\nAumenta a recuperação de Vida em 5% para cada 10% de Vida perdida."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1341",
+      "urlEn": "https://hokstats.gg/items/1341/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1341/",
+      "parsedEn": {
+        "name": "Frigid Charge",
+        "cost": 2030,
+        "categoryLabel": "Defense",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Cooldown Reduction",
+            "value": "+7.5%"
+          },
+          {
+            "label": "Physical Defense",
+            "value": "+150"
+          },
+          {
+            "label": "Health",
+            "value": "+900"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Ice Armor\nResistance +10%. When affected by hard crowd control effects other than suppression, grants a shield that negates (10% Health) damage for 5s.\n(Cooldown: 15s)"
+          },
+          {
+            "kind": "active",
+            "text": "Impact\nCreates a frost field within a range of 450, slowing enemies by 30%–60%. After 0.75s, deals 100–200 magical damage and freezes enemies for 0.75s.\n(Cooldown: 75s)"
+          }
+        ],
+        "buildsFrom": [
+          "1325",
+          "1317"
+        ]
+      },
+      "parsedPt": {
+        "name": "Frigid Charge",
+        "cost": 2030,
+        "categoryLabel": "Defesa",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Redução de Recarga",
+            "value": "+7.5%"
+          },
+          {
+            "label": "Defesa Física",
+            "value": "+150"
+          },
+          {
+            "label": "Vida",
+            "value": "+900"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Ice Armor\nResistência +10%. Ao sofrer um efeito de controle de grupo severo que não seja supressão, concede um escudo que anula dano equivalente a (10% da Vida) por 5s.\n(Recarga: 15s)"
+          },
+          {
+            "kind": "active",
+            "text": "Impact\nCria um campo de gelo em um raio de 450, desacelerando os inimigos em 30%–60%. Após 0,75s, causa 100–200 de dano mágico e congela os inimigos por 0,75s.\n(Recarga: 75s)"
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1324",
+      "urlEn": "https://hokstats.gg/items/1324/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1324/",
+      "parsedEn": {
+        "name": "Frosthold Targe",
+        "cost": 750,
+        "categoryLabel": "Defense",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Cooldown Reduction",
+            "value": "+7.5%"
+          },
+          {
+            "label": "Physical Defense",
+            "value": "+150"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": [
+          "1312",
+          "1218"
+        ]
+      },
+      "parsedPt": {
+        "name": "Frosthold Targe",
+        "cost": 750,
+        "categoryLabel": "Defesa",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Redução de Recarga",
+            "value": "+7.5%"
+          },
+          {
+            "label": "Defesa Física",
+            "value": "+150"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "13310",
+      "urlEn": "https://hokstats.gg/items/13310/",
+      "urlPt": "https://hokstats.gg/pt-br/items/13310/",
+      "parsedEn": {
+        "name": "Frostscar's Embrace",
+        "cost": 2060,
+        "categoryLabel": "Defense",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+60"
+          },
+          {
+            "label": "Cooldown Reduction",
+            "value": "+10%"
+          },
+          {
+            "label": "Physical Defense",
+            "value": "+300"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Savagery\nThe next Basic Attack within 5s after using a skill deals an extra 210–420 physical damage to enemies within range and slows them by 15%–30% for 0.5s (slow effect halved for ranged attacks).\n(Cooldown: 1.2s)"
+          }
+        ],
+        "buildsFrom": [
+          "1345",
+          "1324"
+        ]
+      },
+      "parsedPt": {
+        "name": "Frostscar's Embrace",
+        "cost": 2060,
+        "categoryLabel": "Defesa",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+60"
+          },
+          {
+            "label": "Redução de Recarga",
+            "value": "+10%"
+          },
+          {
+            "label": "Defesa Física",
+            "value": "+300"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Savagery\nO próximo Ataque Básico realizado dentro de 5s após usar uma habilidade causa 210–420 de dano físico adicional aos inimigos no alcance e os desacelera em 15%–30% por 0,5s (o efeito de lentidão é reduzido pela metade para ataques à distância).\n(Recarga: 1,2s)"
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1234",
+      "urlEn": "https://hokstats.gg/items/1234/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1234/",
+      "parsedEn": {
+        "name": "Frozen Breath",
+        "cost": 2100,
+        "categoryLabel": "Magic",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Magical Attack",
+            "value": "+180"
+          },
+          {
+            "label": "Cooldown Reduction",
+            "value": "+7.5%"
+          },
+          {
+            "label": "Health",
+            "value": "+500"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Deep Freeze\nWhen a Basic Attack or skill hits an enemy, it reduces their Movement Speed by 5–10% (for up to 2 stacks) for 1.5s."
+          },
+          {
+            "kind": "passive",
+            "text": "Frostbite\nBasic Attacks and skills deal an extra (75–150 + 15% Magical Attack) magical damage.\n(Cooldown: 3s)"
+          }
+        ],
+        "buildsFrom": [
+          "1221",
+          "1317"
+        ]
+      },
+      "parsedPt": {
+        "name": "Frozen Breath",
+        "cost": 2100,
+        "categoryLabel": "Magia",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Mágico",
+            "value": "+180"
+          },
+          {
+            "label": "Redução de Recarga",
+            "value": "+7.5%"
+          },
+          {
+            "label": "Vida",
+            "value": "+500"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Deep Freeze\nQuando um Ataque Básico ou habilidade atinge um inimigo, reduz a Velocidade de Movimento dele em 5%–10% (acumula até 2 vezes) por 1,5s."
+          },
+          {
+            "kind": "passive",
+            "text": "Frostbite\nAtaques Básicos e habilidades causam (75–150 + 15% do Ataque Mágico) de dano mágico adicional.\n(Recarga: 3s)"
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1532",
+      "urlEn": "https://hokstats.gg/items/1532/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1532/",
+      "parsedEn": {
+        "name": "Giant's Grip",
+        "cost": 2160,
+        "categoryLabel": "Jungle",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Cooldown Reduction",
+            "value": "+5%"
+          },
+          {
+            "label": "Health",
+            "value": "+1,200"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "+5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Requires Smite to purchase. Reduces damage from monsters by 25% and grants 30% more EXP and 20% more Gold from monsters."
+          },
+          {
+            "kind": "passive",
+            "text": "Hunter\nWhen a Basic Attack or a skill hits a monster, it takes 90–180 + (0.6% of the target's Health) physical damage every 0.5s for 2s (ranged attacks deal 50% of this damage, and heroes only take 25% damage)."
+          },
+          {
+            "kind": "passive",
+            "text": "Reward\nIncreases max Health by 30 and Cooldown Reduction by 0.2% whenever you or a teammate within a range of 700 units kills a monster, for up to 25 stacks."
+          },
+          {
+            "kind": "passive",
+            "text": "Before 10:00: Deals 25% less damage to minions."
+          }
+        ],
+        "buildsFrom": [
+          "1522",
+          "1317"
+        ]
+      },
+      "parsedPt": {
+        "name": "Giant's Grip",
+        "cost": 2160,
+        "categoryLabel": "Selva",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Redução de Recarga",
+            "value": "+5%"
+          },
+          {
+            "label": "Vida",
+            "value": "+1.200"
+          },
+          {
+            "label": "Velocidade de Movimento",
+            "value": "+5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Requer Smite para ser comprado. Reduz em 25% o dano recebido de monstros e concede 30% mais EXP e 20% mais Ouro de monstros."
+          },
+          {
+            "kind": "passive",
+            "text": "Hunter\nQuando um Ataque Básico ou habilidade atinge um monstro, ele sofre 90–180 + (0,6% da Vida do alvo) de dano físico a cada 0,5s por 2s (ataques à distância causam 50% desse dano, e heróis recebem apenas 25% do dano)."
+          },
+          {
+            "kind": "passive",
+            "text": "Reward\nAumenta a Vida máxima em 30 e a Redução de Recarga em 0,2% sempre que você ou um aliado em um raio de 700 unidades abate um monstro, acumulando até 25 vezes."
+          },
+          {
+            "kind": "passive",
+            "text": "Antes de 10:00: causa 25% menos dano a tropas."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1336",
+      "urlEn": "https://hokstats.gg/items/1336/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1336/",
+      "parsedEn": {
+        "name": "Glacial Buckler",
+        "cost": 2040,
+        "categoryLabel": "Defense",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Cooldown Reduction",
+            "value": "+20%"
+          },
+          {
+            "label": "Physical Defense",
+            "value": "+240"
+          },
+          {
+            "label": "Health",
+            "value": "+600"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Frost Shock\nTriggers an ice blast when losing 10% of current Health from a single attack, dealing 130–260 magical damage to enemies within range and reducing their Attack Speed by 15% and Movement Speed by 15%–30% for 2s.\n(Cooldown: 2s)"
+          }
+        ],
+        "buildsFrom": [
+          "1317",
+          "1324"
+        ]
+      },
+      "parsedPt": {
+        "name": "Glacial Buckler",
+        "cost": 2040,
+        "categoryLabel": "Defesa",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Redução de Recarga",
+            "value": "+20%"
+          },
+          {
+            "label": "Defesa Física",
+            "value": "+240"
+          },
+          {
+            "label": "Vida",
+            "value": "+600"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Frost Shock\nProvoca uma explosão de gelo ao perder 10% da Vida atual em um único ataque, causando 130–260 de dano mágico aos inimigos no alcance e reduzindo a Velocidade de Ataque deles em 15% e a Velocidade de Movimento em 15%–30% por 2s.\n(Recarga: 2s)"
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1728",
+      "urlEn": "https://hokstats.gg/items/1728/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1728/",
+      "parsedEn": {
+        "name": "Golden Blade",
+        "cost": 2070,
+        "categoryLabel": "Magic",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Attack Speed",
+            "value": "+20%"
+          },
+          {
+            "label": "Magical Attack",
+            "value": "+150"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Precision\nBasic Attack Damage +60"
+          },
+          {
+            "kind": "passive",
+            "text": "Excalibur\nWhen a Basic Attack hits a target, increases Attack Speed by 10% for 5s, and up to 2 stacks. When fully stacked, Basic Attacks deal (30% Magical Attack) extra magical damage.\n(Cooldown: 0.2s)"
+          }
+        ],
+        "buildsFrom": [
+          "1221",
+          "1123"
+        ]
+      },
+      "parsedPt": {
+        "name": "Golden Blade",
+        "cost": 2070,
+        "categoryLabel": "Magia",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Velocidade de Ataque",
+            "value": "+20%"
+          },
+          {
+            "label": "Ataque Mágico",
+            "value": "+150"
+          },
+          {
+            "label": "Velocidade de Movimento",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Precision\nDano do Ataque Básico +60"
+          },
+          {
+            "kind": "passive",
+            "text": "Excalibur\nQuando um Ataque Básico atinge um alvo, aumenta a Velocidade de Ataque em 10% por 5s, acumulando até 2 vezes. Com o máximo de acúmulos, Ataques Básicos causam dano mágico adicional equivalente a (30% do Ataque Mágico).\n(Recarga: 0,2s)"
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1221",
+      "urlEn": "https://hokstats.gg/items/1221/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1221/",
+      "parsedEn": {
+        "name": "Grand Staff",
+        "cost": 820,
+        "categoryLabel": "Magic",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Magical Attack",
+            "value": "+120"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": [
+          "1211",
+          "1211"
+        ]
+      },
+      "parsedPt": {
+        "name": "Grand Staff",
+        "cost": 820,
+        "categoryLabel": "Magia",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Ataque Mágico",
+            "value": "+120"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1714",
+      "urlEn": "https://hokstats.gg/items/1714/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1714/",
+      "parsedEn": {
+        "name": "Guardian",
+        "cost": 850,
+        "categoryLabel": "Support",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Health",
+            "value": "+500"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "+5%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": [
+          "1701",
+          "1311"
+        ]
+      },
+      "parsedPt": {
+        "name": "Guardian",
+        "cost": 850,
+        "categoryLabel": "Suporte",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Vida",
+            "value": "+500"
+          },
+          {
+            "label": "Velocidade de Movimento",
+            "value": "+5%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1754",
+      "urlEn": "https://hokstats.gg/items/1754/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1754/",
+      "parsedEn": {
+        "name": "Guardian - Radiance",
+        "cost": 2080,
+        "categoryLabel": "Support",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Health",
+            "value": "+1,200"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "active",
+            "text": "Mirror Domain\nReleases a scouting light wave that deals damage 4 times to enemies within a range of 1,200, each dealing damage equal to 3% of current Health and slowing them by 25%–50%. The scouting light remains within range for 2s, providing visibility and exposing stealth units, while also dealing damage and slowing enemies.\n(Cooldown: 75s. If no targets are hit, 75% of the Cooldown will be restored.)\nRoaming equipment active skill cooldown is shared by the team."
+          },
+          {
+            "kind": "passive",
+            "text": "Guardian Aura\nGrants 65–130 Physical Defense and Magical Defense, and restores 0.6% Health every 5s. Teammates within a range of 800 gain 50% of this effect.\nPassive - Reward\nMax Health +400–800\nMain Attack Stat +25–50\n(1 main attack stat = 1 Physical Attack or 2 Magical Attack)"
+          },
+          {
+            "kind": "passive",
+            "text": "Guerrilla\nEvery 3s, grants 6 EXP, and grants 6 Gold to the teammate with the lowest amount of Gold."
+          },
+          {
+            "kind": "passive",
+            "text": "Wielder does not take a share of the earnings from monster and minion kills, but instead gains a separate 25%-50% Gold and EXP (maxes out at the 20:00 mark).\nIf lane minions die and their Gold is not collected, 50% of the Gold will drop on the ground. Up to 600 Gold can be picked up."
+          },
+          {
+            "kind": "passive",
+            "text": "Can quickly switch between Guardian roaming equipment at no cost (Cooldown 300s)."
+          }
+        ],
+        "buildsFrom": [
+          "1714",
+          "1321"
+        ]
+      },
+      "parsedPt": {
+        "name": "Guardian - Radiance",
+        "cost": 2080,
+        "categoryLabel": "Suporte",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Vida",
+            "value": "+1.200"
+          },
+          {
+            "label": "Velocidade de Movimento",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "active",
+            "text": "Mirror Domain\nLibera uma onda de luz de reconhecimento que causa dano 4 vezes aos inimigos em um raio de 1.200; cada golpe causa dano equivalente a 3% da Vida atual e os desacelera em 25%–50%. A luz permanece no alcance por 2s, concedendo visão e revelando unidades furtivas, enquanto também causa dano e desacelera inimigos.\n(Recarga: 75s. Se nenhum alvo for atingido, 75% da Recarga será restaurada.)\nA recarga da habilidade ativa dos equipamentos de Roaming é compartilhada pela equipe."
+          },
+          {
+            "kind": "passive",
+            "text": "Guardian Aura\nConcede 65–130 de Defesa Física e Defesa Mágica e restaura 0,6% de Vida a cada 5s. Aliados em um raio de 800 recebem 50% deste efeito.\nPassiva - Reward\nVida Máxima +400–800\nAtributo de Ataque Principal +25–50\n(1 atributo de ataque principal = 1 de Ataque Físico ou 2 de Ataque Mágico)"
+          },
+          {
+            "kind": "passive",
+            "text": "Guerrilla\nA cada 3s, concede 6 de EXP e 6 de Ouro ao aliado com a menor quantidade de Ouro."
+          },
+          {
+            "kind": "passive",
+            "text": "O usuário não recebe uma parte dos ganhos por abates de monstros e tropas, mas obtém separadamente 25%–50% de Ouro e EXP (atinge o máximo aos 20:00).\nSe tropas da rota morrerem e o Ouro delas não for coletado, 50% do Ouro cairá no chão. É possível coletar até 600 de Ouro."
+          },
+          {
+            "kind": "passive",
+            "text": "Pode alternar rapidamente entre equipamentos de Roaming Guardian sem custo (Recarga: 300s)."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1724",
+      "urlEn": "https://hokstats.gg/items/1724/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1724/",
+      "parsedEn": {
+        "name": "Guardian - Redemption",
+        "cost": 2080,
+        "categoryLabel": "Support",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Health",
+            "value": "+1,200"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "active",
+            "text": "Rescue\nGrants a shield that negates (240–480 + 10%Health) damage to teammates within range for 4s.\n(Cooldown: 60s)\nRoaming equipment active skill cooldown is shared by the team."
+          },
+          {
+            "kind": "passive",
+            "text": "Guardian Aura\nGrants 65–130 Physical Defense and Magical Defense, and restores 0.6% Health every 5s. Teammates within a range of 800 gain 50% of this effect.\nPassive - Reward\nMax Health +400–800\nMain Attack Stat +25–50\n(1 main attack stat = 1 Physical Attack or 2 Magical Attack)"
+          },
+          {
+            "kind": "passive",
+            "text": "Guerrilla\nEvery 3s, grants 6 EXP, and grants 6 Gold to the teammate with the lowest amount of Gold."
+          },
+          {
+            "kind": "passive",
+            "text": "Wielder does not take a share of the earnings from monster and minion kills, but instead gains a separate 25%-50% Gold and EXP (maxes out at the 20:00 mark).\nIf lane minions die and their Gold is not collected, 50% of the Gold will drop on the ground. Up to 600 Gold can be picked up."
+          },
+          {
+            "kind": "passive",
+            "text": "Can quickly switch between Guardian roaming equipment at no cost (Cooldown 300s)."
+          }
+        ],
+        "buildsFrom": [
+          "1714",
+          "1321"
+        ]
+      },
+      "parsedPt": {
+        "name": "Guardian - Redemption",
+        "cost": 2080,
+        "categoryLabel": "Suporte",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Vida",
+            "value": "+1.200"
+          },
+          {
+            "label": "Velocidade de Movimento",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "active",
+            "text": "Rescue\nConcede por 4s um escudo que anula (240–480 + 10% da Vida) de dano aos aliados no alcance.\n(Recarga: 60s)\nA recarga da habilidade ativa dos equipamentos de Roaming é compartilhada pela equipe."
+          },
+          {
+            "kind": "passive",
+            "text": "Guardian Aura\nConcede 65–130 de Defesa Física e Defesa Mágica e restaura 0,6% de Vida a cada 5s. Aliados em um raio de 800 recebem 50% deste efeito.\nPassiva - Reward\nVida Máxima +400–800\nAtributo de Ataque Principal +25–50\n(1 atributo de ataque principal = 1 de Ataque Físico ou 2 de Ataque Mágico)"
+          },
+          {
+            "kind": "passive",
+            "text": "Guerrilla\nA cada 3s, concede 6 de EXP e 6 de Ouro ao aliado com a menor quantidade de Ouro."
+          },
+          {
+            "kind": "passive",
+            "text": "O usuário não recebe uma parte dos ganhos por abates de monstros e tropas, mas obtém separadamente 25%–50% de Ouro e EXP (atinge o máximo aos 20:00).\nSe tropas da rota morrerem e o Ouro delas não for coletado, 50% do Ouro cairá no chão. É possível coletar até 600 de Ouro."
+          },
+          {
+            "kind": "passive",
+            "text": "Pode alternar rapidamente entre equipamentos de Roaming Guardian sem custo (Recarga: 300s)."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1725",
+      "urlEn": "https://hokstats.gg/items/1725/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1725/",
+      "parsedEn": {
+        "name": "Guardian - Starspring",
+        "cost": 2080,
+        "categoryLabel": "Support",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Health",
+            "value": "+1,200"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "active",
+            "text": "Starburst\nLinks with a teammate (by default, the teammate with the lowest Health) within range for 5s, recovering (500–1,060 + 20% Health) Health and 25% of max Mana to both self and that teammate for the duration. The link will be broken when it exceeds a certain distance. Recovery effects decrease to 20% upon attacking or being attacked. 1 use of Starburst is gained every 50s, and up to 2 can be stored at a time.\n(Cooldown: 5s)\nRoaming equipment active skill cooldown is shared by the team."
+          },
+          {
+            "kind": "passive",
+            "text": "Guardian Aura\nGrants 65–130 Physical Defense and Magical Defense, and restores 0.6% Health every 5s. Teammates within a range of 800 gain 50% of this effect.\nPassive - Reward\nMax Health +400–800\nMain Attack Stat +25–50\n(1 main attack stat = 1 Physical Attack or 2 Magical Attack)"
+          },
+          {
+            "kind": "passive",
+            "text": "Guerrilla\nEvery 3s, grants 6 EXP, and grants 6 Gold to the teammate with the lowest amount of Gold."
+          },
+          {
+            "kind": "passive",
+            "text": "Wielder does not take a share of the earnings from monster and minion kills, but instead gains a separate 25%-50% Gold and EXP (maxes out at the 20:00 mark).\nIf lane minions die and their Gold is not collected, 50% of the Gold will drop on the ground. Up to 600 Gold can be picked up."
+          },
+          {
+            "kind": "passive",
+            "text": "Can quickly switch between Guardian roaming equipment at no cost (Cooldown 300s)."
+          }
+        ],
+        "buildsFrom": [
+          "1714",
+          "1321"
+        ]
+      },
+      "parsedPt": {
+        "name": "Guardian - Starspring",
+        "cost": 2080,
+        "categoryLabel": "Suporte",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Vida",
+            "value": "+1.200"
+          },
+          {
+            "label": "Velocidade de Movimento",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "active",
+            "text": "Starburst\nCria por 5s um vínculo com um aliado no alcance (por padrão, o aliado com menos Vida), restaurando (500–1.060 + 20% da Vida) de Vida e 25% da Mana máxima tanto para o usuário quanto para esse aliado durante o efeito. O vínculo é rompido ao exceder certa distância. Os efeitos de recuperação diminuem para 20% ao atacar ou ser atacado. Ganha 1 uso de Starburst a cada 50s, podendo armazenar até 2 usos.\n(Recarga: 5s)\nA recarga da habilidade ativa dos equipamentos de Roaming é compartilhada pela equipe."
+          },
+          {
+            "kind": "passive",
+            "text": "Guardian Aura\nConcede 65–130 de Defesa Física e Defesa Mágica e restaura 0,6% de Vida a cada 5s. Aliados em um raio de 800 recebem 50% deste efeito.\nPassiva - Reward\nVida Máxima +400–800\nAtributo de Ataque Principal +25–50\n(1 atributo de ataque principal = 1 de Ataque Físico ou 2 de Ataque Mágico)"
+          },
+          {
+            "kind": "passive",
+            "text": "Guerrilla\nA cada 3s, concede 6 de EXP e 6 de Ouro ao aliado com a menor quantidade de Ouro."
+          },
+          {
+            "kind": "passive",
+            "text": "O usuário não recebe uma parte dos ganhos por abates de monstros e tropas, mas obtém separadamente 25%–50% de Ouro e EXP (atinge o máximo aos 20:00).\nSe tropas da rota morrerem e o Ouro delas não for coletado, 50% do Ouro cairá no chão. É possível coletar até 600 de Ouro."
+          },
+          {
+            "kind": "passive",
+            "text": "Pode alternar rapidamente entre equipamentos de Roaming Guardian sem custo (Recarga: 300s)."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1521",
+      "urlEn": "https://hokstats.gg/items/1521/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1521/",
+      "parsedEn": {
+        "name": "Guerrilla Machete",
+        "cost": 700,
+        "categoryLabel": "Jungle",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Magical Attack",
+            "value": "+40"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": [
+          "1511"
+        ]
+      },
+      "parsedPt": {
+        "name": "Guerrilla Machete",
+        "cost": 700,
+        "categoryLabel": "Selva",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Ataque Mágico",
+            "value": "+40"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1156",
+      "urlEn": "https://hokstats.gg/items/1156/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1156/",
+      "parsedEn": {
+        "name": "Haste - Sunpool",
+        "cost": 3320,
+        "categoryLabel": "Attack",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+40"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "+20%"
+          },
+          {
+            "label": "Critical Rate",
+            "value": "+15%"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Precision\nBasic Attack Damage +25 (doubled for ranged heroes)."
+          },
+          {
+            "kind": "active",
+            "text": "Daybreak\nIncreases Basic Attack range by 125 and Movement Speed by 40% for 5s, during which Basic Attacks deal 30% extra damage to 1 more nearby enemy. For melee heroes, only the Movement Speed bonus takes effect.\n(Cooldown: 75s)"
+          }
+        ],
+        "buildsFrom": [
+          "1141"
+        ]
+      },
+      "parsedPt": {
+        "name": "Haste - Sunpool",
+        "cost": 3320,
+        "categoryLabel": "Ataque",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+40"
+          },
+          {
+            "label": "Velocidade de Ataque",
+            "value": "+20%"
+          },
+          {
+            "label": "Taxa Crítica",
+            "value": "+15%"
+          },
+          {
+            "label": "Velocidade de Movimento",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Precision\nDano do Ataque Básico +25 (dobrado para heróis de ataque à distância)."
+          },
+          {
+            "kind": "active",
+            "text": "Daybreak\nAumenta o alcance do Ataque Básico em 125 e a Velocidade de Movimento em 40% por 5s. Durante esse período, Ataques Básicos causam 30% de dano adicional a mais 1 inimigo próximo. Para heróis corpo a corpo, apenas o bônus de Velocidade de Movimento entra em vigor.\n(Recarga: 75s)"
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1226",
+      "urlEn": "https://hokstats.gg/items/1226/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1226/",
+      "parsedEn": {
+        "name": "Holy Grail",
+        "cost": 2020,
+        "categoryLabel": "Magic",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Magical Attack",
+            "value": "+150"
+          },
+          {
+            "label": "Cooldown Reduction",
+            "value": "+15%"
+          },
+          {
+            "label": "Health",
+            "value": "+500"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Mana Spring\nRestores 1.5% max Mana and 0.5% max Health per second. If Mana is full, restores an extra 0.5% max Health per second."
+          }
+        ],
+        "buildsFrom": [
+          "1214",
+          "1317"
+        ]
+      },
+      "parsedPt": {
+        "name": "Holy Grail",
+        "cost": 2020,
+        "categoryLabel": "Magia",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Mágico",
+            "value": "+150"
+          },
+          {
+            "label": "Redução de Recarga",
+            "value": "+15%"
+          },
+          {
+            "label": "Vida",
+            "value": "+500"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Mana Spring\nRestaura 1,5% da Mana máxima e 0,5% da Vida máxima por segundo. Se a Mana estiver cheia, restaura mais 0,5% da Vida máxima por segundo."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1511",
+      "urlEn": "https://hokstats.gg/items/1511/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1511/",
+      "parsedEn": {
+        "name": "Hunting Knife",
+        "cost": 250,
+        "categoryLabel": "Jungle",
+        "tier": 1,
+        "stats": [],
+        "skills": [],
+        "buildsFrom": []
+      },
+      "parsedPt": {
+        "name": "Hunting Knife",
+        "cost": 250,
+        "categoryLabel": "Selva",
+        "tier": 1,
+        "stats": [],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1157",
+      "urlEn": "https://hokstats.gg/items/1157/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1157/",
+      "parsedEn": {
+        "name": "Immovable - Sky Dome",
+        "cost": 3280,
+        "categoryLabel": "Attack",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+80"
+          },
+          {
+            "label": "Cooldown Reduction",
+            "value": "+10%"
+          },
+          {
+            "label": "Physical Defense",
+            "value": "+150"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Maim\nSkills slow the first enemy hero hit by 10%–20% and reduce damage taken from that enemy by 20% for 3s.\n(Cooldown: 8s)"
+          },
+          {
+            "kind": "active",
+            "text": "Dispel\nRemoves all crowd control effects. Increases damage reduction by 35% and Movement Speed by 30% with terrain ignored for 3s. Defeating an enemy hero refreshes the effect duration.\n(Cooldown: 75s)"
+          }
+        ],
+        "buildsFrom": [
+          "11311"
+        ]
+      },
+      "parsedPt": {
+        "name": "Immovable - Sky Dome",
+        "cost": 3280,
+        "categoryLabel": "Ataque",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+80"
+          },
+          {
+            "label": "Redução de Recarga",
+            "value": "+10%"
+          },
+          {
+            "label": "Defesa Física",
+            "value": "+150"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Maim\nHabilidades desaceleram o primeiro herói inimigo atingido em 10%–20% e reduzem em 20% o dano recebido desse inimigo por 3s.\n(Recarga: 8s)"
+          },
+          {
+            "kind": "active",
+            "text": "Dispel\nRemove todos os efeitos de controle de grupo. Aumenta a redução de dano em 35% e a Velocidade de Movimento em 30%, ignorando o terreno, por 3s. Derrotar um herói inimigo reinicia a duração do efeito.\n(Recarga: 75s)"
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1240",
+      "urlEn": "https://hokstats.gg/items/1240/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1240/",
+      "parsedEn": {
+        "name": "Insatiable Tome",
+        "cost": 2060,
+        "categoryLabel": "Magic",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Magical Attack",
+            "value": "+160"
+          },
+          {
+            "label": "Health",
+            "value": "+750"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Arcane Conversion\nEvery 2% Magical Lifesteal grants an extra 1% Cooldown Reduction."
+          }
+        ],
+        "buildsFrom": [
+          "1222",
+          "1222"
+        ]
+      },
+      "parsedPt": {
+        "name": "Insatiable Tome",
+        "cost": 2060,
+        "categoryLabel": "Magia",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Mágico",
+            "value": "+160"
+          },
+          {
+            "label": "Vida",
+            "value": "+750"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Arcane Conversion\nCada 2% de Roubo de Vida Mágico concede 1% adicional de Redução de Recarga."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1111",
+      "urlEn": "https://hokstats.gg/items/1111/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1111/",
+      "parsedEn": {
+        "name": "Iron Sword",
+        "cost": 275,
+        "categoryLabel": "Attack",
+        "tier": 1,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+20"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      },
+      "parsedPt": {
+        "name": "Iron Sword",
+        "cost": 275,
+        "categoryLabel": "Ataque",
+        "tier": 1,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+20"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1701",
+      "urlEn": "https://hokstats.gg/items/1701/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1701/",
+      "parsedEn": {
+        "name": "Knowledge Gem",
+        "cost": 300,
+        "categoryLabel": "Support",
+        "tier": 1,
+        "stats": [
+          {
+            "label": "Movement Speed",
+            "value": "+5%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      },
+      "parsedPt": {
+        "name": "Knowledge Gem",
+        "cost": 300,
+        "categoryLabel": "Suporte",
+        "tier": 1,
+        "stats": [
+          {
+            "label": "Velocidade de Movimento",
+            "value": "+5%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1411",
+      "urlEn": "https://hokstats.gg/items/1411/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1411/",
+      "parsedEn": {
+        "name": "Lightfoot Shoes",
+        "cost": 250,
+        "categoryLabel": "Movement",
+        "tier": 1,
+        "stats": [],
+        "skills": [],
+        "buildsFrom": []
+      },
+      "parsedPt": {
+        "name": "Lightfoot Shoes",
+        "cost": 250,
+        "categoryLabel": "Movimento",
+        "tier": 1,
+        "stats": [],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1347",
+      "urlEn": "https://hokstats.gg/items/1347/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1347/",
+      "parsedEn": {
+        "name": "Longnight Guardian",
+        "cost": 2020,
+        "categoryLabel": "Defense",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Magical Defense",
+            "value": "+210"
+          },
+          {
+            "label": "Health",
+            "value": "+1,000"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Guardian\nWhen taking damage exceeding 30% max Health within 3s, restores a total of (320 + 8% Health) Health over 3s.\n(Cooldown: 7s)"
+          }
+        ],
+        "buildsFrom": [
+          "1323",
+          "13211"
+        ]
+      },
+      "parsedPt": {
+        "name": "Longnight Guardian",
+        "cost": 2020,
+        "categoryLabel": "Defesa",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Defesa Mágica",
+            "value": "+210"
+          },
+          {
+            "label": "Vida",
+            "value": "+1.000"
+          },
+          {
+            "label": "Velocidade de Movimento",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Guardian\nAo sofrer dano superior a 30% da Vida máxima em 3s, restaura um total de (320 + 8% da Vida) ao longo de 3s.\n(Recarga: 7s)"
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1235",
+      "urlEn": "https://hokstats.gg/items/1235/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1235/",
+      "parsedEn": {
+        "name": "Mask of Agony",
+        "cost": 2080,
+        "categoryLabel": "Magic",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Magical Attack",
+            "value": "+100"
+          },
+          {
+            "label": "Cooldown Reduction",
+            "value": "+7.5%"
+          },
+          {
+            "label": "Health",
+            "value": "+900"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Torment\nWhen a skill hits a target, deals magical damage equal to 3% of their current Health 4 times over 3s (damage capped at 200 against monsters).\n(Cooldown: 3s)"
+          }
+        ],
+        "buildsFrom": [
+          "1243",
+          "1317"
+        ]
+      },
+      "parsedPt": {
+        "name": "Mask of Agony",
+        "cost": 2080,
+        "categoryLabel": "Magia",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Mágico",
+            "value": "+100"
+          },
+          {
+            "label": "Redução de Recarga",
+            "value": "+7.5%"
+          },
+          {
+            "label": "Vida",
+            "value": "+900"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Torment\nQuando uma habilidade atinge um alvo, causa dano mágico equivalente a 3% da Vida atual dele 4 vezes ao longo de 3s (dano limitado a 200 contra monstros).\n(Recarga: 3s)"
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1134",
+      "urlEn": "https://hokstats.gg/items/1134/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1134/",
+      "parsedEn": {
+        "name": "Master Sword",
+        "cost": 2100,
+        "categoryLabel": "Attack",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+55"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "+15%"
+          },
+          {
+            "label": "Critical Rate",
+            "value": "+20%"
+          },
+          {
+            "label": "Health",
+            "value": "+600"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Savagery\nCasting a skill increases Movement Speed by 12% for 2s and the physical damage of the next Basic Attack within 5s by (80% Physical Attack).\n(Cooldown: 3s)"
+          }
+        ],
+        "buildsFrom": [
+          "1116"
+        ]
+      },
+      "parsedPt": {
+        "name": "Master Sword",
+        "cost": 2100,
+        "categoryLabel": "Ataque",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+55"
+          },
+          {
+            "label": "Velocidade de Ataque",
+            "value": "+15%"
+          },
+          {
+            "label": "Taxa Crítica",
+            "value": "+20%"
+          },
+          {
+            "label": "Vida",
+            "value": "+600"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Savagery\nUsar uma habilidade aumenta a Velocidade de Movimento em 12% por 2s e o dano físico do próximo Ataque Básico realizado dentro de 5s em (80% do Ataque Físico).\n(Recarga: 3s)"
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1124",
+      "urlEn": "https://hokstats.gg/items/1124/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1124/",
+      "parsedEn": {
+        "name": "Meteor",
+        "cost": 760,
+        "categoryLabel": "Attack",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+35"
+          },
+          {
+            "label": "Cooldown Reduction",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": [
+          "1111",
+          "1218"
+        ]
+      },
+      "parsedPt": {
+        "name": "Meteor",
+        "cost": 760,
+        "categoryLabel": "Ataque",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+35"
+          },
+          {
+            "label": "Redução de Recarga",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "13211",
+      "urlEn": "https://hokstats.gg/items/13211/",
+      "urlPt": "https://hokstats.gg/pt-br/items/13211/",
+      "parsedEn": {
+        "name": "Mirror of Radiance",
+        "cost": 800,
+        "categoryLabel": "Defense",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Health",
+            "value": "+450"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": [
+          "1311",
+          "11110"
+        ]
+      },
+      "parsedPt": {
+        "name": "Mirror of Radiance",
+        "cost": 800,
+        "categoryLabel": "Defesa",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Vida",
+            "value": "+450"
+          },
+          {
+            "label": "Velocidade de Movimento",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "11210",
+      "urlEn": "https://hokstats.gg/items/11210/",
+      "urlPt": "https://hokstats.gg/pt-br/items/11210/",
+      "parsedEn": {
+        "name": "Mortal Punisher",
+        "cost": 2080,
+        "categoryLabel": "Attack",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+100"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "+20%"
+          },
+          {
+            "label": "Physical Lifesteal",
+            "value": "+20%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Revive\nRecovers 375–750 Health over 5s when Health drops below 30%.\n(Cooldown: 20s)"
+          },
+          {
+            "kind": "passive",
+            "text": "Imperil\nWhen a Basic Attack or skill hits an enemy, it reduces their Health recovery and Lifesteal by 35%. Lasts 2.5s."
+          }
+        ],
+        "buildsFrom": [
+          "1158",
+          "1129"
+        ]
+      },
+      "parsedPt": {
+        "name": "Mortal Punisher",
+        "cost": 2080,
+        "categoryLabel": "Ataque",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+100"
+          },
+          {
+            "label": "Velocidade de Ataque",
+            "value": "+20%"
+          },
+          {
+            "label": "Roubo de Vida Físico",
+            "value": "+20%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Revive\nRecupera 375–750 de Vida ao longo de 5s quando a Vida cai abaixo de 30%.\n(Recarga: 20s)"
+          },
+          {
+            "kind": "passive",
+            "text": "Imperil\nQuando um Ataque Básico ou habilidade atinge um inimigo, reduz a recuperação de Vida e o Roubo de Vida dele em 35%. Dura 2,5s."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1217",
+      "urlEn": "https://hokstats.gg/items/1217/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1217/",
+      "parsedEn": {
+        "name": "Mystic Page",
+        "cost": 300,
+        "categoryLabel": "Magic",
+        "tier": 1,
+        "stats": [],
+        "skills": [],
+        "buildsFrom": []
+      },
+      "parsedPt": {
+        "name": "Mystic Page",
+        "cost": 300,
+        "categoryLabel": "Magia",
+        "tier": 1,
+        "stats": [],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1243",
+      "urlEn": "https://hokstats.gg/items/1243/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1243/",
+      "parsedEn": {
+        "name": "Nebulon Wood",
+        "cost": 840,
+        "categoryLabel": "Magic",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Magical Attack",
+            "value": "+60"
+          },
+          {
+            "label": "Health",
+            "value": "+450"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": [
+          "1211",
+          "1311"
+        ]
+      },
+      "parsedPt": {
+        "name": "Nebulon Wood",
+        "cost": 840,
+        "categoryLabel": "Magia",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Ataque Mágico",
+            "value": "+60"
+          },
+          {
+            "label": "Vida",
+            "value": "+450"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1345",
+      "urlEn": "https://hokstats.gg/items/1345/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1345/",
+      "parsedEn": {
+        "name": "Nettle Gauntlet",
+        "cost": 750,
+        "categoryLabel": "Defense",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+35"
+          },
+          {
+            "label": "Physical Defense",
+            "value": "+150"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": [
+          "1312",
+          "1111"
+        ]
+      },
+      "parsedPt": {
+        "name": "Nettle Gauntlet",
+        "cost": 750,
+        "categoryLabel": "Defesa",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+35"
+          },
+          {
+            "label": "Defesa Física",
+            "value": "+150"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1333",
+      "urlEn": "https://hokstats.gg/items/1333/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1333/",
+      "parsedEn": {
+        "name": "Ominous Premonition",
+        "cost": 2020,
+        "categoryLabel": "Defense",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Physical Defense",
+            "value": "+300"
+          },
+          {
+            "label": "Health",
+            "value": "+1,200"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Cold Steel\nWhen taking damage, reduces the attacker's Attack Speed by 20%–40% and Movement Speed by 7.5%–15% for 2.5s.\n(Cooldown: 3s per target)"
+          }
+        ],
+        "buildsFrom": [
+          "1325",
+          "1325"
+        ]
+      },
+      "parsedPt": {
+        "name": "Ominous Premonition",
+        "cost": 2020,
+        "categoryLabel": "Defesa",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Defesa Física",
+            "value": "+300"
+          },
+          {
+            "label": "Vida",
+            "value": "+1.200"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Cold Steel\nAo sofrer dano, reduz a Velocidade de Ataque do agressor em 20%–40% e a Velocidade de Movimento em 7,5%–15% por 2,5s.\n(Recarga: 3s por alvo)"
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1138",
+      "urlEn": "https://hokstats.gg/items/1138/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1138/",
+      "parsedEn": {
+        "name": "Overlord's Might",
+        "cost": 2540,
+        "categoryLabel": "Attack",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+150"
+          },
+          {
+            "label": "Cooldown Reduction",
+            "value": "+5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Siege Breaker\nDeals 30% extra damage to enemies below 50% Health."
+          }
+        ],
+        "buildsFrom": [
+          "1121",
+          "1121"
+        ]
+      },
+      "parsedPt": {
+        "name": "Overlord's Might",
+        "cost": 2540,
+        "categoryLabel": "Ataque",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+150"
+          },
+          {
+            "label": "Redução de Recarga",
+            "value": "+5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Siege Breaker\nCausa 30% de dano adicional a inimigos com menos de 50% de Vida."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1332",
+      "urlEn": "https://hokstats.gg/items/1332/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1332/",
+      "parsedEn": {
+        "name": "Overlord's Platemail",
+        "cost": 2450,
+        "categoryLabel": "Defense",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Physical Defense",
+            "value": "+160"
+          },
+          {
+            "label": "Magical Defense",
+            "value": "+80"
+          },
+          {
+            "label": "Health",
+            "value": "+1,800"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Fated\nIncreases Health by 4%."
+          },
+          {
+            "kind": "passive",
+            "text": "Recovery\nRecovers 0.5% Health every second. Recovery effect is doubled after 3s if not attacked by an enemy hero or tower."
+          }
+        ],
+        "buildsFrom": [
+          "1321",
+          "1321"
+        ]
+      },
+      "parsedPt": {
+        "name": "Overlord's Platemail",
+        "cost": 2450,
+        "categoryLabel": "Defesa",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Defesa Física",
+            "value": "+160"
+          },
+          {
+            "label": "Defesa Mágica",
+            "value": "+80"
+          },
+          {
+            "label": "Vida",
+            "value": "+1.800"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Fated\nAumenta a Vida em 4%."
+          },
+          {
+            "kind": "passive",
+            "text": "Recovery\nRecupera 0,5% da Vida a cada segundo. O efeito de recuperação é dobrado após 3s sem ser atacado por um herói inimigo ou torre."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1522",
+      "urlEn": "https://hokstats.gg/items/1522/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1522/",
+      "parsedEn": {
+        "name": "Patrol Axe",
+        "cost": 700,
+        "categoryLabel": "Jungle",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Health",
+            "value": "+400"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": [
+          "1511"
+        ]
+      },
+      "parsedPt": {
+        "name": "Patrol Axe",
+        "cost": 700,
+        "categoryLabel": "Selva",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Vida",
+            "value": "+400"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "11110",
+      "urlEn": "https://hokstats.gg/items/11110/",
+      "urlPt": "https://hokstats.gg/pt-br/items/11110/",
+      "parsedEn": {
+        "name": "Plume of Enchantment",
+        "cost": 300,
+        "categoryLabel": "Attack",
+        "tier": 1,
+        "stats": [
+          {
+            "label": "Movement Speed",
+            "value": "+5%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      },
+      "parsedPt": {
+        "name": "Plume of Enchantment",
+        "cost": 300,
+        "categoryLabel": "Ataque",
+        "tier": 1,
+        "stats": [
+          {
+            "label": "Velocidade de Movimento",
+            "value": "+5%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1218",
+      "urlEn": "https://hokstats.gg/items/1218/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1218/",
+      "parsedEn": {
+        "name": "Primordial Crystal",
+        "cost": 300,
+        "categoryLabel": "Magic",
+        "tier": 1,
+        "stats": [
+          {
+            "label": "Cooldown Reduction",
+            "value": "+5%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      },
+      "parsedPt": {
+        "name": "Primordial Crystal",
+        "cost": 300,
+        "categoryLabel": "Magia",
+        "tier": 1,
+        "stats": [
+          {
+            "label": "Redução de Recarga",
+            "value": "+5%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1325",
+      "urlEn": "https://hokstats.gg/items/1325/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1325/",
+      "parsedEn": {
+        "name": "Protector's Cuirass",
+        "cost": 800,
+        "categoryLabel": "Defense",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Physical Defense",
+            "value": "+150"
+          },
+          {
+            "label": "Health",
+            "value": "+450"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": [
+          "1312",
+          "1311"
+        ]
+      },
+      "parsedPt": {
+        "name": "Protector's Cuirass",
+        "cost": 800,
+        "categoryLabel": "Defesa",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Defesa Física",
+            "value": "+150"
+          },
+          {
+            "label": "Vida",
+            "value": "+450"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1113",
+      "urlEn": "https://hokstats.gg/items/1113/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1113/",
+      "parsedEn": {
+        "name": "Pugilist's Gauntlet",
+        "cost": 300,
+        "categoryLabel": "Attack",
+        "tier": 1,
+        "stats": [
+          {
+            "label": "Critical Rate",
+            "value": "+8%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      },
+      "parsedPt": {
+        "name": "Pugilist's Gauntlet",
+        "cost": 300,
+        "categoryLabel": "Ataque",
+        "tier": 1,
+        "stats": [
+          {
+            "label": "Taxa Crítica",
+            "value": "+8%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "11311",
+      "urlEn": "https://hokstats.gg/items/11311/",
+      "urlPt": "https://hokstats.gg/pt-br/items/11311/",
+      "parsedEn": {
+        "name": "Pure Sky",
+        "cost": 2140,
+        "categoryLabel": "Attack",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+80"
+          },
+          {
+            "label": "Cooldown Reduction",
+            "value": "+10%"
+          },
+          {
+            "label": "Physical Defense",
+            "value": "+150"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Maim\nSkills slow the first enemy hero hit by 10%–20% and reduce damage taken from that enemy by 20% for 3s.\n(Cooldown: 8s)"
+          },
+          {
+            "kind": "active",
+            "text": "Dispel\nGrants 30% damage reduction for 3s.\n(Cooldown: 75s)"
+          }
+        ],
+        "buildsFrom": [
+          "1124",
+          "1345"
+        ]
+      },
+      "parsedPt": {
+        "name": "Pure Sky",
+        "cost": 2140,
+        "categoryLabel": "Ataque",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+80"
+          },
+          {
+            "label": "Redução de Recarga",
+            "value": "+10%"
+          },
+          {
+            "label": "Defesa Física",
+            "value": "+150"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Maim\nHabilidades desaceleram o primeiro herói inimigo atingido em 10%–20% e reduzem em 20% o dano recebido desse inimigo por 3s.\n(Recarga: 8s)"
+          },
+          {
+            "kind": "active",
+            "text": "Dispel\nConcede 30% de redução de dano por 3s.\n(Recarga: 75s)"
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1533",
+      "urlEn": "https://hokstats.gg/items/1533/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1533/",
+      "parsedEn": {
+        "name": "Rapacious Bite",
+        "cost": 2160,
+        "categoryLabel": "Jungle",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+90"
+          },
+          {
+            "label": "Cooldown Reduction",
+            "value": "+7.5%"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "+5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Requires Smite to purchase. Reduces damage from monsters by 25% and grants 30% more EXP and 20% more Gold from monsters."
+          },
+          {
+            "kind": "passive",
+            "text": "Hunter\nWhen a Basic Attack or a skill hits a monster, it takes 90–180 + (0.6% of the target's Health) physical damage every 0.5s for 2s (ranged attacks deal 50% of this damage, and heroes only take 25% damage)."
+          },
+          {
+            "kind": "passive",
+            "text": "Reward\nIncreases Physical Attack by 3 and Cooldown Reduction by 0.2% whenever you or a teammate within a range of 700 units kills a monster, for up to 25 stacks."
+          },
+          {
+            "kind": "passive",
+            "text": "Before 10:00: Deals 25% less damage to minions."
+          }
+        ],
+        "buildsFrom": [
+          "1523",
+          "1124"
+        ]
+      },
+      "parsedPt": {
+        "name": "Rapacious Bite",
+        "cost": 2160,
+        "categoryLabel": "Selva",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+90"
+          },
+          {
+            "label": "Redução de Recarga",
+            "value": "+7.5%"
+          },
+          {
+            "label": "Velocidade de Movimento",
+            "value": "+5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Requer Smite para ser comprado. Reduz em 25% o dano recebido de monstros e concede 30% mais EXP e 20% mais Ouro de monstros."
+          },
+          {
+            "kind": "passive",
+            "text": "Hunter\nQuando um Ataque Básico ou habilidade atinge um monstro, ele sofre 90–180 + (0,6% da Vida do alvo) de dano físico a cada 0,5s por 2s (ataques à distância causam 50% desse dano, e heróis recebem apenas 25% do dano)."
+          },
+          {
+            "kind": "passive",
+            "text": "Reward\nAumenta o Ataque Físico em 3 e a Redução de Recarga em 0,2% sempre que você ou um aliado em um raio de 700 unidades abate um monstro, acumulando até 25 vezes."
+          },
+          {
+            "kind": "passive",
+            "text": "Antes de 10:00: causa 25% menos dano a tropas."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1350",
+      "urlEn": "https://hokstats.gg/items/1350/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1350/",
+      "parsedEn": {
+        "name": "Ravage - Phantom",
+        "cost": 3350,
+        "categoryLabel": "Defense",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+75"
+          },
+          {
+            "label": "Health",
+            "value": "+900"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Apoplexy\nBasic Attacks deal an extra (1.5% Health) physical damage. When Health drops below 50%, the damage increases by 37.5%–75%."
+          },
+          {
+            "kind": "active",
+            "text": "Blood Fury\nGradually depletes 30% of current Health while progressively granting a shield that negates damage equal to 50% of Health, and deals 4% of Health as magical damage (capped at 200 against monsters) to surrounding enemies per second for 4s.\n(Cooldown: 75s)"
+          }
+        ],
+        "buildsFrom": [
+          "1328"
+        ]
+      },
+      "parsedPt": {
+        "name": "Ravage - Phantom",
+        "cost": 3350,
+        "categoryLabel": "Defesa",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+75"
+          },
+          {
+            "label": "Vida",
+            "value": "+900"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Apoplexy\nAtaques Básicos causam dano físico adicional equivalente a (1,5% da Vida). Quando a Vida cai abaixo de 50%, o dano aumenta em 37,5%–75%."
+          },
+          {
+            "kind": "active",
+            "text": "Blood Fury\nConsome gradualmente 30% da Vida atual enquanto concede progressivamente um escudo que anula dano equivalente a 50% da Vida e causa, por segundo durante 4s, dano mágico equivalente a 4% da Vida aos inimigos próximos (limitado a 200 contra monstros).\n(Recarga: 75s)"
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1523",
+      "urlEn": "https://hokstats.gg/items/1523/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1523/",
+      "parsedEn": {
+        "name": "Relentless Blade",
+        "cost": 700,
+        "categoryLabel": "Jungle",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+25"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": [
+          "1511"
+        ]
+      },
+      "parsedPt": {
+        "name": "Relentless Blade",
+        "cost": 700,
+        "categoryLabel": "Selva",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+25"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1311",
+      "urlEn": "https://hokstats.gg/items/1311/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1311/",
+      "parsedEn": {
+        "name": "Resilient Agate",
+        "cost": 300,
+        "categoryLabel": "Defense",
+        "tier": 1,
+        "stats": [
+          {
+            "label": "Health",
+            "value": "+300"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      },
+      "parsedPt": {
+        "name": "Resilient Agate",
+        "cost": 300,
+        "categoryLabel": "Defesa",
+        "tier": 1,
+        "stats": [
+          {
+            "label": "Vida",
+            "value": "+300"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1531",
+      "urlEn": "https://hokstats.gg/items/1531/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1531/",
+      "parsedEn": {
+        "name": "Runeblade",
+        "cost": 2160,
+        "categoryLabel": "Jungle",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Magical Attack",
+            "value": "+130"
+          },
+          {
+            "label": "Cooldown Reduction",
+            "value": "+10%"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "+5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Requires Smite to purchase. Reduces damage from monsters by 25% and grants 30% more EXP and 20% more Gold from monsters."
+          },
+          {
+            "kind": "passive",
+            "text": "Hunter\nWhen a Basic Attack or a skill hits a monster, it takes 90–180 + (0.6% of the target's Health) magical damage every 0.5s for 2s (ranged attacks deal 50% of this damage, and heroes only take 25% damage)."
+          },
+          {
+            "kind": "passive",
+            "text": "Reward\nIncreases Magical Attack by 6 and Cooldown Reduction by 0.2% whenever you or a teammate within a range of 700 units kills a monster, for up to 25 stacks."
+          },
+          {
+            "kind": "passive",
+            "text": "Before 10:00: Deals 25% less damage to minions."
+          }
+        ],
+        "buildsFrom": [
+          "1521",
+          "1214"
+        ]
+      },
+      "parsedPt": {
+        "name": "Runeblade",
+        "cost": 2160,
+        "categoryLabel": "Selva",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Mágico",
+            "value": "+130"
+          },
+          {
+            "label": "Redução de Recarga",
+            "value": "+10%"
+          },
+          {
+            "label": "Velocidade de Movimento",
+            "value": "+5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Requer Smite para ser comprado. Reduz em 25% o dano recebido de monstros e concede 30% mais EXP e 20% mais Ouro de monstros."
+          },
+          {
+            "kind": "passive",
+            "text": "Hunter\nQuando um Ataque Básico ou habilidade atinge um monstro, ele sofre 90–180 + (0,6% da Vida do alvo) de dano mágico a cada 0,5s por 2s (ataques à distância causam 50% desse dano, e heróis recebem apenas 25% do dano)."
+          },
+          {
+            "kind": "passive",
+            "text": "Reward\nAumenta o Ataque Mágico em 6 e a Redução de Recarga em 0,2% sempre que você ou um aliado em um raio de 700 unidades abate um monstro, acumulando até 25 vezes."
+          },
+          {
+            "kind": "passive",
+            "text": "Antes de 10:00: causa 25% menos dano a tropas."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1214",
+      "urlEn": "https://hokstats.gg/items/1214/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1214/",
+      "parsedEn": {
+        "name": "Sage's Codex",
+        "cost": 800,
+        "categoryLabel": "Magic",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Magical Attack",
+            "value": "+60"
+          },
+          {
+            "label": "Cooldown Reduction",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": [
+          "1211",
+          "1218"
+        ]
+      },
+      "parsedPt": {
+        "name": "Sage's Codex",
+        "cost": 800,
+        "categoryLabel": "Magia",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Ataque Mágico",
+            "value": "+60"
+          },
+          {
+            "label": "Redução de Recarga",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1337",
+      "urlEn": "https://hokstats.gg/items/1337/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1337/",
+      "parsedEn": {
+        "name": "Sage's Sanctuary",
+        "cost": 2280,
+        "categoryLabel": "Defense",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Cooldown Reduction",
+            "value": "+5%"
+          },
+          {
+            "label": "Physical Defense",
+            "value": "+150"
+          },
+          {
+            "label": "Magical Defense",
+            "value": "+150"
+          },
+          {
+            "label": "Health",
+            "value": "+900"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Revive\nResurrects the wearer 2s after dying and restores 2,000–3,000 Health. This effect can be triggered up to 2 times per match.\n(Cooldown: 150s)"
+          }
+        ],
+        "buildsFrom": [
+          "1321"
+        ]
+      },
+      "parsedPt": {
+        "name": "Sage's Sanctuary",
+        "cost": 2280,
+        "categoryLabel": "Defesa",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Redução de Recarga",
+            "value": "+5%"
+          },
+          {
+            "label": "Defesa Física",
+            "value": "+150"
+          },
+          {
+            "label": "Defesa Mágica",
+            "value": "+150"
+          },
+          {
+            "label": "Vida",
+            "value": "+900"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Revive\nRessuscita o usuário 2s após a morte e restaura 2.000–3.000 de Vida. Este efeito pode ser ativado até 2 vezes por partida.\n(Recarga: 150s)"
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1238",
+      "urlEn": "https://hokstats.gg/items/1238/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1238/",
+      "parsedEn": {
+        "name": "Sage's Tome",
+        "cost": 2610,
+        "categoryLabel": "Magic",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Magical Attack",
+            "value": "+350"
+          },
+          {
+            "label": "Cooldown Reduction",
+            "value": "+10%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Enlightenment\nEvery 100 Magical Attack increases damage dealt by 0.5% and grants 0.5% damage reduction."
+          }
+        ],
+        "buildsFrom": [
+          "1221",
+          "1214"
+        ]
+      },
+      "parsedPt": {
+        "name": "Sage's Tome",
+        "cost": 2610,
+        "categoryLabel": "Magia",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Mágico",
+            "value": "+350"
+          },
+          {
+            "label": "Redução de Recarga",
+            "value": "+10%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Enlightenment\nCada 100 de Ataque Mágico aumenta o dano causado em 0,5% e concede 0,5% de redução de dano."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1232",
+      "urlEn": "https://hokstats.gg/items/1232/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1232/",
+      "parsedEn": {
+        "name": "Savant's Wrath",
+        "cost": 2140,
+        "categoryLabel": "Magic",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Magical Attack",
+            "value": "+210"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Doom\nMagical Attack +30%"
+          }
+        ],
+        "buildsFrom": [
+          "1221",
+          "1221"
+        ]
+      },
+      "parsedPt": {
+        "name": "Savant's Wrath",
+        "cost": 2140,
+        "categoryLabel": "Magia",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Mágico",
+            "value": "+210"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Doom\nAtaque Mágico +30%"
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1233",
+      "urlEn": "https://hokstats.gg/items/1233/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1233/",
+      "parsedEn": {
+        "name": "Scepter of Reverberation",
+        "cost": 2100,
+        "categoryLabel": "Magic",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Magical Attack",
+            "value": "+210"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Echo\nTriggers an explosion when landing a skill hit, dealing (140–280 + 28% Magical Attack) magical damage.\n(Cooldown: 5s)"
+          }
+        ],
+        "buildsFrom": [
+          "1224",
+          "1221"
+        ]
+      },
+      "parsedPt": {
+        "name": "Scepter of Reverberation",
+        "cost": 2100,
+        "categoryLabel": "Magia",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Mágico",
+            "value": "+210"
+          },
+          {
+            "label": "Velocidade de Movimento",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Echo\nProvoca uma explosão ao acertar uma habilidade, causando (140–280 + 28% do Ataque Mágico) de dano mágico.\n(Recarga: 5s)"
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1136",
+      "urlEn": "https://hokstats.gg/items/1136/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1136/",
+      "parsedEn": {
+        "name": "Shadow Ripper",
+        "cost": 2040,
+        "categoryLabel": "Attack",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+45"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "+35%"
+          },
+          {
+            "label": "Critical Rate",
+            "value": "+20%"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Storm Strike\nAfter landing a critical hit, increases Attack Speed by 20% and Movement Speed by 5% for 3.5s."
+          }
+        ],
+        "buildsFrom": [
+          "1116",
+          "1123"
+        ]
+      },
+      "parsedPt": {
+        "name": "Shadow Ripper",
+        "cost": 2040,
+        "categoryLabel": "Ataque",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+45"
+          },
+          {
+            "label": "Velocidade de Ataque",
+            "value": "+35%"
+          },
+          {
+            "label": "Taxa Crítica",
+            "value": "+20%"
+          },
+          {
+            "label": "Velocidade de Movimento",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Storm Strike\nApós acertar um golpe crítico, aumenta a Velocidade de Ataque em 20% e a Velocidade de Movimento em 5% por 3,5s."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1135",
+      "urlEn": "https://hokstats.gg/items/1135/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1135/",
+      "parsedEn": {
+        "name": "Sparkforged Dagger",
+        "cost": 2040,
+        "categoryLabel": "Attack",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+40"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "+35%"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Spark\nBasic Attacks deal 40–80 extra magical damage. Every third Basic Attack unleashes chain lightning that deals 160–400 magical damage."
+          }
+        ],
+        "buildsFrom": [
+          "1129",
+          "1123"
+        ]
+      },
+      "parsedPt": {
+        "name": "Sparkforged Dagger",
+        "cost": 2040,
+        "categoryLabel": "Ataque",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+40"
+          },
+          {
+            "label": "Velocidade de Ataque",
+            "value": "+35%"
+          },
+          {
+            "label": "Velocidade de Movimento",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Spark\nAtaques Básicos causam 40–80 de dano mágico adicional. A cada terceiro Ataque Básico, libera um relâmpago em cadeia que causa 160–400 de dano mágico."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1211",
+      "urlEn": "https://hokstats.gg/items/1211/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1211/",
+      "parsedEn": {
+        "name": "Spell Tome",
+        "cost": 275,
+        "categoryLabel": "Magic",
+        "tier": 1,
+        "stats": [
+          {
+            "label": "Magical Attack",
+            "value": "+35"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      },
+      "parsedPt": {
+        "name": "Spell Tome",
+        "cost": 275,
+        "categoryLabel": "Magia",
+        "tier": 1,
+        "stats": [
+          {
+            "label": "Ataque Mágico",
+            "value": "+35"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1327",
+      "urlEn": "https://hokstats.gg/items/1327/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1327/",
+      "parsedEn": {
+        "name": "Spikemail",
+        "cost": 2020,
+        "categoryLabel": "Defense",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+45"
+          },
+          {
+            "label": "Physical Defense",
+            "value": "+300"
+          },
+          {
+            "label": "Health",
+            "value": "+700"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "active",
+            "text": "Countersiege\nEnters the Countersiege state for 3s, reflecting 35% of damage taken back at the enemy as true damage.\n(Damage diminishes with distance, down to 50%.)\n(Cooldown: 75s)"
+          }
+        ],
+        "buildsFrom": [
+          "1345",
+          "1325"
+        ]
+      },
+      "parsedPt": {
+        "name": "Spikemail",
+        "cost": 2020,
+        "categoryLabel": "Defesa",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+45"
+          },
+          {
+            "label": "Defesa Física",
+            "value": "+300"
+          },
+          {
+            "label": "Vida",
+            "value": "+700"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "active",
+            "text": "Countersiege\nEntra no estado Countersiege por 3s, refletindo 35% do dano recebido de volta ao inimigo como dano verdadeiro.\n(O dano diminui com a distância, até 50%.)\n(Recarga: 75s)"
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1239",
+      "urlEn": "https://hokstats.gg/items/1239/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1239/",
+      "parsedEn": {
+        "name": "Splendor",
+        "cost": 2080,
+        "categoryLabel": "Magic",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Magical Attack",
+            "value": "+160"
+          },
+          {
+            "label": "Cooldown Reduction",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "active",
+            "text": "Moonguard\nGrants immunity to all effects, but renders the user unable to move, attack, or use skills for 1.5s.\n(Cooldown: 75s)"
+          }
+        ],
+        "buildsFrom": [
+          "1222",
+          "1214"
+        ]
+      },
+      "parsedPt": {
+        "name": "Splendor",
+        "cost": 2080,
+        "categoryLabel": "Magia",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Ataque Mágico",
+            "value": "+160"
+          },
+          {
+            "label": "Redução de Recarga",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "active",
+            "text": "Moonguard\nConcede imunidade a todos os efeitos, mas impede o usuário de se mover, atacar ou usar habilidades por 1,5s.\n(Recarga: 75s)"
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1131",
+      "urlEn": "https://hokstats.gg/items/1131/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1131/",
+      "parsedEn": {
+        "name": "Starbreaker",
+        "cost": 2080,
+        "categoryLabel": "Attack",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+90"
+          },
+          {
+            "label": "Health",
+            "value": "+700"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Sunder\nGrants 30% Physical Pierce."
+          }
+        ],
+        "buildsFrom": [
+          "1122"
+        ]
+      },
+      "parsedPt": {
+        "name": "Starbreaker",
+        "cost": 2080,
+        "categoryLabel": "Ataque",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+90"
+          },
+          {
+            "label": "Vida",
+            "value": "+700"
+          },
+          {
+            "label": "Velocidade de Movimento",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Sunder\nConcede 30% de Perfuração Física."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1236",
+      "urlEn": "https://hokstats.gg/items/1236/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1236/",
+      "parsedEn": {
+        "name": "Staves of Sorcery",
+        "cost": 2080,
+        "categoryLabel": "Magic",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Magical Attack",
+            "value": "+180"
+          },
+          {
+            "label": "Mana",
+            "value": "+300"
+          },
+          {
+            "label": "Health",
+            "value": "+600"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Savagery\nThe next Basic Attack within 5s after casting a skill deals (180–360 + 40% Magical Attack) extra magical damage.\n(Cooldown: 2.5s)"
+          }
+        ],
+        "buildsFrom": [
+          "1224",
+          "1243"
+        ]
+      },
+      "parsedPt": {
+        "name": "Staves of Sorcery",
+        "cost": 2080,
+        "categoryLabel": "Magia",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Mágico",
+            "value": "+180"
+          },
+          {
+            "label": "Mana",
+            "value": "+300"
+          },
+          {
+            "label": "Vida",
+            "value": "+600"
+          },
+          {
+            "label": "Velocidade de Movimento",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Savagery\nO próximo Ataque Básico realizado dentro de 5s após usar uma habilidade causa (180–360 + 40% do Ataque Mágico) de dano mágico adicional.\n(Recarga: 2,5s)"
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1224",
+      "urlEn": "https://hokstats.gg/items/1224/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1224/",
+      "parsedEn": {
+        "name": "Stone of Sorcery",
+        "cost": 800,
+        "categoryLabel": "Magic",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Magical Attack",
+            "value": "+60"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": [
+          "1211",
+          "11110"
+        ]
+      },
+      "parsedPt": {
+        "name": "Stone of Sorcery",
+        "cost": 800,
+        "categoryLabel": "Magia",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Ataque Mágico",
+            "value": "+60"
+          },
+          {
+            "label": "Velocidade de Movimento",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1121",
+      "urlEn": "https://hokstats.gg/items/1121/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1121/",
+      "parsedEn": {
+        "name": "Storm Sword",
+        "cost": 850,
+        "categoryLabel": "Attack",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+75"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": [
+          "1111",
+          "1111"
+        ]
+      },
+      "parsedPt": {
+        "name": "Storm Sword",
+        "cost": 850,
+        "categoryLabel": "Ataque",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+75"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1335",
+      "urlEn": "https://hokstats.gg/items/1335/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1335/",
+      "parsedEn": {
+        "name": "Succubus Cloak",
+        "cost": 2020,
+        "categoryLabel": "Defense",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Magical Defense",
+            "value": "+300"
+          },
+          {
+            "label": "Health",
+            "value": "+1,100"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Mist Veil\nGrants a shield that negates 400–800 (+7% extra Health) magical damage every 15s."
+          },
+          {
+            "kind": "passive",
+            "text": "Succubus\nConverts 15% of extra Magical Defense into Physical Defense."
+          }
+        ],
+        "buildsFrom": [
+          "1323",
+          "1323"
+        ]
+      },
+      "parsedPt": {
+        "name": "Succubus Cloak",
+        "cost": 2020,
+        "categoryLabel": "Defesa",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Defesa Mágica",
+            "value": "+300"
+          },
+          {
+            "label": "Vida",
+            "value": "+1.100"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Mist Veil\nConcede a cada 15s um escudo que anula 400–800 (+7% da Vida adicional) de dano mágico."
+          },
+          {
+            "kind": "passive",
+            "text": "Succubus\nConverte 15% da Defesa Mágica adicional em Defesa Física."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1141",
+      "urlEn": "https://hokstats.gg/items/1141/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1141/",
+      "parsedEn": {
+        "name": "Sunchaser",
+        "cost": 2100,
+        "categoryLabel": "Attack",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+40"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "+20%"
+          },
+          {
+            "label": "Critical Rate",
+            "value": "+15%"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Precision\nBasic Attack Damage +25 (doubled for ranged heroes)."
+          },
+          {
+            "kind": "active",
+            "text": "Daybreak\nIncreases Basic Attack range by 125 (ranged heroes only) and Movement Speed by 20% for 5s.\n(Cooldown: 75s)"
+          }
+        ],
+        "buildsFrom": [
+          "1154"
+        ]
+      },
+      "parsedPt": {
+        "name": "Sunchaser",
+        "cost": 2100,
+        "categoryLabel": "Ataque",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+40"
+          },
+          {
+            "label": "Velocidade de Ataque",
+            "value": "+20%"
+          },
+          {
+            "label": "Taxa Crítica",
+            "value": "+15%"
+          },
+          {
+            "label": "Velocidade de Movimento",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Precision\nDano do Ataque Básico +25 (dobrado para heróis de ataque à distância)."
+          },
+          {
+            "kind": "active",
+            "text": "Daybreak\nAumenta o alcance do Ataque Básico em 125 (somente para heróis de ataque à distância) e a Velocidade de Movimento em 20% por 5s.\n(Recarga: 75s)"
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1122",
+      "urlEn": "https://hokstats.gg/items/1122/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1122/",
+      "parsedEn": {
+        "name": "Sunglow Striker",
+        "cost": 760,
+        "categoryLabel": "Attack",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+35"
+          },
+          {
+            "label": "Health",
+            "value": "+450"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": [
+          "1111",
+          "1311"
+        ]
+      },
+      "parsedPt": {
+        "name": "Sunglow Striker",
+        "cost": 760,
+        "categoryLabel": "Ataque",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+35"
+          },
+          {
+            "label": "Vida",
+            "value": "+450"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1129",
+      "urlEn": "https://hokstats.gg/items/1129/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1129/",
+      "parsedEn": {
+        "name": "Swiftstrike Lance",
+        "cost": 800,
+        "categoryLabel": "Attack",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+35"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "+15%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": [
+          "1112",
+          "1111"
+        ]
+      },
+      "parsedPt": {
+        "name": "Swiftstrike Lance",
+        "cost": 800,
+        "categoryLabel": "Ataque",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+35"
+          },
+          {
+            "label": "Velocidade de Ataque",
+            "value": "+15%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1159",
+      "urlEn": "https://hokstats.gg/items/1159/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1159/",
+      "parsedEn": {
+        "name": "Tempest",
+        "cost": 2080,
+        "categoryLabel": "Attack",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+50"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "+30%"
+          },
+          {
+            "label": "Health",
+            "value": "+600"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Tempest\nBasic Attack and skill hits increase Attack Speed, Movement Speed, and damage by 2% for 2.5s, stacking up to 5 times."
+          }
+        ],
+        "buildsFrom": [
+          "1129"
+        ]
+      },
+      "parsedPt": {
+        "name": "Tempest",
+        "cost": 2080,
+        "categoryLabel": "Ataque",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+50"
+          },
+          {
+            "label": "Velocidade de Ataque",
+            "value": "+30%"
+          },
+          {
+            "label": "Vida",
+            "value": "+600"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Tempest\nAcertos de Ataques Básicos e habilidades aumentam a Velocidade de Ataque, a Velocidade de Movimento e o dano em 2% por 2,5s, acumulando até 5 vezes."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1116",
+      "urlEn": "https://hokstats.gg/items/1116/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1116/",
+      "parsedEn": {
+        "name": "Thunderclap Brand",
+        "cost": 820,
+        "categoryLabel": "Attack",
+        "tier": 1,
+        "stats": [
+          {
+            "label": "Physical Attack",
+            "value": "+35"
+          },
+          {
+            "label": "Critical Rate",
+            "value": "+12%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": [
+          "1111",
+          "1113"
+        ]
+      },
+      "parsedPt": {
+        "name": "Thunderclap Brand",
+        "cost": 820,
+        "categoryLabel": "Ataque",
+        "tier": 1,
+        "stats": [
+          {
+            "label": "Ataque Físico",
+            "value": "+35"
+          },
+          {
+            "label": "Taxa Crítica",
+            "value": "+12%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1727",
+      "urlEn": "https://hokstats.gg/items/1727/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1727/",
+      "parsedEn": {
+        "name": "Twilight Stream",
+        "cost": 2040,
+        "categoryLabel": "Magic",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Magical Attack",
+            "value": "+160"
+          },
+          {
+            "label": "Cooldown Reduction",
+            "value": "+10%"
+          },
+          {
+            "label": "Health",
+            "value": "+500"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Purge\nDealing damage to a hero increases Magical Pierce by 20–40 for 4s, for up to 6 stacks."
+          }
+        ],
+        "buildsFrom": [
+          "1243",
+          "1214"
+        ]
+      },
+      "parsedPt": {
+        "name": "Twilight Stream",
+        "cost": 2040,
+        "categoryLabel": "Magia",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Ataque Mágico",
+            "value": "+160"
+          },
+          {
+            "label": "Redução de Recarga",
+            "value": "+10%"
+          },
+          {
+            "label": "Vida",
+            "value": "+500"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Purge\nCausar dano a um herói aumenta a Perfuração Mágica em 20–40 por 4s, acumulando até 6 vezes."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1123",
+      "urlEn": "https://hokstats.gg/items/1123/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1123/",
+      "parsedEn": {
+        "name": "Twinblades of Destruction",
+        "cost": 760,
+        "categoryLabel": "Attack",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Attack Speed",
+            "value": "+15%"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": [
+          "1112",
+          "11110"
+        ]
+      },
+      "parsedPt": {
+        "name": "Twinblades of Destruction",
+        "cost": 760,
+        "categoryLabel": "Ataque",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Velocidade de Ataque",
+            "value": "+15%"
+          },
+          {
+            "label": "Velocidade de Movimento",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1114",
+      "urlEn": "https://hokstats.gg/items/1114/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1114/",
+      "parsedEn": {
+        "name": "Vampiric Scythe",
+        "cost": 300,
+        "categoryLabel": "Attack",
+        "tier": 1,
+        "stats": [
+          {
+            "label": "Physical Lifesteal",
+            "value": "+8%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      },
+      "parsedPt": {
+        "name": "Vampiric Scythe",
+        "cost": 300,
+        "categoryLabel": "Ataque",
+        "tier": 1,
+        "stats": [
+          {
+            "label": "Roubo de Vida Físico",
+            "value": "+8%"
+          }
+        ],
+        "skills": [],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "12211",
+      "urlEn": "https://hokstats.gg/items/12211/",
+      "urlPt": "https://hokstats.gg/pt-br/items/12211/",
+      "parsedEn": {
+        "name": "Venomous Staff",
+        "cost": 2040,
+        "categoryLabel": "Magic",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Magical Attack",
+            "value": "+240"
+          },
+          {
+            "label": "Cooldown Reduction",
+            "value": "+7.5%"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Imperil\nWhen a Basic Attack or skill hits an enemy, it reduces their Health recovery and Lifesteal by 35%. Lasts 2.5s."
+          }
+        ],
+        "buildsFrom": [
+          "1224",
+          "1214"
+        ]
+      },
+      "parsedPt": {
+        "name": "Venomous Staff",
+        "cost": 2040,
+        "categoryLabel": "Magia",
+        "tier": 2,
+        "stats": [
+          {
+            "label": "Ataque Mágico",
+            "value": "+240"
+          },
+          {
+            "label": "Redução de Recarga",
+            "value": "+7.5%"
+          },
+          {
+            "label": "Velocidade de Movimento",
+            "value": "+7.5%"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Imperil\nQuando um Ataque Básico ou habilidade atinge um inimigo, reduz a recuperação de Vida e o Roubo de Vida dele em 35%. Dura 2,5s."
+          }
+        ],
+        "buildsFrom": []
+      }
+    },
+    {
+      "campId": "1231",
+      "urlEn": "https://hokstats.gg/items/1231/",
+      "urlPt": "https://hokstats.gg/pt-br/items/1231/",
+      "parsedEn": {
+        "name": "Void Staff",
+        "cost": 2040,
+        "categoryLabel": "Magic",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Magical Attack",
+            "value": "+210"
+          },
+          {
+            "label": "Cooldown Reduction",
+            "value": "+5%"
+          },
+          {
+            "label": "Health",
+            "value": "+500"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Devastation\nMagical Pierce +45%"
+          }
+        ],
+        "buildsFrom": [
+          "1243",
+          "1221"
+        ]
+      },
+      "parsedPt": {
+        "name": "Void Staff",
+        "cost": 2040,
+        "categoryLabel": "Magia",
+        "tier": 3,
+        "stats": [
+          {
+            "label": "Ataque Mágico",
+            "value": "+210"
+          },
+          {
+            "label": "Redução de Recarga",
+            "value": "+5%"
+          },
+          {
+            "label": "Vida",
+            "value": "+500"
+          }
+        ],
+        "skills": [
+          {
+            "kind": "passive",
+            "text": "Devastation\nPerfuração Mágica +45%"
+          }
+        ],
+        "buildsFrom": []
+      }
+    }
+  ]
+}

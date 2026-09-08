@@ -1,0 +1,234 @@
+{
+  "id": "flowborn-marksman",
+  "name": "Flowborn (Marksman)",
+  "nameCn": "元流之子",
+  "lane": "Farm",
+  "class": "Marksman — Nimble Marksman / Sustained Damage / Late Game",
+  "difficulty": "Easy",
+  "baseStats": {
+    "maxHealth": 3250,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 40,
+    "physicalAttack": 170,
+    "attackSpeedPct": 10,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 360,
+    "maxMana": 600,
+    "mp5": 15
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Flow of the World",
+      "text": "Channels the Flow into the body to gain Attack Speed and enhance one of four stats: Health/Attack/Movement Speed/Cooldown. Can spend Flow to perform an enhanced Basic Attack that deals piercing physical damage."
+    },
+    {
+      "slot": "s1",
+      "name": "Convergence",
+      "text": "Deals physical damage to nearby enemies and knocks them back. Gains Health recovery, 5 stacks of Flow, and reduces the cooldown of Arrow of No Retreat and Arrowstorm."
+    },
+    {
+      "slot": "s2",
+      "name": "Arrow of No Retreat",
+      "text": "Shoots an enormous projectile at the target, dealing physical damage and knocking back non-hero units. Can dash a short distance after use."
+    },
+    {
+      "slot": "ult",
+      "name": "Arrowstorm",
+      "text": "Shoots multiple light projectiles at the target area, dealing physical damage and gaining Movement Speed."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Critical strike",
+      "context": "Safe default · Position 4",
+      "itemIds": [
+        "boots-of-resistance",
+        "eternity-blade",
+        "shadow-ripper",
+        "daybreakers-virtue",
+        "sunchaser",
+        "doomsday"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Crit attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "eternity-blade",
+        "cloud-piercer",
+        "daybreakers-virtue",
+        "doomsday",
+        "deepfrost-siege",
+        "sages-sanctuary",
+        "destiny",
+        "mortal-punisher",
+        "succubus-cloak",
+        "tempest"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Critical strike",
+      "context": "Anti-tank · Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "vampiric-scythe",
+        "axe-of-torment",
+        "bloodsoul",
+        "boots-of-resistance",
+        "master-sword",
+        "eternity-blade",
+        "cloud-piercer",
+        "mortal-punisher",
+        "daybreakers-virtue",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Crit attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "doomsday",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "sunchaser",
+        "sages-sanctuary",
+        "destiny",
+        "ominous-premonition",
+        "succubus-cloak",
+        "cuirass-of-savagery",
+        "boots-of-resistance"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Crit attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "doomsday",
+        "mortal-punisher",
+        "shadow-ripper",
+        "eternity-blade",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Crit attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "doomsday",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "boots-of-fortitude",
+        "overlords-might",
+        "sages-sanctuary",
+        "splendor",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Crit attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-deftness",
+        "sparkforged-dagger",
+        "doomsday",
+        "shadow-ripper",
+        "daybreakers-virtue",
+        "master-sword",
+        "overlords-might"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Crit attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "doomsday",
+        "shadow-ripper",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "sunchaser",
+        "sparkforged-dagger",
+        "bloodweeper",
+        "destiny",
+        "sages-sanctuary",
+        "haste-sunpool",
+        "overlords-might"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "eternity-blade",
+        "shadow-ripper",
+        "cloud-piercer",
+        "daybreakers-virtue",
+        "bloodsoul",
+        "bloodweeper",
+        "sunchaser",
+        "sages-sanctuary",
+        "haste-sunpool"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [],
+    "synergies": []
+  },
+  "arcana": [],
+  "spell": "",
+  "rates": {
+    "winRate": 52.3,
+    "pickRate": 1.2,
+    "banRate": 0.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S14",
+      "date": "May 2026",
+      "type": "nerf",
+      "summary": "Adjusted skill damage"
+    },
+    {
+      "season": "S13",
+      "date": "Jan 2026",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S13",
+      "date": "Dec 2025",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    }
+  ],
+  "patch": "2026-09-07"
+}

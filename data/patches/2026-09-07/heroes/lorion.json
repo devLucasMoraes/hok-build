@@ -1,0 +1,41 @@
+{
+  "id": "lorion",
+  "name": "Lorion",
+  "nameCn": "洛里昂",
+  "lane": "Mid",
+  "class": "Mage",
+  "difficulty": "Hard",
+  "baseStats": {},
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Eternal",
+      "text": "Skill 2 or Ultimate hits also damage units near the target."
+    },
+    {
+      "slot": "ult",
+      "name": "Darkness Falls",
+      "text": "Flies toward the projectile."
+    }
+  ],
+  "recommendedBuilds": [],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [],
+    "synergies": []
+  },
+  "arcana": [],
+  "spell": "",
+  "rates": {
+    "winRate": 51.1,
+    "pickRate": 0.4,
+    "banRate": 0.2,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [],
+  "patch": "2026-09-07"
+}

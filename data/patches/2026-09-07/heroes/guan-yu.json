@@ -1,0 +1,243 @@
+{
+  "id": "guan-yu",
+  "name": "Guan Yu",
+  "nameCn": "关羽",
+  "lane": "Clash Lane",
+  "class": "Fighter — Charger / Gap-Close/Initiate / Balanced",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3547,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 53,
+    "physicalAttack": 176,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 380,
+    "maxMana": 100
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Rider of Triumph",
+      "text": "Normal Stance: Moving constantly accumulates a Movement Speed bonus, and reaching a certain distance activates the Charge Stance. Charge Stance: Enhances the next skill and Basic Attack."
+    },
+    {
+      "slot": "s1",
+      "name": "Heroic Charge",
+      "text": "Normal Stance: Deals damage to enemies within range. Charge Stance: Charges forward, knocking back enemies in his path while dealing damage."
+    },
+    {
+      "slot": "s2",
+      "name": "Soaring Green Dragon",
+      "text": "Normal Stance: Removes crowd control effects and gains Movement Speed. Charge Stance: Removes crowd control effects and leaps forward, knocking back enemies within the landing area and dealing damage."
+    },
+    {
+      "slot": "ult",
+      "name": "Razor Cavalry",
+      "text": "Normal Stance: Enhances himself, reducing the movement distance required to enter Charge stance. Charge Stance: Summons heavy cavalry that dash forward, dealing damage and knocking back enemies in their path."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle AD penetration",
+      "context": "Safe default · Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "axe-of-torment",
+        "dragons-rage",
+        "overlords-might",
+        "glacial-buckler",
+        "master-sword"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 1",
+      "itemIds": [
+        "iron-sword",
+        "boots-of-deftness",
+        "axe-of-torment",
+        "dragons-rage",
+        "blood-rage",
+        "demonsbane",
+        "destiny",
+        "sages-sanctuary",
+        "amble-winter"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "boots-of-deftness",
+        "sunglow-striker",
+        "axe-of-torment",
+        "blood-rage",
+        "destiny",
+        "dragons-rage",
+        "cuirass-of-swiftness",
+        "frigid-charge",
+        "mirror-of-radiance",
+        "longnight-guardian",
+        "amble-winter",
+        "boots-of-resistance"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "crimson-shadow",
+        "boots-of-deftness",
+        "axe-of-torment",
+        "crimson-shadow-radiance",
+        "blazing-cape",
+        "blood-rage",
+        "sages-sanctuary",
+        "frigid-charge",
+        "mirror-of-radiance",
+        "longnight-guardian",
+        "amble-winter",
+        "boots-of-resistance"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "boots-of-deftness",
+        "meteor",
+        "axe-of-torment",
+        "dragons-rage",
+        "overlords-might",
+        "blazing-cape",
+        "cuirass-of-savagery"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Jungle Full tank (AD option)",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-deftness",
+        "axe-of-torment",
+        "dragons-rage",
+        "cuirass-of-savagery",
+        "boots-of-resistance",
+        "sages-sanctuary",
+        "cuirass-of-swiftness",
+        "frigid-charge",
+        "mirror-of-radiance",
+        "longnight-guardian",
+        "amble-winter"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "crimson-shadow",
+        "boots-of-resistance",
+        "crimson-shadow-radiance",
+        "eye-of-the-phoenix",
+        "sages-sanctuary",
+        "cuirass-of-savagery",
+        "ominous-premonition",
+        "mortal-punisher",
+        "amble-winter",
+        "destiny",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Full tank",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "blazing-cape",
+        "frigid-charge",
+        "cuirass-of-savagery",
+        "longnight-guardian",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "blood-rage",
+        "frostscars-embrace",
+        "eye-of-the-phoenix"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "boots-of-resistance",
+        "dragons-rage",
+        "longnight-guardian",
+        "ominous-premonition",
+        "frigid-charge",
+        "axe-of-torment",
+        "starbreaker"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Daji",
+      "Mi Yue",
+      "Yixing"
+    ],
+    "weakAgainst": [],
+    "synergies": [
+      "Ming",
+      "Sun Bin",
+      "Yaria",
+      "Daji",
+      "Mi Yue",
+      "Yixing"
+    ]
+  },
+  "arcana": [
+    "Fate",
+    "Harmony",
+    "Eagle Eye"
+  ],
+  "spell": "Sprint",
+  "rates": {
+    "winRate": 47.5,
+    "pickRate": 0.4,
+    "banRate": 0.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S13",
+      "date": "Jan 2026",
+      "type": "buff",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S12",
+      "date": "Oct 2025",
+      "type": "buff",
+      "summary": "Increased Skill Damage"
+    },
+    {
+      "season": "S11",
+      "date": "Aug 2025",
+      "type": "adjust",
+      "summary": "Energy Mechanic Improvements"
+    }
+  ],
+  "patch": "2026-09-07"
+}

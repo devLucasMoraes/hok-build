@@ -1,0 +1,220 @@
+{
+  "id": "dr-bian",
+  "name": "Dr Bian",
+  "nameCn": "扁鹊",
+  "lane": "Mid",
+  "class": "Mage — Formation Mage / Sustained Damage/Heal / Late Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3325,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 43,
+    "physicalAttack": 171,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 365,
+    "maxMana": 640,
+    "mp5": 16
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Malicious Practice",
+      "text": "Skill and Basic Attack hits place up to 5 marks on enemies, each stack dealing damage over time. His Skill 2 and Ultimate place up to 5 marks on himself and his teammates, each stack continually restoring Health over time."
+    },
+    {
+      "slot": "s1",
+      "name": "Deadly Panacea",
+      "text": "Throws a vial of deadly poison at the target location, dealing damage over time and slowing enemies within range. Can store up to 3 vials of poison."
+    },
+    {
+      "slot": "s2",
+      "name": "Fatal Diagnosis",
+      "text": "Throws a concoction in the target direction, dealing damage and marking enemies in its path. Heals himself and teammates in its path, while also applying marks."
+    },
+    {
+      "slot": "ult",
+      "name": "Master of Life",
+      "text": "Damages enemies within range and heals teammates. Every mark detonated will increase damage and healing. He recovers extra Health."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full AP burst",
+      "context": "Safe default · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "holy-grail",
+        "scepter-of-reverberation",
+        "eye-of-the-phoenix",
+        "overlords-platemail",
+        "breakthrough-robe",
+        "boots-of-tranquility",
+        "sages-tome",
+        "succubus-cloak",
+        "void-staff"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "holy-grail",
+        "eye-of-the-phoenix",
+        "venomous-staff",
+        "mask-of-agony",
+        "void-staff",
+        "frozen-breath",
+        "twilight-stream",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "spell-tome",
+        "boots-of-the-arcane",
+        "holy-grail",
+        "venomous-staff",
+        "savants-wrath",
+        "sages-sanctuary",
+        "ardent-dominion",
+        "augurs-word",
+        "breakthrough-robe",
+        "scepter-of-reverberation",
+        "sages-tome",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "frozen-breath",
+        "venomous-staff",
+        "holy-grail",
+        "scepter-of-reverberation",
+        "sages-tome",
+        "mask-of-agony",
+        "staves-of-sorcery",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "spell-tome",
+        "resilient-agate",
+        "boots-of-resistance",
+        "holy-grail",
+        "mask-of-agony",
+        "augurs-word",
+        "venomous-staff",
+        "frozen-breath",
+        "eye-of-the-phoenix",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "spell-tome",
+        "boots-of-the-arcane",
+        "holy-grail",
+        "venomous-staff",
+        "savants-wrath",
+        "sages-sanctuary",
+        "ardent-dominion",
+        "augurs-word",
+        "breakthrough-robe",
+        "scepter-of-reverberation",
+        "sages-tome",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "holy-grail",
+        "insatiable-tome",
+        "augurs-word",
+        "frozen-breath",
+        "breakthrough-robe",
+        "void-staff",
+        "venomous-staff",
+        "sages-sanctuary",
+        "sages-tome",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Mai Shiranui",
+      "Diaochan"
+    ],
+    "weakAgainst": [
+      "Yang Jian"
+    ],
+    "synergies": [
+      "Liu Shan",
+      "Dolia",
+      "Zhuangzi",
+      "Mai Shiranui",
+      "Diaochan"
+    ]
+  },
+  "arcana": [
+    "Saint",
+    "Tribute",
+    "Avarice"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 50.2,
+    "pickRate": 0.5,
+    "banRate": 0.2,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S14",
+      "date": "Mar 2026",
+      "type": "buff",
+      "summary": "Reduced skill consumption"
+    },
+    {
+      "season": "S10",
+      "date": "May 2025",
+      "type": "buff",
+      "summary": "Increased Skill 2 damage and recovery"
+    },
+    {
+      "season": "S6",
+      "date": "Jun 2024",
+      "type": "adjust",
+      "summary": "Hero updated"
+    }
+  ],
+  "patch": "2026-09-07"
+}

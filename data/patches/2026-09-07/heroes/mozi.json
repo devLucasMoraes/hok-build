@@ -1,0 +1,145 @@
+{
+  "id": "mozi",
+  "name": "Mozi",
+  "nameCn": "墨子",
+  "lane": "Mid",
+  "class": "Mage — Control Mage / Crowd Control/Shield / Late Game",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3252,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 76,
+    "physicalAttack": 178,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 370,
+    "maxMana": 640,
+    "mp5": 16
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Fight for Peace",
+      "text": "Every 4th Basic Attack deals area damage and knocks back enemies. Gains shield stacks when using skills, for up to 3 stacks."
+    },
+    {
+      "slot": "s1",
+      "name": "Peacebringer",
+      "text": "Dashes in the target direction, dealing damage to enemies in his path. The next Basic Attack is enhanced, becoming Fight for Peace."
+    },
+    {
+      "slot": "s2",
+      "name": "Cannon Blast",
+      "text": "Fires a shell in the target direction, stunning and dealing area damage to the 1st enemy hit. The shell leaves a crater in the ground after reaching its max range or hitting an enemy, dealing damage over time to enemies that step in it."
+    },
+    {
+      "slot": "ult",
+      "name": "Think Inside the Box",
+      "text": "Deals damage over time to enemies within a certain range of himself, stunning enemies every time he deals damage."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-tranquility",
+        "holy-grail",
+        "stone-of-sorcery",
+        "scepter-of-reverberation",
+        "savants-wrath",
+        "nebulon-wood",
+        "void-staff",
+        "sages-tome",
+        "sages-sanctuary",
+        "destiny",
+        "ardent-dominion"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "scepter-of-reverberation",
+        "boots-of-tranquility",
+        "savants-wrath",
+        "void-staff",
+        "venomous-staff",
+        "sages-tome",
+        "splendor",
+        "sages-sanctuary",
+        "blood-rage",
+        "destiny",
+        "ravage-phantom",
+        "eye-of-the-phoenix"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-the-arcane",
+        "crimson-shadow",
+        "crimson-shadow-radiance",
+        "holy-grail",
+        "boots-of-resistance",
+        "dawnlight",
+        "clandestine-cape",
+        "ominous-premonition",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "splendor"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Cirrus",
+      "Lam",
+      "Li Bai"
+    ],
+    "weakAgainst": [
+      "Dolia",
+      "Guiguzi",
+      "Nezha"
+    ],
+    "synergies": [
+      "Dyadia",
+      "Zhuangzi",
+      "Ming",
+      "Cirrus",
+      "Lam",
+      "Li Bai"
+    ]
+  },
+  "arcana": [
+    "Nightmare",
+    "Hunt",
+    "Mind's Eye"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 49.8,
+    "pickRate": 1.6,
+    "banRate": 1.7,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S13",
+      "date": "Jan 2026",
+      "type": "buff",
+      "summary": "Reduced Skill Mana Cost"
+    }
+  ],
+  "patch": "2026-09-07"
+}

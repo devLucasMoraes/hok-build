@@ -1,0 +1,239 @@
+{
+  "id": "yixing",
+  "name": "Yixing",
+  "nameCn": "弈星",
+  "lane": "Mid",
+  "class": "Mage — Formation Mage / Poke/Crowd Control / Balanced",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3253,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 45,
+    "physicalAttack": 173,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 365,
+    "maxMana": 640,
+    "mp5": 16
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Maintaining Initiative",
+      "text": "Basic Attacks deal magical damage. For every 4 skill hits on the same enemy, generates a Weiqi stone that deals magical damage and adds to the total number of Weiqi stones. Upon taking fatal damage, gains brief immunity to all damage and increased Movement Speed."
+    },
+    {
+      "slot": "s1",
+      "name": "Sliding Stones",
+      "text": "Places a Weiqi stone at the target location, gaining vision and damaging enemies. Weiqi stones will be pulled into Skill 2's Weiqi formation, damaging and slowing enemies in their path."
+    },
+    {
+      "slot": "s2",
+      "name": "Taking Liberties",
+      "text": "Deals damage to the target area and creates a Weiqi formation. The formation pulls enemies toward its center, damaging them in the process."
+    },
+    {
+      "slot": "ult",
+      "name": "The World is My Board",
+      "text": "Draws a Weiqi board that launches enemies and places marks on them while exposing their location. Enemies caught within the Weiqi board are bound and will be unable to leave. Gains Movement Speed while forming the board."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full AP burst",
+      "context": "Safe default · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "stone-of-sorcery",
+        "frozen-breath",
+        "venomous-staff",
+        "mask-of-agony",
+        "savants-wrath",
+        "insatiable-tome",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "grand-staff",
+        "frozen-breath",
+        "mask-of-agony",
+        "nebulon-wood",
+        "twilight-stream",
+        "blood-clans-grimoire",
+        "insatiable-tome",
+        "savants-wrath",
+        "sages-sanctuary",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "spell-tome",
+        "boots-of-tranquility",
+        "venomous-staff",
+        "boots-of-the-arcane",
+        "mystic-page",
+        "cuirass-of-swiftness",
+        "frozen-breath",
+        "insatiable-tome",
+        "void-staff",
+        "savants-wrath",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "grand-staff",
+        "frozen-breath",
+        "mask-of-agony",
+        "nebulon-wood",
+        "twilight-stream",
+        "blood-clans-grimoire",
+        "insatiable-tome",
+        "savants-wrath",
+        "sages-sanctuary",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "frozen-breath",
+        "mask-of-agony",
+        "twilight-stream",
+        "nebulon-wood",
+        "blood-clans-grimoire",
+        "insatiable-tome",
+        "savants-wrath",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "frozen-breath",
+        "mask-of-agony",
+        "twilight-stream",
+        "nebulon-wood",
+        "blood-clans-grimoire",
+        "insatiable-tome",
+        "savants-wrath",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "spell-tome",
+        "boots-of-the-arcane",
+        "stone-of-sorcery",
+        "blood-clans-grimoire",
+        "venomous-staff",
+        "insatiable-tome",
+        "mask-of-agony",
+        "frozen-breath",
+        "nebulon-wood",
+        "void-staff",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "venomous-staff",
+        "ardent-dominion",
+        "frozen-breath",
+        "mask-of-agony",
+        "twilight-stream",
+        "sages-sanctuary",
+        "splendor",
+        "void-staff"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "spell-tome",
+        "boots-of-the-arcane",
+        "venomous-staff",
+        "mask-of-agony",
+        "insatiable-tome",
+        "void-staff",
+        "frozen-breath"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Augran",
+      "Cirrus",
+      "Lam"
+    ],
+    "weakAgainst": [
+      "Allain",
+      "Dharma",
+      "Dian Wei",
+      "Guan Yu"
+    ],
+    "synergies": [
+      "Cai Yan",
+      "Yaria",
+      "Dolia",
+      "Augran",
+      "Cirrus",
+      "Lam"
+    ]
+  },
+  "arcana": [
+    "Nightmare",
+    "Hunt",
+    "Compassion"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 51,
+    "pickRate": 0.7,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S10",
+      "date": "May 2025",
+      "type": "nerf",
+      "summary": "Ultimate cooldown increased"
+    }
+  ],
+  "patch": "2026-09-07"
+}

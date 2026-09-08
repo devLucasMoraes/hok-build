@@ -1,0 +1,254 @@
+{
+  "id": "marco-polo",
+  "name": "Marco Polo",
+  "nameCn": "马可波罗",
+  "lane": "Farm",
+  "class": "Marksman — Nimble Marksman / Ranged Harass / Balanced",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3207,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 46,
+    "physicalAttack": 175,
+    "attackSpeedPct": 10,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 360,
+    "mp5": 50
+  },
+  "resource": {
+    "name": "Energy",
+    "value": 200
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Chain Reaction",
+      "text": "Basic Attack and skill hits place stacks on the opponent, dealing extra true damage at max stacks. The number of bullets fired by Skill 1 and Ultimate increases with Attack Speed."
+    },
+    {
+      "slot": "s1",
+      "name": "Resplendent Revolver",
+      "text": "Fires in the target direction for a period of time and gains Movement Speed while firing."
+    },
+    {
+      "slot": "s2",
+      "name": "Roaming Gun",
+      "text": "Blinks in the target direction. Passive: When enemy heroes are within a certain range, he deals more damage and gains Movement Speed."
+    },
+    {
+      "slot": "ult",
+      "name": "Fevered Barrage",
+      "text": "Blinks in the target direction and deals damage over time to enemies within a certain range around him."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Crit attack speed",
+      "context": "Safe default · Position 4",
+      "itemIds": [
+        "twinblades-of-destruction",
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "dagger",
+        "bloodsoul",
+        "doomsday",
+        "daybreakers-virtue",
+        "frigid-charge",
+        "deepfrost-siege",
+        "splendor",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "swiftstrike-lance",
+        "sparkforged-dagger",
+        "vampiric-scythe",
+        "doomsday",
+        "deepfrost-siege",
+        "frosthold-targe",
+        "frostscars-embrace",
+        "succubus-cloak"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "swiftstrike-lance",
+        "sparkforged-dagger",
+        "doomsday",
+        "cloud-piercer",
+        "frigid-charge",
+        "deepfrost-siege",
+        "daybreakers-virtue",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "doomsday",
+        "frigid-charge",
+        "daybreakers-virtue",
+        "sages-sanctuary",
+        "succubus-cloak",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "swiftstrike-lance",
+        "sparkforged-dagger",
+        "vampiric-scythe",
+        "doomsday",
+        "protectors-cuirass",
+        "frigid-charge",
+        "daybreakers-virtue",
+        "succubus-cloak",
+        "overlords-might"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "swiftstrike-lance",
+        "sparkforged-dagger",
+        "doomsday",
+        "frigid-charge",
+        "shadow-ripper",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Crit attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "swiftstrike-lance",
+        "doomsday",
+        "frigid-charge",
+        "cloud-piercer",
+        "daybreakers-virtue",
+        "clandestine-cape",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "haste-sunpool"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "doomsday",
+        "frigid-charge",
+        "daybreakers-virtue",
+        "overlords-might",
+        "sages-sanctuary",
+        "splendor",
+        "ardent-dominion"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Attack speed",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "swiftstrike-lance",
+        "doomsday",
+        "cloud-piercer",
+        "daybreakers-virtue",
+        "frigid-charge",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Cirrus",
+      "Mai Shiranui",
+      "Wukong"
+    ],
+    "weakAgainst": [
+      "Lian Po",
+      "Liu Bang",
+      "Zhang Fei"
+    ],
+    "synergies": [
+      "Dharma",
+      "Liu Shan",
+      "Zhang Fei",
+      "Cirrus",
+      "Mai Shiranui",
+      "Wukong"
+    ]
+  },
+  "arcana": [
+    "Red Moon",
+    "Reaver",
+    "Eagle Eye"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 50,
+    "pickRate": 1.9,
+    "banRate": 0.3,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S14",
+      "date": "Mar 2026",
+      "type": "nerf",
+      "summary": "Adjusted skill damage"
+    },
+    {
+      "season": "S13",
+      "date": "Dec 2025",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S6",
+      "date": "Jul 2024",
+      "type": "adjust",
+      "summary": "Smoothed Attack Speed gains, improving growth."
+    }
+  ],
+  "patch": "2026-09-07"
+}

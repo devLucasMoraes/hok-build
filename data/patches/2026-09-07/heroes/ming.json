@@ -1,0 +1,223 @@
+{
+  "id": "ming",
+  "name": "Ming",
+  "nameCn": "明世隐",
+  "lane": "Roam",
+  "class": "Support — Buff Support / Team Buffs / Balanced",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3330,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 46,
+    "physicalAttack": 168,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 365,
+    "maxMana": 620,
+    "mp5": 15
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Good Omens",
+      "text": "Every 5s, Ming's next Basic Attack deals magical damage and heals himself and the linked teammate. The healing is reduced if the enemy is not a hero."
+    },
+    {
+      "slot": "s1",
+      "name": "Time - Carefree",
+      "text": "Throws his instrument and links it to a teammate, increasing their main attack stat and Attack Speed. Enemies who touch the link take damage over time. Passive: Increases Ming's Physical Attack, Magical Attack, and Movement Speed."
+    },
+    {
+      "slot": "s2",
+      "name": "Mastery - Glide",
+      "text": "Throws his instrument and links it to an enemy, reducing their Physical and Magical Defense. Enemies who touch the link take damage over time. Passive: Gains Physical and Magical Defense."
+    },
+    {
+      "slot": "ult",
+      "name": "Peace - Longevity",
+      "text": "Ming channels for a short time before sacrificing Health to deal true damage to the linked enemy or heal the linked teammate. If linked to both, he does not lose Health."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-fortitude",
+        "guardian-redemption",
+        "cloth-jerkin",
+        "ominous-premonition",
+        "boots-of-resistance",
+        "succubus-cloak",
+        "savants-wrath",
+        "sages-tome"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-resistance",
+        "guardian",
+        "guardian-redemption",
+        "dawnlight",
+        "augurs-word",
+        "ominous-premonition",
+        "succubus-cloak",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-resistance",
+        "guardian",
+        "guardian-redemption",
+        "dawnlight",
+        "frigid-charge",
+        "ominous-premonition",
+        "sages-sanctuary",
+        "overlords-platemail",
+        "augurs-word",
+        "succubus-cloak"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-resistance",
+        "crimson-shadow",
+        "crimson-shadow-redemption",
+        "dawnlight",
+        "holy-grail",
+        "savants-wrath",
+        "succubus-cloak",
+        "ardent-dominion",
+        "venomous-staff",
+        "frozen-breath",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-resistance",
+        "crimson-shadow",
+        "crimson-shadow-radiance",
+        "dawnlight",
+        "augurs-word",
+        "savants-wrath",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Mage support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-tranquility",
+        "crimson-shadow",
+        "crimson-shadow-redemption",
+        "sages-tome",
+        "augurs-word",
+        "savants-wrath",
+        "overlords-platemail",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-resistance",
+        "guardian",
+        "guardian-redemption",
+        "dawnlight",
+        "frigid-charge",
+        "ominous-premonition",
+        "sages-sanctuary",
+        "overlords-platemail",
+        "augurs-word",
+        "succubus-cloak"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Cirrus",
+      "Menki",
+      "Wuyan"
+    ],
+    "weakAgainst": [],
+    "synergies": [
+      "Arli",
+      "Meng Ya",
+      "Shouyue",
+      "Cirrus",
+      "Menki",
+      "Wuyan"
+    ]
+  },
+  "arcana": [
+    "Fate",
+    "Harmony",
+    "Void"
+  ],
+  "spell": "Heal",
+  "rates": {
+    "winRate": 50.3,
+    "pickRate": 0.5,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jun 2026",
+      "type": "buff",
+      "summary": "Increased skill damage"
+    },
+    {
+      "season": "S9",
+      "date": "Mar 2025",
+      "type": "nerf",
+      "summary": "Stat Nerfs"
+    },
+    {
+      "season": "S8",
+      "date": "Feb 2025",
+      "type": "buff",
+      "summary": "Passive Effect Buffed"
+    },
+    {
+      "season": "S6",
+      "date": "Aug 2024",
+      "type": "nerf",
+      "summary": "Reduced the early game bonus to teammates."
+    }
+  ],
+  "patch": "2026-09-07"
+}

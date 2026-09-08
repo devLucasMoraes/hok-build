@@ -1,0 +1,251 @@
+{
+  "id": "butterfly",
+  "name": "Butterfly",
+  "nameCn": "刀锋宝贝",
+  "lane": "Jungle",
+  "class": "Fighter — Assassin Fighter / Cleanup / Late Game",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3400,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 57,
+    "physicalAttack": 175,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 380
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Assassination",
+      "text": "Gains 2 marks from defeating heroes and 1 mark from assisting or killing monsters/minions. When she accumulates 3 marks, the next skill used will not enter cooldown."
+    },
+    {
+      "slot": "s1",
+      "name": "Whirlwind",
+      "text": "Deals damage to enemies around her and gains a shield. Her Movement Speed increases during this time."
+    },
+    {
+      "slot": "s2",
+      "name": "Sword Propel",
+      "text": "Deals damage in the target direction and inflicts slow."
+    },
+    {
+      "slot": "ult",
+      "name": "Death Dealer",
+      "text": "Jumps to the target, dealing damage. If the target is defeated within a certain time, the skill's cooldown will be reset."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle Full AD lethality",
+      "context": "Safe default · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "lightfoot-shoes",
+        "rapacious-bite",
+        "boots-of-dexterity",
+        "boots-of-resistance",
+        "axe-of-torment",
+        "destiny",
+        "master-sword",
+        "nettle-gauntlet",
+        "pure-sky",
+        "sages-sanctuary",
+        "blood-rage"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "lightfoot-shoes",
+        "rapacious-bite",
+        "boots-of-dexterity",
+        "boots-of-resistance",
+        "axe-of-torment",
+        "destiny",
+        "master-sword",
+        "nettle-gauntlet",
+        "pure-sky",
+        "sages-sanctuary",
+        "blood-rage"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "lightfoot-shoes",
+        "axe-of-torment",
+        "boots-of-resistance",
+        "rapacious-bite",
+        "destiny",
+        "eternity-blade",
+        "overlords-might",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-resistance",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "master-sword",
+        "demonsbane",
+        "cuirass-of-savagery",
+        "bloodweeper",
+        "immovable-sky-dome",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "rapacious-bite",
+        "meteor",
+        "axe-of-torment",
+        "master-sword",
+        "boots-of-resistance",
+        "eternity-blade",
+        "overlords-might",
+        "mortal-punisher",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-resistance",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "master-sword",
+        "demonsbane",
+        "cuirass-of-savagery",
+        "bloodweeper",
+        "immovable-sky-dome",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "rapacious-bite",
+        "boots-of-resistance",
+        "axe-of-torment",
+        "master-sword",
+        "eternity-blade",
+        "cuirass-of-savagery",
+        "sages-sanctuary",
+        "destiny",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "lightfoot-shoes",
+        "rapacious-bite",
+        "boots-of-dexterity",
+        "boots-of-resistance",
+        "axe-of-torment",
+        "destiny",
+        "master-sword",
+        "nettle-gauntlet",
+        "pure-sky",
+        "sages-sanctuary",
+        "blood-rage"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "lightfoot-shoes",
+        "meteor",
+        "boots-of-resistance",
+        "axe-of-torment",
+        "rapacious-bite",
+        "master-sword",
+        "belt-of-might",
+        "dragons-rage",
+        "sages-sanctuary",
+        "longnight-guardian"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Heino",
+      "Gan & Mo",
+      "Diaochan"
+    ],
+    "weakAgainst": [],
+    "synergies": [
+      "Liu Bang",
+      "Yaria",
+      "Liu Shan",
+      "Heino",
+      "Gan & Mo",
+      "Diaochan"
+    ]
+  },
+  "arcana": [
+    "Mutation",
+    "Hunt",
+    "Eagle Eye"
+  ],
+  "spell": "Smite",
+  "rates": {
+    "winRate": 51.7,
+    "pickRate": 0.5,
+    "banRate": 0.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S12",
+      "date": "Oct 2025",
+      "type": "buff",
+      "summary": "Increased Skill Damage"
+    },
+    {
+      "season": "S6",
+      "date": "Aug 2024",
+      "type": "buff",
+      "summary": "Increased the duration of Ultimate's Mark."
+    }
+  ],
+  "patch": "2026-09-07"
+}

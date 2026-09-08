@@ -1,0 +1,161 @@
+{
+  "id": "liang",
+  "name": "Liang",
+  "nameCn": "张良",
+  "lane": "Mid",
+  "class": "Mage — Crowd Control Mage / Crowd Control/Initiate / Balanced",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3204,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 43,
+    "physicalAttack": 171,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 365,
+    "maxMana": 640,
+    "mp5": 16
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Power Word - Trance",
+      "text": "Every second hit on the same target within a short time will deal an extra strike of damage."
+    },
+    {
+      "slot": "s1",
+      "name": "Power Word - Barrier",
+      "text": "Summons 4 barriers that shatter when touched by an enemy, inflicting damage, stun, and slow. Damage and slowing effects are reduced for enemies that touch multiple barriers."
+    },
+    {
+      "slot": "s2",
+      "name": "Power Word - Fate",
+      "text": "Conjures a magic circle that deals damage to enemies within range while granting vision of the area. Liang gains Movement Speed while inside his magic circle."
+    },
+    {
+      "slot": "ult",
+      "name": "Power Word - Control",
+      "text": "Suppresses an enemy hero, dealing damage over time. When the suppression is complete, deals damage and stuns enemies in range."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full AP burst",
+      "context": "Safe default · Position 2",
+      "itemIds": [
+        "boots-of-deftness",
+        "holy-grail",
+        "venomous-staff",
+        "mask-of-agony",
+        "sages-tome",
+        "savants-wrath",
+        "splendor",
+        "void-staff"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "mask-of-agony",
+        "scepter-of-reverberation",
+        "savants-wrath",
+        "void-staff",
+        "sages-tome",
+        "sages-sanctuary",
+        "destiny",
+        "splendor",
+        "venomous-staff"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "lightfoot-shoes",
+        "boots-of-deftness",
+        "guardian",
+        "guardian-redemption",
+        "holy-grail",
+        "venomous-staff",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "frigid-charge",
+        "splendor",
+        "ardent-dominion"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-deftness",
+        "crimson-shadow",
+        "crimson-shadow-redemption",
+        "holy-grail",
+        "succubus-cloak",
+        "venomous-staff",
+        "protectors-cuirass",
+        "ominous-premonition",
+        "sages-sanctuary",
+        "mask-of-agony"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Han Xin",
+      "Lam",
+      "Mulan"
+    ],
+    "weakAgainst": [
+      "Li Xin",
+      "Mayene",
+      "Mulan",
+      "Sun Ce",
+      "Wuyan",
+      "Ying"
+    ],
+    "synergies": [
+      "Dyadia",
+      "Ming",
+      "Yaria",
+      "Han Xin",
+      "Lam",
+      "Mulan"
+    ]
+  },
+  "arcana": [
+    "Nightmare",
+    "Hunt",
+    "Mind's Eye"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 50.7,
+    "pickRate": 0.8,
+    "banRate": 3.7,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S13",
+      "date": "Feb 2026",
+      "type": "adjust",
+      "summary": "Adjusted skill damage"
+    }
+  ],
+  "patch": "2026-09-07"
+}

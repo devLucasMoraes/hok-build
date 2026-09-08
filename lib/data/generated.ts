@@ -1,0 +1,244 @@
+// GERADO por tools/gen-loader.ts — não edite à mão.
+// Regenere com: pnpm gen-loader [--patch=2026-09-07]
+// Snapshot: data/patches/2026-09-07/ (116 heróis)
+import type { Hero, Item, PatchManifest } from "../types";
+import manifest from "@/data/patches/manifest.json";
+import itemsJson from "@/data/patches/2026-09-07/items.json";
+import agudoJson from "@/data/patches/2026-09-07/heroes/agudo.json";
+import alessioJson from "@/data/patches/2026-09-07/heroes/alessio.json";
+import allainJson from "@/data/patches/2026-09-07/heroes/allain.json";
+import angelaJson from "@/data/patches/2026-09-07/heroes/angela.json";
+import annetteJson from "@/data/patches/2026-09-07/heroes/annette.json";
+import aoyinJson from "@/data/patches/2026-09-07/heroes/aoyin.json";
+import arkeJson from "@/data/patches/2026-09-07/heroes/arke.json";
+import arliJson from "@/data/patches/2026-09-07/heroes/arli.json";
+import arthurJson from "@/data/patches/2026-09-07/heroes/arthur.json";
+import ataJson from "@/data/patches/2026-09-07/heroes/ata.json";
+import athenaJson from "@/data/patches/2026-09-07/heroes/athena.json";
+import augranJson from "@/data/patches/2026-09-07/heroes/augran.json";
+import bai_qiJson from "@/data/patches/2026-09-07/heroes/bai-qi.json";
+import bironJson from "@/data/patches/2026-09-07/heroes/biron.json";
+import butterflyJson from "@/data/patches/2026-09-07/heroes/butterfly.json";
+import cai_yanJson from "@/data/patches/2026-09-07/heroes/cai-yan.json";
+import chanoJson from "@/data/patches/2026-09-07/heroes/chano.json";
+import charlotteJson from "@/data/patches/2026-09-07/heroes/charlotte.json";
+import chichaJson from "@/data/patches/2026-09-07/heroes/chicha.json";
+import cirrusJson from "@/data/patches/2026-09-07/heroes/cirrus.json";
+import consort_yuJson from "@/data/patches/2026-09-07/heroes/consort-yu.json";
+import da_qiaoJson from "@/data/patches/2026-09-07/heroes/da-qiao.json";
+import dajiJson from "@/data/patches/2026-09-07/heroes/daji.json";
+import devaraJson from "@/data/patches/2026-09-07/heroes/devara.json";
+import dharmaJson from "@/data/patches/2026-09-07/heroes/dharma.json";
+import di_renjieJson from "@/data/patches/2026-09-07/heroes/di-renjie.json";
+import dian_weiJson from "@/data/patches/2026-09-07/heroes/dian-wei.json";
+import diaochanJson from "@/data/patches/2026-09-07/heroes/diaochan.json";
+import doliaJson from "@/data/patches/2026-09-07/heroes/dolia.json";
+import donghuangJson from "@/data/patches/2026-09-07/heroes/donghuang.json";
+import dr_bianJson from "@/data/patches/2026-09-07/heroes/dr-bian.json";
+import dunJson from "@/data/patches/2026-09-07/heroes/dun.json";
+import dyadiaJson from "@/data/patches/2026-09-07/heroes/dyadia.json";
+import erinJson from "@/data/patches/2026-09-07/heroes/erin.json";
+import fangJson from "@/data/patches/2026-09-07/heroes/fang.json";
+import fatihJson from "@/data/patches/2026-09-07/heroes/fatih.json";
+import feydJson from "@/data/patches/2026-09-07/heroes/feyd.json";
+import florentinoJson from "@/data/patches/2026-09-07/heroes/florentino.json";
+import flowborn_mageJson from "@/data/patches/2026-09-07/heroes/flowborn-mage.json";
+import flowborn_marksmanJson from "@/data/patches/2026-09-07/heroes/flowborn-marksman.json";
+import flowborn_tankJson from "@/data/patches/2026-09-07/heroes/flowborn-tank.json";
+import fuziJson from "@/data/patches/2026-09-07/heroes/fuzi.json";
+import gan_moJson from "@/data/patches/2026-09-07/heroes/gan-mo.json";
+import gaoJson from "@/data/patches/2026-09-07/heroes/gao.json";
+import gao_changgongJson from "@/data/patches/2026-09-07/heroes/gao-changgong.json";
+import garoJson from "@/data/patches/2026-09-07/heroes/garo.json";
+import garudaJson from "@/data/patches/2026-09-07/heroes/garuda.json";
+import guan_yuJson from "@/data/patches/2026-09-07/heroes/guan-yu.json";
+import guiguziJson from "@/data/patches/2026-09-07/heroes/guiguzi.json";
+import han_xinJson from "@/data/patches/2026-09-07/heroes/han-xin.json";
+import hayaJson from "@/data/patches/2026-09-07/heroes/haya.json";
+import heinoJson from "@/data/patches/2026-09-07/heroes/heino.json";
+import hou_yiJson from "@/data/patches/2026-09-07/heroes/hou-yi.json";
+import huang_zhongJson from "@/data/patches/2026-09-07/heroes/huang-zhong.json";
+import jingJson from "@/data/patches/2026-09-07/heroes/jing.json";
+import kaizerJson from "@/data/patches/2026-09-07/heroes/kaizer.json";
+import kongmingJson from "@/data/patches/2026-09-07/heroes/kongming.json";
+import kuiJson from "@/data/patches/2026-09-07/heroes/kui.json";
+import lady_sunJson from "@/data/patches/2026-09-07/heroes/lady-sun.json";
+import lady_zhenJson from "@/data/patches/2026-09-07/heroes/lady-zhen.json";
+import lamJson from "@/data/patches/2026-09-07/heroes/lam.json";
+import lapulapuJson from "@/data/patches/2026-09-07/heroes/lapulapu.json";
+import li_baiJson from "@/data/patches/2026-09-07/heroes/li-bai.json";
+import li_xinJson from "@/data/patches/2026-09-07/heroes/li-xin.json";
+import lian_poJson from "@/data/patches/2026-09-07/heroes/lian-po.json";
+import liangJson from "@/data/patches/2026-09-07/heroes/liang.json";
+import liu_bangJson from "@/data/patches/2026-09-07/heroes/liu-bang.json";
+import liu_beiJson from "@/data/patches/2026-09-07/heroes/liu-bei.json";
+import liu_shanJson from "@/data/patches/2026-09-07/heroes/liu-shan.json";
+import lorionJson from "@/data/patches/2026-09-07/heroes/lorion.json";
+import lu_buJson from "@/data/patches/2026-09-07/heroes/lu-bu.json";
+import luaraJson from "@/data/patches/2026-09-07/heroes/luara.json";
+import luban_no_7Json from "@/data/patches/2026-09-07/heroes/luban-no-7.json";
+import lunaJson from "@/data/patches/2026-09-07/heroes/luna.json";
+import mai_shiranuiJson from "@/data/patches/2026-09-07/heroes/mai-shiranui.json";
+import marco_poloJson from "@/data/patches/2026-09-07/heroes/marco-polo.json";
+import mayeneJson from "@/data/patches/2026-09-07/heroes/mayene.json";
+import meng_yaJson from "@/data/patches/2026-09-07/heroes/meng-ya.json";
+import menkiJson from "@/data/patches/2026-09-07/heroes/menki.json";
+import mi_yueJson from "@/data/patches/2026-09-07/heroes/mi-yue.json";
+import miladyJson from "@/data/patches/2026-09-07/heroes/milady.json";
+import mingJson from "@/data/patches/2026-09-07/heroes/ming.json";
+import moziJson from "@/data/patches/2026-09-07/heroes/mozi.json";
+import mulanJson from "@/data/patches/2026-09-07/heroes/mulan.json";
+import musashiJson from "@/data/patches/2026-09-07/heroes/musashi.json";
+import nakoruruJson from "@/data/patches/2026-09-07/heroes/nakoruru.json";
+import nezhaJson from "@/data/patches/2026-09-07/heroes/nezha.json";
+import nuwaJson from "@/data/patches/2026-09-07/heroes/nuwa.json";
+import peiJson from "@/data/patches/2026-09-07/heroes/pei.json";
+import sakeerJson from "@/data/patches/2026-09-07/heroes/sakeer.json";
+import shangguanJson from "@/data/patches/2026-09-07/heroes/shangguan.json";
+import shiJson from "@/data/patches/2026-09-07/heroes/shi.json";
+import shouyueJson from "@/data/patches/2026-09-07/heroes/shouyue.json";
+import sima_yiJson from "@/data/patches/2026-09-07/heroes/sima-yi.json";
+import sun_binJson from "@/data/patches/2026-09-07/heroes/sun-bin.json";
+import sun_ceJson from "@/data/patches/2026-09-07/heroes/sun-ce.json";
+import ukyo_tachibanaJson from "@/data/patches/2026-09-07/heroes/ukyo-tachibana.json";
+import umbrosaJson from "@/data/patches/2026-09-07/heroes/umbrosa.json";
+import wang_zhaojunJson from "@/data/patches/2026-09-07/heroes/wang-zhaojun.json";
+import wukongJson from "@/data/patches/2026-09-07/heroes/wukong.json";
+import wuyanJson from "@/data/patches/2026-09-07/heroes/wuyan.json";
+import xiang_yuJson from "@/data/patches/2026-09-07/heroes/xiang-yu.json";
+import xiao_qiaoJson from "@/data/patches/2026-09-07/heroes/xiao-qiao.json";
+import xuanceJson from "@/data/patches/2026-09-07/heroes/xuance.json";
+import yang_jianJson from "@/data/patches/2026-09-07/heroes/yang-jian.json";
+import yangoJson from "@/data/patches/2026-09-07/heroes/yango.json";
+import yaoJson from "@/data/patches/2026-09-07/heroes/yao.json";
+import yariaJson from "@/data/patches/2026-09-07/heroes/yaria.json";
+import yingJson from "@/data/patches/2026-09-07/heroes/ying.json";
+import yixingJson from "@/data/patches/2026-09-07/heroes/yixing.json";
+import yuhuanJson from "@/data/patches/2026-09-07/heroes/yuhuan.json";
+import zhang_feiJson from "@/data/patches/2026-09-07/heroes/zhang-fei.json";
+import zhou_yuJson from "@/data/patches/2026-09-07/heroes/zhou-yu.json";
+import zhuangziJson from "@/data/patches/2026-09-07/heroes/zhuangzi.json";
+import zilongJson from "@/data/patches/2026-09-07/heroes/zilong.json";
+import ziyaJson from "@/data/patches/2026-09-07/heroes/ziya.json";
+
+export const PATCH = "2026-09-07";
+export const MANIFEST = manifest as PatchManifest;
+export const ITEMS = itemsJson as Item[];
+export const HEROES: Record<string, Hero> = {
+  "agudo": agudoJson as Hero,
+  "alessio": alessioJson as Hero,
+  "allain": allainJson as Hero,
+  "angela": angelaJson as Hero,
+  "annette": annetteJson as Hero,
+  "aoyin": aoyinJson as Hero,
+  "arke": arkeJson as Hero,
+  "arli": arliJson as Hero,
+  "arthur": arthurJson as Hero,
+  "ata": ataJson as Hero,
+  "athena": athenaJson as Hero,
+  "augran": augranJson as Hero,
+  "bai-qi": bai_qiJson as Hero,
+  "biron": bironJson as Hero,
+  "butterfly": butterflyJson as Hero,
+  "cai-yan": cai_yanJson as Hero,
+  "chano": chanoJson as Hero,
+  "charlotte": charlotteJson as Hero,
+  "chicha": chichaJson as Hero,
+  "cirrus": cirrusJson as Hero,
+  "consort-yu": consort_yuJson as Hero,
+  "da-qiao": da_qiaoJson as Hero,
+  "daji": dajiJson as Hero,
+  "devara": devaraJson as Hero,
+  "dharma": dharmaJson as Hero,
+  "di-renjie": di_renjieJson as Hero,
+  "dian-wei": dian_weiJson as Hero,
+  "diaochan": diaochanJson as Hero,
+  "dolia": doliaJson as Hero,
+  "donghuang": donghuangJson as Hero,
+  "dr-bian": dr_bianJson as Hero,
+  "dun": dunJson as Hero,
+  "dyadia": dyadiaJson as Hero,
+  "erin": erinJson as Hero,
+  "fang": fangJson as Hero,
+  "fatih": fatihJson as Hero,
+  "feyd": feydJson as Hero,
+  "florentino": florentinoJson as Hero,
+  "flowborn-mage": flowborn_mageJson as Hero,
+  "flowborn-marksman": flowborn_marksmanJson as Hero,
+  "flowborn-tank": flowborn_tankJson as Hero,
+  "fuzi": fuziJson as Hero,
+  "gan-mo": gan_moJson as Hero,
+  "gao": gaoJson as Hero,
+  "gao-changgong": gao_changgongJson as Hero,
+  "garo": garoJson as Hero,
+  "garuda": garudaJson as Hero,
+  "guan-yu": guan_yuJson as Hero,
+  "guiguzi": guiguziJson as Hero,
+  "han-xin": han_xinJson as Hero,
+  "haya": hayaJson as Hero,
+  "heino": heinoJson as Hero,
+  "hou-yi": hou_yiJson as Hero,
+  "huang-zhong": huang_zhongJson as Hero,
+  "jing": jingJson as Hero,
+  "kaizer": kaizerJson as Hero,
+  "kongming": kongmingJson as Hero,
+  "kui": kuiJson as Hero,
+  "lady-sun": lady_sunJson as Hero,
+  "lady-zhen": lady_zhenJson as Hero,
+  "lam": lamJson as Hero,
+  "lapulapu": lapulapuJson as Hero,
+  "li-bai": li_baiJson as Hero,
+  "li-xin": li_xinJson as Hero,
+  "lian-po": lian_poJson as Hero,
+  "liang": liangJson as Hero,
+  "liu-bang": liu_bangJson as Hero,
+  "liu-bei": liu_beiJson as Hero,
+  "liu-shan": liu_shanJson as Hero,
+  "lorion": lorionJson as Hero,
+  "lu-bu": lu_buJson as Hero,
+  "luara": luaraJson as Hero,
+  "luban-no-7": luban_no_7Json as Hero,
+  "luna": lunaJson as Hero,
+  "mai-shiranui": mai_shiranuiJson as Hero,
+  "marco-polo": marco_poloJson as Hero,
+  "mayene": mayeneJson as Hero,
+  "meng-ya": meng_yaJson as Hero,
+  "menki": menkiJson as Hero,
+  "mi-yue": mi_yueJson as Hero,
+  "milady": miladyJson as Hero,
+  "ming": mingJson as Hero,
+  "mozi": moziJson as Hero,
+  "mulan": mulanJson as Hero,
+  "musashi": musashiJson as Hero,
+  "nakoruru": nakoruruJson as Hero,
+  "nezha": nezhaJson as Hero,
+  "nuwa": nuwaJson as Hero,
+  "pei": peiJson as Hero,
+  "sakeer": sakeerJson as Hero,
+  "shangguan": shangguanJson as Hero,
+  "shi": shiJson as Hero,
+  "shouyue": shouyueJson as Hero,
+  "sima-yi": sima_yiJson as Hero,
+  "sun-bin": sun_binJson as Hero,
+  "sun-ce": sun_ceJson as Hero,
+  "ukyo-tachibana": ukyo_tachibanaJson as Hero,
+  "umbrosa": umbrosaJson as Hero,
+  "wang-zhaojun": wang_zhaojunJson as Hero,
+  "wukong": wukongJson as Hero,
+  "wuyan": wuyanJson as Hero,
+  "xiang-yu": xiang_yuJson as Hero,
+  "xiao-qiao": xiao_qiaoJson as Hero,
+  "xuance": xuanceJson as Hero,
+  "yang-jian": yang_jianJson as Hero,
+  "yango": yangoJson as Hero,
+  "yao": yaoJson as Hero,
+  "yaria": yariaJson as Hero,
+  "ying": yingJson as Hero,
+  "yixing": yixingJson as Hero,
+  "yuhuan": yuhuanJson as Hero,
+  "zhang-fei": zhang_feiJson as Hero,
+  "zhou-yu": zhou_yuJson as Hero,
+  "zhuangzi": zhuangziJson as Hero,
+  "zilong": zilongJson as Hero,
+  "ziya": ziyaJson as Hero,
+};

@@ -1,0 +1,235 @@
+{
+  "id": "erin",
+  "name": "Erin",
+  "nameCn": "艾琳",
+  "lane": "Farm",
+  "class": "Marksman — Deft Marksman / Sustained Damage / Mid Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3245,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 39,
+    "physicalAttack": 166,
+    "attackSpeedPct": 10,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 370
+  },
+  "resource": {
+    "name": "Energy",
+    "value": 100
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Elf Dance",
+      "text": "Her Basic Attack grants Energy. At max Energy, she speeds up, gains a stack of Laurel, and enhances her next Basic Attack. The speed-up increases with her Magical Attack. Her Pierce and Lifesteal stats are linked, using whichever is higher."
+    },
+    {
+      "slot": "s1",
+      "name": "Dance - Leaf Greeting",
+      "text": "Shoots a leaf to deal damage and gain marks. The leaf then forms a circle, damaging and slowing enemies. Magical Attack reduces the skill's cooldown."
+    },
+    {
+      "slot": "s2",
+      "name": "Twirl - Forest Whisper",
+      "text": "Recovers full Energy and gains marks, immunity to slow, and Attack Speed."
+    },
+    {
+      "slot": "ult",
+      "name": "Waltz - Laurel Bloom",
+      "text": "This skill is unlocked when Erin gains enough Laurels. She consumes Laurels to deal damage and gain Movement Speed, while reducing the cooldown of Skill 2."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Critical strike",
+      "context": "Safe default · Position 4",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "shadow-ripper",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "overlords-might",
+        "pure-sky"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "grand-staff",
+        "boots-of-dexterity",
+        "golden-blade",
+        "boots-of-the-arcane",
+        "savants-wrath",
+        "sages-tome",
+        "insatiable-tome",
+        "void-staff",
+        "twilight-stream"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Mage support",
+      "context": "Position 4",
+      "itemIds": [
+        "golden-blade",
+        "boots-of-the-arcane",
+        "ardent-dominion",
+        "savants-wrath",
+        "void-staff",
+        "splendor",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Critical strike",
+      "context": "Anti-tank · Position 4",
+      "itemIds": [
+        "swiftstrike-lance",
+        "boots-of-the-arcane",
+        "shadow-ripper",
+        "storm-sword",
+        "eternity-blade",
+        "bloodweeper",
+        "pure-sky",
+        "cloud-piercer",
+        "daybreakers-virtue",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "haste-sunpool",
+        "shadow-ripper",
+        "daybreakers-virtue",
+        "sunchaser",
+        "bloodweeper",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-deftness",
+        "sparkforged-dagger",
+        "eternity-blade",
+        "bloodweeper",
+        "daybreakers-virtue",
+        "sunchaser"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "daybreakers-virtue",
+        "shadow-ripper",
+        "sunchaser",
+        "bloodweeper",
+        "overlords-might",
+        "pure-sky",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Attack speed",
+      "context": "Anti-tank · Position 4",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "sparkforged-dagger",
+        "doomsday",
+        "deepfrost-siege",
+        "daybreakers-virtue",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Crit attack speed",
+      "context": "Anti-tank · Position 4",
+      "itemIds": [
+        "sparkforged-dagger",
+        "boots-of-the-arcane",
+        "shadow-ripper",
+        "eternity-blade",
+        "doomsday",
+        "daybreakers-virtue",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Ying",
+      "Han Xin",
+      "Lam"
+    ],
+    "weakAgainst": [
+      "Dun"
+    ],
+    "synergies": [
+      "Dun",
+      "Wuyan",
+      "Xiang Yu",
+      "Ying",
+      "Han Xin",
+      "Lam"
+    ]
+  },
+  "arcana": [
+    "Red Moon",
+    "Mind's Eye",
+    "Hunt"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 50.8,
+    "pickRate": 1.7,
+    "banRate": 0.2,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S13",
+      "date": "Dec 2025",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S8",
+      "date": "Jan 2025",
+      "type": "buff",
+      "summary": "Increased Skill 1's damage and Physical Defense."
+    },
+    {
+      "season": "S6",
+      "date": "Sep 2024",
+      "type": "buff",
+      "summary": "Improved base stats."
+    }
+  ],
+  "patch": "2026-09-07"
+}

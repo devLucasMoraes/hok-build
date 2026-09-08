@@ -1,0 +1,236 @@
+{
+  "id": "wang-zhaojun",
+  "name": "Wang Zhaojun",
+  "nameCn": "王昭君",
+  "lane": "Mid",
+  "class": "Mage — Crowd Control Mage / Crowd Control/Frozen / Balanced",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3206,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 44,
+    "physicalAttack": 166,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 365,
+    "maxMana": 640,
+    "mp5": 16
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Frozen Heart",
+      "text": "Upon leaving combat, gains a shield that chills the attacker when taking damage. When the shield disappears, deals damage to nearby enemies. Every third Basic Attack is enhanced, inflicting extra damage and chill effects."
+    },
+    {
+      "slot": "s1",
+      "name": "Shattered Ice",
+      "text": "Damages and slows enemies in the target area while gaining vision of them."
+    },
+    {
+      "slot": "s2",
+      "name": "Frigid Prison",
+      "text": "After a short delay, freezes enemies in the target area and slows them. Attacking frozen targets will deal extra damage."
+    },
+    {
+      "slot": "ult",
+      "name": "Winter Is Here",
+      "text": "Summons a snowstorm in the target location, constantly dealing damage and slowing enemies."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "guardian-radiance",
+        "boots-of-fortitude",
+        "glacial-buckler",
+        "venomous-staff",
+        "succubus-cloak",
+        "breakthrough-robe",
+        "ominous-premonition",
+        "enigma-moon-goddess",
+        "sages-sanctuary",
+        "ardent-dominion",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-deftness",
+        "stone-of-sorcery",
+        "frozen-breath",
+        "scepter-of-reverberation",
+        "savants-wrath",
+        "void-staff",
+        "splendor",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-deftness",
+        "crimson-shadow-radiance",
+        "frozen-breath",
+        "glacial-buckler",
+        "succubus-cloak",
+        "overlords-platemail",
+        "venomous-staff"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Mage support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-the-arcane",
+        "crimson-shadow",
+        "stone-of-sorcery",
+        "venomous-staff",
+        "crimson-shadow-redemption",
+        "glacial-buckler",
+        "grand-staff",
+        "augurs-word",
+        "ominous-premonition"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "stone-of-sorcery",
+        "mask-of-agony",
+        "grand-staff",
+        "frozen-breath",
+        "nebulon-wood",
+        "twilight-stream",
+        "venomous-staff",
+        "splendor",
+        "sages-tome",
+        "savants-wrath",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Tank support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "mask-of-agony",
+        "frozen-breath",
+        "venomous-staff",
+        "frigid-charge",
+        "savants-wrath",
+        "void-staff",
+        "sages-tome",
+        "scepter-of-reverberation",
+        "twilight-stream",
+        "glacial-buckler",
+        "amble-winter"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "crimson-shadow",
+        "boots-of-deftness",
+        "crimson-shadow-radiance",
+        "frozen-breath",
+        "ominous-premonition",
+        "succubus-cloak",
+        "splendor",
+        "longnight-guardian",
+        "venomous-staff",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-resistance",
+        "venomous-staff",
+        "frozen-breath",
+        "glacial-buckler",
+        "void-staff",
+        "ominous-premonition",
+        "destiny",
+        "ardent-dominion",
+        "splendor",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "stone-of-sorcery",
+        "frozen-breath",
+        "scepter-of-reverberation",
+        "savants-wrath",
+        "void-staff",
+        "splendor",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [],
+    "synergies": []
+  },
+  "arcana": [],
+  "spell": "",
+  "rates": {
+    "winRate": 50.9,
+    "pickRate": 1.7,
+    "banRate": 0.7,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jul 2026",
+      "type": "adjust",
+      "summary": "Adjusted skill cooldown"
+    },
+    {
+      "season": "S9",
+      "date": "Apr 2025",
+      "type": "buff",
+      "summary": "Skill 1 cooldown reduced, Ultimate damage increased"
+    },
+    {
+      "season": "S6",
+      "date": "Jul 2024",
+      "type": "nerf",
+      "summary": "Reduced early game strength while allowing her to use Skill 2 more frequently in the late game"
+    }
+  ],
+  "patch": "2026-09-07"
+}

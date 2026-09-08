@@ -1,0 +1,166 @@
+{
+  "id": "xuance",
+  "name": "Xuance",
+  "nameCn": "百里玄策",
+  "lane": "Jungle",
+  "class": "Assassin — Roving Assassin / Gap-Close/Cleanup / Balanced",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3369,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 51,
+    "physicalAttack": 170,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 385,
+    "maxMana": 560,
+    "mp5": 14
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Crazed Prelude",
+      "text": "Deals extra damage to enemies at long range and slows them, while gaining a Movement Speed boost."
+    },
+    {
+      "slot": "s1",
+      "name": "Flailing Sickles",
+      "text": "Dashes in the target direction, pulling enemies marked by his sickle a certain distance. Also enhances his next Basic Attack."
+    },
+    {
+      "slot": "s2",
+      "name": "Nightmare Hooks",
+      "text": "Charges up and gains Movement Speed. After charging, he throws the sickle to immobilize enemies and deal damage, marking the first enemy hit. Using the skill again will pull back and damage the marked enemy."
+    },
+    {
+      "slot": "ult",
+      "name": "Crimson Blur",
+      "text": "Dashes behind a target marked by his sickle, dealing damage. Beyond a certain range, he moves toward the target instead. If he has not marked a target, the hook latches onto one, dealing damage. Takes 50% less damage during the dash. Passive: Kills and assists grant Movement Speed and Attack Speed, up to 3 stacks."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle Critical strike",
+      "context": "Safe default · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "axe-of-torment",
+        "doomsday",
+        "thunderclap-brand",
+        "eternity-blade",
+        "shadow-ripper",
+        "rapacious-bite",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "sunglow-striker",
+        "axe-of-torment",
+        "vampiric-scythe",
+        "rapacious-bite",
+        "bloodweeper",
+        "master-sword",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "meteor",
+        "vampiric-scythe",
+        "axe-of-torment",
+        "rapacious-bite",
+        "twinblades-of-destruction",
+        "bloodweeper",
+        "master-sword",
+        "shadow-ripper",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-dexterity",
+        "vampiric-scythe",
+        "axe-of-torment",
+        "rapacious-bite",
+        "boots-of-resistance",
+        "master-sword",
+        "doomsday",
+        "pure-sky",
+        "sages-sanctuary",
+        "destiny",
+        "immovable-sky-dome"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [
+      "Daji",
+      "Diaochan",
+      "Gao",
+      "Garo",
+      "Hou Yi",
+      "Huang Zhong",
+      "Zhou Yu"
+    ],
+    "synergies": [
+      "Yao",
+      "Zilong",
+      "Lam",
+      "Dian Wei",
+      "Zhuangzi",
+      "Liang"
+    ]
+  },
+  "arcana": [
+    "Red Moon",
+    "Reaver",
+    "Hunt"
+  ],
+  "spell": "Smite",
+  "rates": {
+    "winRate": 54.2,
+    "pickRate": 0.3,
+    "banRate": 0.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S12",
+      "date": "Oct 2025",
+      "type": "buff",
+      "summary": "Upgraded Skill Effects"
+    },
+    {
+      "season": "S10",
+      "date": "May 2025",
+      "type": "buff",
+      "summary": "Passive Effects Increased"
+    }
+  ],
+  "patch": "2026-09-07"
+}

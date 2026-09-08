@@ -1,0 +1,99 @@
+{
+  "id": "cai-yan",
+  "name": "Cai Yan",
+  "nameCn": "蔡文姬",
+  "lane": "Roam",
+  "class": "Support — Buff Support / Team Buffs/Recovery / Balanced",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3314,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 38,
+    "physicalAttack": 167,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 365,
+    "maxMana": 620,
+    "mp5": 15
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Can't Touch This",
+      "text": "Periodic Passive Effect: Recovers Health and gains Movement Speed when taking damage."
+    },
+    {
+      "slot": "s1",
+      "name": "Healing Hymn",
+      "text": "Gains Movement Speed and continuously heals teammates within a certain range."
+    },
+    {
+      "slot": "s2",
+      "name": "Earworm",
+      "text": "Fires a sound wave in the target direction, stunning and damaging enemies hit. Sound waves bounce between nearby enemies."
+    },
+    {
+      "slot": "ult",
+      "name": "Tune of Tranquility",
+      "text": "Continuously heals the teammate with the lowest Health within range, while granting them Physical and Magical Defense."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Standard build",
+      "context": "Safe default",
+      "itemIds": [
+        "boots-of-tranquility",
+        "holy-grail",
+        "augurs-word",
+        "venomous-staff",
+        "splendor"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Arthur",
+      "Cirrus",
+      "Li Xin"
+    ],
+    "weakAgainst": [],
+    "synergies": [
+      "Consort Yu",
+      "Hou Yi",
+      "Lady Sun",
+      "Arthur",
+      "Cirrus",
+      "Li Xin"
+    ]
+  },
+  "arcana": [],
+  "spell": "Heal",
+  "rates": {
+    "winRate": 51.2,
+    "pickRate": 1.2,
+    "banRate": 2.2,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jul 2026",
+      "type": "buff",
+      "summary": "Adjusted skill cooldown"
+    },
+    {
+      "season": "S13",
+      "date": "Jan 2026",
+      "type": "buff",
+      "summary": "Reduced Skill Mana Costs"
+    }
+  ],
+  "patch": "2026-09-07"
+}

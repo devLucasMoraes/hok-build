@@ -44,14 +44,18 @@ export interface StatDiff {
   delta: number;
 }
 
-/** Diferença entre duas tabelas (troca de item ou de build). */
-export function diffStats(before: StatTable, after: StatTable): StatDiff[] {
-  return STAT_ORDER.map((key) => ({
+/** Diferença entre duas tabelas (troca de item ou de build).
+ *  `includeZeros` retorna as 21 linhas em STAT_ORDER, inclusive 0→0
+ *  (visão "como na API"); default filtra duplo-zero. */
+export function diffStats(before: StatTable, after: StatTable, opts?: { includeZeros?: boolean }): StatDiff[] {
+  const rows = STAT_ORDER.map((key) => ({
     key,
     before: before[key],
     after: after[key],
     delta: Math.round((after[key] - before[key]) * 10) / 10,
-  })).filter((d) => d.before !== 0 || d.after !== 0);
+  }));
+  if (opts?.includeZeros) return rows;
+  return rows.filter((d) => d.before !== 0 || d.after !== 0);
 }
 
 export function buildCost(items: (Item | null | undefined)[]): number {

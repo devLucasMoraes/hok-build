@@ -1,0 +1,252 @@
+{
+  "id": "lam",
+  "name": "Lam",
+  "nameCn": "澜",
+  "lane": "Jungle",
+  "class": "Assassin/Fighter — Roving Assassin / Gap-Close/Cleanup / Balanced",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3312,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 51,
+    "physicalAttack": 170,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 380,
+    "maxMana": 560,
+    "mp5": 14
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Hunter",
+      "text": "Basic Attacks and skills deal extra true damage to targets with low Health."
+    },
+    {
+      "slot": "s1",
+      "name": "Wavebreaker",
+      "text": "Becomes submerged and gains Movement Speed. Use this skill again to dash and deal damage. Can remain submerged indefinitely in the river. Gains extra Movement Speed when an enemy hero with low Health is nearby."
+    },
+    {
+      "slot": "s2",
+      "name": "Space Split",
+      "text": "Damages nearby enemies while gaining marks and recovering Health. Basic Attacks consume marks to gain a dash and Health recovery effect. Submerged: Skill 2 has an extra dash effect."
+    },
+    {
+      "slot": "ult",
+      "name": "Death From Below",
+      "text": "Throws a dagger in the target direction, then dashes to the dagger after a short delay, dragging enemies in his path to the dagger and dealing damage to them. Submerged: Cancels the cast point animation and skill delay."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle Full AD lethality",
+      "context": "Safe default · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "rapacious-bite",
+        "boots-of-resistance",
+        "nettle-gauntlet",
+        "pure-sky",
+        "spikemail",
+        "overlords-might",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "rapacious-bite",
+        "pure-sky",
+        "spikemail",
+        "blazing-cape",
+        "glacial-buckler",
+        "cuirass-of-savagery",
+        "starbreaker",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "rapacious-bite",
+        "pure-sky",
+        "ominous-premonition",
+        "succubus-cloak",
+        "frostscars-embrace",
+        "dragons-rage",
+        "destiny",
+        "demonsbane",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Full tank (AD option)",
+      "context": "Position 3",
+      "itemIds": [
+        "giants-grip",
+        "axe-of-torment",
+        "spikemail",
+        "eye-of-the-phoenix",
+        "blazing-cape",
+        "ominous-premonition"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "nettle-gauntlet",
+        "rapacious-bite",
+        "cuirass-of-savagery",
+        "pure-sky",
+        "overlords-might",
+        "sages-sanctuary",
+        "destiny",
+        "boots-of-resistance",
+        "spikemail"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "rapacious-bite",
+        "dragons-rage",
+        "axe-of-torment",
+        "pure-sky",
+        "boots-of-resistance",
+        "blazing-cape",
+        "sages-sanctuary",
+        "destiny",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-resistance",
+        "meteor",
+        "axe-of-torment",
+        "spikemail",
+        "overlords-might",
+        "eye-of-the-phoenix",
+        "rapacious-bite",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Jungle Full tank (AD option)",
+      "context": "Position 3",
+      "itemIds": [
+        "patrol-axe",
+        "boots-of-tranquility",
+        "dragons-rage",
+        "blood-rage",
+        "giants-grip",
+        "blazing-cape",
+        "ominous-premonition",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-resistance",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "cuirass-of-savagery",
+        "pure-sky",
+        "overlords-might",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Lu Bu",
+      "Wuyan",
+      "Xiang Yu"
+    ],
+    "weakAgainst": [
+      "Erin",
+      "Liang",
+      "Luara",
+      "Luban No.7",
+      "Mozi",
+      "Yixing"
+    ],
+    "synergies": [
+      "Lady Zhen",
+      "Gan & Mo",
+      "Mi Yue",
+      "Lu Bu",
+      "Wuyan",
+      "Xiang Yu"
+    ]
+  },
+  "arcana": [
+    "Mutation",
+    "Stealth",
+    "Eagle Eye"
+  ],
+  "spell": "Smite",
+  "rates": {
+    "winRate": 48.3,
+    "pickRate": 1.3,
+    "banRate": 1.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jul 2026",
+      "type": "buff",
+      "summary": "Increased skill damage and recovery"
+    },
+    {
+      "season": "S7",
+      "date": "Nov 2024",
+      "type": "adjust",
+      "summary": "Balanced early and late game strength, and made it harder to repeatedly use enhanced Basic Attacks"
+    }
+  ],
+  "patch": "2026-09-07"
+}

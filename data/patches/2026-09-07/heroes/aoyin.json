@@ -1,0 +1,237 @@
+{
+  "id": "aoyin",
+  "name": "Ao'yin",
+  "nameCn": "敖隐",
+  "lane": "Farm",
+  "class": "Marksman — Artillery Marksman / Crowd Control/Recovery / Late Game",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3256,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 44,
+    "physicalAttack": 165,
+    "attackSpeedPct": 10,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 365,
+    "maxMana": 600,
+    "mp5": 15
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Hidden Dragon",
+      "text": "The Dragon Souls from his last 2 skill uses grant effects to his Basic Attacks, which damages one extra enemy. He gains marks when using skills, enhancing his next Basic Attack. When a target is attacked by more than 1 Dragon Soul, subsequent hits deal only 1% damage. When switching between Dragon Souls, souls of the same element are prioritized."
+    },
+    {
+      "slot": "s1",
+      "name": "Flaming Palm",
+      "text": "Unleashes sword energy, dealing physical damage and true damage to enemies within range. Subsequent Basic Attacks deal extra damage."
+    },
+    {
+      "slot": "s2",
+      "name": "Downpour",
+      "text": "Unleashes sword energy, dealing physical damage to enemies within range and recovering Health on hit. Subsequent Basic Attacks restore Health and Mana."
+    },
+    {
+      "slot": "ult",
+      "name": "Riding the Wind",
+      "text": "Unleashes sword energy, immediately gaining Movement Speed while damaging and knocking back enemies within range. The Movement Speed increase persists after the skill ends."
+    },
+    {
+      "slot": "ult",
+      "name": "Infinite Vastness",
+      "text": "Soars into the sky, then dives forward to damage and slow enemies in his path. Landing deals equal damage and applies Dread. Enhances himself, allowing his Basic Attacks to hit up to 2 more enemies."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Critical strike",
+      "context": "Safe default · Position 4",
+      "itemIds": [
+        "lightfoot-shoes",
+        "eternity-blade",
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "daybreakers-virtue",
+        "doomsday",
+        "overlords-might",
+        "sages-sanctuary",
+        "destiny",
+        "master-sword",
+        "blood-rage",
+        "frostscars-embrace"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "storm-sword",
+        "boots-of-dexterity",
+        "eternity-blade",
+        "shadow-ripper",
+        "boots-of-resistance",
+        "daybreakers-virtue",
+        "doomsday",
+        "sunchaser"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "dagger",
+        "boots-of-dexterity",
+        "shadow-ripper",
+        "eternity-blade",
+        "mortal-punisher",
+        "daybreakers-virtue",
+        "haste-sunpool",
+        "destiny",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Full AD lethality",
+      "context": "Anti-tank · Position 4",
+      "itemIds": [
+        "frostscars-embrace",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "boots-of-resistance",
+        "overlords-might",
+        "starbreaker",
+        "doomsday"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Full AD lethality",
+      "context": "Anti-tank · Position 4",
+      "itemIds": [
+        "meteor",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "eternity-blade",
+        "master-sword",
+        "iron-sword",
+        "overlords-might",
+        "starbreaker",
+        "sages-sanctuary",
+        "destiny",
+        "bloodweeper"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Critical strike",
+      "context": "Anti-tank · Position 4",
+      "itemIds": [
+        "boots-of-tranquility",
+        "meteor",
+        "eternity-blade",
+        "axe-of-torment",
+        "master-sword",
+        "daybreakers-virtue",
+        "overlords-might",
+        "sages-sanctuary",
+        "destiny",
+        "splendor",
+        "starbreaker",
+        "ominous-premonition"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "storm-sword",
+        "lightfoot-shoes",
+        "iron-sword",
+        "eternity-blade",
+        "boots-of-dexterity",
+        "thunderclap-brand",
+        "shadow-ripper",
+        "daybreakers-virtue",
+        "doomsday",
+        "overlords-might",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Critical strike",
+      "context": "Anti-tank · Position 4",
+      "itemIds": [
+        "boots-of-dexterity",
+        "eternity-blade",
+        "daybreakers-virtue",
+        "axe-of-torment",
+        "shadow-ripper",
+        "overlords-might",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Critical strike",
+      "context": "Position 4",
+      "itemIds": [
+        "lightfoot-shoes",
+        "eternity-blade",
+        "boots-of-tranquility",
+        "daybreakers-virtue",
+        "shadow-ripper",
+        "doomsday",
+        "overlords-might",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [],
+    "synergies": []
+  },
+  "arcana": [],
+  "spell": "",
+  "rates": {
+    "winRate": 49.5,
+    "pickRate": 1.6,
+    "banRate": 3.2,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jul 2026",
+      "type": "adjust",
+      "summary": "Upgraded Skill Effects"
+    },
+    {
+      "season": "S13",
+      "date": "Jan 2026",
+      "type": "buff",
+      "summary": "Increased Skill Damage"
+    },
+    {
+      "season": "S13",
+      "date": "Dec 2025",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    }
+  ],
+  "patch": "2026-09-07"
+}

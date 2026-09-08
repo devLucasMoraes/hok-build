@@ -1,0 +1,246 @@
+{
+  "id": "li-xin",
+  "name": "Li Xin",
+  "nameCn": "李信",
+  "lane": "Clash Lane",
+  "class": "Fighter — Berserker / Gap-Close/Crowd Control / Balanced",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3512,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 52,
+    "physicalAttack": 180,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 375
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Ashen Razor",
+      "text": "Gains EXP when hitting enemy heroes with Basic Attacks and Chaos Wave."
+    },
+    {
+      "slot": "ult",
+      "name": "Dark Awakening",
+      "text": "Transforms into Revenge form. This process cannot be interrupted and is faster at higher skill levels."
+    },
+    {
+      "slot": "passive",
+      "name": "Void Slice",
+      "text": "Gains Movement Speed and deals an extra instance of damage after each Basic Attack."
+    },
+    {
+      "slot": "ult",
+      "name": "Force Mastery",
+      "text": "Transforms into Domination Form and deals damage to nearby enemies. This process cannot be interrupted."
+    },
+    {
+      "slot": "passive",
+      "name": "Scorched Strikes",
+      "text": "After using a skill, enhances the next Basic Attack with increased range, a pierce effect, and extra damage. Hitting a target reduces all skill cooldowns."
+    },
+    {
+      "slot": "ult",
+      "name": "Force Break",
+      "text": "Transforms into Revenge Form and deals damage to nearby enemies. This process cannot be interrupted."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full AD lethality",
+      "context": "Safe default · Position 1",
+      "itemIds": [
+        "primordial-crystal",
+        "boots-of-tranquility",
+        "nettle-gauntlet",
+        "axe-of-torment",
+        "boots-of-fortitude",
+        "overlords-might",
+        "pure-sky",
+        "frostscars-embrace",
+        "starbreaker",
+        "sages-sanctuary",
+        "destiny",
+        "demonsbane"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Attack speed",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "doomsday",
+        "destiny",
+        "starbreaker",
+        "blazing-cape"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "iron-sword",
+        "meteor",
+        "boots-of-fortitude",
+        "axe-of-torment",
+        "overlords-might",
+        "nettle-gauntlet",
+        "pure-sky",
+        "sunglow-striker",
+        "starbreaker",
+        "deepfrost-siege",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Attack speed",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "swiftstrike-lance",
+        "sparkforged-dagger",
+        "vampiric-scythe",
+        "doomsday",
+        "blood-rage",
+        "shadow-ripper",
+        "ominous-premonition",
+        "ravage-phantom",
+        "overlords-platemail"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Attack speed",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "destiny",
+        "tempest",
+        "doomsday",
+        "shadow-ripper",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "iron-sword",
+        "meteor",
+        "boots-of-fortitude",
+        "axe-of-torment",
+        "overlords-might",
+        "nettle-gauntlet",
+        "pure-sky",
+        "sunglow-striker",
+        "starbreaker",
+        "deepfrost-siege",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "iron-sword",
+        "meteor",
+        "boots-of-fortitude",
+        "axe-of-torment",
+        "overlords-might",
+        "nettle-gauntlet",
+        "pure-sky",
+        "sunglow-striker",
+        "starbreaker",
+        "deepfrost-siege",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Attack speed",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-dexterity",
+        "sparkforged-dagger",
+        "shadow-ripper",
+        "blood-rage",
+        "doomsday",
+        "deepfrost-siege"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "meteor",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "overlords-might",
+        "pure-sky",
+        "starbreaker",
+        "tempest",
+        "immovable-sky-dome"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Da Qiao",
+      "Liang"
+    ],
+    "weakAgainst": [
+      "Cai Yan",
+      "Da Qiao",
+      "Guiguzi"
+    ],
+    "synergies": [
+      "Guiguzi",
+      "Cai Yan",
+      "Liu Shan",
+      "Da Qiao",
+      "Liang"
+    ]
+  },
+  "arcana": [
+    "Conflict",
+    "Eagle Eye",
+    "Hunt"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 51.4,
+    "pickRate": 2.2,
+    "banRate": 3,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jun 2026",
+      "type": "adjust",
+      "summary": "Skill Mechanics Upgraded"
+    },
+    {
+      "season": "S6",
+      "date": "Aug 2024",
+      "type": "adjust",
+      "summary": "Increased Movement Speed and early game base stats, reduced mobility in Revenge form."
+    }
+  ],
+  "patch": "2026-09-07"
+}

@@ -1,0 +1,235 @@
+{
+  "id": "shi",
+  "name": "Shi",
+  "nameCn": "西施",
+  "lane": "Mid",
+  "class": "Mage — Control Mage / Crowd Control/Distance Increases Damage / Balanced",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3225,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 43,
+    "physicalAttack": 168,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 360,
+    "maxMana": 640,
+    "mp5": 16
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Maiden's Trick",
+      "text": "The farther away the enemy is, the more damage skills deal."
+    },
+    {
+      "slot": "s1",
+      "name": "Silk Imprint",
+      "text": "Throws her artifact, damaging enemies and pulling them toward it. Can be used again to pull the enemy in the target direction."
+    },
+    {
+      "slot": "s2",
+      "name": "Silky Beauty",
+      "text": "Releases an energy orb that continuously deals damage to enemies within range for a short time, and then explodes to deal additional damage. Enemies are slowed the first time the orb hits them."
+    },
+    {
+      "slot": "ult",
+      "name": "Sole Focus",
+      "text": "Resets Skill 2's cooldown and enhances herself. While enhanced, gains Movement Speed and reduces Skill 2's cooldown by half. Skill 1 can pull the enemy twice."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full AP burst",
+      "context": "Safe default · Position 2",
+      "itemIds": [
+        "boots-of-deftness",
+        "holy-grail",
+        "venomous-staff",
+        "ardent-dominion",
+        "sages-tome",
+        "void-staff",
+        "sages-sanctuary",
+        "splendor",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-deftness",
+        "venomous-staff",
+        "mask-of-agony",
+        "void-staff",
+        "insatiable-tome",
+        "savants-wrath"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-deftness",
+        "mask-of-agony",
+        "venomous-staff",
+        "twilight-stream",
+        "ardent-dominion",
+        "void-staff",
+        "sages-sanctuary",
+        "destiny",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-deftness",
+        "frozen-breath",
+        "mask-of-agony",
+        "insatiable-tome",
+        "breakthrough-robe",
+        "void-staff",
+        "splendor",
+        "sages-sanctuary",
+        "savants-wrath"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "venomous-staff",
+        "frozen-breath",
+        "mask-of-agony",
+        "savants-wrath",
+        "sages-tome",
+        "splendor",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-deftness",
+        "crimson-shadow-radiance",
+        "grand-staff",
+        "frozen-breath",
+        "ominous-premonition",
+        "succubus-cloak",
+        "stone-of-sorcery",
+        "venomous-staff",
+        "sages-sanctuary",
+        "splendor",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "venomous-staff",
+        "insatiable-tome",
+        "ardent-dominion",
+        "savants-wrath",
+        "void-staff",
+        "sages-sanctuary",
+        "enigma-moon-goddess",
+        "splendor"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "lightfoot-shoes",
+        "scepter-of-reverberation",
+        "boots-of-the-arcane",
+        "savants-wrath",
+        "void-staff",
+        "sages-tome",
+        "venomous-staff",
+        "boots-of-deftness",
+        "splendor",
+        "ardent-dominion",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "spell-tome",
+        "boots-of-deftness",
+        "grand-staff",
+        "stone-of-sorcery",
+        "venomous-staff",
+        "frozen-breath",
+        "void-staff",
+        "sages-tome",
+        "splendor",
+        "boots-of-the-arcane",
+        "ardent-dominion"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Li Bai",
+      "Wukong",
+      "Ukyo Tachibana"
+    ],
+    "weakAgainst": [
+      "Athena"
+    ],
+    "synergies": [
+      "Liu Shan",
+      "Zhang Fei",
+      "Zhuangzi",
+      "Li Bai",
+      "Wukong",
+      "Ukyo Tachibana"
+    ]
+  },
+  "arcana": [
+    "Nightmare",
+    "Hunt",
+    "Reincarnation"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 51.4,
+    "pickRate": 0.9,
+    "banRate": 0.5,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jul 2026",
+      "type": "buff",
+      "summary": "Increased skill damage"
+    }
+  ],
+  "patch": "2026-09-07"
+}

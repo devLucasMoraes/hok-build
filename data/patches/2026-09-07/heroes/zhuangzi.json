@@ -1,0 +1,166 @@
+{
+  "id": "zhuangzi",
+  "name": "Zhuangzi",
+  "nameCn": "庄周",
+  "lane": "Roam",
+  "class": "Support — Defensive Support / Team Buffs / Late Game",
+  "difficulty": "Easy",
+  "baseStats": {
+    "maxHealth": 3504,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 78,
+    "physicalAttack": 174,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 380,
+    "maxMana": 600,
+    "mp5": 15
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Nature's Will",
+      "text": "Periodically removes crowd control effects and increases Movement Speed and damage reduction."
+    },
+    {
+      "slot": "s1",
+      "name": "Kaleidoscope",
+      "text": "Triggers Nature's Will, releasing dream butterflies in a cone-shaped area, inflicting damage and slowing enemies in range."
+    },
+    {
+      "slot": "s2",
+      "name": "Sleep Starts",
+      "text": "Damages enemies within range and increases teammates' Movement Speed. Gains a stack each time damage is dealt, up to 5 stacks. Each stack increases skill damage. Passive: Periodically uses Sleep Starts."
+    },
+    {
+      "slot": "ult",
+      "name": "Butterfly Effect",
+      "text": "Removes crowd control effects from teammates within range and provides a shield."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-fortitude",
+        "guardian-redemption",
+        "dawnlight",
+        "clandestine-cape",
+        "succubus-cloak",
+        "ominous-premonition",
+        "overlords-platemail"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "crimson-shadow",
+        "boots-of-fortitude",
+        "crimson-shadow-redemption",
+        "dawnlight",
+        "succubus-cloak",
+        "blazing-cape",
+        "overlords-platemail",
+        "ominous-premonition"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "crimson-shadow",
+        "boots-of-fortitude",
+        "crimson-shadow-redemption",
+        "ominous-premonition",
+        "succubus-cloak",
+        "glacial-buckler",
+        "overlords-platemail"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-fortitude",
+        "crimson-shadow",
+        "crimson-shadow-redemption",
+        "dawnlight",
+        "succubus-cloak",
+        "protectors-cuirass",
+        "ominous-premonition",
+        "overlords-platemail",
+        "sages-sanctuary",
+        "ravage-phantom"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Cirrus",
+      "Dian Wei",
+      "Menki"
+    ],
+    "weakAgainst": [],
+    "synergies": [
+      "Lady Sun",
+      "Marco Polo",
+      "Meng Ya",
+      "Cirrus",
+      "Dian Wei",
+      "Menki"
+    ]
+  },
+  "arcana": [
+    "Fate",
+    "Harmony",
+    "Void"
+  ],
+  "spell": "Heal",
+  "rates": {
+    "winRate": 47.8,
+    "pickRate": 0.6,
+    "banRate": 1.2,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jul 2026",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S15",
+      "date": "Jun 2026",
+      "type": "buff",
+      "summary": "Increased skill damage"
+    },
+    {
+      "season": "S10",
+      "date": "May 2025",
+      "type": "buff",
+      "summary": "Enhanced Ultimate's shield"
+    },
+    {
+      "season": "S6",
+      "date": "Jul 2024",
+      "type": "buff",
+      "summary": "Reduced his Ultimate's cooldown and buffed his shield"
+    }
+  ],
+  "patch": "2026-09-07"
+}

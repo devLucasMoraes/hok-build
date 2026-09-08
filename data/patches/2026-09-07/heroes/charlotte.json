@@ -1,0 +1,260 @@
+{
+  "id": "charlotte",
+  "name": "Charlotte",
+  "nameCn": "夏洛特",
+  "lane": "Clash Lane",
+  "class": "Fighter — Charger / Gap-Close/Cleanup / Balanced",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3413,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 50,
+    "physicalAttack": 166,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 385
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "SPLASH GRADATION",
+      "text": "After any skill hits an enemy, her next different skill used will be enhanced to a follow-up skill. Additionally, she gains 1 stack of mark, for up to 5 stacks. Consuming 3 stacks will enhance her next Basic Attack."
+    },
+    {
+      "slot": "s1",
+      "name": "TRI-SLASH",
+      "text": "Initial Skill: After a short delay, releases TRI-SLASH in the target direction, dealing damage to enemies and increasing her Movement Speed."
+    },
+    {
+      "slot": "s1",
+      "name": "TRI-SLASH",
+      "text": "Follow-up Skill: After a shorter delay, unleashes TRI-SLASH, dealing higher damage to enemies and increasing her Movement Speed."
+    },
+    {
+      "slot": "s2",
+      "name": "SPLASH FOUNT",
+      "text": "Initial Skill: Dashes in the target direction, while striking several times. Recovers Health each time damage is dealt."
+    },
+    {
+      "slot": "s2",
+      "name": "SPLASH FOUNT",
+      "text": "Follow-Up Skill: Dashes in the target direction while striking several times. Recovers Health each time damage is dealt."
+    },
+    {
+      "slot": "ult",
+      "name": "POWER GRADATION",
+      "text": "Initial Skill: Carves a seven-pointed star around her, dealing damage and slowing nearby enemies. Gains crowd control immunity and damage reduction while the skill is active."
+    },
+    {
+      "slot": "ult",
+      "name": "POWER GRADATION",
+      "text": "Follow-up skill: Carves a seven-pointed star more quickly, dealing damage and slowing enemies. Gains crowd control immunity and damage reduction while the skill is active. When the star is formed, deals extra damage and launches enemies in the center."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle Full AD lethality",
+      "context": "Safe default · Position 1",
+      "itemIds": [
+        "meteor",
+        "boots-of-tranquility",
+        "frostscars-embrace",
+        "axe-of-torment",
+        "dragons-rage",
+        "pure-sky",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "destiny",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "dragons-rage",
+        "rapacious-bite",
+        "blood-rage",
+        "frigid-charge",
+        "sages-sanctuary",
+        "destiny",
+        "boots-of-fortitude",
+        "eye-of-the-phoenix"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "frostscars-embrace",
+        "boots-of-tranquility",
+        "pure-sky",
+        "axe-of-torment",
+        "dragons-rage",
+        "succubus-cloak",
+        "boots-of-resistance",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Standard build",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "dragons-rage",
+        "rapacious-bite",
+        "blood-rage",
+        "overlords-platemail"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Full AD lethality",
+      "context": "Anti-tank · Position 1",
+      "itemIds": [
+        "iron-sword",
+        "boots-of-tranquility",
+        "meteor",
+        "axe-of-torment",
+        "nettle-gauntlet",
+        "frostscars-embrace",
+        "storm-sword",
+        "sunglow-striker",
+        "pure-sky",
+        "starbreaker",
+        "succubus-cloak",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 1",
+      "itemIds": [
+        "meteor",
+        "boots-of-tranquility",
+        "blazing-cape",
+        "axe-of-torment",
+        "dragons-rage",
+        "pure-sky",
+        "spikemail",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "destiny",
+        "ominous-premonition",
+        "frostscars-embrace"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Full AD lethality",
+      "context": "Position 1",
+      "itemIds": [
+        "iron-sword",
+        "boots-of-tranquility",
+        "meteor",
+        "axe-of-torment",
+        "nettle-gauntlet",
+        "frostscars-embrace",
+        "pure-sky",
+        "clandestine-cape",
+        "eye-of-the-phoenix",
+        "ominous-premonition",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Full AD lethality",
+      "context": "Position 1",
+      "itemIds": [
+        "iron-sword",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "frostscars-embrace",
+        "pure-sky",
+        "boots-of-fortitude",
+        "eye-of-the-phoenix",
+        "blazing-cape",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Lady Zhen",
+      "Mai Shiranui",
+      "Ziya"
+    ],
+    "weakAgainst": [],
+    "synergies": [
+      "Yaria",
+      "Donghuang",
+      "Guiguzi",
+      "Lady Zhen",
+      "Mai Shiranui",
+      "Ziya"
+    ]
+  },
+  "arcana": [
+    "Mutation",
+    "Harmony",
+    "Hunt"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 49.6,
+    "pickRate": 0.7,
+    "banRate": 0.1,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S14",
+      "date": "Apr 2026",
+      "type": "buff",
+      "summary": "Increased skill damage and recovery"
+    },
+    {
+      "season": "S12",
+      "date": "Nov 2025",
+      "type": "buff",
+      "summary": "Increased Skill Damage"
+    },
+    {
+      "season": "S10",
+      "date": "May 2025",
+      "type": "buff",
+      "summary": "Skill 2 recovery increased"
+    },
+    {
+      "season": "S9",
+      "date": "Mar 2025",
+      "type": "buff",
+      "summary": "Stat Buffs"
+    },
+    {
+      "season": "S7",
+      "date": "Sep 2024",
+      "type": "adjust",
+      "summary": "Reduced cooldown and made it easier to maintain passive stacks."
+    }
+  ],
+  "patch": "2026-09-07"
+}

@@ -1,0 +1,166 @@
+{
+  "id": "arke",
+  "name": "Arke",
+  "nameCn": "阿轲",
+  "lane": "Jungle",
+  "class": "Assassin — Burst Assassin / Gap-Close/Cleanup / Late Game",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3315,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 50,
+    "physicalAttack": 178,
+    "attackSpeedPct": 5,
+    "critDamagePct": 125,
+    "moveSpeedFlat": 385
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Kiss of Death",
+      "text": "Attacks launched from the front of the target will not crit, but backstabs are guaranteed to crit."
+    },
+    {
+      "slot": "s1",
+      "name": "Arclight",
+      "text": "Attacks twice in a row, dealing physical damage."
+    },
+    {
+      "slot": "s2",
+      "name": "Untouchable",
+      "text": "Dashes forward and attacks, marking an enemy while dealing physical damage and gaining Attack Speed. Attacking marked targets slows them and reduces this skill's cooldown. She takes less damage from marked targets."
+    },
+    {
+      "slot": "ult",
+      "name": "Phantom Dance",
+      "text": "Enters stealth, gaining a Movement Speed boost and Health recovery. She enhances her attacks after exiting stealth, gains extra Movement Speed upon dealing damage, and refreshes all skill cooldowns with defeats and assists."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle Full AD lethality",
+      "context": "Safe default · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-resistance",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "eternity-blade",
+        "master-sword",
+        "starbreaker",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "rapacious-bite",
+        "boots-of-deftness",
+        "eternity-blade",
+        "master-sword",
+        "starbreaker",
+        "sages-sanctuary",
+        "splendor",
+        "destiny",
+        "bloodweeper"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "meteor",
+        "axe-of-torment",
+        "boots-of-resistance",
+        "rapacious-bite",
+        "master-sword",
+        "eternity-blade",
+        "ominous-premonition",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-resistance",
+        "meteor",
+        "axe-of-torment",
+        "rapacious-bite",
+        "eternity-blade",
+        "master-sword",
+        "starbreaker",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Full AD lethality",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "rapacious-bite",
+        "boots-of-resistance",
+        "axe-of-torment",
+        "eternity-blade",
+        "starbreaker",
+        "master-sword",
+        "destiny",
+        "sages-sanctuary",
+        "immovable-sky-dome"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [],
+    "synergies": [
+      "Gao",
+      "Liang",
+      "Luna",
+      "Menki",
+      "Wuyan",
+      "Kaizer"
+    ]
+  },
+  "arcana": [
+    "Conflict",
+    "Hunt",
+    "Eagle Eye"
+  ],
+  "spell": "Smite",
+  "rates": {
+    "winRate": 51.4,
+    "pickRate": 0.5,
+    "banRate": 0.8,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S10",
+      "date": "May 2025",
+      "type": "nerf",
+      "summary": "Skill 2 cooldown increased"
+    }
+  ],
+  "patch": "2026-09-07"
+}

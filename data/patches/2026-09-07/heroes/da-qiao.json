@@ -1,0 +1,193 @@
+{
+  "id": "da-qiao",
+  "name": "Da Qiao",
+  "nameCn": "大乔",
+  "lane": "Roam",
+  "class": "Support/Mage — Tactical Support / Team Buffs / Balanced",
+  "difficulty": "Very Hard",
+  "baseStats": {
+    "maxHealth": 3266,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 42,
+    "physicalAttack": 171,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 365,
+    "maxMana": 620,
+    "mp5": 15
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Law of Infinity",
+      "text": "Gains Movement Speed. Her tide can be triggered again by the skill to deal damage."
+    },
+    {
+      "slot": "s1",
+      "name": "Leaping Koi Tide",
+      "text": "Launches and damages enemies in a line ahead, leaving a tide that deals continuous damage. Gains Movement Speed when using skills."
+    },
+    {
+      "slot": "s2",
+      "name": "Sea of Fate",
+      "text": "Conjures a portal that allows a teammate to recall and come back."
+    },
+    {
+      "slot": "ult",
+      "name": "Severing Surge",
+      "text": "Launches and damages enemies along a line, leaving a tide that deals continuous damage."
+    },
+    {
+      "slot": "ult",
+      "name": "Eye of the Whirlpool",
+      "text": "Conjures a magic circle that deals damage, lets her teammates teleport to it, and gains a shield."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "guardian",
+        "guardian-redemption",
+        "lightfoot-shoes",
+        "boots-of-deftness",
+        "holy-grail",
+        "clandestine-cape",
+        "eye-of-the-phoenix",
+        "belt-of-might",
+        "overlords-platemail",
+        "protectors-cuirass",
+        "ominous-premonition"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-the-arcane",
+        "crimson-shadow-radiance",
+        "venomous-staff",
+        "ominous-premonition",
+        "succubus-cloak",
+        "splendor",
+        "sages-sanctuary",
+        "frozen-breath",
+        "glacial-buckler",
+        "longnight-guardian",
+        "void-staff"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "spell-tome",
+        "boots-of-tranquility",
+        "stone-of-sorcery",
+        "scepter-of-reverberation",
+        "savants-wrath",
+        "sages-tome",
+        "boots-of-the-arcane",
+        "venomous-staff",
+        "void-staff",
+        "twilight-stream",
+        "ardent-dominion",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "spell-tome",
+        "boots-of-tranquility",
+        "frozen-breath",
+        "mask-of-agony",
+        "twilight-stream",
+        "insatiable-tome",
+        "boots-of-the-arcane",
+        "savants-wrath",
+        "splendor",
+        "ardent-dominion",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "crimson-shadow",
+        "boots-of-tranquility",
+        "crimson-shadow-redemption",
+        "dawnlight",
+        "venomous-staff",
+        "boots-of-resistance",
+        "ominous-premonition",
+        "succubus-cloak",
+        "frozen-breath",
+        "sages-sanctuary"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Athena",
+      "Biron",
+      "Li Xin"
+    ],
+    "weakAgainst": [
+      "Athena",
+      "Kaizer",
+      "Li Xin"
+    ],
+    "synergies": [
+      "Arli",
+      "Di Renjie",
+      "Shouyue",
+      "Athena",
+      "Biron",
+      "Li Xin"
+    ]
+  },
+  "arcana": [
+    "Nightmare",
+    "Harmony",
+    "Mind's Eye"
+  ],
+  "spell": "Heal",
+  "rates": {
+    "winRate": 48.5,
+    "pickRate": 0.9,
+    "banRate": 0.5,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S11",
+      "date": "Jul 2025",
+      "type": "adjust",
+      "summary": "Mechanics Changes"
+    },
+    {
+      "season": "S7",
+      "date": "Sep 2024",
+      "type": "adjust",
+      "summary": "Increased the area of Skill 1 and 3, and enhanced Skill 2."
+    }
+  ],
+  "patch": "2026-09-07"
+}

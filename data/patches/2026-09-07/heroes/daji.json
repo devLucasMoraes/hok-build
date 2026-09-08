@@ -1,0 +1,229 @@
+{
+  "id": "daji",
+  "name": "Daji",
+  "nameCn": "妲己",
+  "lane": "Mid",
+  "class": "Mage — Artillery Mage / Burst/Initiate / Late Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3295,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 46,
+    "physicalAttack": 172,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 360,
+    "maxMana": 640,
+    "mp5": 16
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Captivate",
+      "text": "Skill hits reduce the enemy's Magical Defense (up to 3 stacks)."
+    },
+    {
+      "slot": "s1",
+      "name": "Soul Impact",
+      "text": "Unleashes a shockwave in the target direction, dealing damage."
+    },
+    {
+      "slot": "s2",
+      "name": "Strike a Pose",
+      "text": "Casts a love spell at the target, dealing damage and stunning them."
+    },
+    {
+      "slot": "ult",
+      "name": "Heartbreaker",
+      "text": "Deals damage to random enemies within range 5 times."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full AP burst",
+      "context": "Safe default · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "venomous-staff",
+        "scepter-of-reverberation",
+        "void-staff",
+        "savants-wrath",
+        "sages-tome"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-deftness",
+        "insatiable-tome",
+        "ardent-dominion",
+        "savants-wrath",
+        "void-staff",
+        "sages-tome"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "scepter-of-reverberation",
+        "sages-tome",
+        "savants-wrath",
+        "venomous-staff",
+        "void-staff",
+        "splendor",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "spell-tome",
+        "boots-of-the-arcane",
+        "scepter-of-reverberation",
+        "savants-wrath",
+        "sages-tome",
+        "ardent-dominion",
+        "breakthrough-robe"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "scepter-of-reverberation",
+        "sages-tome",
+        "savants-wrath",
+        "venomous-staff",
+        "void-staff",
+        "splendor",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-deftness",
+        "stone-of-sorcery",
+        "scepter-of-reverberation",
+        "savants-wrath",
+        "nebulon-wood",
+        "void-staff",
+        "blood-clans-grimoire",
+        "insatiable-tome",
+        "venomous-staff",
+        "sages-sanctuary",
+        "ardent-dominion",
+        "enigma-moon-goddess"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-deftness",
+        "void-staff",
+        "insatiable-tome",
+        "twilight-stream",
+        "sages-tome",
+        "savants-wrath",
+        "frozen-breath"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "scepter-of-reverberation",
+        "sages-tome",
+        "savants-wrath",
+        "void-staff",
+        "venomous-staff",
+        "splendor",
+        "ardent-dominion"
+      ]
+    },
+    {
+      "id": "build-9",
+      "title": "Full AP burst",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-deftness",
+        "stone-of-sorcery",
+        "scepter-of-reverberation",
+        "savants-wrath",
+        "nebulon-wood",
+        "void-staff",
+        "blood-clans-grimoire",
+        "insatiable-tome",
+        "sages-sanctuary"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Augran",
+      "Jing",
+      "Xuance"
+    ],
+    "weakAgainst": [
+      "Guan Yu",
+      "Kaizer",
+      "Lu Bu"
+    ],
+    "synergies": [
+      "Dolia",
+      "Guiguzi",
+      "Sun Bin",
+      "Augran",
+      "Jing",
+      "Xuance"
+    ]
+  },
+  "arcana": [
+    "Nightmare",
+    "Hunt",
+    "Mind's Eye"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 51.3,
+    "pickRate": 2.8,
+    "banRate": 2.3,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S14",
+      "date": "May 2026",
+      "type": "buff",
+      "summary": "Adjusted skill cooldown"
+    },
+    {
+      "season": "S7",
+      "date": "Nov 2024",
+      "type": "buff",
+      "summary": "Reduced skill cooldown and enhanced the range and casting mechanics of her Skill 1"
+    }
+  ],
+  "patch": "2026-09-07"
+}

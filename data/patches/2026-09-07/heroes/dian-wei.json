@@ -1,0 +1,174 @@
+{
+  "id": "dian-wei",
+  "name": "Dian Wei",
+  "nameCn": "典韦",
+  "lane": "Jungle",
+  "class": "Fighter — Berserker / Cleanup / Late Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3475,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 52,
+    "physicalAttack": 171,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 385,
+    "maxMana": 580,
+    "mp5": 14
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Mounting Rage",
+      "text": "All skills can cleanse crowd controls. Each successful cleanse boosts his Physical Attack and Attack Range, for up to 6 stacks."
+    },
+    {
+      "slot": "s1",
+      "name": "Holding On to Sanity",
+      "text": "Gains a Movement Speed bonus and enhances the next Basic Attack to deal extra damage."
+    },
+    {
+      "slot": "s2",
+      "name": "Outburst",
+      "text": "Deals damage to enemies within range and slows them. His Attack Speed and Lifesteal are enhanced when striking an enemy. If he misses, he gains only half of the Attack Speed, Lifesteal, and extra Health recovery effects."
+    },
+    {
+      "slot": "ult",
+      "name": "Leap of Fury",
+      "text": "Leaps toward the target enemy, dealing damage and slowing them. Enhances himself, dealing extra damage to enemies while enhanced."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle AD penetration",
+      "context": "Safe default · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "rapacious-bite",
+        "spikemail",
+        "demonsbane",
+        "blood-rage",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Jungle Full AD lethality",
+      "context": "Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "lightfoot-shoes",
+        "meteor",
+        "boots-of-resistance",
+        "axe-of-torment",
+        "spikemail",
+        "master-sword",
+        "eternity-blade",
+        "rapacious-bite",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "rapacious-bite",
+        "boots-of-resistance",
+        "axe-of-torment",
+        "cuirass-of-savagery",
+        "master-sword",
+        "blazing-cape"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle AD penetration",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "relentless-blade",
+        "boots-of-tranquility",
+        "axe-of-torment",
+        "rapacious-bite",
+        "blazing-cape",
+        "blood-rage",
+        "master-sword",
+        "ravage-phantom"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Zhou Yu",
+      "Yixing",
+      "Mi Yue"
+    ],
+    "weakAgainst": [
+      "Dyadia",
+      "Yaria",
+      "Zhuangzi"
+    ],
+    "synergies": [
+      "Ming",
+      "Zhang Fei",
+      "Liu Bang",
+      "Zhou Yu",
+      "Yixing",
+      "Mi Yue"
+    ]
+  },
+  "arcana": [
+    "Calamity",
+    "Stealth",
+    "Eagle Eye"
+  ],
+  "spell": "Smite",
+  "rates": {
+    "winRate": 50.7,
+    "pickRate": 1,
+    "banRate": 0.6,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S14",
+      "date": "May 2026",
+      "type": "buff",
+      "summary": "Increased skill damage"
+    },
+    {
+      "season": "S11",
+      "date": "Jun 2025",
+      "type": "nerf",
+      "summary": "Ultimate damage reduced"
+    },
+    {
+      "season": "S9",
+      "date": "Apr 2025",
+      "type": "adjust",
+      "summary": "Adjusted the early and late-game damage of enhanced Basic Attacks"
+    },
+    {
+      "season": "S8",
+      "date": "Feb 2025",
+      "type": "adjust",
+      "summary": "Crowd Control Effects Adjusted"
+    },
+    {
+      "season": "S8",
+      "date": "Jan 2025",
+      "type": "adjust",
+      "summary": "Standardized enhanced Basic Attack mechanic."
+    }
+  ],
+  "patch": "2026-09-07"
+}

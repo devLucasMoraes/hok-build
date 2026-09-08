@@ -1,0 +1,222 @@
+{
+  "id": "sima-yi",
+  "name": "Sima Yi",
+  "nameCn": "司马懿",
+  "lane": "Jungle",
+  "class": "Assassin — Burst Assassin / Gap-Close / Early Game",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3257,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 45,
+    "physicalAttack": 173,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 375,
+    "mp5": 10
+  },
+  "resource": {
+    "name": "Energy",
+    "value": 80
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Quiet Whispers",
+      "text": "Gains vision of casters within range. Using this skill will enhance his Basic Attack and deal damage."
+    },
+    {
+      "slot": "ult",
+      "name": "Death Descends",
+      "text": "Releases a shockwave over the target area, dealing damage to enemies upon landing."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle Full AP burst",
+      "context": "Safe default · Position 3",
+      "itemIds": [
+        "runeblade",
+        "boots-of-the-arcane",
+        "staves-of-sorcery",
+        "insatiable-tome",
+        "savants-wrath",
+        "void-staff"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Mage support",
+      "context": "Position 3",
+      "itemIds": [
+        "guerrilla-machete",
+        "blood-clans-grimoire",
+        "boots-of-dexterity",
+        "insatiable-tome",
+        "breakthrough-robe",
+        "runeblade",
+        "boots-of-the-arcane",
+        "staves-of-sorcery",
+        "savants-wrath",
+        "void-staff",
+        "golden-blade"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle Full AP burst",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "guerrilla-machete",
+        "blood-clans-grimoire",
+        "boots-of-the-arcane",
+        "insatiable-tome",
+        "stone-of-sorcery",
+        "staves-of-sorcery",
+        "savants-wrath",
+        "runeblade",
+        "void-staff",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Mage support",
+      "context": "Position 3",
+      "itemIds": [
+        "guerrilla-machete",
+        "lightfoot-shoes",
+        "blood-clans-grimoire",
+        "insatiable-tome",
+        "boots-of-the-arcane",
+        "staves-of-sorcery",
+        "golden-blade",
+        "void-staff",
+        "runeblade",
+        "augurs-word"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Jungle Full AP burst",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "guerrilla-machete",
+        "blood-clans-grimoire",
+        "boots-of-the-arcane",
+        "insatiable-tome",
+        "staves-of-sorcery",
+        "breakthrough-robe",
+        "void-staff",
+        "savants-wrath",
+        "runeblade",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Jungle Full AP burst",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "runeblade",
+        "insatiable-tome",
+        "staves-of-sorcery",
+        "boots-of-the-arcane",
+        "boots-of-fortitude",
+        "breakthrough-robe",
+        "savants-wrath",
+        "void-staff"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Jungle Full AP burst",
+      "context": "Anti-tank · Position 3",
+      "itemIds": [
+        "guerrilla-machete",
+        "boots-of-dexterity",
+        "destiny",
+        "insatiable-tome",
+        "breakthrough-robe",
+        "runeblade",
+        "staves-of-sorcery",
+        "savants-wrath",
+        "void-staff",
+        "sages-sanctuary"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Lu Bu",
+      "Wuyan",
+      "Menki"
+    ],
+    "weakAgainst": [
+      "Alessio",
+      "Arli",
+      "Lady Zhen",
+      "Shangguan"
+    ],
+    "synergies": [
+      "Kongming",
+      "Zhou Yu",
+      "Lu Bu",
+      "Wuyan",
+      "Menki"
+    ]
+  },
+  "arcana": [
+    "Fate",
+    "Nightmare",
+    "Mind's Eye"
+  ],
+  "spell": "Smite",
+  "rates": {
+    "winRate": 53.5,
+    "pickRate": 0.7,
+    "banRate": 0.3,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jun 2026",
+      "type": "adjust",
+      "summary": "Skill Mechanics Upgraded"
+    },
+    {
+      "season": "S12",
+      "date": "Nov 2025",
+      "type": "adjust",
+      "summary": "Adjusted Skill Damage"
+    },
+    {
+      "season": "S10",
+      "date": "Jun 2025",
+      "type": "nerf",
+      "summary": "Passive Effect Upgrade"
+    },
+    {
+      "season": "S10",
+      "date": "May 2025",
+      "type": "nerf",
+      "summary": "Ultimate damage reduced"
+    },
+    {
+      "season": "S9",
+      "date": "Mar 2025",
+      "type": "adjust",
+      "summary": "Stat Changes"
+    }
+  ],
+  "patch": "2026-09-07"
+}

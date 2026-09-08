@@ -1,11 +1,17 @@
 {
-  "latest": "2026-04-29",
+  "latest": "2026-09-07",
   "patches": [
     {
       "season": "S14",
       "patch": "2026-04-29",
       "date": "2026-04-29",
       "notes": "Snapshot inicial: 107 itens + Angela (fonte hokstats.gg, patch 2026/04/29)"
+    },
+    {
+      "season": "S14",
+      "patch": "2026-09-07",
+      "date": "2026-09-07",
+      "notes": "Itens via hokstats-mirror (camp.honorofkings.com através do espelho hokstats.gg): 107 itens EN+PT-BR + ícones"
     }
   ]
 }

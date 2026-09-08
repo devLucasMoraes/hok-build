@@ -1,0 +1,206 @@
+{
+  "id": "ata",
+  "name": "Ata",
+  "nameCn": "阿塔",
+  "lane": "Clash Lane",
+  "class": "Tank — Vanguard Tank / Crowd Control/Recovery / Balanced",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3700,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 81,
+    "physicalAttack": 191,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 375
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Child of the Sea",
+      "text": "His lost Health is preserved in a temporary Health buffer. Dealing damage converts buffered Health into actual Health. After a while, the buffered Health will begin to gradually diminish. His Basic Attacks deal extra damage."
+    },
+    {
+      "slot": "s1",
+      "name": "Wavewalking",
+      "text": "Leaps into the air and slams down twice, dealing damage with each slam. The second slam launches enemies. Gains crowd control immunity while using the skill."
+    },
+    {
+      "slot": "s2",
+      "name": "Sea Anchor",
+      "text": "Hurls an anchor in the target direction, dealing damage and slowing enemies. If the anchor hits terrain, he will be dragged to the contact point, dealing damage and knocking back enemies. His next Basic Attack will be enhanced with a pulling effect."
+    },
+    {
+      "slot": "ult",
+      "name": "Ghost Ship",
+      "text": "Builds temporary terrain along the outer edge of a cone-shaped area, dealing damage to enemies within it. Gains crowd control immunity while using the skill. He can use the skill again to make the temporary terrain disappear early."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Jungle Full tank",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-resistance",
+        "dragons-rage",
+        "blazing-cape",
+        "eye-of-the-phoenix",
+        "ominous-premonition",
+        "succubus-cloak",
+        "dawnlight",
+        "spikemail"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Full tank",
+      "context": "Position 1",
+      "itemIds": [
+        "lightfoot-shoes",
+        "blazing-cape",
+        "clandestine-cape",
+        "boots-of-fortitude",
+        "eye-of-the-phoenix",
+        "overlords-platemail",
+        "boots-of-resistance",
+        "ominous-premonition",
+        "sages-sanctuary",
+        "longnight-guardian"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Jungle Full tank",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "dragons-rage",
+        "blazing-cape",
+        "boots-of-resistance",
+        "eye-of-the-phoenix",
+        "spikemail",
+        "ominous-premonition",
+        "ravage-phantom"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Jungle Full tank",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "blazing-cape",
+        "boots-of-resistance",
+        "dragons-rage",
+        "eye-of-the-phoenix",
+        "overlords-platemail",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Full tank",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-resistance",
+        "blazing-cape",
+        "glacial-buckler",
+        "eye-of-the-phoenix",
+        "ominous-premonition",
+        "succubus-cloak"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Jungle Full tank (AD option)",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-fortitude",
+        "blazing-cape",
+        "boots-of-resistance",
+        "dragons-rage",
+        "frostscars-embrace",
+        "eye-of-the-phoenix",
+        "overlords-platemail",
+        "sages-sanctuary",
+        "blood-rage",
+        "destiny",
+        "frigid-charge",
+        "ravage-phantom"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Jungle Full tank",
+      "context": "Position 1",
+      "itemIds": [
+        "boots-of-resistance",
+        "dragons-rage",
+        "blazing-cape",
+        "eye-of-the-phoenix",
+        "overlords-platemail",
+        "ominous-premonition",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Standard build",
+      "context": "",
+      "itemIds": [
+        "boots-of-tranquility",
+        "dragons-rage",
+        "blazing-cape",
+        "eye-of-the-phoenix",
+        "overlords-platemail",
+        "ominous-premonition"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [],
+    "weakAgainst": [],
+    "synergies": [
+      "Diaochan",
+      "Xiao Qiao",
+      "Yixing",
+      "Li Bai",
+      "Shouyue",
+      "Lady Sun"
+    ]
+  },
+  "arcana": [],
+  "spell": "Execute",
+  "rates": {
+    "winRate": 52.8,
+    "pickRate": 0.5,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S13",
+      "date": "Jan 2026",
+      "type": "buff",
+      "summary": "Upgraded Skill Effects"
+    },
+    {
+      "season": "S11",
+      "date": "Aug 2025",
+      "type": "buff",
+      "summary": "Increased Skill 1's Damage"
+    },
+    {
+      "season": "S9",
+      "date": "Mar 2025",
+      "type": "buff",
+      "summary": "Increased Skill 1 Damage"
+    }
+  ],
+  "patch": "2026-09-07"
+}

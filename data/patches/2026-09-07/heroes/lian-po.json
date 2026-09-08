@@ -1,0 +1,235 @@
+{
+  "id": "lian-po",
+  "name": "Lian Po",
+  "nameCn": "廉颇",
+  "lane": "Clash Lane",
+  "class": "Tank — Vanguard Tank / Crowd Control/Initiate / Balanced",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3675,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 78,
+    "physicalAttack": 198,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 375
+  },
+  "resource": {
+    "name": "Battle Spirit",
+    "value": 200
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Warrior's Soul",
+      "text": "Gains crowd control immunity when using skills. During combat, generates Battle Spirit, which increases damage reduction and Attack Speed. When out of combat, Battle Spirit is consumed to recover health."
+    },
+    {
+      "slot": "s1",
+      "name": "Burst Ram",
+      "text": "Dashes in the target direction, dealing damage and launching enemies in his path. When upgraded, gains a passive effect that enhances every 3rd Basic Attack."
+    },
+    {
+      "slot": "s2",
+      "name": "Magma Slam",
+      "text": "Charges up at the original location, gaining a shield and slowing nearby enemies while pulling non-hero enemy units toward the center. After a brief delay, deals area damage. If there are enemy units within range, Skill 1's cooldown is reset."
+    },
+    {
+      "slot": "ult",
+      "name": "Tremor Smash",
+      "text": "Leaps to the target location and hammers the ground 3 times. The first 2 strikes deal damage and slow enemies, while the 3rd strike deals damage and launches them."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full tank",
+      "context": "Position 1",
+      "itemIds": [
+        "lightfoot-shoes",
+        "blazing-cape",
+        "clandestine-cape",
+        "boots-of-fortitude",
+        "succubus-cloak",
+        "overlords-platemail",
+        "boots-of-resistance",
+        "ominous-premonition",
+        "eye-of-the-phoenix",
+        "blood-rage",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-fortitude",
+        "guardian-redemption",
+        "frigid-charge",
+        "ominous-premonition",
+        "succubus-cloak",
+        "blazing-cape",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "guardian-radiance",
+        "boots-of-resistance",
+        "frigid-charge",
+        "protectors-cuirass",
+        "dawnlight",
+        "ominous-premonition",
+        "longnight-guardian",
+        "overlords-platemail",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-tranquility",
+        "guardian-radiance",
+        "blazing-cape",
+        "dragons-rage",
+        "frigid-charge",
+        "ominous-premonition",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-fortitude",
+        "guardian-redemption",
+        "ominous-premonition",
+        "blazing-cape",
+        "succubus-cloak",
+        "clandestine-cape",
+        "longnight-guardian",
+        "sages-sanctuary",
+        "blood-rage",
+        "overlords-platemail"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-fortitude",
+        "guardian-redemption",
+        "protectors-cuirass",
+        "clandestine-cape",
+        "ominous-premonition",
+        "succubus-cloak",
+        "blood-rage",
+        "sages-sanctuary"
+      ]
+    },
+    {
+      "id": "build-7",
+      "title": "Full tank",
+      "context": "Position 5",
+      "itemIds": [
+        "guardian-redemption",
+        "boots-of-fortitude",
+        "blazing-cape",
+        "ominous-premonition",
+        "succubus-cloak",
+        "longnight-guardian",
+        "glacial-buckler"
+      ]
+    },
+    {
+      "id": "build-8",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-fortitude",
+        "guardian-radiance",
+        "frigid-charge",
+        "ominous-premonition",
+        "longnight-guardian",
+        "blazing-cape",
+        "sages-sanctuary"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Luban No.7",
+      "Marco Polo"
+    ],
+    "weakAgainst": [
+      "Jing",
+      "Li Bai",
+      "Ukyo Tachibana",
+      "Wukong"
+    ],
+    "synergies": [
+      "Alessio",
+      "Arli",
+      "Consort Yu",
+      "Luban No.7",
+      "Marco Polo"
+    ]
+  },
+  "arcana": [
+    "Fate",
+    "Harmony",
+    "Void"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 52.6,
+    "pickRate": 1.1,
+    "banRate": 0.2,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S15",
+      "date": "Jul 2026",
+      "type": "adjust",
+      "summary": "Adjusted skill damage"
+    },
+    {
+      "season": "S15",
+      "date": "Jun 2026",
+      "type": "buff",
+      "summary": "Increased skill damage"
+    },
+    {
+      "season": "S7",
+      "date": "Nov 2024",
+      "type": "buff",
+      "summary": "Increased damage output of enhanced Basic Attack and Ultimate"
+    },
+    {
+      "season": "S6",
+      "date": "Jun 2024",
+      "type": "buff",
+      "summary": "Hero updated"
+    }
+  ],
+  "patch": "2026-09-07"
+}

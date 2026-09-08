@@ -1,0 +1,210 @@
+{
+  "id": "zhang-fei",
+  "name": "Zhang Fei",
+  "nameCn": "张飞",
+  "lane": "Roam",
+  "class": "Support — Defensive Support / Crowd Control/Team Buffs / Balanced",
+  "difficulty": "Medium",
+  "baseStats": {
+    "maxHealth": 3538,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 86,
+    "physicalAttack": 168,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 375,
+    "mp5": 5
+  },
+  "resource": {
+    "name": "Madness",
+    "value": 100
+  },
+  "attackRange": "melee",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Dark Potential",
+      "text": "Human Form: Basic Attack and skill hits grant Madness. Ferali Form: Using the skill reduces the Movement Speed of enemies within range."
+    },
+    {
+      "slot": "s1",
+      "name": "Forbidden Domain",
+      "text": "Deals damage to enemies within range. Knocks back enemy heroes."
+    },
+    {
+      "slot": "s2",
+      "name": "Leaping Savior",
+      "text": "Leaps to the target location, granting shields to nearby teammates. Gains Madness for each shield granted."
+    },
+    {
+      "slot": "ult",
+      "name": "Unbridled Outburst",
+      "text": "Roars and transforms. After a short period of invincibility and immunity to crowd control, gains a shield. The roar creates a wind that damages, knocks back, and stuns enemies. Gains Movement Speed while in the wind zone."
+    },
+    {
+      "slot": "s1",
+      "name": "Mad Slaughter",
+      "text": "Damages and launches enemies in front."
+    },
+    {
+      "slot": "s2",
+      "name": "Stampede",
+      "text": "Leaps to the target area, dealing damage and launching nearby enemies."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-resistance",
+        "guardian",
+        "guardian-radiance",
+        "ominous-premonition",
+        "succubus-cloak",
+        "frigid-charge",
+        "overlords-platemail",
+        "glacial-buckler",
+        "sages-sanctuary",
+        "longnight-guardian",
+        "blazing-cape"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "boots-of-resistance",
+        "guardian",
+        "guardian-redemption",
+        "dawnlight",
+        "protectors-cuirass",
+        "ominous-premonition",
+        "longnight-guardian",
+        "belt-of-might",
+        "overlords-platemail",
+        "sages-sanctuary",
+        "ravage-phantom"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "guardian",
+        "boots-of-resistance",
+        "blazing-cape",
+        "guardian-starspring",
+        "spikemail",
+        "succubus-cloak",
+        "sages-sanctuary",
+        "destiny"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "guardian",
+        "guardian-redemption",
+        "lightfoot-shoes",
+        "boots-of-tranquility",
+        "frigid-charge",
+        "blazing-cape",
+        "eye-of-the-phoenix",
+        "sages-sanctuary",
+        "dawnlight",
+        "ominous-premonition",
+        "succubus-cloak"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Full tank",
+      "context": "Position 5",
+      "itemIds": [
+        "guardian-redemption",
+        "boots-of-resistance",
+        "blazing-cape",
+        "dawnlight",
+        "frigid-charge",
+        "sages-sanctuary",
+        "boots-of-tranquility"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Tank support",
+      "context": "Position 5",
+      "itemIds": [
+        "knowledge-gem",
+        "crimson-shadow-redemption",
+        "boots-of-tranquility",
+        "blazing-cape",
+        "succubus-cloak",
+        "ominous-premonition",
+        "overlords-platemail",
+        "sages-sanctuary"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Arli",
+      "Consort Yu",
+      "Marco Polo"
+    ],
+    "weakAgainst": [],
+    "synergies": [
+      "Garo",
+      "Lady Sun",
+      "Luara",
+      "Arli",
+      "Consort Yu",
+      "Marco Polo"
+    ]
+  },
+  "arcana": [
+    "Fate",
+    "Harmony",
+    "Void"
+  ],
+  "spell": "Heal",
+  "rates": {
+    "winRate": 49.3,
+    "pickRate": 0.8,
+    "banRate": 0.4,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S14",
+      "date": "Apr 2026",
+      "type": "buff",
+      "summary": "Increased skill damage"
+    },
+    {
+      "season": "S12",
+      "date": "Oct 2025",
+      "type": "buff",
+      "summary": "Upgraded Skill Effects"
+    },
+    {
+      "season": "S6",
+      "date": "Jul 2024",
+      "type": "adjust",
+      "summary": "Added a launch effect to his Skill 1 and Skill 2 while he is transformed by his Ultimate."
+    }
+  ],
+  "patch": "2026-09-07"
+}

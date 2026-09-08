@@ -1,0 +1,203 @@
+{
+  "id": "lady-zhen",
+  "name": "Lady Zhen",
+  "nameCn": "甄姬",
+  "lane": "Mid",
+  "class": "Mage — Control Mage / Crowd Control/Frozen / Balanced",
+  "difficulty": "Hard",
+  "baseStats": {
+    "maxHealth": 3202,
+    "physicalDefense": 150,
+    "magicDefense": 75,
+    "hp5": 45,
+    "physicalAttack": 168,
+    "attackSpeedPct": 5,
+    "critDamagePct": 200,
+    "moveSpeedFlat": 360,
+    "maxMana": 640,
+    "mp5": 16
+  },
+  "attackRange": "ranged",
+  "growth": [],
+  "growthEstimated": true,
+  "maxLevel": 15,
+  "skills": [
+    {
+      "slot": "passive",
+      "name": "Frozen Touch",
+      "text": "Dealing damage to an enemy with skills 3 times within a short period of time will deal extra damage and freeze them."
+    },
+    {
+      "slot": "s1",
+      "name": "Ocean of Tears",
+      "text": "Conjures icicles that block heroes, damaging and launching enemies within range. If Lady Zhen is near the icicles when conjured, she becomes frozen and invincible. The icicles shatter when the skill ends or is canceled, dealing damage (damage is doubled at the center)."
+    },
+    {
+      "slot": "s2",
+      "name": "Flowing Sigh",
+      "text": "Unleashes a water orb that deals damage."
+    },
+    {
+      "slot": "ult",
+      "name": "Destructive Deluge",
+      "text": "Unleashes a water spirit that forms a pool. The pool deals damage to enemies within range and slows them."
+    }
+  ],
+  "recommendedBuilds": [
+    {
+      "id": "build-1",
+      "title": "Full AP burst",
+      "context": "Safe default · Position 2",
+      "itemIds": [
+        "scepter-of-reverberation",
+        "boots-of-the-arcane",
+        "sages-tome",
+        "savants-wrath",
+        "insatiable-tome",
+        "void-staff"
+      ]
+    },
+    {
+      "id": "build-2",
+      "title": "Full AP burst",
+      "context": "Anti-tank · Position 2",
+      "itemIds": [
+        "boots-of-tranquility",
+        "holy-grail",
+        "venomous-staff",
+        "scepter-of-reverberation",
+        "augurs-word",
+        "breakthrough-robe",
+        "splendor",
+        "enigma-moon-goddess",
+        "void-staff",
+        "insatiable-tome",
+        "ardent-dominion"
+      ]
+    },
+    {
+      "id": "build-3",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "holy-grail",
+        "scepter-of-reverberation",
+        "mask-of-agony",
+        "twilight-stream",
+        "venomous-staff"
+      ]
+    },
+    {
+      "id": "build-4",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-deftness",
+        "frozen-breath",
+        "venomous-staff",
+        "mask-of-agony",
+        "ardent-dominion",
+        "savants-wrath",
+        "splendor",
+        "twilight-stream",
+        "void-staff"
+      ]
+    },
+    {
+      "id": "build-5",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "stone-of-sorcery",
+        "frozen-breath",
+        "mask-of-agony",
+        "twilight-stream",
+        "insatiable-tome",
+        "sages-sanctuary",
+        "destiny",
+        "ardent-dominion"
+      ]
+    },
+    {
+      "id": "build-6",
+      "title": "Mage support",
+      "context": "Position 2",
+      "itemIds": [
+        "boots-of-the-arcane",
+        "stone-of-sorcery",
+        "venomous-staff",
+        "frozen-breath",
+        "mask-of-agony",
+        "splendor",
+        "void-staff",
+        "twilight-stream",
+        "sages-sanctuary",
+        "enigma-moon-goddess"
+      ]
+    }
+  ],
+  "counters": {
+    "strongAgainst": [
+      "Cirrus",
+      "Nakoruru",
+      "Sima Yi"
+    ],
+    "weakAgainst": [
+      "Charlotte",
+      "Liu Bei",
+      "Luna",
+      "Menki",
+      "Wuyan",
+      "Zilong"
+    ],
+    "synergies": [
+      "Dyadia",
+      "Liu Shan",
+      "Zhang Fei",
+      "Cirrus",
+      "Nakoruru",
+      "Sima Yi"
+    ]
+  },
+  "arcana": [
+    "Nightmare",
+    "Hunt",
+    "Compassion"
+  ],
+  "spell": "Flash",
+  "rates": {
+    "winRate": 50.8,
+    "pickRate": 1,
+    "banRate": 0,
+    "patch": "2026-09-07"
+  },
+  "patchHistory": [
+    {
+      "season": "S14",
+      "date": "Mar 2026",
+      "type": "nerf",
+      "summary": "Adjusted skill damage"
+    },
+    {
+      "season": "S7",
+      "date": "Dec 2024",
+      "type": "buff",
+      "summary": "Increased Skill 2's bounces, reduced Skill 1 CD"
+    },
+    {
+      "season": "S6",
+      "date": "Sep 2024",
+      "type": "nerf",
+      "summary": "Reduced mid to late game damage and lowered the slow effect of Ultimate during the early and mid game."
+    },
+    {
+      "season": "S6",
+      "date": "Jul 2024",
+      "type": "nerf",
+      "summary": "Slightly improved laning in the early game, but weakened poking in the late game."
+    }
+  ],
+  "patch": "2026-09-07"
+}
